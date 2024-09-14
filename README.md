@@ -1,6 +1,6 @@
 # Katana ZERO Traduzione Italiana
 Un uomo con tanto tempo libero affronta la sfida monumentale di provare a tradurre gli oltre 2000 dialoghi di gioco di Katana ZERO in italiano usando il programma "exestringz.exe".
-Non dovrebbe essere troppo difficile in realtà. Sono attualmente al **20%** circa (linea 800 di "kz-f.txt").
+Non dovrebbe essere troppo difficile in realtà. Sono attualmente al **40%** circa (linea 1400 di "kz-f.txt").
 
 - "kz.txt": Tutte le stringhe di gioco, dialogo o non.
 - "kz-f.txt": **La maggior parte** dei dialoghi di gioco spagnoli. Filtrati usando "langfilter.py".
@@ -8,7 +8,7 @@ Non dovrebbe essere troppo difficile in realtà. Sono attualmente al **20%** cir
 
 &nbsp;
 ## Come patchare la traduzione nel gioco
-Scarica "exestringz", scarica "kz-w.txt" ed esegui questo comando sul file eseguibile di gioco:
+Scarica "exestringz", scarica "kz-w.txt", rimuovi le linee che iniziano con "###" ed esegui questo comando sul file eseguibile di gioco:
 ```
 .\exestringz.exe 2 'C:\percorso\di\Katana ZERO.exe' 'C:\percorso\di\kz-w.txt'
 ```
