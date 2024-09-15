@@ -3,7 +3,7 @@ Ho finalmente affrontato la sfida monumentale di provare a tradurre gli oltre 20
 
 Detto francamente, il gioco è un capolavoro, e merita di essere localizzato in più lingue possibili. Inizio con quella che conosco.
 
-Non dovrebbe essere troppo difficile in realtà. Sono attualmente al 75% circa (linea 2600 di "stringz-filter.txt").
+Non dovrebbe essere troppo difficile in realtà. Sono attualmente all'80% circa (linea 2800 di "stringz-filter.txt").
 
 Per capirci riguardo i file di questa repository:
 - "stringz.txt": Tutte le stringhe di gioco, dialogo o non.
