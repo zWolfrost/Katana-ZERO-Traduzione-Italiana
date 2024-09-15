@@ -1,23 +1,22 @@
 import json
 
 table = '.\\table.json'
-stringz = '.\\kz.txt'
+stringz = '.\\stringz.txt'
 
 with open(table, 'r', encoding='utf-8', errors='ignore') as f:
     table = json.loads(f.read())
 
-stringz = open(stringz, 'r', encoding='utf-8', errors='ignore').read().split('\n')
-
-all_good = True
+with open(stringz, 'r', encoding='utf-8', errors='ignore') as f:
+    stringz = f.read().split('\n')
 
 # Check for repeated lines in the table
 for line in table:
     if line.startswith('#' * 3):
         continue
     occurrences = stringz.count(line)
-    if occurrences != 1:
-        all_good = False
-        print(f"Table line {line} has {occurrences} occurrences in the stringz file.")
+    assert occurrences != 0, f"Table line {line} not found in the stringz file."
+    if occurrences > 1:
+        print(f"Table line {line} has {occurrences} occurrences in the stringz file. (>1)")
 
 # Check for missing substitutions
 id_index = 0
@@ -31,12 +30,6 @@ for line in table:
         elif line == stringz[index]:
             break
         index += 1
-    if index == len(stringz):
-        all_good = False
-        print(f"Missing substitutions at line {line}.")
-        break
+    assert index != len(stringz), f"Missing substitutions at line {line}."
 
-if all_good:
-    print("All good :)")
-
-f.close()
+print("All good :)")

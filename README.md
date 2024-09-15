@@ -22,18 +22,23 @@ Renderò questo processo molto più semplice e carino una volta che la traduzion
 
 &nbsp;
 ## FAQ
-#### Come posso aiutarti?
-Una cosa molto gentile che puoi fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali e/o di traduzione nel file "table.json", e farmi sapere tramite un issue o creare una pull request direttamente.
+### Come posso aiutarti?
+Se trovi delle frasi spagnole non tradotte, fai uno screenshot e crea un'issue su questa pagina allegando lo screenshot (o perfino un e-mail andrebbe bene). Questa traduzione è stata creata da poco per cui sarebbe completamente possibile.
+
+Un'altra cosa molto gentile che puoi fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente traduzioni troppo contorte nel file "table.json", e farmi sapere tramite un issue o creare una pull request che sistemi il problema direttamente.
 
 Puoi aiutarti a tradurre dallo spagnolo usando i dialoghi inglesi. Sono spesso circa 5 lingue straniere sopra quelle spagnole nel file "stringz.txt".
 
-#### Stai per caso rompendo il copyright del gioco?
+### Stai per caso rompendo il copyright del gioco?
 Per niente. Per usare questa traduzione devi avere comunque a disposizione del gioco, e del file con tutte le stringhe non ci fai nulla, di per sè.
 
-#### Non dovrai rifare tutto da capo una volta uscito il DLC?
+### Non dovrai rifare tutto da capo una volta uscito il DLC?
 È probabile che una volta uscito il DLC si dovranno reinserire le linee tradotte nel giusto punto, ma le linee tradotte non sono vincolate dalla loro posizione (nel file json), quindi ci vorrà veramente poco tempo per sistemare le cose. Ovviamente in tal caso dovrò tradurre anche i dialoghi del DLC, e ci vorrà circa una settimana, se sarà lungo quanto il gioco originale.
 
 L'unica cosa che potrebbe vanificare i miei sforzi (e possibilmente quelli dei contribuitori) sarebbe se lo sviluppatore introducesse la lingua Italiana nel gioco effettivo. Ma credo che ciò non solo è improbabile, ma renderebbe comunque tutti felici, in ogni caso.
 
-#### *Hai una domanda non presente tra queste?*
-Se hai qualche altra domanda apri un'issue, e proverò a risponderti in tempo utile.
+### Quanto è fedele questa traduzione?
+Direi molto. Per chi lo stesse pensando, non ho tradotto dalla traduzione spagnola, ma dall'inglese, quella originale. Mi servo solo della traduzione spagnola per sostituirla con quella italiana. Ho cercato il più possibile di non distorcere il significato delle frasi, ma non assicuro nulla.
+
+### *Hai una domanda non presente tra queste?*
+Se hai qualche altra domanda apri un'issue a proposito, e proverò a risponderti in tempo utile.
