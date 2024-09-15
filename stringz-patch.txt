@@ -163,9 +163,9 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-004942c8___018f570a/01cf6f0a
 [!>r<^*]Aspetta!*[/^>*2] Non sai nemmeno come si chiamava?* [/^r!]Chi *[>!*<]CAZZO[/^r]* sei?
 ________________________________________________________________________________1-00494638___018f5b6b/01cf736b
-[!*>]Amico,[/]* [o]i miei ragazzi[/] ti [r]faranno a pezzi.* [!]Sei [r*]fottutamente morto.
+[!*>]Amico,[/]* [o]i miei uomini[/] ti [r]faranno a pezzi.* [!]Sei [r*]fottutamente morto.
 ________________________________________________________________________________1-00494a84___018f5e2c/01cf762c
-I tuoi ragazzi sono morti.
+I tuoi uomini sono morti.
 ________________________________________________________________________________1-00494c3c-0054b2ac___018f5f2e/01cf772e
 È ora di morire.
 ________________________________________________________________________________1-00495088___018f60dd/01cf78dd
@@ -693,11 +693,11 @@ Che [r]merda di musica è questa?[/]* La potevo sentire dalla mia fottuta limous
 ________________________________________________________________________________1-004cb8cc-004cba84___0192265e/01d23e5e
 Ti prego, basta.
 ________________________________________________________________________________1-004cbc3c-00501cc4-004ff1cc-004ff8ac-0052b7a4-0052b95c-005304fc-00534804___01922712/01d23f12
-Vaffanculo.
+Vai a farti fottere
 ________________________________________________________________________________1-004cbed0___019229c4/01d241c4
 [++>]Oh no[/],* il tuo amico [o]si è arreso in fretta.[/]* Io e te.*.*.* [@r-*]Abbiamo appena iniziato.
 ________________________________________________________________________________1-004cc240___0192313a/01d2493a
-Sai cosa direbbe [o]un ratto in trappola[/]?* [>!*<r^]'Vaffanculo.'[/]* E non proverei pietà,* perché è una peste.* [y]Un animale.[/]* Ha invaso la casa di qualcuno e [r]il mondo è migliore senza di lui.
+Sai cosa direbbe [o]un ratto in trappola[/]?* [>!*<r^]'Fottiti.'[/]* E non proverei pietà,* perché è una peste.* [y]Un animale.[/]* Ha invaso la casa di qualcuno e [r]il mondo è migliore senza di lui.
 ________________________________________________________________________________1-004cc5b0___0192373b/01d24f3b
 Ecco,* Ho un [a]regalo[/] per te.
 ________________________________________________________________________________1-004cc920___01923b14/01d25314
@@ -759,7 +759,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-004d2960___0192801d/01d2981d
 Devo dire,* [o]Sono un grande fan,* amico.[/]* [r*!^<>]GRANDE*[/r] fan.
 ________________________________________________________________________________1-004d2cd0___01928374/01d29b74
-L'altra sera alla [o]fabbrica?[/]* [r]Quelli che hai ucciso erano i miei ragazzi.
+L'altra sera alla [o]fabbrica?[/]* [r]Quelli che hai ucciso erano i miei uomini.
 ________________________________________________________________________________1-004d2f64-004d311c___01928583/01d29d83
 Mi stai minacciando?
 ________________________________________________________________________________1-004d32d4___01928664/01d29e64
@@ -911,7 +911,7 @@ Sai quante [r]persone ho ucciso[/] nello Studio 51?* Sai quanto è *[><^r!*]real
 ________________________________________________________________________________1-0050bbc0___0195179f/01d52f9f
 Fanculo.
 ________________________________________________________________________________1-0050bf30___019519a1/01d531a1
-Pensi che io voglia la tua *[o^><*!]approvazione,[/]* coglione?* Vaffanculo.* [r^<>*!]VAFFANCULO.
+Pensi che io voglia la tua *[o^><*!]approvazione,[/]* coglione?* Fanculo.* [r^<>*!]FANCULO.
 ________________________________________________________________________________1-0050c2a0___01951fdc/01d537dc
 [^>!<r*.]Сука блять![./]* [!>^*3]Saremmo potuti essere una [y*]vera cazzo di squadra,[/]* lo sai?* La tua [a]forma,[/]* il mio [~&---]talento cinematografico.[/]* Sarebbe potuta essere [o]arte.
 ________________________________________________________________________________1-0050c610___01952686/01d53e86
@@ -2080,6 +2080,282 @@ ________________________________________________________________________________
 Lasciami entrare o morirai.
 ________________________________________________________________________________1-005a35c4___019d14a8/01dd2ca8
 Ne ho uno, ma non so dove sia.
+________________________________________________________________________________1-005a377c___019d164a/01dd2e4a
+Non mi hanno detto che me ne serviva uno.
+________________________________________________________________________________1-005a3d80___019d1785/01dd2f85
+Che peccato.
+________________________________________________________________________________1-005a41cc___019d18b0/01dd30b0
+Non mi hanno detto che serviva un lasciapassare.
+________________________________________________________________________________1-005a47d0___019d197b/01dd317b
+Beh,* [o]te ne serve uno invece.
+________________________________________________________________________________1-005a4c1c___019d1b16/01dd3316
+Sono atteso, dovresti farmi passare.
+________________________________________________________________________________1-005a5220___019d1cc6/01dd34c6
+Ok.* Pass,* prego.
+________________________________________________________________________________1-005a566c___019d1e39/01dd3639
+Non puoi fare un'eccezione?
+________________________________________________________________________________1-005a5c70___019d1f2d/01dd372d
+No.
+________________________________________________________________________________1-005a60bc___019d1fa6/01dd37a6
+Per favore?
+________________________________________________________________________________1-005a66c0___019d20e0/01dd38e0
+Mi darai [r*]fastidio[/] tutto il giorno?
+________________________________________________________________________________1-005a6c98___019d220e/01dd3a0e
+Probabilmente.
+________________________________________________________________________________1-005a6e7c___019d22d1/01dd3ad1
+Non se mi fai entrare.
+________________________________________________________________________________1-005a7110___019d23c5/01dd3bc5
+.*.*.*E?
+________________________________________________________________________________1-005a73a4-005a78cc___019d2509/01dd3d09
+E se non mi fai entrare, ti uccido.
+________________________________________________________________________________1-005a755c___019d264e/01dd3e4e
+E cosa?
+________________________________________________________________________________1-005a7714___019d2742/01dd3f42
+E non ho un pass.
+________________________________________________________________________________1-005a7b60___019d2800/01dd4000
+Il tuo pass?
+________________________________________________________________________________1-005a7df4-005a831c-005a8844-005a8d6c-005a9294-005a9604___019d2900/01dd4100
+Lasciami entrare adesso o ti uccido.
+________________________________________________________________________________1-005a7fac___019d2a09/01dd4209
+Non ne ho uno.
+________________________________________________________________________________1-005a8164-005a89fc___019d2b47/01dd4347
+I partecipanti della conferenza non hanno ricevuto un pass.
+________________________________________________________________________________1-005a85b0___019d2cec/01dd44ec
+Mi dispiace per te.
+________________________________________________________________________________1-005a8bb4-005a944c___019d2e11/01dd4611
+Non potresti semplicemente lasciarmi entrare?
+________________________________________________________________________________1-005a9000___019d2faf/01dd47af
+Immagino che la conferenza sia stata [o]annullata.
+________________________________________________________________________________1-005a9898___019d3133/01dd4933
+Non posso senza un pass.
+________________________________________________________________________________1-005aa4a0___019d32d0/01dd4ad0
+Sono queste le mie due opzioni?
+________________________________________________________________________________1-005aa734-005aa8ec___019d3453/01dd4c53
+Basta con i giochi. Entreró.
+________________________________________________________________________________1-005ab0a8___019d35da/01dd4dda
+Ah, sí?
+________________________________________________________________________________1-005ab33c-005ab6ac___019d36b3/01dd4eb3
+È finita, sei morto.
+________________________________________________________________________________1-005abaf8___019d393c/01dd513c
+Non mi pagano abbastanza per questo.* [y]Fai come ti pare.
+________________________________________________________________________________1-005abe68___019d3b72/01dd5372
+Suppongo che ti lasceró entrare,* allora.
+________________________________________________________________________________1-005ac1d8___019d3d5f/01dd555f
+[*r^!]VELOCE, NASCONDETEVI!* SOLDATI NULL. SONO QUI!
+________________________________________________________________________________1-005ac548___019d4071/01dd5871
+[a*]Guarda qui, Commedia!* Lo spadaccino ribelle si risveglia dal sonno avvelenato!
+________________________________________________________________________________1-005ac8b8___019d4346/01dd5b46
+[y*]He he heeeeee!* Sta diventando emozionante,* non è vero?
+________________________________________________________________________________1-005acc28___019d4581/01dd5d81
+[a*]Il culmine del primo atto si avvicina.
+________________________________________________________________________________1-005acf98___019d479f/01dd5f9f
+[y*]He he heeeeee!* Ooooh,* non vedo l'ora!
+________________________________________________________________________________1-005ad308___019d4967/01dd6167
+[*r^]NASCONDETEVI &8!@#)...*NULL %$&!? SONO !@&?%!
+________________________________________________________________________________1-005ad678___019d4add/01dd62dd
+Ah,* sei arrivato.
+________________________________________________________________________________1-005ad9e8___019d4d06/01dd6506
+Speravo che saremmo riusciti a finire ció che abbiamo iniziato.* Sarà [r]divertente.
+________________________________________________________________________________1-005add58___019d5056/01dd6856
+Sei.*.*.* Sei un [y]Gamma,[/]* vero?* Proprio come [a]Quindici.
+________________________________________________________________________________1-005ae1a4___019d520f/01dd6a0f
+Chi sei?
+________________________________________________________________________________1-005ae35c___019d52b4/01dd6ab4
+Anche tu sei un NULL.
+________________________________________________________________________________1-005ae514___019d5411/01dd6c11
+Non sono in vena. Andiamo al sodo.
+________________________________________________________________________________1-005ae7a8___019d5602/01dd6e02
+Tu.*.*.* Non* [!a^>*]riconosci l'uniforme.*.*.*?
+________________________________________________________________________________1-005aeb18___019d5b52/01dd7352
+Pensavo che [y]Quindici[/] ed io fossimo gli ultimi [p%]NULL[/] rimasti.* Al-Qasim mi ha pagato in [a%]Chronos[/] per uccidere delle persone.* È per questo che sei qui,* giusto?* [a%]Chronos?
+________________________________________________________________________________1-005aee88___019d632d/01dd7b2d
+Qui non c'è.* Non so dove lo tenga Al-Qasim,* ma non qui.* Ormai [o*]non ne rimane quasi più nulla,[/]* [r]e di sicuro non ce n'è abbastanza per entrambi.
+________________________________________________________________________________1-005af2d4-005b0404___019d6786/01dd7f86
+Non sono venuto qui per il Chronos.
+________________________________________________________________________________1-005af48c___019d68e8/01dd80e8
+Non c'è n'è abbastanza per entrambi?
+________________________________________________________________________________1-005af644___019d6a47/01dd8247
+Non sono venuto a parlare.
+________________________________________________________________________________1-005af8d8___019d6ea6/01dd86a6
+Cosa?* E che altro motivo potresti avere?* Qui non c'è [y]nulla di valore.[/]* [^>r!<]Niente![/]* Questa strage,* questa lotta-* non è servita a [r]niente![/]* [p--]A meno che.*.*.
+________________________________________________________________________________1-005afc48___019d76c6/01dd8ec6
+È quasi finito.* Il progetto [p%]NULL[/] è terminato.* Se il governo ne ha ancora,* [y]certamente non ce ne darà,[/]* il.*.*.* [r*]sottoprodotto marcio di una guerra fallita.
+________________________________________________________________________________1-005affb8___019d7cb7/01dd94b7
+Forse c'è n'è abbastanza per una persona.* [o*]Ma non per entrambi.
+________________________________________________________________________________1-005b05bc___019d7ecd/01dd96cd
+Allora ho bisogno di ucciderti.
+________________________________________________________________________________1-005b0774___019d801f/01dd981f
+Smettila di parlare e combatti.
+________________________________________________________________________________1-005b0a08___019d855a/01dd9d5a
+Ti piace,* vero?* [r*]Uccidere.* [/]L'immortalità che ci dà [a%]Chronos[/],* la sicurezza nel tempo.* Ecco perché [o]uccidere non significa nulla per noi,[/]* perché quando moriamo,* [y]torniamo sempre indietro.
+________________________________________________________________________________1-005b0d78___019d8c2d/01dda42d
+[-^-*r]Uccidere è l'unico modo per toccare ció che non saremo mai in grado di avere..
+________________________________________________________________________________1-005b100c-005b16ec___019d8eee/01dda6ee
+Togliti di mezzo o muori.
+________________________________________________________________________________1-005b11c4___019d907f/01dda87f
+Non ho scelta. Uccido per il Chronos.
+________________________________________________________________________________1-005b137c___019d91ef/01dda9ef
+Amo uccidere.
+________________________________________________________________________________1-005b1534-005b35dc___019d93b0/01ddabb0
+Questa lotta continuerà per sempre finché uno di noi non si arrenderà.
+________________________________________________________________________________1-005b1980___019d993b/01ddb13b
+A volte semplicemente...* [r]Assassinavo Al-Qasim -[/]* gli tagliavo la testa,* gli facevo saltare le cervella.* Poi tornavo indietro [a]prima che accadesse[/] e lui era lí in piedi,* [o]ignaro di tutto.
+________________________________________________________________________________1-005b1cf0___019da18b/01ddb98b
+L'avró fatto un migliaio volte.* [o*]Quel cretino di merda,[/]* mi tiene in ostaggio con una [y]dannata droga.[/]* L'ha persino presentato come se fosse una specie di [a-^-]riabilitazione.
+________________________________________________________________________________1-005b2060___019da6d6/01ddbed6
+Avrei voluto [r*]ucciderlo[/] una volta per tutte.
+________________________________________________________________________________1-005b2664___019da8ed/01ddc0ed
+Anch'io non ho scelta. Uccido per il Chronos.
+________________________________________________________________________________1-005b281c-005b41e4___019daadf/01ddc2df
+Sei in astinenza, vero?
+________________________________________________________________________________1-005b2ab0___019db000/01ddc800
+Siamo divinità,* tu ed io.* Sono [y]morto e tornato,[/]* ho visto il [a-~]tempo espandersi nell'infinito frattale della possibilità.[/]* Non abbiamo limiti -* [l>^<!]siamo immortali!
+________________________________________________________________________________1-005b2e20___019db927/01ddd127
+Ma siamo *[>^<!o]schiavi[/]* di uomini di vedute ristrette che usano i nostri doni per [y]semplici trucchetti.[/]* Schiavi di una [r]dannata droga![/]* E qui siamo,* [p]due tossici[/] che si scontrano per un'ultima dose.* [r*!><]Maledizione!
+________________________________________________________________________________1-005b326c___019dbf5d/01ddd75d
+Mi dispiace. Capisco il tuo dolore.
+________________________________________________________________________________1-005b3424___019dc114/01ddd914
+Non dobbiamo essere nemici. Possiamo fare squadra.
+________________________________________________________________________________1-005b3870___019dc689/01ddde89
+Questa battaglia si svolge nelle nostre menti -* è un [a~]torneo di determinazione.[/]* Ogni volta che mi [r]uccidi,[/]* capisco un po' meglio [o]come batterti.
+________________________________________________________________________________1-005b3be0___019dcdc1/01dde5c1
+[o]Quando avró finito con te,[/]* andró a cercare le persone che ci hanno fatto questo.* Ti prometto -* non permetteró che la tua [p]morte[/] sarà invano.* [r*]Soffriranno.
+________________________________________________________________________________1-005b402c___019dd2a5/01ddeaa5
+Non dobbiamo essere nemici. Possiamo ucciderli insieme.
+________________________________________________________________________________1-005b439c___019dd493/01ddec93
+Non mi batterai mai.
+________________________________________________________________________________1-005b4630___019dd766/01ddef66
+Non c'è abbastanza [a%]Chronos,[/]* maledizione!* Non potremmo lavorare insieme nemmeno se volessimo!
+________________________________________________________________________________1-005b49a0___019ddb35/01ddf335
+Mi dispiace che debba finire cosí,* [o]ma non abbiamo altra scelta.
+________________________________________________________________________________1-005b4d10___019ddeca/01ddf6ca
+Ma forse c'è abbastanza [a%]Chronos nel tuo flusso sanguigno[/] per [p]ritardare l'astinenza.
+________________________________________________________________________________1-005b5080___019de3b6/01ddfbb6
+Ci hanno fatto loro questo,* lo sai vero?* [r*]Ci hanno resi cosí.[/]*** [---a^]Avremmo potuto essere vere persone.
+________________________________________________________________________________1-005b53f0___019de89b/01de009b
+Avrei voluto che non fossi costretto a ucciderti,* ma non c'è abbastanza [a%]Chronos[/] per entrambi.
+________________________________________________________________________________1-005b5760___019dec37/01de0437
+Ma forse c'è n'è abbastanza nel tuo flusso sanguigno per [p]ritardare l'astinenza.
+________________________________________________________________________________1-005b5ad0___019df02b/01de082b
+Sono giorni che non prendo [a%]Chronos.[/]* Non da quando è morto Al-Qasim.* [o*]Sai come và.
+________________________________________________________________________________1-005b5e40___019df563/01de0d63
+Le visioni non si fermeranno.* Mi hai [r*]ucciso un migliaio di volte,*[/] al punto che [o]non lo sento nemmeno più.
+________________________________________________________________________________1-005b61b0___019dfa72/01de1272
+Ma forse c'è abbastanza [a%]Chronos nel tuo flusso sanguigno[/] per [p]ritardare l'astinenza.[/]* Mi dispiace che debba finire cosí.
+________________________________________________________________________________1-005b6520___019dff64/01de1764
+Ti [r*]uccideró,[/]* e poi berró il [a%]Chronos[/] dal tuo sangue,* bastardo.
+________________________________________________________________________________1-005b6890___019e0164/01de1964
+Cosí sia.
+________________________________________________________________________________1-005b6c00___019e0387/01de1b87
+[!*<r]Arrenditi,* maledizione![/]* Questa lotta durerà per sempre finché non ti arrenderai!
+________________________________________________________________________________1-005b6f70___019e0805/01de2005
+Ti ho visto commettere quell'[r]errore[/] un centinaio di volte.* [y]Non puoi fregarmi.[/]* Non c'è modo che tu possa vincere.
+________________________________________________________________________________1-005b72e0___019e0c93/01de2493
+C'è [a%]Chronos[/] nel tuo sangue,* abbastanza per resistere un altro giorno o due...
+________________________________________________________________________________1-005b7650___019e0fb4/01de27b4
+[--]Uccidi.*.*.* Uccidi le persone che ci hanno fatto questo.*.*.*
+________________________________________________________________________________1-005b79c0___019e117e/01de297e
+[--]Per me.*.*.*
+________________________________________________________________________________1-005b7d30___019e1314/01de2b14
+[^r>]ACCESSO VIETATO.* SCANNER DELLA RETINA RICHIESTO.
+________________________________________________________________________________1-005b8334-005b885c-005b8a14-005b8bcc-005b90f4-005b92ac-005b9464-005b998c-005b9b44-005b9cfc-005b9eb4-005ba06c-005ba224-005ba3dc-005ba594-005ba74c-005ba904-005baabc-005bac74-005bae2c-005bafe4-005bb19c-005bb354-005bb50c-005bb6c4-005bb87c-005bba34-005bbbec-005bbda4-005bbf5c-005bc114-005bc2cc-005bc484-005bc63c-005bc7f4-005bc9ac-005bcb64-005bcd1c-005bced4-005bd08c-005bd244-005bd3fc-005bd5b4-005bd76c-005bd924-005bdadc-005bdc94-005bde4c-005be004-005be1bc-005be374-005be52c-005be6e4-005be89c-005bea54-005bec0c-005bedc4-005bef7c-005bf134-005bf2ec-005bf4a4-005bf65c-005bf814-005bf9cc-005bfb84___019e14af/01de2caf
+UCCIDI LA BAMBINA.
+________________________________________________________________________________1-005bfe18___019e168f/01de2e8f
+Cosa stai facendo?* I tuoi obiettivi sono ancora vivi.
+________________________________________________________________________________1-005c0188___019e18a4/01de30a4
+[*]Cosa* [><^!r]Diamine[/*]* hai fatto?
+________________________________________________________________________________1-00441230-004f46c8___018bb32e/01cbcb2e
+Vediamo...* Parlami di nuovo dei [r]tipi mascherati...
+________________________________________________________________________________1-004d8478___0192c315/01d2db15
+[r*!><^]Dammi un cazzo di rasoio,*[!.<] шлюха[@]! 
+________________________________________________________________________________1-004d87e8___0192c53e/01d2dd3e
+[>y*]Heh,[/]* c'è [@]ancora [r]del sangue sopra.
+________________________________________________________________________________1-004d8b58___0192c75e/01d2df5e
+Sai,* [r]potrei ucciderti ora.
+________________________________________________________________________________1-004d8ec8___0192c935/01d2e135
+[!><^*y]Ah ah![/]* Ti sto solo prendendo per il culo.
+________________________________________________________________________________1-004d9238___0192cc8d/01d2e48d
+[r*!><^]Sí cazzo,* [!<]sí cazzo.* [!<]SÍ* [!<]CAZZO!* [/r^><*!@.]Сука охуеть!* [/r]È il tuo turno.
+________________________________________________________________________________1-004d94cc___0192cf1c/01d2e71c
+Dammene un po'.
+________________________________________________________________________________1-004d9ad0___0192d17e/01d2e97e
+Non oggi,* eh?* [*]Dio,[/]* ancora mi sta [p~]dando il botto.[/]* [r*]Cazzo.
+________________________________________________________________________________1-004d9e40___0192d40d/01d2ec0d
+Ah ah,* [r><*^!]sí cazzo.
+________________________________________________________________________________1-004da1b0___0192d61a/01d2ee1a
+È [o*]roba buona,[/]* vero?* E dura un sacco,* pure.
+________________________________________________________________________________1-004da520___0192da7b/01d2f27b
+Ascolta,* ho delle [~&]telecamere costose[/] nello [y]Studio 51.[/]* Portiamo queste [p]stupide troie[/] lí e [r*]facciamogli saltare la testa.
+________________________________________________________________________________1-004da890___0192dfa9/01d2f7a9
+Tu ed io, amico,* facciamo in modo che quei vecchi [y]video di Lifeleak[/] sembrino [r]merda per bambini.
+________________________________________________________________________________1-004dab24___0192e1f6/01d2f9f6
+No, grazie.
+________________________________________________________________________________1-004dacdc___0192e2bc/01d2fabc
+Non faremo nulla insieme.
+________________________________________________________________________________1-004dae94___0192e406/01d2fc06
+Non faccio film snuff.
+________________________________________________________________________________1-004db04c___0192e518/01d2fd18
+Lavoro da solo.
+________________________________________________________________________________1-004db2e0___0192e8d1/01d300d1
+Dai, amico,* ti ho fatto un favore -* con i tuoi [y]vicini rumorosi![/]* Non mi importa nemmeno che tu abbia [o]ucciso i miei uomini.[/]* [!>^&]È tutto a posto!
+________________________________________________________________________________1-004db574___0192ecf2/01d304f2
+Sei un cazzo di subumano.
+________________________________________________________________________________1-004db808___0192f01e/01d3081e
+.*.*.*Credi di essere [y*]migliore di me?[/]* Hai [r]ucciso[/] più persone in una notte di quante ne abbia uccise io in tutta la mia vita.
+________________________________________________________________________________1-004dbb78___0192f3e2/01d30be2
+[.]Нет,* блять[/],* siamo [r]fatti della stessa pasta..
+________________________________________________________________________________1-004dbee8___0192f5f2/01d30df2
+[*]Unnnnnghhh...* [p]Più in basso...
+________________________________________________________________________________1-004dc258___0192f922/01d31122
+[!><^]Conosci il [r*!]SIGNIFICATO di RISPETTO!?[/]* [!>^<]Capisci cosa ti sto [r*!]OFFRENDO?!
+________________________________________________________________________________1-004dc5c8___0192fca0/01d314a0
+[!>^<r*]COME CAZZO TI PERMETTI, PEZZO DI MERDA?!
+________________________________________________________________________________1-004dc938___0192fdec/01d315ec
+[><r!^]CAZZO!
+________________________________________________________________________________1-004dcca8___0192ff37/01d31737
+Vai a farti fottere,* [y]SNOW.[/]* Non gli interessa.
+________________________________________________________________________________1-004dd018___01930296/01d31a96
+Non lo so,* ha detto di no!* [!>^<r*]Fatti *[!<]fottere![/]* Ho [y]la sua spada[/], peró.
+________________________________________________________________________________1-004dd388___01930633/01d31e33
+Ha detto di no ed è riuscito a scappare,* ok?!* [!><^r*]Fanculo!
+________________________________________________________________________________1-004dd6f8___0193086f/01d3206f
+Come vuoi,* [y]SNOW.*[/] Sono occupato.
+________________________________________________________________________________1-004dda68___01930a42/01d32242
+Oh merda.* Mi hai davvero seguito?
+________________________________________________________________________________1-004dddd8___01930b89/01d32389
+[r]Hai fatto una cazzata.
+________________________________________________________________________________1-004de148___01930cdb/01d324db
+[*!^<>r.]Блять![.] Ma che diamine?!
+________________________________________________________________________________1-004de4b8___01930f97/01d32797
+[*>!]Cazzo,*[/][*] sono in pessima forma,* non avrei dovuto [r]sparare al mio allenatore personale.
+________________________________________________________________________________1-004de828___01931351/01d32b51
+[*>!]Cazzo,*[/][*] sono in pessima forma...* [@]Perché ho preso quella cosa?
+________________________________________________________________________________1-004deb98___01931682/01d32e82
+[^]FERMATI, UOMO DI CARNE.* IL TUO DEBOLE CORPO È STATO REQUISITO.
+________________________________________________________________________________1-004def08___019319ff/01d331ff
+[^]SONO L'INVINCIBILE CYBERMAN DI GLORBOX 12.* ARRENDITI AL MIO SUPERIORE INTELLETTO ROBOTICO.
+________________________________________________________________________________1-004df278___01931dc1/01d335c1
+[^]SONO QUÍ PER DISTRUGGERE TUTTI GLI ESSERI UMANI E MASTICARE GOMMA...
+________________________________________________________________________________1-004df5e8___0193205f/01d3385f
+[^]E SONO RIMASTO SENZA UMANI.* [y]BEEP [o]BOOP.
+________________________________________________________________________________1-004df958___01932260/01d33a60
+[^]SONO STATO PROGRAMMATO PER AMARE.
+________________________________________________________________________________1-004dfcc8___019324cf/01d33ccf
+[^]CORREZIONE *-* SONO STATO PROGRAMMATO PER AMARE UCCIDERE GLI ESSERI UMANI.* [o]BEEP.
+________________________________________________________________________________1-004e0038___019327df/01d33fdf
+[^]DISTRUGGERE TUTTI GLI ESSERI UMANI.* [o]BEEP* [y]BOOP* [o]BEEP* [y]BOOP.
+________________________________________________________________________________1-004e40ac-004e441c___019346fa/01d35efa
+*Posizione di combattimento*
+________________________________________________________________________________1-004e4264-004e45d4___019347cb/01d35fcb
+*Non fare una piega*
+________________________________________________________________________________1-004e4868___019348c7/01d360c7
+Hmph,* scuola di shinkage-ryu...
+________________________________________________________________________________1-004e4bd8___01934988/01d36188
+Hmph.
+________________________________________________________________________________1-004e4f48___01934ab8/01d362b8
+Non ho mai approvato i tuoi progetti personali.
+________________________________________________________________________________1-004e52b8___01934c73/01d36473
+Tienilo per dopo, [y]SNOW.
 ________________________________________________________________________________1-005f1ec6-005f1f07___019fec6d/01e0046d
 Lingua
 ________________________________________________________________________________1-005f2150___019fecb9/01e004b9
