@@ -2,25 +2,25 @@ import langid
 
 CHAR_BLACKLIST = ['_', '\\']
 
-input = '.\kz.txt'
-output = '.\kz-f.txt'
+stringz = '.\stringz.txt'
+filter = '.\stringz-filter.txt'
 
-with open(input, 'r', encoding='utf-8', errors='ignore') as f:
-    text = f.read()
+with open(stringz, 'r', encoding='utf-8', errors='ignore') as f:
+    stringz = f.read()
 
-f = open(output, 'a', encoding='utf-8', errors='ignore')
-f.truncate(0)
+filter = open(filter, 'a', encoding='utf-8', errors='ignore')
+filter.truncate(0)
 
 total_line = ''
 write_this = False
 
-line_num = 0
-for line in text.split('\n'):
+filter_index = 0
+for line in stringz.split('\n'):
     if line.startswith('_' * 80):
         if write_this:
             write_this = False
-            f.write(total_line + '\n')
-            line_num += 1
+            filter.write(total_line + '\n')
+            filter_index += 1
         total_line = line
     elif not any([ch in line for ch in CHAR_BLACKLIST]):
         lang, probability = langid.classify(line)
@@ -29,6 +29,6 @@ for line in text.split('\n'):
             write_this = True
             total_line += '\n' + line
 
-    print("\r" + str(line_num), end='')
+    print("\r" + str(filter_index), end='')
 
-f.close()
+filter.close()

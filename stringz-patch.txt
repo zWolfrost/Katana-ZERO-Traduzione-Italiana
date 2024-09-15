@@ -65,7 +65,7 @@ Ecco fatto amico,* te la sei cercata!
 ________________________________________________________________________________1-00488ae0___018ed129/01cee929
 [r*^]COSA HAI FATTO A TERRY IL FORTE.*.*.?
 ________________________________________________________________________________1-00488e50___018ed2ac/01ceeaac
-[r*^]Vendicherò la tua morte.
+[r*^]Vendicheró la tua morte.
 ________________________________________________________________________________1-004891c0___018ed3b9/01ceebb9
 Me la pagherai!
 ________________________________________________________________________________1-00489530___018ed5b7/01ceedb7
@@ -97,7 +97,7 @@ Sei sopravvissuto alla [r*]prova del fuoco del grasso.
 ________________________________________________________________________________1-0048c550___018efa4f/01cf124f
 Tuttavia...* Temo che [r]tu non possa unirti a noi.
 ________________________________________________________________________________1-0048c8c0___018efbf7/01cf13f7
-[r*]NON PUÒ ESSERE!
+[r*]NON PUÓ ESSERE!
 ________________________________________________________________________________1-0048cc30___018efdf6/01cf15f6
 Non puoi unirti a noi...** Finchè tu non ti [>!*y]SPARI** [!]QUESTA** [!]BIRRA!
 ________________________________________________________________________________1-0048cfa0___018f0154/01cf1954
@@ -129,13 +129,13 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-0048fd2c___018f1670/01cf2e70
 Si. Sono qui per ucciderti.
 ________________________________________________________________________________1-00490178___018f1aa3/01cf32a3
-[*r><^!]OH CAZZO* [!]OH CAZZO* [!]OH CAZZO.* [/][*r^!]SEI REALE!* [*y^]Ok amico,* cerchiamo di mantenere la calma.* [!^>>r]T-*TI RESTITUIRÒ TUTTO!* [!]TI RESTITUIRÒ TUTTO!
+[*r><^!]OH CAZZO* [!]OH CAZZO* [!]OH CAZZO.* [/][*r^!]SEI REALE!* [*y^]Ok amico,* cerchiamo di mantenere la calma.* [!^>>r]T-*TI RESTITUIRÓ TUTTO!* [!]TI RESTITUIRÓ TUTTO!
 ________________________________________________________________________________1-004905c4-0049a754-0049a90c-0052cfb4-0052d324-005487b4-0054896c-00549c54-00549e0c-0054a6a4-0054a85c-0054d354-0054e114-0054e484-0054eed4-0054f244-0054fc94-00550004___018f1ec7/01cf36c7
 Di cosa stai parlando?
 ________________________________________________________________________________1-0049077c___018f2025/01cf3825
 Perchè credi che non sia reale?
 ________________________________________________________________________________1-00490bc8___018f255d/01cf3d5d
-Il tempo si [p~]ripete[/^] da quando ho preso [a]quelle droghe.[/]* È quello di cui stai parlando,* vero?* [^]A-*abbiamo avuto questa conversazione un [y]sacco di volte,[/^]* ma non è mai stata [/a*]così reale.[/]
+Il tempo si [p~]ripete[/^] da quando ho preso [a]quelle droghe.[/]* È quello di cui stai parlando,* vero?* [^]A-*abbiamo avuto questa conversazione un [y]sacco di volte,[/^]* ma non è mai stata [/a*]cosí reale.[/]
 ________________________________________________________________________________1-00491014___018f2a2b/01cf422b
 Che droghe?
 ________________________________________________________________________________1-004911cc___018f2b1d/01cf431d
@@ -151,7 +151,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-004923d8___018f3afe/01cf52fe
 [^*3]La tua merda,* amico...[/]* [^a*3]Le droghe.[/]*[^>*] Le ho provate solo una volta,* ad una festa.* [r!]Lo giuro!
 ________________________________________________________________________________1-00492748___018f41ad/01cf59ad
-[^!*3]È stato [/^a~5]pazzesco...*[/][^] Sembrava che [y*]il tempo stesse rallentando,* ripetendo...*[/] Ho visto [~p]roba da pazzi[/] da quel momento.*[/][!><r~^] T-*Te la restituirò del tutto però!
+[^!*3]È stato [/^a~5]pazzesco...*[/][^] Sembrava che [y*]il tempo stesse rallentando,* ripetendo...*[/] Ho visto [~p]roba da pazzi[/] da quel momento.*[/][!><r~^] T-*Te la restituiró del tutto peró!
 ________________________________________________________________________________1-00492b94-00493954___018f4668/01cf5e68
 Dimmi il nome della droga.
 ________________________________________________________________________________1-00493198___018f4955/01cf6155
@@ -173,9 +173,9 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-004953f8___018f6451/01cf7c51
 [!^r<*>]Oh cazzo!* [!]CAZZO!* [!]CAZZO!* [/^*]Porca puttana, era [y]solo uno scherzo[/^] amico.
 ________________________________________________________________________________1-00495768___018f68c7/01cf80c7
-[^*]Senti amico,* [y]facciamo un patto.[/^]* Ti [o]darò parte delle droghe[/^] se mi [a]lasci andare.
+[^*]Senti amico,* [y]facciamo un patto.[/^]* Ti [o]daró parte delle droghe[/^] se mi [a]lasci andare.
 ________________________________________________________________________________1-00495ad8___018f6c0d/01cf840d
-[^*a!]Farò di tutto.* [y]Ti prego...
+[^*a!]Faró di tutto.* [y]Ti prego...
 ________________________________________________________________________________1-00495f24___018f6df8/01cf85f8
 Dammi le droghe e puoi andare.
 ________________________________________________________________________________1-004960dc___018f6f62/01cf8762
@@ -237,7 +237,7 @@ Neanche una possibilità.
 ________________________________________________________________________________1-0049c8d8___018fb23e/01cfca3e
 [r>!*]Lasciaci entrare!!!
 ________________________________________________________________________________1-0049cc48___018fb540/01cfcd40
-Adesso *[^>!<o]SÒ[/]* che mi stai nascondendo [a]Leviatano[/]!* [^>]Levati di torno,[/]* furbone!
+Adesso *[^>!<o]SÓ[/]* che mi stai nascondendo [a]Leviatano[/]!* [^>]Levati di torno,[/]* furbone!
 ________________________________________________________________________________1-0049cfb8___018fb900/01cfd100
 Apri la porta o [o]Mastodonte[/] la* [!r><^]aprirà per te!
 ________________________________________________________________________________1-0049d328___018fbd49/01cfd549
@@ -313,8 +313,9 @@ Ancora nessuna pista sull'omicidio del DJ underground [r]ELECTROHEAD...
 ________________________________________________________________________________1-004a3f70___019018db/01d030db
 Che è stato [r]colpito alla testa[/] mentre si esibiva nel nightclub locale, il [y]Club Neon.
 ________________________________________________________________________________1-004a42e0___01901d56/01d03556
-Che ha subito una [r]ferita mortale da coltello[/] mentre si esibiva nel nightclub locale, il [y]Club Neon.________________________________________________________________________________1-004a4650___01902191/01d03991
-L'omicidio scatenò una [y]fuga precipitosa,[/]* lasciando dozzine di frequentatori del club [r]feriti o morti...
+Che ha subito una [r]ferita mortale da coltello[/] mentre si esibiva nel nightclub locale, il [y]Club Neon.
+________________________________________________________________________________1-004a4650___01902191/01d03991
+L'omicidio scatenó una [y]fuga precipitosa,[/]* lasciando dozzine di frequentatori del club [r]feriti o morti...
 ________________________________________________________________________________1-004a49c0___0190257c/01d03d7c
 ...Incluso l'amato pilastro della Nuova Mecca [a]Terry il Forte.
 ________________________________________________________________________________1-004a4d30___01902927/01d04127
@@ -322,9 +323,12 @@ Nonostante questo,* il direttore del [y]Club Neon[/] Sterling Silver dice che lo
 ________________________________________________________________________________1-004a50a0___01902d3d/01d0453d
 [y]"Le nostre porte saranno di nuovo aperte non appena avremo [&]pulito le viscere!"
 ________________________________________________________________________________1-004a5780___0190312d/01d0492d
-Il crollo di un ponte nel Terzo Distretto ha provocato sette morti e oltre cento senzatetto.________________________________________________________________________________1-004a5af0___01903480/01d04c80
-Nonostante l'insistenza dei residenti del Terzo Distretto...________________________________________________________________________________1-004a5e60___0190380d/01d0500d
-La Juncture sostiene che l'integrità a lungo termine delle infrastrutture del Terzo Distretto è impeccabile.________________________________________________________________________________1-004a61d0___01903bcf/01d053cf
+Il crollo di un ponte nel Terzo Distretto ha provocato sette morti e oltre cento senzatetto.
+________________________________________________________________________________1-004a5af0___01903480/01d04c80
+Nonostante l'insistenza dei residenti del Terzo Distretto...
+________________________________________________________________________________1-004a5e60___0190380d/01d0500d
+La Juncture sostiene che l'integrità a lungo termine delle infrastrutture del Terzo Distretto è impeccabile.
+________________________________________________________________________________1-004a61d0___01903bcf/01d053cf
 È bello rivederti.* Il tuo lavoro la scorsa notte è stato [y>!]eccezionale!
 ________________________________________________________________________________1-004a6464___01903d6b/01d0556b
 Voglio la mia medicina.
@@ -335,7 +339,8 @@ Perchè non volevi che parlassi con Electrohead?
 ________________________________________________________________________________1-004a698c-004a963c___019041b8/01d059b8
 Ho parlato con Electrohead.
 ________________________________________________________________________________1-004a6c20___0190448a/01d05c8a
-I nostri datori di lavoro sono soddisfatti del tuo lavoro di ieri sera.* [r]Non sono sicuro di condividere questo sentimento.________________________________________________________________________________1-004a6f90___019048aa/01d060aa
+I nostri datori di lavoro sono soddisfatti del tuo lavoro di ieri sera.* [r]Non sono sicuro di condividere questo sentimento.
+________________________________________________________________________________1-004a6f90___019048aa/01d060aa
 Forse potresti rispondere ad alcune domande per me.* [y]Quando hai iniziato a usare una pistola?
 ________________________________________________________________________________1-004a7224-004a73dc___01904b3b/01d0633b
 Rispondi prima alle mie domande.
@@ -358,11 +363,11 @@ Ok. Dammi la mia medicina e basta.
 ________________________________________________________________________________1-004a8a34-004aac94___01906066/01d07866
 Droghe come quella che mi dai?
 ________________________________________________________________________________1-004a8e80___01906434/01d07c34
-[!><r^*]Non funziona così![/]* Mi racconterai [y]cosa è successo[/] ieri sera al Club Neon,* [!r>*^]ORA!
+[!><r^*]Non funziona cosí![/]* Mi racconterai [y]cosa è successo[/] ieri sera al Club Neon,* [!r>*^]ORA!
 ________________________________________________________________________________1-004a9114-004a9b64-004ad78c-004aede4___01906746/01d07f46
 Stai zitto e dammi la mia medicina.
 ________________________________________________________________________________1-004a9484___019069de/01d081de
-Electrohead mi ha parlato di una droga che può rallentare il tempo.
+Electrohead mi ha parlato di una droga che puó rallentare il tempo.
 ________________________________________________________________________________1-004a98d0___01906d72/01d08572
 Allora dovrai spiegare il [r]buco di proiettile[/] nella testa di Electrohead,* [r*^!<>]ORA.
 ________________________________________________________________________________1-004a9fb0___01907022/01d08822
@@ -372,9 +377,9 @@ Taci.
 ________________________________________________________________________________1-004aa3fc-004d0b4c-0055cc8c___01907149/01d08949
 Non lo so.
 ________________________________________________________________________________1-004aa5b4___01907296/01d08a96
-Ho visto lì lo stesso uomo che ha ucciso lo scienziato.
+Ho visto lí lo stesso uomo che ha ucciso lo scienziato.
 ________________________________________________________________________________1-004aa848___01907623/01d08e23
-Hmm...* Nonostante ciò,* la [y]Nuova Mecca[/] è più sicura con un [o]pusher[/] in meno sulle strade.
+Hmm...* Nonostante ció,* la [y]Nuova Mecca[/] è più sicura con un [o]pusher[/] in meno sulle strade.
 ________________________________________________________________________________1-004aae4c___01907a31/01d09231
 Electrohead mi ha parlato di una droga che sembra essere come la mia.
 ________________________________________________________________________________1-004ab52c___01907c27/01d09427
@@ -400,7 +405,8 @@ Electrohead mi ha parlato di una droga che rallenta il tempo.
 ________________________________________________________________________________1-004ace18___01908f04/01d0a704
 [r].*.*.*Cosa?*[/] Hai parlato con [y]Electrohead?
 ________________________________________________________________________________1-004ad188___019092ae/01d0aaae
-[r*<!^]TI [!<]HO [<!]SPECIFICATAMENTE [!<]DETTO [!<]DI *[!<>]NON*[/*r^] [!<]PARLARE [!<]CON [!<]ELECTROHEAD.________________________________________________________________________________1-004ad550___019095bf/01d0adbf
+[r*<!^]TI [!<]HO [<!]SPECIFICATAMENTE [!<]DETTO [!<]DI *[!<>]NON*[/*r^] [!<]PARLARE [!<]CON [!<]ELECTROHEAD.
+________________________________________________________________________________1-004ad550___019095bf/01d0adbf
 .*.*.*[^>++]Cosa ha detto?
 ________________________________________________________________________________1-004ad944___01909723/01d0af23
 Mi ha parlato di una droga che sembra essere come la mia.
@@ -419,7 +425,7 @@ Le mie abilità provengono da una droga?
 ________________________________________________________________________________1-004ae8bc___0190a8aa/01d0c0aa
 Electrohead stava usando la stessa droga che uso io?
 ________________________________________________________________________________1-004aeb50___0190acb4/01d0c4b4
-È molto probabile che sia così.* Ed è quello [a]lo scopo della nostra missione[/] -* assicurarci che quella droga non raggiunga [r]le mani sbagliate.
+È molto probabile che sia cosí.* Ed è quello [a]lo scopo della nostra missione[/] -* assicurarci che quella droga non raggiunga [r]le mani sbagliate.
 ________________________________________________________________________________1-004aef9c___0190b01e/01d0c81e
 Le mie abilità provengono da quella droga?
 ________________________________________________________________________________1-004af3e8___0190b1c5/01d0c9c5
@@ -437,7 +443,8 @@ Ho capito. Non succederà di nuovo.
 ________________________________________________________________________________1-004b05f4___0190c52b/01d0dd2b
 La mia precognizione è effetto della droga?
 ________________________________________________________________________________1-004b0888___0190c898/01d0e098
-La tua [a]scherma?[/]* Il tuo [l]acume combattivo?[/]* No,* questi sono i prodotti di [o]anni di allenamento.________________________________________________________________________________1-004b0bf8___0190cee1/01d0e6e1
+La tua [a]scherma?[/]* Il tuo [l]acume combattivo?[/]* No,* questi sono i prodotti di [o]anni di allenamento.
+________________________________________________________________________________1-004b0bf8___0190cee1/01d0e6e1
 La tua [p]precognizione?[/]* La tua [a]percezione del tempo?[/]* Si,* questi sono [y]effetti collaterali della droga.[/]* Ecco perché [r]non possiamo permettere[/] ad altri di abusarne.
 ________________________________________________________________________________1-004b0e8c-004b1724-004b1fbc-00454344-004544fc___018ca027/01ccb827
 Dammi la medicina e basta.
@@ -446,13 +453,13 @@ Non voglio questo.
 ________________________________________________________________________________1-004b1490___0190d760/01d0ef60
 Beh,* si,* lo è.* La tua [a]precognizione[/] è un [y]effetto collaterale della droga.[/]* Ecco perché [r]non possiamo permettere[/] ad altri di abusarne.
 ________________________________________________________________________________1-004b1d28___0190dec4/01d0f6c4
-È un peccato che non riesci a [o]comprendere il potere che ti è stato conferito.[/]* Ma se è così che ti senti veramente,* possiamo [a]ridurti gradualmente la dose[/] una volta completata la missione.
+È un peccato che non riesci a [o]comprendere il potere che ti è stato conferito.[/]* Ma se è cosí che ti senti veramente,* possiamo [a]ridurti gradualmente la dose[/] una volta completata la missione.
 ________________________________________________________________________________1-004b2174___0190e351/01d0fb51
 E va bene. Capisco.
 ________________________________________________________________________________1-004b232c___0190e459/01d0fc59
 No. Non voglio più la droga.
 ________________________________________________________________________________1-004b25c0___0190e869/01d10069
-Quella.*.*.* Non è un opzione a questo punto.* La nostra [y]missione -[/]* e la [o]tua salute -[/]* dipendono dalla droga.* Non si può [r]negoziare.
+Quella.*.*.* Non è un opzione a questo punto.* La nostra [y]missione -[/]* e la [o]tua salute -[/]* dipendono dalla droga.* Non si puó [r]negoziare.
 ________________________________________________________________________________1-004b2930___0190ed0b/01d1050b
 [^><!o]Basta.[/]* È tempo per il tuo trattamento.* Stai fermo.
 ________________________________________________________________________________1-004b2bc4___0190ef47/01d10747
@@ -516,7 +523,7 @@ E se non dovessi avere scelta?
 ________________________________________________________________________________1-004b9e10___019154ee/01d16cee
 Bene.* Procedi.
 ________________________________________________________________________________1-004ba180___019156e8/01d16ee8
-Dovrebbe essere [y]un'operazione semplice.[/]* Cerca di non lasciare che ciò accada.
+Dovrebbe essere [y]un'operazione semplice.[/]* Cerca di non lasciare che ció accada.
 ________________________________________________________________________________1-004baa18___01915af6/01d172f6
 [*]Obbedisci al mio comando.* Porta [o]morte[/*] questa notte,* e non lasciare che [r]nessuno scampi alla tua lama.
 ________________________________________________________________________________1-004bb01c-005c8b08-00532ff4-005331ac-0056416c___01915d64/01d17564
@@ -662,7 +669,7 @@ E se fosse il [a]ragazzo della pizza?
 ________________________________________________________________________________1-004c9590___019210c9/01d228c9
 [~o4]Uaaaaaaa...
 ________________________________________________________________________________1-004c9824___019211c1/01d229c1
-Mi farò prima un tiro.
+Mi faró prima un tiro.
 ________________________________________________________________________________1-004c99dc___019212b3/01d22ab3
 Ce la rischiamo.
 ________________________________________________________________________________1-004c9b94___019213c9/01d22bc9
@@ -696,7 +703,7 @@ Ecco,* Ho un [a]regalo[/] per te.
 ________________________________________________________________________________1-004cc920___01923b14/01d25314
 È un [y]lavoro in corso.[/]* Ti chiederei di farmi sapere cosa ne pensi,* ma [o]gli ultimi ragazzi[/] [r*]non hanno mai più parlato dopo.
 ________________________________________________________________________________1-004ccc90___01923fc3/01d257c3
-[a]Il tempo[/] si è certamente [------------p~]rallentato[/] per loro però.*.*.* [*r]Lo senti?
+[a]Il tempo[/] si è certamente [------------p~]rallentato[/] per loro peró.*.*.* [*r]Lo senti?
 ________________________________________________________________________________1-004cd000___0192420d/01d25a0d
 [r]Non ti muovere.
 ________________________________________________________________________________1-004cd370___019243c3/01d25bc3
@@ -706,7 +713,7 @@ Uff...
 ________________________________________________________________________________1-004cdc08___01924777/01d25f77
 [!^<o>*3]Dov'è il tuo entusiasmo?![/]* Forse non sei [r]un animale da festa[/], dopotutto?
 ________________________________________________________________________________1-004cdf78___01924b44/01d26344
-[r*<!^>]ALLORA FORSE NON DOVRESTI ASCOLTARE LA MUSICA COSÌ [!]FOTTUTAMENTE FORTE TUTTO IL TEMPO!
+[r*<!^>]ALLORA FORSE NON DOVRESTI ASCOLTARE LA MUSICA COSÍ [!]FOTTUTAMENTE FORTE TUTTO IL TEMPO!
 ________________________________________________________________________________1-004ce20c-004ce3c4___01924d81/01d26581
 Mi... Dispiace...
 ________________________________________________________________________________1-004ce57c___01924e52/01d26652
@@ -776,7 +783,7 @@ Vicini rumorosi,* vero?* [*y!^<]Ha HA!*[/] Ehi -* cosa ne hai pensato della [r]p
 ________________________________________________________________________________1-004d4ae4-004d4e54___01929d72/01d2b572
 Sei davvero disgustoso.
 ________________________________________________________________________________1-004d4c9c___01929e8f/01d2b68f
-Non sono arrivato fin lì.
+Non sono arrivato fin lí.
 ________________________________________________________________________________1-004d500c___0192a018/01d2b818
 Avrei preferito che non mi avessi mandato la videocassetta.
 ________________________________________________________________________________1-004d52a0___0192a22a/01d2ba2a
@@ -784,7 +791,7 @@ Immagino che ci voglia molto per [o]impressionarti,[/]* eh?
 ________________________________________________________________________________1-004d5610___0192a48b/01d2bc8b
 [*y!<^]Ha HA!*[/] [!>^]Questo è quello che voglio sentire!
 ________________________________________________________________________________1-004d5980___0192a6c0/01d2bec0
-Sono così dilettante?* [r]Accidenti,* amico.
+Sono cosí dilettante?* [r]Accidenti,* amico.
 ________________________________________________________________________________1-004d5cf0___0192a997/01d2c197
 [!><r*^]Merda![/]* Non ti ho nemmeno chiesto se volevi qualocsa.* [a]Fai festa?
 ________________________________________________________________________________1-004d5f84___0192abd7/01d2c3d7
@@ -820,7 +827,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-00502638___0194acd6/01d4c4d6
 Dovresti probabilmente [r]tagliargli la lingua.[/]* [*o]Heh.
 ________________________________________________________________________________1-005029a8___0194b060/01d4c860
-[.>^!]Господи Иисусе,[/]* che [r]fottuta perdita di tempo.*[/] Farò [y]tardi al mio appuntamento.
+[.>^!]Господи Иисусе,[/]* che [r]fottuta perdita di tempo.*[/] Faró [y]tardi al mio appuntamento.
 ________________________________________________________________________________1-00502c3c-00502df4___0194b2a6/01d4caa6
 Lasciami andare.
 ________________________________________________________________________________1-00502fac___0194b382/01d4cb82
@@ -846,11 +853,11 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-005054a0___0194cd67/01d4e567
 Questi ragazzi non parlano.
 ________________________________________________________________________________1-00505810___0194cf1a/01d4e71a
-Lo farai tu,* però.* [p]Ora conosco il tuo gioco.
+Lo farai tu,* peró.* [p]Ora conosco il tuo gioco.
 ________________________________________________________________________________1-00505b80___0194d384/01d4eb84
-Senti,* ho una prenotazione nel [y~]Secondo Distretto,[/]* e non farò tardi a causa di un *[!^<>]maledetto *[!><^a%]drogato *[/!^<>]di Chronos[/].
+Senti,* ho una prenotazione nel [y~]Secondo Distretto,[/]* e non faró tardi a causa di un *[!^<>]maledetto *[!><^a%]drogato *[/!^<>]di Chronos[/].
 ________________________________________________________________________________1-00505ef0___0194d918/01d4f118
-Ora dimmi [y]chi ti rifornisce,[/]* così posso porre fine alla tua [r]miserabile vita[/] e continuare con la mia notte.
+Ora dimmi [y]chi ti rifornisce,[/]* cosí posso porre fine alla tua [r]miserabile vita[/] e continuare con la mia notte.
 ________________________________________________________________________________1-0050633c-004ffdd4___01949797/01d4af97
 *Sputagli in faccia*
 ________________________________________________________________________________1-00506940___0194dca5/01d4f4a5
@@ -862,7 +869,7 @@ Il mio psichiatra.
 ________________________________________________________________________________1-00507390___0194e192/01d4f992
 [^<>!y*.]Сука блять![./]* [>]Credi che per me sia un gioco?* [r]Credi che stia scherzando?
 ________________________________________________________________________________1-00507700___0194e612/01d4fe12
-Stai davvero per morire.* Hai capito?* [r*]Ti ucciderò[/] se non mi dici [y]chi ti ha mandato.[/]
+Stai davvero per morire.* Hai capito?* [r*]Ti uccideró[/] se non mi dici [y]chi ti ha mandato.[/]
 ________________________________________________________________________________1-00508150___0194e8f3/01d500f3
 Come dici tu,* amico.
 ________________________________________________________________________________1-005084c0___0194ebdf/01d503df
@@ -876,7 +883,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-00509280___0194f2aa/01d50aaa
 Non sai nemmeno cosa sia il [a%]Chronos[/]?* [.!><*r]пидарас[/r*>],* [!]sei fatto di [a%]Chronos!*[/] [y]Kissyface,[/]* guarda questo!
 ________________________________________________________________________________1-005095f0___0194fa1a/01d5121a
-[*r<!]Ha HA!*[/] Non così in fretta![/]* Kissyface, metti [o]il Dragone[/] vicino [y]Al-Qasim[/] quando [o*]abbiamo incendiato il posto.[/]* Le persone penseranno che stava [y]cercando droghe[/] o cose del genere.
+[*r<!]Ha HA!*[/] Non cosí in fretta![/]* Kissyface, metti [o]il Dragone[/] vicino [y]Al-Qasim[/] quando [o*]abbiamo incendiato il posto.[/]* Le persone penseranno che stava [y]cercando droghe[/] o cose del genere.
 ________________________________________________________________________________1-00509884___0194fec1/01d516c1
 Fermati...
 ________________________________________________________________________________1-00509cd0___0195019c/01d5199c
@@ -908,7 +915,7 @@ Pensi che io voglia la tua *[o^><*!]approvazione,[/]* coglione?* Vaffanculo.* [r
 ________________________________________________________________________________1-0050c2a0___01951fdc/01d537dc
 [^>!<r*.]Сука блять![./]* [!>^*3]Saremmo potuti essere una [y*]vera cazzo di squadra,[/]* lo sai?* La tua [a]forma,[/]* il mio [~&---]talento cinematografico.[/]* Sarebbe potuta essere [o]arte.
 ________________________________________________________________________________1-0050c610___01952686/01d53e86
-[^>!<r*--.]Сука блять![./--]* Ti *[r>!<^*]UCCIDERÒ[/--]* cazzo,* [/!o]fanculo le domande.
+[^>!<r*--.]Сука блять![./--]* Ti *[r>!<^*]UCCIDERÓ[/--]* cazzo,* [/!o]fanculo le domande.
 ________________________________________________________________________________1-0050c980___01952a07/01d54207
 Sta solo cercando di [o]infastidirti,[/]* [y]V.
 ________________________________________________________________________________1-0050ccf0___01952c7a/01d5447a
@@ -956,9 +963,9 @@ Tuttavia,* è [a]piuttosto impressionante[/] che tu sia riuscito a [y]eliminare 
 ________________________________________________________________________________1-00510ff8___01956aba/01d582ba
 [*]Heh,[/]* [y]non è stato un gran problema.
 ________________________________________________________________________________1-00511368___01956fd5/01d587d5
-Sì,* lo era.* Ho visto il suo operato allo [y]Studio 51.[/]* Ha ucciso [o]dozzine di uomini[/] [r]spassionatamente e senza sforzi.[/]* Era pronto per la battaglia quasi prima che io lo attaccassi.
+Sí,* lo era.* Ho visto il suo operato allo [y]Studio 51.[/]* Ha ucciso [o]dozzine di uomini[/] [r]spassionatamente e senza sforzi.[/]* Era pronto per la battaglia quasi prima che io lo attaccassi.
 ________________________________________________________________________________1-005116d8___01957804/01d59004
-Sì,* lo era.* Ho visto il suo operato allo [y]Studio 51.[/]* Ha ucciso [o]dozzine di uomini[/] [r]spassionatamente e senza sforzi.[/]* Non ha fatto una piega quando mi sono avvicinato a lui.
+Sí,* lo era.* Ho visto il suo operato allo [y]Studio 51.[/]* Ha ucciso [o]dozzine di uomini[/] [r]spassionatamente e senza sforzi.[/]* Non ha fatto una piega quando mi sono avvicinato a lui.
 ________________________________________________________________________________1-00511a48___01957f21/01d59721
 Non c'era niente dietro quegli occhi;* [y]nessuna anima,* nessun rimorso.[/]* Non gli importava della sua missione,* o delle persone che aveva ucciso,* [r]o persino di se stesso.
 ________________________________________________________________________________1-00511db8___01958529/01d59d29
@@ -967,12 +974,10 @@ ________________________________________________________________________________
 [r*]Dio,* SNOW.*.*.[/]* Pensi che il capo mi darà una ricompensa?
 ________________________________________________________________________________1-00512498-005a6cc4___01958b13/01d5a313
 È probabile.
-________________________________________________________________________________1-00512498-005a6cc4___01958b13/01d5a313
-Probablemente.
 ________________________________________________________________________________1-00512808___01958beb/01d5a3eb
 Parli del diavolo...
 ________________________________________________________________________________1-00512b78___01958e67/01d5a667
-[!r*<>^]Gesù,* non così fottutamente vicino, *[!<]sono affilati!** [!<][.]Сука охуеть!
+[!r*<>^]Gesù,* non cosí fottutamente vicino, *[!<]sono affilati!** [!<][.]Сука охуеть!
 ________________________________________________________________________________1-00481894___018e7e42/01ce9642
 Una ragazza che vive nel mio condominio.
 ________________________________________________________________________________1-005c18bc-005c1a74-005c532c-005c54e4___019e2ec6/01de46c6
@@ -1020,9 +1025,9 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-005c6f88___019e56ee/01de6eee
 [r--*]Avrei dovuto farlo molto tempo fa.
 ________________________________________________________________________________1-005c72f8___019e58ae/01de70ae
-[r*-]Non ti dovrò più sopportare!
+[r*-]Non ti dovró più sopportare!
 ________________________________________________________________________________1-005c7668___019e5b5a/01de735a
-[a%]Consegna di[/y] Chronos[/] - 3:30 di Mercoledì. 286-esimo anello, Laboratorio di armi speciali della Nuova Mecca.
+[a%]Consegna di[/y] Chronos[/] - 3:30 di Mercoledí. 286-esimo anello, Laboratorio di armi speciali della Nuova Mecca.
 ________________________________________________________________________________1-005c79d8___019e5e59/01de7659
 C'è un dossier anche qui.
 ________________________________________________________________________________1-005c7d48___019e60ae/01de78ae
@@ -1030,7 +1035,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-005c80b8___019e6366/01de7b66
 Questa è una [r]scena del crimine[/], signora...
 ________________________________________________________________________________1-005c8428___019e6717/01de7f17
-L'uomo non aveva [y]parenti.[/]* Quando avremo finito di condurre la nostra ricerca,* tutto ciò che si trova nell'appartamento [a]sarà tuo.
+L'uomo non aveva [y]parenti.[/]* Quando avremo finito di condurre la nostra ricerca,* tutto ció che si trova nell'appartamento [a]sarà tuo.
 ________________________________________________________________________________1-005c8798___019e6a03/01de8203
 Mmm...* Va bene.
 ________________________________________________________________________________1-005c8e78___019e6bfc/01de83fc
@@ -1137,30 +1142,6 @@ ________________________________________________________________________________
 Che è stato trovato morto sul balcone della sua suite al piano attico, coperto di strane bruciature.
 ________________________________________________________________________________1-005d3530___019ee7c5/01deffc5
 [*!^>r<.]Блять!*[.!] Cos'era quella merda blu?
-###________________________________________________________________________________1-00515675-005c5675___0195d0c1/01d5e8c1
-###ada.[/]* Come *[r*!<>]cavolo[/]* hanno fatto a vincere?
-###________________________________________________________________________________1-005b79e1___019e32e8/01de4ae8
-###<r*]Cosa?* [!]Di che *[!<]cazzo* stai parlando?
-###________________________________________________________________________________1-005b7bf1___019c22e8/01dc3ae8
-###n giorno?* [~&]Adoro gli anime.*.*.*
-###________________________________________________________________________________1-005b7c75___019b9ee8/01dbb6e8
-###Se ti discosti [o]minimamente[/] dagli ordini che riceverai da ora in poi,* potrai considerare il nostro rapporto [r]terminato.
-###________________________________________________________________________________1-005b7d7d___019a96e8/01daaee8
-###Sii infantile e [o]provaci un po'!
-###________________________________________________________________________________1-005b803d___0197d6e8/01d7eee8
-###]La casata di Chen, il gioco d'azzardo megalegittimo superlegale,[/]* eh?* Continuerai a farmi perdere tempo?
-###________________________________________________________________________________1-005b80c1___019752e8/01d76ae8
-###*sì.* Voglio che tu localizzi e [r]uccida quella persona.[/]* Non possiamo permettergli di [o]causare altri danni.
-###________________________________________________________________________________1-005b8539___0192dae8/01d2f2e8
-###rabradas[/] laggiù e noi [r*] gli abbiamo fatto scoppiare la testa?
-###________________________________________________________________________________1-005b8959___018ebae8/01ced2e8
-###Remeremo domani.
-###________________________________________________________________________________1-005b8a61___018db2e8/01cdcae8
-###peggio! [/]*[o]Vivo dall'altra parte del corridoio!
-###________________________________________________________________________________1-005b8ab9___018d5ae8/01cd72e8
-###ero [o]il Dragone[/] può [r*]smembrare[/] dodici uomini armati solo con [e] una spada.[/]
-###________________________________________________________________________________1-005b8b11___018d02e8/01cd1ae8
-###ancora una parola!* Buona giornata,* Pinkachu.
 ________________________________________________________________________________1-00441910___018bb58d/01cbcd8d
 Capisco...* Allora cominciamo dall'inizio.
 ________________________________________________________________________________1-00441c80___018bb6f7/01cbcef7
@@ -1176,7 +1157,7 @@ Sono quasi dentro.
 ________________________________________________________________________________1-00442990___018bbc67/01cbd467
 Sto entrando.
 ________________________________________________________________________________1-00442b1c-00443c4c___018bbd3c/01cbd53c
-Arriverò presto.
+Arriveró presto.
 ________________________________________________________________________________1-00442db0___018bbeae/01cbd6ae
 *[r*^<>!]Non[/]* abbiamo tempo per questo.
 ________________________________________________________________________________1-004431fc-004444e4-004657fc-00520f34-0052780c-005279c4___018bbfe3/01cbd7e3
@@ -1201,8 +1182,6 @@ ________________________________________________________________________________
 Ho bisogno che tu lavori il più [y]velocemente possibile.[/]* Non resta molto tempo.
 ________________________________________________________________________________1-00445f88___018bd6bf/01cbeebf
 [y]Lo scienziato[/] è trattenuto da qualche parte all'interno della fabbrica.
-###________________________________________________________________________________1-004460f8___019a1024/01da2824
-###avrei avuto tanti ospiti,* avrei [r]preparato più sacchi per cadaveri.
 ________________________________________________________________________________1-0044621c-004468fc___018bd886/01cbf086
 E va bene.
 ________________________________________________________________________________1-004463d4___018bd92c/01cbf12c
@@ -1226,7 +1205,7 @@ Sono venuto a liberarti.
 ________________________________________________________________________________1-004482c4___018bedb2/01cc05b2
 Purtroppo non sono il ragazzo della pizza.
 ________________________________________________________________________________1-00448558___018bf005/01cc0805
-Sì...* Sì,* hai ragione.* Credo di riuscire a stare in piedi,* aspetta.
+Sí...* Sí,* hai ragione.* Credo di riuscire a stare in piedi,* aspetta.
 ________________________________________________________________________________1-004488c8___018bf351/01cc0b51
 [*]Ahia...[/]* Stavo iniziando a pensare [r]che non ce l'avrei fatta.[/]* [a*]Grazie.
 ________________________________________________________________________________1-00448c38___018bf708/01cc0f08
@@ -1234,7 +1213,7 @@ Ah...* Stavo davvero iniziando ad [o]desiderare un po' di salame piccante.[/]* V
 ________________________________________________________________________________1-00448fa8___018bfb28/01cc1328
 Immagino significhi che non sei davvero [o]il ragazzo della pizza...[/]* [*]Hah...[/]* Scopriamolo.
 ________________________________________________________________________________1-00449318___018bfe97/01cc1697
-Beh,* mi accontenterò del [o]ragazzo del salvataggio.[/]* Vediamo se riesco a stare in piedi...
+Beh,* mi accontenteró del [o]ragazzo del salvataggio.[/]* Vediamo se riesco a stare in piedi...
 ________________________________________________________________________________1-00449688___018c01d8/01cc19d8
 [<^>!r*.]Сука охуеть![./]* Speriamo di essere riusciti a registrarlo.
 ________________________________________________________________________________1-004499f8___018c04f7/01cc1cf7
@@ -1256,7 +1235,7 @@ Una perdita di refrigerante nell'impianto di trattamento delle acque della [a]Nu
 ________________________________________________________________________________1-0044b8e8___018c2770/01cc3f70
 I residenti del Terzo Distretto sono esortati a non utilizzare acqua corrente finché la perdita di refrigerante non sarà stata contenuta.
 ________________________________________________________________________________1-0044bc58___018c2be4/01cc43e4
-Ciò include bere l'acqua del rubinetto,* fare la doccia,* fare giardinaggio e dare acqua agli animali domestici.
+Ció include bere l'acqua del rubinetto,* fare la doccia,* fare giardinaggio e dare acqua agli animali domestici.
 ________________________________________________________________________________1-0044bfc8___018c300d/01cc480d
 [y]Le autorità di Juncture[/] ritengono che la situazione sarà sotto controllo entro dodici ore.
 ________________________________________________________________________________1-0044c6a8___018c3404/01cc4c04
@@ -1274,7 +1253,7 @@ Per favore...* Entra e siediti.
 ________________________________________________________________________________1-0044deb8___018c4570/01cc5d70
 Il tuo comportamento di ieri sera è stato [r]*insolitamente* poco professionale.[/]* La nostra relazione si basa su [a*]cooperazione e fiducia,[/]* nessuna delle quali hai dimostrato.
 ________________________________________________________________________________1-0044e228___018c4e24/01cc6624
-Detto questo,* sono [y]disposto ad ignorare questo intoppo[/] per il bene dei nostri [p]reciproci interessi.[/]* Se questi comportamenti continuano,* sarò costretto a [r*---]revocare alcuni dei tuoi privilegi.[/]
+Detto questo,* sono [y]disposto ad ignorare questo intoppo[/] per il bene dei nostri [p]reciproci interessi.[/]* Se questi comportamenti continuano,* saró costretto a [r*---]revocare alcuni dei tuoi privilegi.[/]
 ________________________________________________________________________________1-0044e598___018c5381/01cc6b81
 Ora iniziamo la sessione.
 ________________________________________________________________________________1-0044e908___018c54d5/01cc6cd5
@@ -1348,13 +1327,13 @@ Sembra possibile.
 ________________________________________________________________________________1-00454f4c___018ca781/01ccbf81
 Penso che fosse uno scienziato.
 ________________________________________________________________________________1-004551e0___018ca938/01ccc138
-Sì,* sei stato [y]molto paziente[/] con me oggi.
+Sí,* sei stato [y]molto paziente[/] con me oggi.
 ________________________________________________________________________________1-00455550___018cace4/01ccc4e4
-Sì...* La [p]persona[/] probabilmente non voleva [y]farti del male.[/]* [a]Non dovresti aver paura[/] di loro.
+Sí...* La [p]persona[/] probabilmente non voleva [y]farti del male.[/]* [a]Non dovresti aver paura[/] di loro.
 ________________________________________________________________________________1-0045599c___018cb007/01ccc807
-Forse è così. Voglio solo la mia medicina.
+Forse è cosí. Voglio solo la mia medicina.
 ________________________________________________________________________________1-00455b54-0047c984___018cb17e/01ccc97e
-Sì. Credo tu abbia ragione.
+Sí. Credo tu abbia ragione.
 ________________________________________________________________________________1-00455de8___018cb35b/01cccb5b
 Il nostro [a]tempo è scaduto.[/]* Lascia che prenda [y]il tuo dossier.
 ________________________________________________________________________________1-00456158___018cb5da/01cccdda
@@ -1414,7 +1393,7 @@ Ma Pinkachu quando ha ottenuto [y]una spada?
 ________________________________________________________________________________1-0045b9dc___018ced1c/01cd051c
 Nella stagione 17.
 ________________________________________________________________________________1-0045bd4c___018ceea0/01cd06a0
-E tu quando sei diventata così fastidiosa?
+E tu quando sei diventata cosí fastidiosa?
 ________________________________________________________________________________1-0045bfe0___018ceff8/01cd07f8
 Io--* uhm*.*.*.
 ________________________________________________________________________________1-0045c400-0045c42c-0058e32c___018cf092/01cd0892
@@ -1458,7 +1437,7 @@ Eh, è troppo di nicchia per Webflix.
 ________________________________________________________________________________1-0046020c___018d1804/01cd3004
 Ah, chiaro.
 ________________________________________________________________________________1-004604a0___018d1a75/01cd3275
-[*r]O-*oh.*.*.[/]* Immagino che dovrò cercarlo sull'Internet.*.*.* Bene,* [y]buona giornata signore!
+[*r]O-*oh.*.*.[/]* Immagino che dovró cercarlo sull'Internet.*.*.* Bene,* [y]buona giornata signore!
 ________________________________________________________________________________1-00460b80___018d20c9/01cd38c9
 [!>^a]Bello!* [!w]Non vedo l'ora di guardarlo![/]* [*3]Forse potremmo...* [y]G-*guardarlo insieme qualche volta?[/]* [!>^3*]O-*[!]oh,* [o]che stupida che sono![/]* Per favore, vai avanti,* signore!
 ________________________________________________________________________________1-00461260___018d2604/01cd3e04
@@ -1510,7 +1489,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-00465644-004659b4___018d474d/01cd5f4d
 Chiudi la bocca!
 ________________________________________________________________________________1-00465c48___018d4950/01cd6150
-[r*^<!]Basta così,* [!]Non sono in vena adesso.*[!] Togliti dalla mia vista.
+[r*^<!]Basta cosí,* [!]Non sono in vena adesso.*[!] Togliti dalla mia vista.
 ________________________________________________________________________________1-00465fb8___018d4bd2/01cd63d2
 .*.*.*Come dicevo...
 ________________________________________________________________________________1-00466328___018d4d42/01cd6542
@@ -1524,13 +1503,13 @@ Ehi,* chi [y]vincerebbe in un combattimento,[/]* [o*] il Dragone...[/]* o [a]Ter
 ________________________________________________________________________________1-004670e8___018d56a4/01cd6ea4
 Stai *[!>^~]scherzando*[/] vero?* [a]Terry il Forte[/] non salta mai il [o]leg day.
 ________________________________________________________________________________1-00467458___018d5ae2/01cd72e2
-Sì,* ma [o]il Dragone[/] può [r*]smembrare[/] una dozzina di uomini completamente armati con solo [y]una spada.[/]
+Sí,* ma [o]il Dragone[/] puó [r*]smembrare[/] una dozzina di uomini completamente armati con solo [y]una spada.[/]
 ________________________________________________________________________________1-004677c8___018d5dd5/01cd75d5
 [*5]Ecco,* ehm...
 ________________________________________________________________________________1-00467b38___018d5f00/01cd7700
 Suppongo che vincerebbe il Dragone...
 ________________________________________________________________________________1-00467ea8___018d61b3/01cd79b3
-So [y]perché sei qui.[/]* Non ti darò la [o]soddisfazione[/] di [r]uccidermi.[/]
+So [y]perché sei qui.[/]* Non ti daró la [o]soddisfazione[/] di [r]uccidermi.[/]
 ________________________________________________________________________________1-00468218___018d661d/01cd7e1d
 Oh...* Non sei [r]chi mi aspettavo.[/]* Mi sorprende che siano rimasti [y]più di uno[/] di voi.
 ________________________________________________________________________________1-0046881c___018d6961/01cd8161
@@ -1566,7 +1545,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-0046bc88___018d8d35/01cda535
 [r!*<^]Aspetta!* [!]Ha detto che era qui per farsi una doccia!
 ________________________________________________________________________________1-0046bff8___018d90c3/01cda8c3
-[!]Oh sì!* Lo vedo ora,* sei [y]Pinkachu dopo la stagione 17.[/]* Sei libero di andare,* signore.
+[!]Oh sí!* Lo vedo ora,* sei [y]Pinkachu dopo la stagione 17.[/]* Sei libero di andare,* signore.
 ________________________________________________________________________________1-0046c368___018d95de/01cdadde
 Bene,* allora sei fortunato che il [r]divieto di cosplay di scarsa qualità[/] sia stato abrogato l'anno scorso.* Sei libero di andare,* signore.
 ________________________________________________________________________________1-0046c520___018d987c/01cdb07c
@@ -1592,7 +1571,7 @@ Sono occupato.
 ________________________________________________________________________________1-0046e85c___018dad5d/01cdc55d
 Quelle sono le persone accanto a me.
 ________________________________________________________________________________1-0046eca8___018daf98/01cdc798
-Oh,* [r*]scusa.[/]* Ti [y]lascerò in pace,[/] allora.
+Oh,* [r*]scusa.[/]* Ti [y]lasceró in pace,[/] allora.
 ________________________________________________________________________________1-0046f018___018db2c5/01cdcac5
 Oh.* Beh, sono [r>^*]*[!<]i* [!<]peggiori! [/]*[o]Io abito in fondo al corridoio!
 ________________________________________________________________________________1-0046f388___018db506/01cdcd06
@@ -1608,7 +1587,7 @@ Devo andare.
 ________________________________________________________________________________1-0046fdd8___018dbaa6/01cdd2a6
 Oh,* quel [p*]posto malandato.[/]* Beh, immagino che siamo [y]vicini di casa,[/]* allora.
 ________________________________________________________________________________1-00470148___018dbdc4/01cdd5c4
-Sì,* [o]ho notato.[/]* Wow,* perché gli adulti [p~]sono così soffocanti!
+Sí,* [o]ho notato.[/]* Wow,* perché gli adulti [p~]sono cosí soffocanti!
 ________________________________________________________________________________1-004704b8___018dc0c3/01cdd8c3
 [!>]Bene,* [&~]questo è stato noioso.*[/] Ciao,* vicino!
 ________________________________________________________________________________1-00470828___018dc317/01cddb17

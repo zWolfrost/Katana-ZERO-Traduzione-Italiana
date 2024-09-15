@@ -1,11 +1,4 @@
-asmserv.c
-disasm.c
-disasm.h
-exestringz.c
-exestringz.exe
-pe_nonwin.h
-
-Katana ZERO
-Katana ZERO.zip
-
+exestringz/
+Katana ZERO/
 __pycache__/
+RICORDA.md
