@@ -7,7 +7,7 @@ CHAR_REPLACE = {
     "ò": "ó",
 }
 
-table = '.\\table.json'
+table = '.\\translation.json'
 stringz = '.\\stringz.txt'
 patch = '.\\stringz-patch.txt'
 

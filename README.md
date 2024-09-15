@@ -3,12 +3,12 @@ Ho finalmente affrontato la sfida monumentale di provare a tradurre gli oltre 20
 
 Detto francamente, il gioco è un capolavoro, e merita di essere localizzato in più lingue possibili. Inizio con quella che conosco.
 
-Non dovrebbe essere troppo difficile in realtà. Sono attualmente al 60% circa (linea 2000 di "stringz-filter.txt").
+Non dovrebbe essere troppo difficile in realtà. Sono attualmente al 75% circa (linea 2600 di "stringz-filter.txt").
 
 Per capirci riguardo i file di questa repository:
 - "stringz.txt": Tutte le stringhe di gioco, dialogo o non.
 - "stringz-filter.txt": **La maggior parte** dei dialoghi di gioco spagnoli. Filtrati usando "stringz-filter.py". È solo per riferimento.
-- "table.json": La traduzione italiana di "stringz-filter.txt" + i dialoghi di testo in "stringz-filter.txt" non correttamente filtrati da "langfilter.py", in un file json.
+- "translation.json": La traduzione italiana di "stringz-filter.txt" + i dialoghi di testo in "stringz-filter.txt" non correttamente filtrati da "langfilter.py", in un file json.
 
 &nbsp;
 ## Come patchare il gioco con la traduzione
@@ -25,7 +25,7 @@ Renderò questo processo molto più semplice e carino una volta che la traduzion
 ### Come posso aiutarti?
 Se trovi delle frasi spagnole non tradotte, fai uno screenshot e crea un'issue su questa pagina allegando lo screenshot (o perfino un e-mail andrebbe bene). Questa traduzione è stata creata da poco per cui sarebbe completamente possibile.
 
-Un'altra cosa molto gentile che puoi fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente traduzioni troppo contorte nel file "table.json", e farmi sapere tramite un issue o creare una pull request che sistemi il problema direttamente.
+Un'altra cosa molto gentile che puoi fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente delle frasi che suonano "male", nel file "translation.json", e facendomi sapere tramite un issue o creando una pull request che sistemi il problema direttamente.
 
 Puoi aiutarti a tradurre dallo spagnolo usando i dialoghi inglesi. Sono spesso circa 5 lingue straniere sopra quelle spagnole nel file "stringz.txt".
 

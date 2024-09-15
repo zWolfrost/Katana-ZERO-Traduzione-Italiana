@@ -1,6 +1,6 @@
 import json
 
-table = '.\\table.json'
+table = '.\\translation.json'
 stringz = '.\\stringz.txt'
 
 with open(table, 'r', encoding='utf-8', errors='ignore') as f:

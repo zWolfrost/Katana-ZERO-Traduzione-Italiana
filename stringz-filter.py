@@ -2,8 +2,8 @@ import langid
 
 CHAR_BLACKLIST = ['_', '\\']
 
-stringz = '.\stringz.txt'
-filter = '.\stringz-filter.txt'
+stringz = '.\\stringz.txt'
+filter = '.\\stringz-filter.txt'
 
 with open(stringz, 'r', encoding='utf-8', errors='ignore') as f:
     stringz = f.read()
