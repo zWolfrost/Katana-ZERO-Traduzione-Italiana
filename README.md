@@ -29,7 +29,7 @@ Per niente. Per usare questa traduzione devi avere comunque a disposizione del g
 ### Non dovrai rifare tutto da capo una volta uscito il DLC?
 È probabile che una volta uscito il DLC si dovranno reinserire le linee tradotte nel giusto punto, ma le linee tradotte non sono vincolate dalla loro posizione (nel file json), quindi ci vorrà veramente poco tempo per sistemare le cose. Ovviamente in tal caso dovrò tradurre anche i dialoghi del DLC, e ci vorrà circa una settimana, se sarà lungo quanto il gioco originale.
 
-L'unica cosa che potrebbe vanificare i miei sforzi (e quelli di chi ha contribuito a questa traduzione) sarebbe se lo sviluppatore introducesse la lingua Italiana nel gioco effettivo. Ma non solo credo che ciò sia è improbabile, ma se succedesse renderebbe in ogni caso tutti felici.
+L'unica cosa che potrebbe vanificare i miei sforzi (e quelli di chi ha contribuito a questa traduzione) sarebbe se lo sviluppatore introducesse la lingua Italiana nel gioco effettivo. Ma non solo credo che ciò sia improbabile, ma se dovesse succedere renderebbe in ogni caso tutti felici.
 
 ### Quanto è fedele questa traduzione?
 Direi molto. Per chi lo stesse pensando, non ho tradotto dalla traduzione spagnola, ma dall'inglese, quella originale. Mi servo solo della traduzione spagnola per sostituirla con quella italiana. Ho cercato il più possibile di non distorcere il significato delle frasi, tenendo presente del loro contesto nel gioco, ma non assicuro nulla.
