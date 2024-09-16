@@ -800,7 +800,9 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-004d5f84___0192bfd7/01d2d3d7
 Non sono interessato.
 ________________________________________________________________________________1-004d62f4-0058f45c-005a6b0c-005aac5c-00550c0c-0055165c-0055c91c-00571f24___0192c078/01d2d478
-Già.
+Sí.
+________________________________________________________________________________1-004d6320-005ab4f4-00545870-00556044-00556070-0056da64-0056da90___0192c07d/01d2d47d
+Certo.
 ________________________________________________________________________________1-004d6740___0192c231/01d2d631
 Non fare la [r]puttana[/], amico.* Questa è roba [a]di prima qualità.
 ________________________________________________________________________________1-004d6ab0___0192c566/01d2d966
@@ -2619,6 +2621,8 @@ ________________________________________________________________________________
 [!<>*3]Parla adesso.* [!]Chi ti ha mandato?* [!]Chi ti fornisce?* [/^><*!r]DILLO* [!]SUBITO!
 ________________________________________________________________________________1-00512ee8___0195a4c2/01d5b8c2
 [*!^<>r.]Блять!
+________________________________________________________________________________1-00513258___0195a578/01d5b978
+[r*!<^>]Figlio di puttana...[/]
 ________________________________________________________________________________1-005134ec-005136a4___0195a65e/01d5ba5e
 È finita, V.
 ________________________________________________________________________________1-0051385c___0195a787/01d5bb87
@@ -2636,7 +2640,7 @@ Sai...* Una volta un [p%]NULL[/] mi aveva sparato *[r>!^<*]7 *[<!]fottute *[!<]v
 ________________________________________________________________________________1-00514a68___0195bd92/01d5d192
 [r!*><^]COME UN CAZZO DI STRACCIO!
 ________________________________________________________________________________1-00514dd8___0195c05e/01d5d45e
-[!><^]Credi di essere un duro?* [r!]Il Dragone?![/]* [!y]Beh, io sono l'Ammazza-Draghi!
+[!><^]Credi di essere un duro?* [r!]Dragone?![/]* [!y]Beh, io sono l'Ammazza-Draghi!
 ________________________________________________________________________________1-00515148___0195c30c/01d5d70c
 [r*<!^]AAAAAAA[!]AAAAAHH[!]HHH!
 ________________________________________________________________________________1-005154b8___0195c4ae/01d5d8ae
@@ -2722,7 +2726,7 @@ Quel vecchio lí ti sta riempiendo la testa con [y*]teorie del complotto[/]?
 ________________________________________________________________________________1-0051c628___01962bd5/01d63fd5
 Ignora quello sfacciato.* Hai mai sentito parlare del [o]programma antidroga del Governo?
 ________________________________________________________________________________1-0051c8bc-0051ca74___01962e01/01d64201
-Cronos?
+Chronos?
 ________________________________________________________________________________1-0051d078___01962f46/01d64346
 Non ho mai sentito quel nome.
 ________________________________________________________________________________1-0051d3e8___019631fd/01d645fd
@@ -2730,7 +2734,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-0051d758___0196371d/01d64b1d
 Avevano dei dannati.*.*.* [o]squadroni della morte[/] pieni di [p~]supersoldati psichici[/] che uccidevano la gente nelle migliaia.* Massacravano [r]interi villaggi.
 ________________________________________________________________________________1-0051dac8___01963d2e/01d6512e
-A quanto pare, li drogavano con [y]una certa droga[/] per farli [a]vedere il futuro[/] o [p]leggere le menti[/] o qualcosa del genere.
+A quanto pare, li drogavano con [y]una certa droga[/] per fargli [a]vedere il futuro[/] o [p]leggere le menti[/] o qualcosa del genere.
 ________________________________________________________________________________1-0051de38___019642fb/01d656fb
 Avevo un amico che ne aveva conosciuto uno.* Giocava a [y]carte[/] e vinceva sempre,* come se [p~]sapesse cosa sarebbe successo prima ancora che accadesse.
 ________________________________________________________________________________1-0051e1a8___01964722/01d65b22
@@ -2840,7 +2844,7 @@ Va bene.* [>^!~a]Buona giornata!* [/>^!w]Ciao!
 ________________________________________________________________________________1-00528a18___0196a476/01d6b876
 [r]Siediti.* Ora.
 ________________________________________________________________________________1-00528d88___0196a7db/01d6bbdb
-Ma che *[r!^<>]CAZZO*[/] stavi facendo ieri sera?* La tua missione era uccidere Al-Qasim,* non [o*]distruggere la cazzo di città.
+Cosa *[r!^<>]CAZZO*[/] stavi facendo ieri sera?* La tua missione era uccidere Al-Qasim,* non [o*]distruggere la cazzo di città.
 ________________________________________________________________________________1-005290f8___0196adfd/01d6c1fd
 Ci sono due dozzine di motociclette distrutte e un *[^><!*o]cristo* [!]santo* [!]di elicottero*[/] sull'autostrada.* A cosa *[^>!<r]CAZZO[/]* stavi pensando?
 ________________________________________________________________________________1-0052938c-00529544___0196b1b1/01d6c5b1
@@ -2854,7 +2858,7 @@ Il nome "V" ti dice qualcosa?
 ________________________________________________________________________________1-00529d00___0196ba6a/01d6ce6a
 Già [y^!>]*SO*[/] che Al-Qasim è morto.* È stato trovato con un dannato proiettile in testa.* È ANCHE [o*]su tutte i notiziari.[/]* Non riesci fare nu[@]lla normalmente
 ________________________________________________________________________________1-0052a070___0196c134/01d6d534
-Non avevi scelta nel [r*]più atroce omicidio di massa[/] nella storia di New Mecca?* I media lo stanno definendo questo [o]un atto di terr[@]orismo, tu
+Non avevi scelta nel [r*]più atroce omicidio di massa[/] nella storia di New Mecca?* I media lo stanno definendo [o]un atto di terr[@]orismo
 ________________________________________________________________________________1-0052a3e0___0196c7e1/01d6dbe1
 [r<^>!*]NON LO SAI?![/]* Come se ti fosse appena sfuggito,* non *[r^<>!]SAI*[/] come hai fatto esplodere [o]un cazzo di elico[@]ttero!
 ________________________________________________________________________________1-0052a750___0196ce57/01d6e257
@@ -2918,7 +2922,7 @@ Ora vattene.
 ________________________________________________________________________________1-00530cb8___0197475b/01d75b5b
 Esci *[r!^><*]FUORI*[/] di qui,* [r!^><*]ORA!
 ________________________________________________________________________________1-00531028___019749f7/01d75df7
-Questa.*.*.* Questa non me lo aspettavo.*[-*] Di chi si tratta?
+Questa.*.*.* Questa non me l'aspettavo.*[-*] Di chi si tratta?
 ________________________________________________________________________________1-005312bc___01974c18/01d76018
 Alto. Capelli lunghi e biondi. Spadaccino.
 ________________________________________________________________________________1-00531474___01974e4f/01d7624f
@@ -2930,7 +2934,7 @@ No, solo che era il Dragone.
 ________________________________________________________________________________1-00531ec4___019755f8/01d769f8
 Stava andando contro la gente che combattevo.
 ________________________________________________________________________________1-0053207c___019757a3/01d76ba3
-Sembra che avesse domande per V.
+Sembrava che avesse domande per V.
 ________________________________________________________________________________1-00532310___01975943/01d76d43
 Capisco.* Molto bene.* [y]Molto bene.*.*.
 ________________________________________________________________________________1-00532680___01975cec/01d770ec
@@ -3002,7 +3006,7 @@ Rosso.
 ________________________________________________________________________________1-00539a84___0197b575/01d7c975
 Nero.
 ________________________________________________________________________________1-00539d18___0197b6cf/01d7cacf
-E va bene.* È il momento di [@]*[!>~&<]girare *[!<]quella *[!<]ruota!
+E va bene.* È il momento di [@]*[!>~&<]girare *[!<]la *[!<]ruota!
 ________________________________________________________________________________1-0053a088___0197bc1c/01d7d01c
 [!><]Rosso!*[/] Sembra che noi abbiamo un altro [~&]Ding Dong Daddy di Dumas[/] tra le mani!* Sono [o]senza Fiches.[/]* Mi hai dissanguato!* Ecco tutto quello che ho,* [l]99.999 Fiches!
 ________________________________________________________________________________1-0053a3f8___0197c160/01d7d560
@@ -3088,7 +3092,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-00544ab0___01983de7/01d851e7
 La guerra è finita 7 anni fa.* Sono [y]troppo stanco per vendicarmi.[/]* E ora che [o]Al-Qasim non c'è più.*.*.*[/] Il [a%]Chronos.*.*.*[/] Non mi resta molto tempo.
 ________________________________________________________________________________1-00544e20___01984514/01d85914
-Per averci rubato [y]le nostre vite,[/]* per averci trasformati in [o]mostri,[/]* per averci fatto [r*-]combattere le loro guerre ed essersi sbarazzati di noi quando avevano finito...
+Per aver rubato [y]le nostre vite,[/]* per averci trasformati in [o]mostri,[/]* per averci fatto [r*-]combattere le loro guerre ed essersi sbarazzati di noi quando avevano finito...
 ________________________________________________________________________________1-00545190___01984a5f/01d85e5f
 Non abbiamo molto tempo,* ma sono [o]cosí vicino.*[/]* Voglio che tu [r]veda una cosa.
 ________________________________________________________________________________1-00545500___01984d2b/01d8612b
@@ -3117,6 +3121,8 @@ ________________________________________________________________________________
 [!<>^*r]FALLO!* [!<]ORA!
 ________________________________________________________________________________1-00547e40___01986902/01d87d02
 La [y]dorata luna[/] proietta il suo ampio sorriso sull'altare della tua purificazione.* Il tuo [r]battesimo di sangue[/] si avvicina.
+________________________________________________________________________________1-005481b0___01986c30/01d88030
+[r*]Ch-*che cazzo...?* Torna qui,* subito!
 ________________________________________________________________________________1-00548520___0198702f/01d8842f
 [*]Le stelle predicono la tua [y]morte definitiva.[/*]* Spremi dal tuo [a%]cuore errante[/*] [r]offerte di sangue[/*] su questo sacro altare.
 ________________________________________________________________________________1-00548b24___019873d3/01d887d3
@@ -3152,7 +3158,7 @@ Perché sta succedendo questo?
 ________________________________________________________________________________1-0054c06c-0054cfe4-0054e2cc-0054f08c-0054fe4c___0198b07e/01d8c47e
 Sono pronto a compiere la mia scelta.
 ________________________________________________________________________________1-0054c670___0198b591/01d8c991
-[*]Perché [y]lo dettano le stelle![/*]* O forse è per quei [o]business di droga[/*] in cui sei coinvolto.* O per tutte quelle [r]persone che hai ucciso.[/*]* O forse semplicemente ci diverte farti impazzire.
+[*]Perché [y]lo dettano le stelle![/*]* O forse è per quei [o]business di droga[/*] in cui sei coinvolto.* O forse per tutte quelle [r]persone che hai ucciso.[/*]* O forse semplicemente ci diverte farti impazzire.
 ________________________________________________________________________________1-0054c9e0___0198bbfb/01d8cffb
 [*]A me,* personalmente,* [o]diverte farti impazzire.[/*]* [y]He he heeeee!
 ________________________________________________________________________________1-0054cd50___0198bf18/01d8d318
@@ -3187,7 +3193,7 @@ ________________________________________________________________________________
 Voglio vivere.
 ________________________________________________________________________________1-00551ef4___0198fd09/01d91109
 Voglio morire.
-________________________________________________________________________________1-005521e0___0198ff01/01d91301
+________________________________________________________________________________1-00552188___0198fec1/01d912c1
 [*]Che tu possa incontrare [r]pace nella morte,[/*] o [a%]cuore errante.
 ________________________________________________________________________________1-005524f8___0199011b/01d9151b
 [*]Questo sarà divertente,* [y]he he heeeee!
