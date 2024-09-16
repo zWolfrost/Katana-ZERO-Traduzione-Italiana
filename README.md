@@ -2,7 +2,7 @@
 Sono finalmente riuscito a tradurre gli oltre 2000 dialoghi di gioco di Katana ZERO in italiano usando il programma "exestring" per sostituire le linee.
 Detto francamente, il gioco è un capolavoro, e merita di essere localizzato in più lingue possibili. Inizio con quella che conosco.
 
-**ATTENZIONE: Questa patch è stata testata solo sulla versione di gioco "v1.0.5", l'ultima disponibile**
+**ATTENZIONE: Questa patch è stata testata solo sulla versione di gioco "v1.0.5", build 10906679, l'ultima disponibile**
 
 &nbsp;
 ## Come patchare il gioco con la traduzione
