@@ -1,9 +1,11 @@
+# Questo script permette di creare il file "stringz-filter.txt", partendo dal file "stringz-full.txt" (tutte le stringhe di gioco).
+# Il file "stringz-filter.txt" conterrà solo le stringhe in lingua spagnola, utili per smistare le stringhe da tradurre velocemente.
 import langid
 
 CHAR_BLACKLIST = ['_', '\\']
 
-stringz = '.\\stringz.txt'
-filter = '.\\stringz-filter.txt'
+stringz = './stringz-full.txt'
+filter = './stringz-filter.txt'
 
 with open(stringz, 'r', encoding='utf-8', errors='ignore') as f:
     stringz = f.read()
