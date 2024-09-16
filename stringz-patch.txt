@@ -954,9 +954,9 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-0050fec8___01956d81/01d58181
 [!>*1]Comunque non stava dicendo niente![/]* Questi [y]tizi investitori[/] non sanno davvero nulla della [a]produzione di [%]Chronos.[/]* Dobbiamo cercare degli [p]scienziati.
 ________________________________________________________________________________1-00510238___019571fc/01d585fc
-Forse non dovresti [r]fargli saltare la testa.
+Forse non dovresti [r]fargli saltare le teste.
 ________________________________________________________________________________1-005105a8___019573d3/01d587d3
-[!>*]Nemmeno lui parlava!
+[!>*]Ma non parlavano!
 ________________________________________________________________________________1-00510918___019575a5/01d589a5
 [r]A volte non so cosa fare con te...
 ________________________________________________________________________________1-00510c88___01957a6f/01d58e6f
@@ -2550,7 +2550,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-004f95d8___01946ee4/01d482e4
 [a*]La bevanda è la sua unica ragione di vita,[/*]* e una volta finita,* quello che resta è [y]la bottiglia.
 ________________________________________________________________________________1-004f9948___01947399/01d48799
-[y^>!<*]Patetico.[/*]* [r]Assolutamente patetico.[/]* Continuiamo solo a camminare e [o]cerchiamo di non guardarlo in faccia.
+[y^>!<*]Patetico.[/*]* [r]Assolutamente patetico.[/]* Continuiamo a camminare e [o]cerchiamo di non guardarlo in faccia.
 ________________________________________________________________________________1-004f9cb8___019476be/01d48abe
 Per favore...* Aiutatemi...* Qualsiasi cosa andrebbe bene.
 ________________________________________________________________________________1-004fa028___0194792d/01d48d2d
