@@ -36,6 +36,10 @@ for line in translation:
 print("Tutte le linee di dialogo sono state trovate.")
 
 
+REMOVE_OFFSETS = [
+    "-005b854a",
+    "-004d339f-004ddf7f-004ddfab-005b483e"
+]
 CHAR_REPLACE = {
     "Ì": "Í",
     "ì": "í",
@@ -59,7 +63,10 @@ for line in translation:
         elif line == stringz[stringz_index]:
             if not wrote_id:
                 wrote_id = True
-                patch.write('\n' + stringz[stringz_id_index])
+                id_line = '\n' + stringz[stringz_id_index]
+                for offset in REMOVE_OFFSETS:
+                    id_line = id_line.replace(offset, '')
+                patch.write(id_line)
             translated_line = translation[line]
             for char in CHAR_REPLACE:
                 translated_line = translated_line.replace(char, CHAR_REPLACE[char])
