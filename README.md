@@ -23,6 +23,8 @@ Un'altra cosa molto gentile che potresti fare per aiutarmi sarebbe rendere la tr
 
 Puoi aiutarti a tradurre dallo spagnolo usando i dialoghi inglesi. Sono spesso circa 5 lingue straniere sopra quelli spagnoli nel file "stringz-full.txt".
 
+Inoltre, puoi supportare il mio lavoro donandomi qualcosa [su questa pagina](https://buymeacoffee.com/zwolfrost). Ne sarei estremamente grato.
+
 ### Stai per caso rompendo il copyright del gioco?
 Per niente. Per usare questa traduzione devi avere comunque a disposizione del gioco, e del file con tutte le stringhe non ci fai nulla, di per sè.
 

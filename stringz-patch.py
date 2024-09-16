@@ -43,7 +43,7 @@ CHAR_REPLACE = {
     "ò": "ó",
 }
 
-patch.write('_' * 80 + "Traduzione italiana da: zWolfrost")
+patch.write('_' * 80 + "https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana")
 
 # Substitute lines
 wrote_id = False
