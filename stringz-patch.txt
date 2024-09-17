@@ -726,7 +726,7 @@ Ehi,* [y]non è con me[/] che ti devi scusare.
 ________________________________________________________________________________1-004ceb80___019267f1/01d27bf1
 È il [y]tuo vicino.[/]* Lo sai che quel tizio è un [r]serial killer?[/]* Uno dei più grandi.* Una [o*]fottuta leggenda vivente,[/]* amico.
 ________________________________________________________________________________1-004ceef0___01926d8d/01d2818d
-Non riesce a [a]chiudere occhio[/] per colpa di [o]voi merde,[/]* quindi sono qui per [r*]portare fuori la spazzatura.
+Non riesce a [a]chiudere occhio[/] per colpa di [o]voi merde,[/]* quindi sono venuto qui per [r*]portare fuori la spazzatura.
 ________________________________________________________________________________1-004cf260___019271bc/01d285bc
 [!^*r<>]Ha HA![/]* Almeno hai più carattere del tuo amico!* [!<^>o]Mi piace!
 ________________________________________________________________________________1-004cf5d0___01927695/01d28a95
