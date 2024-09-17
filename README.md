@@ -10,7 +10,7 @@ Comunque, crearne una su altre versioni non dovrebbe essere troppo complicato; i
 ## Come patchare il gioco con la traduzione
 Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)", scarica "[stringz-patch.txt](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/stringz-patch.txt)" (Ctrl+S) ed esegui questo comando:
 ```
-'C:\percorso\di\exestringz.exe' 2 'C:\percorso\di\Katana ZERO.exe' 'C:\percorso\di\stringz-patch.txt'
+"C:\percorso\di\exestringz.exe" 2 "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\stringz-patch.txt"
 ```
 ATTENZIONE: Forse dovresti creare un backup del file eseguibile di gioco (solo quello verrà modificato), in quanto questo comando lo sovrascriverà in modo irreversibile (o meglio, dovrai riscaricare il gioco per riportarlo da capo).
 
