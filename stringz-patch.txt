@@ -1000,7 +1000,7 @@ Cosa mi hai fatto?
 ________________________________________________________________________________1-005c2834-005c62a4___019e4bcf/01de5fcf
 La mia medaglia al valore è almeno reale?
 ________________________________________________________________________________1-005c2ac8-005c6538___019e4e82/01de6282
-Vattene *[r!><^*]ADESSO[/]* fuori dal mio ufficio, [>^r]*[!<]razza*[!<]di* [!<]drogato.
+Vattene *[r!><^*]ADESSO[/]* fuori dal mio ufficio, [>^r]*[!<]razza* [!<]di* [!<]drogato.
 ________________________________________________________________________________1-005c2e38___019e5216/01de6616
 Cosa stai facendo?!* [!]Sei in [y]astinenza![w]* [!]Stai lontano da me!
 ________________________________________________________________________________1-005c31a8___019e54d6/01de68d6
@@ -1014,7 +1014,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-005c3f68-005c04f8___019e2ed6/01de42d6
 [r*!><^]Tu.*.*.* [!]Capisci cosa hai fatto?
 ________________________________________________________________________________1-005c42d8-005c0868___019e32c6/01de46c6
-Io.*.*.* Non sono riuscito a [p]raggiungere mia figlia[/] tutto il giorno.* [!>^y*3]Il mio telefono,[/]* [r]perchè ce l'ho ancora?
+Io.*.*.* Non sono riuscito a [p]raggiungere mia figlia[/] tutta la giornata.* [!>^y*3]Il mio telefono,[/]* [r]perchè ce l'ho ancora?
 ________________________________________________________________________________1-005c4648-005c0bd8___019e3821/01de4c21
 [*]Io-* posso spiegarlo.[/]* Non [r]verranno a cercarmi.[/]* Non ho avuto *[r*!^<>]niente*[/] a che fare con questo.
 ________________________________________________________________________________1-005c48dc-005c4a94-005c0e6c-005c1024___019e3b00/01de4f00
@@ -1098,7 +1098,7 @@ Non ci sono [y]bambini[/] in questo edificio.* Me ne sono assicurato.* L'uomo [r
 ________________________________________________________________________________1-005cda18___019eb823/01decc23
 Bambini nel [r]Terzo Distretto?[/]* [*]Heh.
 ________________________________________________________________________________1-005cdd88___019ebb87/01decf87
-Quel tipo [y]non aveva bambini.[/]* Era un [r]drogato solitario[/] coinvolto in un [p]giro di droga.
+Quel tipo [y]non aveva bambini.[/]* Era un [r]drogato senza nessuno[/] coinvolto in un [p]giro di droga.
 ________________________________________________________________________________1-005ce0f8___019ebeee/01ded2ee
 Randy,* controlla il suo appartamento per della [r]roba strana.
 ________________________________________________________________________________1-005ce468___019ec2dc/01ded6dc
@@ -1130,13 +1130,13 @@ Zero al rapporto. Missione compiuta.
 ________________________________________________________________________________1-005d13ac___019ede89/01def289
 NULL Zero qui. Il computer è disabilitato.
 ________________________________________________________________________________1-005d1640___019ee24c/01def64c
-Inteso.* [o]Zero,* [a]Quindici,[/]* tornate alla base.* Se qualcuno si mette sulla vostra strada,* [r]sapete cosa fare.
+Ricevuto.* [o]Zero,* [a]Quindici,[/]* tornate alla base.* Se qualcuno si mette sulla vostra strada,* [r]sapete cosa fare.
 ________________________________________________________________________________1-005d19b0___019ee52d/01def92d
 V è morto.
 ________________________________________________________________________________1-005d2090___019ee6c6/01defac6
 Era un sopravvissuto [p%]NULL[/].* [r]Gamma Quindici,[/]* signore.
 ________________________________________________________________________________1-005d2400___019ee9d3/01defdd3
-...*Capisco.* Allora presto dovremo [r]muovere una guerra aperta con il governo.
+...*Capisco.* Allora presto dovremo [r]muovere una guerra aperta col governo.
 ________________________________________________________________________________1-005d2770___019eed76/01df0176
 [*]Guarda come si dimena,[/*]* Tragedia!* [y]He he heeeee!
 ________________________________________________________________________________1-005d2ae0___019ef1af/01df05af
@@ -1796,7 +1796,7 @@ Tutti quelli che uccido sono collegati al Chronos.
 ________________________________________________________________________________1-00581d84-0058374c___019b661b/01db7a1b
 Non ti importa nulla di me.
 ________________________________________________________________________________1-00582018___019b69c8/01db7dc8
-I suoi creatori devono essere [r]zittiti per sempre.[/]* Non ci si puó *[r*<!>^]mai più*[/] permettere al [a%]Chronos[/] di[/] [y]tornare su questo pianeta.
+I suoi creatori devono essere [r]zittiti per sempre.[/]* Non possiamo permettere *[r*<!>^]mai più*[/] al [a%]Chronos[/] di[/] [y]tornare su questo pianeta.
 ________________________________________________________________________________1-00582464___019b6d8b/01db818b
 Quando saranno scomparsi, saró la prossima vittima.
 ________________________________________________________________________________1-005827d4___019b6f44/01db8344
@@ -2014,7 +2014,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-0059a488___019cb88f/01dccc8f
 [l>!*]D-*Davvero?![/]* Mi.*.*.* [~&>^++]mi piacerebbe tanto <3 <3 <3.
 ________________________________________________________________________________1-0059a7f8___019cbcaf/01dcd0af
-Continua pure,* signore!* E, um.*.*.* [~&]torna qualche volta![/]* Sai dove lavoro.*.*.* [l*]Per ora![/]
+Continua pure,* signore!* E, um.*.*.* [~&]torna qualche volta![/]* Lo sai dove lavoro.*.*.* [l*]Per ora![/]
 ________________________________________________________________________________1-0059ac44-0053842c-0053cc5c-0053d33c___0197a4a9/01d7b8a9
 Forse più tardi.
 ________________________________________________________________________________1-0059b090___019cc32a/01dcd72a
@@ -2164,7 +2164,7 @@ Ah,* sei arrivato.
 ________________________________________________________________________________1-005ad9e8___019d6106/01dd7506
 Speravo che saremmo riusciti a finire ció che abbiamo iniziato.* Sarà [r]divertente.
 ________________________________________________________________________________1-005add58___019d6456/01dd7856
-Sei.*.*.* Sei un [y]Gamma,[/]* vero?* Proprio come [a]Quindici.
+Sei.*.*.* Sei un [y]Gamma,[/]* non è vero?* Proprio come [a]Quindici.
 ________________________________________________________________________________1-005ae1a4___019d660f/01dd7a0f
 Chi sei?
 ________________________________________________________________________________1-005ae35c___019d66b4/01dd7ab4
@@ -3549,7 +3549,7 @@ ________________________________________________________________________________
 Il mio nuovo piatto preferito.
 ________________________________________________________________________________1-005783b0___019abb84/01dacf84
 Davvero?* [--o]Ti piace?[/]* Sono cosí [l]contenta![/]* Pensavo sarebbe stato [*r]disgustoso![/]* Io ho dovuto sputarla!
-________________________________________________________________________________1-005786c8___019ac089/01dad489
+________________________________________________________________________________1-00578720___019ac10f/01dad50f
 Ci sono delle [*p]lische di pesce[/] dentro,* credo.*.*.* Anche io ho fatto fatica ad ingoiare.* È stato [r*]veramente disgustoso![/]
 ________________________________________________________________________________1-00578a90___019ac61c/01dada1c
 Davvero?* Ti è piaciuta cosí tanto?* [~l]Sono cosí contenta![/]* Pensavo sarebbe stata [r*]pessima!
@@ -3644,7 +3644,7 @@ Musica
 ________________________________________________________________________________1-005d64fa-005d653b___019f0251/01df1651
 Musica aggiuntiva
 ________________________________________________________________________________1-005d6784___019f02ce/01df16ce
-Scrittore
+Scrittura
 ________________________________________________________________________________1-005d6a0e-005d6a4f___019f0318/01df1718
 Arte
 ________________________________________________________________________________1-005d6c98-005d6cd9___019f038b/01df178b
@@ -3795,15 +3795,15 @@ Studio
 ________________________________________________________________________________1-005e11a2___019f8c2c/01dfa02c
 Villa
 ________________________________________________________________________________1-005e16b6___019f8cf2/01dfa0f2
-Drg.Nastro
-________________________________________________________________________________1-005e17fb___019f8d39/01dfa139
-Mcll.Casa
+Nastro Drg.
+________________________________________________________________________________1-005e1940___019f8d79/01dfa179
+Mattatoio
 ________________________________________________________________________________1-005e1bca___019f8db2/01dfa1b2
 Bunker
 ________________________________________________________________________________1-005e1e54___019f8df9/01dfa1f9
 Bunker p.2
 ________________________________________________________________________________1-005e20de___019f8e5c/01dfa25c
-Gvrn. Laboratorio
+Lab. Governo
 ________________________________________________________________________________1-005e2368___019f8f61/01dfa361
 Continuare dal livello precedente?
 ________________________________________________________________________________1-005e25f2___019f9144/01dfa544
