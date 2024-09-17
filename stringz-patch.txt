@@ -1098,7 +1098,7 @@ Non ci sono [y]bambini[/] in questo edificio.* Me ne sono assicurato.* L'uomo [r
 ________________________________________________________________________________1-005cda18___019eb823/01decc23
 Bambini nel [r]Terzo Distretto?[/]* [*]Heh.
 ________________________________________________________________________________1-005cdd88___019ebb87/01decf87
-Quel tipo [y]non aveva bambini.[/]* Era un [r]drogato senza nessuno[/] coinvolto in un [p]giro di droga.
+Quel tizio [y]non aveva bambini.[/]* Era un [r]drogato senza nessuno[/] coinvolto in un [p]giro di droga.
 ________________________________________________________________________________1-005ce0f8___019ebeee/01ded2ee
 Randy,* controlla il suo appartamento per della [r]roba strana.
 ________________________________________________________________________________1-005ce468___019ec2dc/01ded6dc
@@ -1870,7 +1870,7 @@ Ora sono io a fare le domande.
 ________________________________________________________________________________1-00589bd8___019bce1e/01dbe21e
 Benvenuto al [y~]Centro di Ricerca Sinergica,[/]* sei venuto per-?
 ________________________________________________________________________________1-00589f48___019bd2f1/01dbe6f1
-[!><^&~4]Ehi, ti conosco![/]* Sei il tipo che si [y]fa la doccia con la spada.[/]* Non indossavi lo [a]stesso accappatoio[/] al [r]Murdower?
+[!><^&~4]Ehi, ti conosco![/]* Sei il tizio che si [y]fa la doccia con la spada.[/]* Non indossavi lo [a]stesso accappatoio[/] al [r]Murdower?
 ________________________________________________________________________________1-0058a1dc-0058a394-0058ac2c-0058ade4-0058b67c-0058b834___019bd68c/01dbea8c
 Posso solo andare?
 ________________________________________________________________________________1-0058a54c___019bd741/01dbeb41
@@ -2272,7 +2272,7 @@ Cosa stai facendo?* I tuoi obiettivi sono ancora vivi.
 ________________________________________________________________________________1-005c0188___019e2ca4/01de40a4
 [*]Cosa* [><^!r]Diamine[/*]* hai fatto?
 ________________________________________________________________________________1-00441230-004f46c8___018bc72e/01cbdb2e
-Vediamo...* Parlami di nuovo dei [r]tipi mascherati...
+Vediamo...* Parlami di nuovo di quei [r]tizi mascherati...
 ________________________________________________________________________________1-004d8478___0192d715/01d2eb15
 [r*!><^]Dammi un cazzo di rasoio,*[!.<] шлюха[@]!
 ________________________________________________________________________________1-004d87e8___0192d93e/01d2ed3e
@@ -3150,7 +3150,7 @@ C-cosa?
 ________________________________________________________________________________1-0054b540___01989b97/01d8af97
 [*]Ricordi la conversazione che abbiamo avuto l'altra notte riguardo una [r]grande scelta[/*] che dovevi compiere?* [><!o]Eccola davanti a te![/*]* [y]Vita[/*] o [a]morte![/*]* Scegli tu! [y]He he heeeee!
 ________________________________________________________________________________1-0054b8b0___0198a27e/01d8b67e
-[*]Scegli la [y]vita,[/*] [r]questi tipi moriranno[/*] e tu te ne andrai via.* Scegli la [a]morte[/*] e,* beh,* penso che tu possa arrivarci da solo.
+[*]Scegli la [y]vita,[/*] [r]questi tizi moriranno[/*] e tu te ne andrai via.* Scegli la [a]morte[/*] e,* beh,* penso che tu possa arrivarci da solo.
 ________________________________________________________________________________1-0054bc20___0198aa34/01d8be34
 [*]La decisione che prendi [r]non riguarda solo il tuo destino.[/*]* Indossare la [a]maschera della morte[/*] significa personificare la morte stessa;* allo stesso modo,* la [y]maschera della vita[/*] dona la vita a [y]coloro che il tuo cuore desidera proteggere.
 ________________________________________________________________________________1-0054beb4-0054c224-0054e63c-0054f3fc-005501bc___0198af47/01d8c347
@@ -3300,7 +3300,7 @@ Ehmm...* Anche tu sei [y]un samurai?[/]* Come [a]quelli del film?
 ________________________________________________________________________________1-0055cf20___019977fd/01d98bfd
 [!>a]Lo sapevo![/]* Hai una [y*]spada molto bella,[/]* e [o~]ti vesti come loro!
 ________________________________________________________________________________1-0055d290___01997b49/01d98f49
-Oh.* Immagino tu sia solo [p]un tipo in un accappatoio[/], allora.
+Oh.* Immagino tu sia solo [p]un tizio in un accappatoio[/], allora.
 ________________________________________________________________________________1-0055d600___01997f46/01d99346
 [p]Davvero?[/]* Ne [y]sembri proprio uno,[/]* e hai una [o~]spada bellissima.[/]* [!>]Credo che tu sia un samurai!
 ________________________________________________________________________________1-0055d970___019983af/01d997af
