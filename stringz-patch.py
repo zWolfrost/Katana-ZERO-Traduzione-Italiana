@@ -3,9 +3,9 @@
 import json
 
 
-TRANSLATION_FILEPATH = './translation.json'
-STRINGZ_FILEPATH = './stringz-full.txt'
-PATCH_FILEPATH = './stringz-patch.txt'
+TRANSLATION_FILEPATH = "./translation.json"
+STRINGZ_FILEPATH = "./stringz-full.txt"
+PATCH_FILEPATH = "./stringz-patch.txt"
 
 
 # Apri i file
