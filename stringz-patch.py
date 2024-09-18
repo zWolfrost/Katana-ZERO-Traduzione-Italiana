@@ -53,10 +53,10 @@ OFFSET_BLACKLIST = [
     "-004d339f-004ddf7f-004ddfab-005b483e"
 ]
 CHAR_REPLACE = {
-    "Ì": "Í",
     "ì": "í",
-    "Ò": "Ó",
+    "Ì": "Í",
     "ò": "ó",
+    "Ò": "Ó",
 }
 
 patch.write('_' * 80 + "https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana")
