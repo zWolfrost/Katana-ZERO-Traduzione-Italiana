@@ -1014,7 +1014,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-005c3f68-005c04f8___019e2ed6/01de42d6
 [r*!><^]Tu.*.*.* [!]Capisci cosa hai fatto?
 ________________________________________________________________________________1-005c42d8-005c0868___019e32c6/01de46c6
-Io.*.*.* Non sono riuscito a [p]raggiungere mia figlia[/] tutta la giornata.* [!>^y*3]Il mio telefono,[/]* [r]Perché ce l'ho ancora?
+Io.*.*.* Non sono riuscito a [p]raggiungere mia figlia[/] tutta la giornata.* [!>^y*3]Il mio telefono,[/]* [r]perché ce l'ho ancora?
 ________________________________________________________________________________1-005c4648-005c0bd8___019e3821/01de4c21
 [*]Io-* posso spiegarlo.[/]* Non [r]verranno a cercarmi.[/]* Non ho avuto *[r*!^<>]niente*[/] a che fare con questo.
 ________________________________________________________________________________1-005c48dc-005c4a94-005c0e6c-005c1024___019e3b00/01de4f00
@@ -1026,11 +1026,11 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-005c68a8___019e626c/01de766c
 [--*r].*.*.*Stai commettendo un grosso errore.
 ________________________________________________________________________________1-005c6c18___019e6696/01de7a96
-[^---]Idiota.[/]* [r+!><*]Idiota del cazzo![/*]* Pensavi davvero che [a%]Chronos[/*] fosse l'unica droga sviluppata dal governo per la guerra?
+[^---]Idiota.[/]* [r+!><*]Idiota del cazzo![/*]* Pensavi davvero che il [a%]Chronos[/*] fosse l'unica droga sviluppata dal governo per la guerra?
 ________________________________________________________________________________1-005c6f88___019e6aee/01de7eee
 [r--*]Avrei dovuto farlo molto tempo fa.
 ________________________________________________________________________________1-005c72f8___019e6cae/01de80ae
-[r*-]Non ti dovró più sopportare!
+[r*-]Non dovró più soffrire per mano tua!
 ________________________________________________________________________________1-005c7668___019e6f5a/01de835a
 [a%]Consegna di[/y] Chronos[/] - 3:30 di Mercoledí. 286-esimo anello, Laboratorio di armi speciali della Nuova Mecca.
 ________________________________________________________________________________1-005c79d8___019e7259/01de8659
