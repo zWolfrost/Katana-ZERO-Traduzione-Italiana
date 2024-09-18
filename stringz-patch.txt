@@ -3846,8 +3846,8 @@ AVANTI VELOCE
 ________________________________________________________________________________1-005e53a6-005fec70___019fa340/01dfb740
 TEMPO
 ________________________________________________________________________________1-005e5630___019fa586/01dfb986
-Katana ZERO utilizza una funzione
-di salvataggio automatico.
+Katana ZERO utilizza una
+funzione di salvataggio automatico.
 Non uscire quando questo icona è visualizzata.
 ________________________________________________________________________________1-005e58ba-005f0fcb___019fa7f5/01dfbbf5
 AVVISO
