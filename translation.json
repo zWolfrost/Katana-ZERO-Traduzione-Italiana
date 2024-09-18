@@ -1962,7 +1962,7 @@
     "¿Leer dossier?": "Vuoi leggere il dossier?",
     "¿Ir a casa?": "Vuoi tornare a casa?",
     "¿Abrir criocámara?": "Vuoi aprire la criocamera?",
-    "HACE 7 AÑOS": "7 ANNI FA",
+    "HACE 7 AÑOS": "7 ANNI PRIMA",
     "Laboratorio, [y]modo Pasada rápida[/] y [r]modo Difícil[/] desbloqueados.": "Laboratorio del governo, [y]modalità Speedrun[/] e [r]modalità Difficile[/] sbloccate.",
     "CONTROL NO VÁLIDO": "COMANDO NON VALIDO",
     "CONTROLES NO VÁLIDOS O INEXISTENTES": "COMANDI NON VALIDI O INESISTENTI",
@@ -2143,5 +2143,6 @@
     "FINALIZAR PASADA": "TERMINA PARTITA",
     "MOSTRAR RÉCORDS": "MOSTRA RECORD",
     "###  Q_T%YmMWVpqgyD@?ESGA3B6547CX9L8ORP0H&2UNFK/\\j<>vewsJzrbaZd$hcnfuox*~+kt])=}[{(I1-,i;l^|!.:\"`'ÄäÀàÂâËëÉéÈèÊêÏïÎîŒœÖöÔôÙùÛûÜüẞßÇçÑñÁáÃãÆæÍíÓóÚú…⁃‐‑‒–—―АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяё¿¡Õõª": "  Q_T%YmMWVpqgyD@?ESGA3B6547CX9L8ORP0H&2UNFK/\\j<>vewsJzrbaZd$hcnfuox*~+kt])=}[{(I1-,i;l^|!.:\"`'ÄäÀàÂâËëÉéÈèÊêÏïÎîŒœÖöÔôÙùÛûÜüẞßÇçÑñÁáÃãÆæÍíÓóÚú…⁃‐‑‒–—―АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяё¿¡Õõª",
-    "###  АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя.1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÆæÄäÁáÀàÂâÃãËëÉéÈèÊêÏïÎîÍíŒœÖöÔôÓóÕõÙùÛûÜüÚúẞßÇçÑñª'-‐‑‒–—―": "  АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя.1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÆæÄäÁáÀàÂâÃãËëÉéÈèÊêÏïÎîÍíŒœÖöÔôÓóÕõÙùÛûÜüÚúẞßÇçÑñª'-‐‑‒–—―"
+    "###  АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя.1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÆæÄäÁáÀàÂâÃãËëÉéÈèÊêÏïÎîÍíŒœÖöÔôÓóÕõÙùÛûÜüÚúẞßÇçÑñª'-‐‑‒–—―": "  АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя.1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÆæÄäÁáÀàÂâÃãËëÉéÈèÊêÏïÎîÍíŒœÖöÔôÓóÕõÙùÛûÜüÚúẞßÇçÑñª'-‐‑‒–—―",
+    "Loc&Load": "Loc&Load\nLuca Russo ;)"
 }
