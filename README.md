@@ -23,7 +23,7 @@ Se trovi delle frasi spagnole non tradotte, fai uno screenshot e crea un'issue s
 
 Un'altra cosa molto gentile che potresti fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente delle frasi che suonano male, nel file "translation.json", e facendomi sapere tramite un issue o creando una pull request che sistemi il problema direttamente.
 
-Puoi aiutarti a tradurre dallo spagnolo usando i dialoghi inglesi. Sono spesso circa 5 lingue straniere sopra quelli spagnoli nel file "stringz-full.txt".
+Puoi aiutarti a tradurre dallo spagnolo usando i dialoghi inglesi. Sono spesso circa 5 lingue straniere sopra quelli spagnoli nel file "stringz.txt".
 
 Inoltre, puoi supportare il mio lavoro donandomi qualcosa [su questa pagina](https://paypal.me/zwolfrost) o [quest'altra](https://buymeacoffee.com/zwolfrost). Ne sarei estremamente grato.
 
