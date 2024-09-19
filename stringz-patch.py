@@ -1,10 +1,10 @@
 # Questo script permette di creare il file "stringz-patch.txt",
-# partendo dal file "stringz.txt" (tutte le stringhe di gioco) e dal file "translation.json" (le traduzioni delle stringhe).
+# partendo dal file "stringz-full.txt" (tutte le stringhe di gioco) e dal file "translation.json" (le traduzioni delle stringhe).
 import json
 
 
 TRANSLATION_FILEPATH = "./translation.json"
-STRINGZ_FILEPATH = "./stringz.txt"
+STRINGZ_FILEPATH = "./stringz-full.txt"
 PATCH_FILEPATH = "./stringz-patch.txt"
 
 
