@@ -2236,7 +2236,7 @@ Non dobbiamo essere nemici. Possiamo fare squadra.
 ________________________________________________________________________________1-005b3870___019dda89/01ddee89
 Questa battaglia si svolge nelle nostre menti -* è un [a~]torneo di determinazione.[/]* Ogni volta che mi [r]uccidi,[/]* capisco un po' meglio [o]come batterti.
 ________________________________________________________________________________1-005b3be0___019de1c1/01ddf5c1
-[o]Quando avró finito con te,[/]* andró a cercare le persone che ci hanno fatto questo.* Ti prometto -* non permetteró che la tua [p]morte[/] sarà invano.* [r*]Soffriranno.
+[o]Quando avró finito con te,[/]* andró a cercare le persone che ci hanno fatto questo.* Te lo prometto -* non permetteró che la tua [p]morte[/] sarà invano.* [r*]Soffriranno.
 ________________________________________________________________________________1-005b402c___019de6a5/01ddfaa5
 Non dobbiamo essere nemici. Possiamo ucciderli insieme.
 ________________________________________________________________________________1-005b439c___019de893/01ddfc93
@@ -3124,7 +3124,7 @@ Non ci sono molti dettagli,* ma il tenente dice che il nostro uomo è [y]uno spa
 ________________________________________________________________________________1-00546d10___01985a25/01d86e25
 Pensi che sia [r*]il Dragone?
 ________________________________________________________________________________1-00547080___01985cf2/01d870f2
-Se lo è.*.*.*, gli ho riservato una [r]pallottola[/] per quello che ha fatto a [l]Terry il Muscoloso.
+Se lo è.*.*.* gli ho riservato una [r]pallottola[/] per quello che ha fatto a [l]Terry il Muscoloso.
 ________________________________________________________________________________1-005473f0___0198606e/01d8746e
 [l]Riposa in pace, Terry il Muscoloso.*[/] [a]Sicuramente starà sollevando pesi con San Pietro.
 ________________________________________________________________________________1-00547760___019863ca/01d877ca
