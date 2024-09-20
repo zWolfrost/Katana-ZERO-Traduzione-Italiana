@@ -8,9 +8,9 @@ Comunque, crearne una su altre versioni non dovrebbe essere troppo complicato; i
 
 &nbsp;
 ## Come patchare il gioco con la traduzione
-Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)", scarica "[stringz-patch.txt](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/stringz-patch.txt)" (Ctrl+S) ed esegui questo comando:
+Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)", scarica "[stringz_patch.txt](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/stringz_patch.txt)" (Ctrl+S) ed esegui questo comando:
 ```
-"C:\percorso\di\exestringz.exe" 2 "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\stringz-patch.txt"
+"C:\percorso\di\exestringz.exe" 2 "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\stringz_patch.txt"
 ```
 ATTENZIONE: Forse dovresti creare un backup del file eseguibile di gioco (solo quello verrà modificato), in quanto questo comando lo sovrascriverà in modo irreversibile (o meglio, dovrai riscaricare il gioco per riportarlo da capo).
 
@@ -23,7 +23,7 @@ Se trovi delle frasi spagnole non tradotte, fai uno screenshot e crea un'issue s
 
 Un'altra cosa molto gentile che potresti fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente delle frasi che suonano male, nel file "translation.json", e facendomi sapere tramite un issue o creando una pull request che sistemi il problema direttamente.
 
-Puoi aiutarti a tradurre dallo spagnolo usando i dialoghi inglesi. Sono spesso circa 5 lingue straniere sopra quelli spagnoli nel file "stringz-full.txt".
+Puoi aiutarti a tradurre dallo spagnolo usando i dialoghi inglesi. Sono spesso circa 5 lingue straniere sopra quelli spagnoli nel file "stringz_full.txt".
 
 Inoltre, puoi supportare il mio lavoro donandomi qualcosa [su questa pagina](https://paypal.me/zwolfrost) o [quest'altra](https://buymeacoffee.com/zwolfrost). Ne sarei estremamente grato.
 
