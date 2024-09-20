@@ -146,7 +146,7 @@ Che droghe?
 ________________________________________________________________________________1-004911cc___018f3f1d/01cf531d
 Dove le hai trovate?
 ________________________________________________________________________________1-00491618___018f42ff/01cf56ff
-[*^3]Se la [y]merda che ho trovato[/*^3] era tua...[/]** [>r!^<*]OH DIO. *[/][^>*]Posso restituirtela dopo lo show,*[^o*] ti prego non farmi del male.
+[*^3]Se la [y]merda che ho trovato[/*^3] era tua...[/]** [>r!^<*]OH DIO. *[/][^>*]Posso restituirtela dopo lo spettacolo,*[^o*] ti prego non farmi del male.
 ________________________________________________________________________________1-00491a64-00493b0c___018f46ec/01cf5aec
 Dimmi cosa hai trovato.
 ________________________________________________________________________________1-00491c1c-00492d4c___018f4809/01cf5c09
@@ -204,7 +204,7 @@ I nostri datori di lavoro non sono a conoscenza delle [y]circostanze [/]dietro l
 ________________________________________________________________________________1-00498940___018f9d9b/01cfb19b
 [o]Io sono.[/]* Sei stato [r]negligente nei tuoi doveri.
 ________________________________________________________________________________1-00498cb0___018fa0d1/01cfb4d1
-[y]Future deviazioni dalle instruzioni[/] saranno punite con una *[r]disciplina severa.
+[y]Future deviazioni dalle istruzioni[/] saranno punite con una *[r]disciplina severa.
 ________________________________________________________________________________1-00499020___018fa2f5/01cfb6f5
 Eccoti qui!
 ________________________________________________________________________________1-00499390___018fa4bf/01cfb8bf
@@ -968,7 +968,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-00510918___019575a5/01d589a5
 [r]A volte non so cosa fare con te...
 ________________________________________________________________________________1-00510c88___01957a6f/01d58e6f
-Tuttavia,* è [a]piuttosto impressionante[/] che tu sia riuscito a [y]eliminare lo spadaccino.[/]* Il capo potrebbe riuscire ad ignorare le tue [r]tendenze omicide[/] per questo.
+Tuttavia,* è [a]piuttosto impressionante[/] che tu sia riuscito a [y]eliminare lo spadaccino.[/]* Il capo potrebbe riuscire a ignorare le tue [r]tendenze omicide[/] per questo.
 ________________________________________________________________________________1-00510ff8___01957eba/01d592ba
 [*]Heh,[/]* [y]non è stato un gran problema.
 ________________________________________________________________________________1-00511368___019583d5/01d597d5
@@ -1508,7 +1508,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-00466a08___018d64ce/01cd78ce
 [!*^r]DATE L'ALLARME.
 ________________________________________________________________________________1-00466d78___018d6711/01cd7b11
-Ehi,* chi [y]vincerebbe in un combattimento,[/]* [o*] il Dragone...[/]* o [a]Terry il Muscoloso?
+Ehi,* chi [y]vincerebbe in un combattimento,[/]* [o*]il Dragone...[/]* O [a]Terry il Muscoloso?
 ________________________________________________________________________________1-004670e8___018d6aa4/01cd7ea4
 Stai *[!>^~]scherzando*[/] vero?* [a]Terry il Muscoloso[/] non salta mai [o]leg day.
 ________________________________________________________________________________1-00467458___018d6ee2/01cd82e2
@@ -2670,7 +2670,7 @@ Dammi solo qualcosa di forte.
 ________________________________________________________________________________1-00516a34___0195db7f/01d5ef7f
 Della Melma blu.
 ________________________________________________________________________________1-00516bec___0195dc90/01d5f090
-Melatini... con ghiaccio.
+Melatini... Con ghiaccio.
 ________________________________________________________________________________1-00516da4___0195dda2/01d5f1a2
 Megablaster alla ciliegia.
 ________________________________________________________________________________1-00517038___0195e017/01d5f417
@@ -2714,7 +2714,7 @@ Ho perso la memoria.
 ________________________________________________________________________________1-0051a580___019604de/01d618de
 Bella storia,* [a]faccia da bambino.[/]* La guerra è finita 7 anni fa.* Tu stavi [o]succhiando il latte[/] mentre noi ci facevamo il culo [p]nella giungla.
 ________________________________________________________________________________1-0051a8f0___01960b54/01d61f54
-Sai,* avremmo [o*]vinto[/] se quei...* [r]fottuti hippie[/] del [a]Primo Distretto[/] non avessero iniziato con le loro stronzate contro [r]l'uccidere i bambini.
+Sai,* avremmo [o*]vinto[/] se quei...* [r]Fottuti hippie[/] del [a]Primo Distretto[/] non avessero iniziato con le loro stronzate contro [r]l'uccidere i bambini.
 ________________________________________________________________________________1-0051ac60___01961076/01d62476
 [!><*2]Che si fottino quei [p]cromag![w]* [!]E che si fottino i loro [r]figli morti!
 ________________________________________________________________________________1-0051aef4___019612b7/01d626b7
@@ -3935,17 +3935,17 @@ Uccidere soldati non era poi cosí male. Lo ricordo a malapena.
 ________________________________________________________________________________1-005ec35e___019fd41c/01dfe81c
 Ma bruciare quei villaggi, vedere quei paesani nudi piangere...
 ________________________________________________________________________________1-005ec5e8___019fd72f/01dfeb2f
-Lo vedo ancora tutti i giorni. Non è stress post-traumatico, è la droga.
+Lo vedo ancora ogni giorno. Non è stress post-traumatico, è la droga.
 ________________________________________________________________________________1-005ec872___019fd9ff/01dfedff
 È passata solo una settimana, ma mi sento come se fosse passato un anno.
 ________________________________________________________________________________1-005ecafc___019fdc9f/01dff09f
-Ogni parola si allunga, le zanzare si fanno sempre più rumorose.
+Ogni parola diventa più lunga, le zanzare si fanno sempre più rumorose.
 ________________________________________________________________________________1-005ecd86___019fe000/01dff400
-Quando la droga finisce, il tempo si ferma e la giungla ti cattura per sempre.
+Quando la droga finisce, il tempo si ferma, e la giungla ti cattura per sempre.
 ________________________________________________________________________________1-005ed010___019fe318/01dff718
 Sono... Granelli di sabbia in una clessidra che si svuota sempre di più.
 ________________________________________________________________________________1-005ed29a___019fe59e/01dff99e
-So cosa arriverà dopo. Ho bisogno di chiederti un favore.
+So cosa succederà dopo. Ho bisogno di chiederti un favore.
 ________________________________________________________________________________1-005ed524___019fe725/01dffb25
 NASCONDIGLIO DELLA VILLA
 ________________________________________________________________________________1-005eda38___019fe858/01dffc58
