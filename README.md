@@ -12,7 +12,7 @@ Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestri
 ```sh
 "C:\percorso\di\exestringz.exe" 2 "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\stringz_patch.txt"
 ```
-**ATTENZIONE**: Questo comando sovrascriverà il file eseguibile di gioco in modo irreversibile (o meglio, dovrai riscaricare il gioco per riportarlo da capo), quindi è consigliabile creare un backup.
+**ATTENZIONE**: Questo comando sovrascriverà il file eseguibile di gioco in modo irreversibile, quindi è consigliabile creare un backup. **Non** perderai i tuoi progressi in caso contrario, ma dovrai riscaricare il gioco per riportarlo da capo.
 
 *PS: Puoi trascinare i file nel prompt dei comandi per inserire il loro percorso più velocemente.*
 
