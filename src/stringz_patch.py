@@ -19,8 +19,8 @@ except FileNotFoundError as e:
 
 
 # Dividi i dialoghi in stringz
-stringz_offsets: list[str] = []
-stringz_lines: list[str] = []
+stringz_offsets = []
+stringz_lines = []
 for line in stringz_full:
 	if line.startswith('_' * 80):
 		stringz_offsets.append(line)
@@ -36,7 +36,7 @@ for line in stringz_lines:
 	if line in translation:
 		translation_counter[line] += 1
 for line, count in translation_counter.items():
-	if line.startswith('#' * 3):
+	if line.startswith('###'):
 		continue
 	if count == 0:
 		print(f"La seguente linea è inesistente:\n{line}\n")
@@ -57,7 +57,7 @@ with open(STRINGZ_PATCH_FILEPATH, 'a', encoding='utf-8') as stringz_patch:
 
 	stringz_index = 0
 	for line in translation:
-		if line.startswith('#' * 3):
+		if line.startswith('###'):
 			continue
 
 		try:

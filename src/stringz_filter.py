@@ -20,8 +20,8 @@ except FileNotFoundError as e:
 
 
 # Dividi i dialoghi in stringz
-stringz_offsets: list[str] = []
-stringz_lines: list[str] = []
+stringz_offsets = []
+stringz_lines = []
 for line in stringz_full:
 	if line.startswith('_' * 80):
 		stringz_offsets.append(line)

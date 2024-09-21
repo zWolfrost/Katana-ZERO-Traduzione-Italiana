@@ -25,7 +25,7 @@ BLACK_LIST_RULEID = [
 with open(SPELLCHECK_FILEPATH, 'a', encoding='utf-8') as spellcheck:
 	spellcheck.truncate(0)
 	for line_translated in translation.values():
-		if not isinstance(line_translated, str) or line_translated.startswith('#' * 3):
+		if not isinstance(line_translated, str) or line_translated.startswith('###'):
 			continue
 
 		line_clean = re.sub(r'\[.*?\]|\*', '', line_translated)
