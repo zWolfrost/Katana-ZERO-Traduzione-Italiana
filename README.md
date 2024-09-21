@@ -4,7 +4,7 @@ Detto francamente, il gioco è un capolavoro, e merita di essere localizzato in 
 
 **ATTENZIONE: Questa patch funziona solo sulla versione di gioco "v1.0.5", build "3889288", l'ultima disponibile**
 
-Comunque, crearne una su altre versioni non è troppo complicato; in questa repository ci sono i file necessari per [crearla su qualsiasi build](#come-creare-una-patch-per-una-build-più-vecchia). C'è solo quella dell'ultima versione per questioni di comodità. Se vorresti aiuto o hai domande riguardo le istruzioni, chiedi pure.
+Comunque, crearne una su altre versioni non è troppo complicato; in questa repository ci sono i file necessari per [crearla su qualsiasi build](#come-creare-una-patch-per-una-build-meno-recente). C'è solo quella dell'ultima versione per questioni di comodità. Se vorresti aiuto o hai domande riguardo le istruzioni, chiedi pure.
 
 &nbsp;
 ## Come patchare il gioco con la traduzione
