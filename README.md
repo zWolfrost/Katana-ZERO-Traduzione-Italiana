@@ -4,7 +4,7 @@ Detto francamente, il gioco è un capolavoro, e merita di essere localizzato in 
 
 **ATTENZIONE: Questa patch funziona solo sulla versione di gioco "v1.0.5", build "3889288", l'ultima disponibile**
 
-Comunque, crearne una su altre versioni non dovrebbe essere troppo complicato; in questa repository ci sono i file necessari per crearla su qualsiasi build. C'è solo quella dell'ultima versione per questioni di comodità.
+Comunque, crearne una su altre versioni non dovrebbe essere troppo complicato; in questa repository ci sono i file necessari per crearla su qualsiasi build. C'è solo quella dell'ultima versione per questioni di comodità. Se desideri aiuto per creare una patch per una versione diversa, chiedi pure.
 
 &nbsp;
 ## Come patchare il gioco con la traduzione
@@ -23,12 +23,7 @@ Se trovi delle frasi spagnole non tradotte, fai uno screenshot e crea un'issue s
 
 Un'altra cosa molto gentile che potresti fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente delle frasi che suonano male, nel file "translation.json", e facendomi sapere tramite un issue o creando una pull request che sistemi il problema direttamente.
 
-Puoi aiutarti a tradurre dallo spagnolo usando i dialoghi inglesi. Sono spesso circa 5 lingue straniere sopra quelli spagnoli nel file "stringz_full.txt".
-
 Inoltre, puoi supportare il mio lavoro donandomi qualcosa [su questa pagina](https://paypal.me/zwolfrost) o [quest'altra](https://buymeacoffee.com/zwolfrost). Ne sarei estremamente grato.
-
-### Stai per caso rompendo il copyright del gioco?
-Per niente. Per usare questa traduzione devi avere comunque a disposizione del gioco, e del file con tutte le stringhe non ci fai nulla, di per sè.
 
 ### Non dovrai rifare tutto da capo una volta uscito il DLC?
 È probabile che una volta uscito il DLC si dovranno reinserire le linee tradotte nel giusto punto, ma le linee tradotte non sono vincolate dalla loro posizione (nel file json), quindi ci vorrà veramente poco tempo per sistemare le cose. Ovviamente in tal caso dovrò tradurre anche i dialoghi del DLC, e ci vorrà circa una settimana, se sarà lungo quanto il gioco originale.
@@ -37,6 +32,9 @@ L'unica cosa che potrebbe vanificare i miei sforzi (e quelli di chi ha contribui
 
 ### Quanto è fedele questa traduzione?
 Direi molto. Per chi lo stesse pensando, non ho tradotto dalla traduzione spagnola, ma dall'inglese, quella originale. Mi servo solo della traduzione spagnola per sostituirla con quella italiana. Ho cercato il più possibile di non distorcere il significato delle frasi, tenendo presente del loro contesto nel gioco, ma non assicuro nulla.
+
+### Stai per caso rompendo il copyright del gioco?
+Per niente. Per usare questa traduzione devi avere comunque a disposizione del gioco, e del file con tutte le stringhe non ci fai nulla, di per sè.
 
 ### *Hai una domanda non presente tra queste?*
 Se hai qualche altra domanda apri un'issue a proposito, e proverò a risponderti in tempo utile.
