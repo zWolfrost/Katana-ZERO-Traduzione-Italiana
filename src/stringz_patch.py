@@ -1,5 +1,5 @@
-# Questo script permette di creare il file "stringz-patch.txt",
-# partendo dal file "stringz-full.txt" (tutte le stringhe di gioco) e dal file "translation.json" (le traduzioni delle stringhe).
+# Questo script permette di creare il file "stringz_patch.txt",
+# partendo dal file "stringz_full.txt" (tutte le stringhe di gioco) e dal file "translation.json" (le traduzioni delle stringhe).
 import json
 
 
@@ -46,7 +46,7 @@ for line, count in translation_counter.items():
 
 
 # Inserisci le stringhe in stringz-patch.txt
-def replace_with_table(string: str, table: dict[str, str]) -> str:
+def replace_with_table(string, table):
 	for key, value in table.items():
 		string = string.replace(key, value)
 	return string
