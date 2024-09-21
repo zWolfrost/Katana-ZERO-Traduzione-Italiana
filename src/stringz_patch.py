@@ -36,12 +36,13 @@ for line in stringz_lines:
 	if line in translation:
 		translation_counter[line] += 1
 for line, count in translation_counter.items():
-	if not line.startswith('#' * 3) and count != 1:
-		if count == 0:
-			print("La seguente linea è inesistente:\n" + line)
-		else:
-			print("La seguente linea è presente più di una volta:\n" + line)
-		exit(1)
+	if line.startswith('#' * 3):
+		continue
+	if count == 0:
+		print(f"La seguente linea è inesistente:\n{line}\n")
+		del translation[line]
+	elif count != 1:
+		print(f"La seguente linea è presente più di una volta:\n{line}\n")
 
 
 # Inserisci le stringhe in stringz-patch.txt
@@ -62,12 +63,12 @@ with open(STRINGZ_PATCH_FILEPATH, 'a', encoding='utf-8') as stringz_patch:
 		try:
 			stringz_index = stringz_lines.index(line, stringz_index + 1)
 		except ValueError:
-			print("La seguente linea è fuori ordine:\n" + line)
-			exit(1)
+			print(f"La seguente linea è fuori ordine:\n{line}\n")
+			continue
 
 		offsets = replace_with_table(stringz_offsets[stringz_index], translation["###"]["offset_replace"])
 		line_translated = replace_with_table(translation[line], translation["###"]["string_replace"])
 
 		stringz_patch.write('\n' + offsets + '\n' + line_translated)
 
-print("Tutte le linee di dialogo sono state correttamente sostituite.")
+print("Sostituzione completata.")
