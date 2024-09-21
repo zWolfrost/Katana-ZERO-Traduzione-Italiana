@@ -21,6 +21,8 @@ Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestri
 Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)", scarica [questa repository](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/archive/refs/heads/main.zip) ed esegui questi comandi all'interno della cartella "src" della repository scaricata:
 ```sh
 "C:\percorso\di\exestringz.exe" 1 -f "C:\percorso\di\Katana ZERO.exe" "stringz_full.txt"
+```
+```sh
 py stringz_patch.py
 ```
 **ATTENZIONE**: il primo comando durerà molto di tempo (anche 30 minuti).
