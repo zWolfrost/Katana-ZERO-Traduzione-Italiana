@@ -17,7 +17,7 @@ Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestri
 *PS: Puoi trascinare i file nel prompt dei comandi per inserire il loro percorso più velocemente.*
 
 &nbsp;
-## Come creare una patch per una build più vecchia
+## Come creare una patch per una build meno recente
 Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)", scarica [questa repository](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/archive/refs/heads/main.zip) ed esegui questi comandi all'interno della cartella "src" della repository scaricata:
 ```sh
 "C:\percorso\di\exestringz.exe" 1 -f "C:\percorso\di\Katana ZERO.exe" "stringz_full.txt"
@@ -25,18 +25,16 @@ Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestri
 ```sh
 py stringz_patch.py
 ```
-**ATTENZIONE**: il primo comando durerà molto di tempo (anche 30 minuti).
-
-Inoltre, per eseguire il secondo comando, devi avere Python installato sul tuo computer. Quello script creerà il file "stringz_patch.txt" nella "cartella parente", cioè quella che contiene "src".
+**ATTENZIONE**: Il primo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il secondo comando, devi avere Python installato sul tuo computer. Quello script creerà il file "stringz_patch.txt" nella "cartella parente", cioè quella che contiene "src".
 
 Dopo aver eseguito questi comandi, esegui il comando del [paragrafo precedente](#come-patchare-il-gioco-con-la-traduzione) per patchare il gioco.
 
 &nbsp;
 ## FAQ
 ### Come posso aiutarti?
-Se trovi delle frasi spagnole non tradotte, fai uno screenshot e crea un'issue su questa pagina allegando lo screenshot (o perfino un e-mail andrebbe bene). Questa traduzione è stata creata da poco tempo per cui una cosa del genere sarebbe completamente plausibile.
+Se trovi delle frasi spagnole non tradotte, fai uno screenshot e crea un'issue su questa pagina allegando lo screenshot (o perfino un e-mail andrebbe bene). Questa traduzione è stata creata da relativamente poco tempo per cui una cosa del genere sarebbe completamente plausibile.
 
-Un'altra cosa molto gentile che potresti fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente delle frasi che suonano male, nel file "translation.json", e facendomi sapere tramite un issue o creando una pull request che sistemi il problema direttamente.
+Un'altra cosa molto gentile che potresti fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente delle frasi che suonano male nel contesto del gioco, nel file "translation.json", e facendomi sapere.
 
 Inoltre, puoi supportare il mio lavoro donandomi qualcosa [su questa pagina](https://paypal.me/zwolfrost) o [quest'altra](https://buymeacoffee.com/zwolfrost). Ne sarei estremamente grato.
 
@@ -51,7 +49,7 @@ Direi molto. Per chi lo stesse pensando, non ho tradotto dalla traduzione spagno
 Ho cercato il più possibile di non distorcere il significato delle frasi, tenendo presente del loro contesto nel gioco, e catturarne l'impatto, ma non assicuro nulla.
 
 ### Stai per caso rompendo il copyright del gioco?
-Per niente. Per usare questa traduzione devi avere comunque a disposizione il gioco, e del file con tutte le stringhe non ci fai nulla, di per sè.
+No. Per usare questa traduzione devi essere necessariamente a disposizione del file eseguibile di gioco.
 
 ### *Hai una domanda non presente tra queste?*
 Se hai qualche altra domanda apri un'issue a proposito, chiedila sul thread di steam o mandami un email, e proverò a risponderti in tempo utile.
