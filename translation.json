@@ -5,9 +5,9 @@
         "possible_languages": ["en", "ja", "ko", "de", "fr", "es", "pt", "ru", "zh"],
         "description": "https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana",
 
-        "offset_replace": {
-            "1-004d2280-005b854a": "1-004d2280",
-            "1-005da474-004d339f-004ddf7f-004ddfab-005b483e": "1-005da474"
+        "offsets_slice": {
+            "Se requiere tu presencia.": [0, 1],
+            "QUEDAN 10 DÍAS": [0, 1]
         },
         "string_replace": {
             "ì": "í",
