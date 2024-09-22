@@ -18,14 +18,15 @@ Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestri
 
 &nbsp;
 ## Come creare una patch per una build meno recente
-Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)", scarica [questa repository](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/archive/refs/heads/main.zip) ed esegui questi comandi all'interno della cartella "exestringz-translation-tools" della repository scaricata:
+Puoi creare una patch per una build meno recente seguendo questi passaggi. Se preferisci o sei poco "esperto", puoi chiedere a me di farlo, e ti invierò il file pronto.
+Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)" ed esegui questi comandi:
 ```sh
-"C:\percorso\di\exestringz.exe" 1 -f "C:\percorso\di\Katana ZERO.exe" "stringz_full.txt"
-```
-```sh
+git clone --recursive https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana
+cd Katana-ZERO-Traduzione-Italiana\exestringz_translation_scripts
+"C:\percorso\di\exestringz.exe" 1 -f "C:\percorso\di\Katana ZERO.exe" "..\stringz_full.txt"
 py stringz_patch.py
 ```
-**ATTENZIONE**: Il primo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il secondo comando, devi avere Python installato sul tuo computer. Quello script creerà il file "stringz_patch.txt" nella "cartella parente", cioè quella che contiene "exestringz-translation-tools".
+**ATTENZIONE**: Il terzo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il primo e quarto comando, devi avere rispettivamente **Git** e **Python** installati sul tuo computer. Quell'ultimo script creerà il file "stringz_patch.txt" nella "cartella parente" di quella attuale.
 
 Dopo aver eseguito questi comandi, esegui il comando del [paragrafo precedente](#come-patchare-il-gioco-con-la-traduzione) per patchare il gioco.
 
