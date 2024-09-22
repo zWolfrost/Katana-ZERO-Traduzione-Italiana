@@ -18,14 +18,14 @@ Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestri
 
 &nbsp;
 ## Come creare una patch per una build meno recente
-Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)", scarica [questa repository](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/archive/refs/heads/main.zip) ed esegui questi comandi all'interno della cartella "src" della repository scaricata:
+Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)", scarica [questa repository](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/archive/refs/heads/main.zip) ed esegui questi comandi all'interno della cartella "exestringz-translation-tools" della repository scaricata:
 ```sh
 "C:\percorso\di\exestringz.exe" 1 -f "C:\percorso\di\Katana ZERO.exe" "stringz_full.txt"
 ```
 ```sh
 py stringz_patch.py
 ```
-**ATTENZIONE**: Il primo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il secondo comando, devi avere Python installato sul tuo computer. Quello script creerà il file "stringz_patch.txt" nella "cartella parente", cioè quella che contiene "src".
+**ATTENZIONE**: Il primo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il secondo comando, devi avere Python installato sul tuo computer. Quello script creerà il file "stringz_patch.txt" nella "cartella parente", cioè quella che contiene "exestringz-translation-tools".
 
 Dopo aver eseguito questi comandi, esegui il comando del [paragrafo precedente](#come-patchare-il-gioco-con-la-traduzione) per patchare il gioco.
 

@@ -1,5 +1,7 @@
-exestringz/
-src/*.txt
-quick_*
-
 __pycache__
+exestringz/
+src/
+
+*.txt
+*.sh
+!stringz-patch.txt
