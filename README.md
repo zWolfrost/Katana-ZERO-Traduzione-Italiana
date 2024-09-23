@@ -8,9 +8,9 @@ Comunque, crearne una su altre versioni non è troppo complicato; in questa repo
 
 &nbsp;
 ## Come patchare il gioco con la traduzione
-Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)", scarica "[stringz_patch.txt](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/stringz_patch.txt)" (Ctrl+S) ed esegui questo comando:
+Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)", scarica "[strindex_patch.txt](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/stringz_patch.txt)" (Ctrl+S) ed esegui questo comando:
 ```sh
-"C:\percorso\di\exestringz.exe" 2 "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\stringz_patch.txt"
+"C:\percorso\di\exestringz.exe" 2 "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\strindex_patch.txt"
 ```
 **ATTENZIONE**: Questo comando sovrascriverà il file eseguibile di gioco in modo irreversibile, quindi è consigliabile creare un backup. **Non** perderai i tuoi progressi in caso contrario, ma dovrai riscaricare il gioco per riportarlo da capo.
 
@@ -23,10 +23,10 @@ Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestri
 ```sh
 git clone --recursive https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana
 cd Katana-ZERO-Traduzione-Italiana
-"C:\percorso\di\exestringz.exe" 1 -f "C:\percorso\di\Katana ZERO.exe" "stringz_full.txt"
-py exestringz_translation_scripts\stringz_patch.py
+"C:\percorso\di\exestringz.exe" 1 -f "C:\percorso\di\Katana ZERO.exe" "strindex_full.txt"
+py exestringz_translation_scripts\strindex_patch.py
 ```
-**ATTENZIONE**: Il terzo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il primo e quarto comando, devi avere rispettivamente **Git** e **Python** installati sul tuo computer. Quell'ultimo script creerà il file "stringz_patch.txt".
+**ATTENZIONE**: Il terzo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il primo e quarto comando, devi avere rispettivamente **Git** e **Python** installati sul tuo computer. Quell'ultimo script creerà il file "strindex_patch.txt".
 
 Dopo aver eseguito questi comandi, esegui il comando del [paragrafo precedente](#come-patchare-il-gioco-con-la-traduzione) per patchare il gioco.
 

@@ -1,6 +1,6 @@
 __pycache__
-exestringz/
+exestringz
 
 *.txt
 *.sh
-!stringz-patch.txt
+!strindex_patch.txt
