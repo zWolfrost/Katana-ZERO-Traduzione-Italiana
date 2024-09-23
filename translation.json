@@ -9,12 +9,14 @@
             "Se requiere tu presencia.": [0, 1],
             "QUEDAN 10 DÍAS": [0, 1]
         },
-        "string_replace": {
+        "dialog_replace": {
             "ì": "í",
             "Ì": "Í",
             "ò": "ó",
             "Ò": "Ó"
-        }
+        },
+        "dialog_remove_pattern": "\\[.*?\\]|\\*",
+        "dialog_char_whitelist": "\n !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^`abcdefghijklmnopqrstuvwxyz{|}~ ¡ª¿ÀÁÂÃÄÆÇÈÉÊËÍÎÏÑÓÔÕÖÙÚÛÜßàáâãäæçèéêëíîïñóôõöùúûüŒœЁАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяёẞ‐‑‒–—―…⁃"
     },
     "No sé nada. Me topé con ella.": "Non lo so. Mi sono solo scontrato con lei.",
     "Ajá.* Aunque un [a]avance social[/] es parte del [y]proceso de recuperación,[/]* creo que es [o]demasiado pronto[/] para empezar a interactuar con otra gente.": "Capisco.* Nonostante [a]lo sviluppo sociale[/] sia parte del [y]processo di guarigione,[/]* Credo sia [o]troppo presto[/] per iniziare a interagire con gli altri.",

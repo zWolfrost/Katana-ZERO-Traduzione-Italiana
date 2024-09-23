@@ -26,7 +26,7 @@ cd Katana-ZERO-Traduzione-Italiana\exestringz_translation_scripts
 "C:\percorso\di\exestringz.exe" 1 -f "C:\percorso\di\Katana ZERO.exe" "..\stringz_full.txt"
 py stringz_patch.py
 ```
-**ATTENZIONE**: Il terzo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il primo e quarto comando, devi avere rispettivamente **Git** e **Python** installati sul tuo computer. Quell'ultimo script creerà il file "stringz_patch.txt" nella "cartella parente" di quella attuale.
+**ATTENZIONE**: Il terzo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il primo e quarto comando, devi avere rispettivamente **Git** e **Python** installati sul tuo computer. Quell'ultimo script creerà il file "stringz_patch.txt".
 
 Dopo aver eseguito questi comandi, esegui il comando del [paragrafo precedente](#come-patchare-il-gioco-con-la-traduzione) per patchare il gioco.
 
