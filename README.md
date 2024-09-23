@@ -22,9 +22,9 @@ Puoi creare una patch per una build meno recente seguendo questi passaggi. Se pr
 Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)" ed esegui questi comandi:
 ```sh
 git clone --recursive https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana
-cd Katana-ZERO-Traduzione-Italiana\exestringz_translation_scripts
-"C:\percorso\di\exestringz.exe" 1 -f "C:\percorso\di\Katana ZERO.exe" "..\stringz_full.txt"
-py stringz_patch.py
+cd Katana-ZERO-Traduzione-Italiana
+"C:\percorso\di\exestringz.exe" 1 -f "C:\percorso\di\Katana ZERO.exe" "stringz_full.txt"
+py exestringz_translation_scripts\stringz_patch.py
 ```
 **ATTENZIONE**: Il terzo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il primo e quarto comando, devi avere rispettivamente **Git** e **Python** installati sul tuo computer. Quell'ultimo script creerà il file "stringz_patch.txt".
 
