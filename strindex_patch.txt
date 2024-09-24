@@ -776,7 +776,7 @@ Minacciando?* [*y<!^]Ha HA!*[/] Mi sento come se stessi parlando con un autore, 
 ________________________________________________________________________________1-004d3a90___0192a279/01d2b679
 Mi sento come se stessi parlando con un autore, qui,* [*y<!^]Ha HA!*[/] Sei il [*r^<>!]cazzo* [!<]di Dragone!
 ________________________________________________________________________________1-004d3e00___0192a612/01d2ba12
-Quindi cosa pensi del mio regalo?* [y]La videocassetta?
+Quindi cosa ne pensi del mio regalo?* [y]La videocassetta?
 ________________________________________________________________________________1-004d4094___0192a7be/01d2bbbe
 Sei malato.
 ________________________________________________________________________________1-004d424c___0192a8d6/01d2bcd6
@@ -1898,7 +1898,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-0058c1a8___019bf439/01dc0839
 Detto tra me e te?* Credo di aver [o~]lasciato entrare il Dragone![/]* [!^>&]Non dirlo al mio nuovo capo!
 ________________________________________________________________________________1-0058c518___019bf988/01dc0d88
-[~a]A ogni modo,[/]* ho bisogno di vedere la tua [y]autorizzazione di sicurezza[/] prima di farti entrare.* Immagino tu conosca la procedura!
+[~a]Ad ogni modo,[/]* ho bisogno di vedere la tua [y]autorizzazione di sicurezza[/] prima di farti entrare.* Immagino tu conosca la procedura!
 ________________________________________________________________________________1-0058c964___019bfcc5/01dc10c5
 Potresti stare zitta?
 ________________________________________________________________________________1-0058cb1c-0059247c___019bfe6c/01dc126c
@@ -1908,7 +1908,7 @@ Sono venuto per uccidere tutti in questo edificio.
 ________________________________________________________________________________1-0058ce8c-00592634___019c022f/01dc162f
 Ah, ma sono solo qui per le docce.
 ________________________________________________________________________________1-0058d1fc-005929a4___019c0460/01dc1860
-Non posso mostrarti la mia carta di autorizzazione... Ma posso mostrarti la mia carta trappola.
+Non posso mostrartela... Ma posso mostrarti la mia carta trappola.
 ________________________________________________________________________________1-0058d490___019c07d4/01dc1bd4
 Beh *[!><^]Io[/]* penso che ti stia bene.* Hai un aspetto [a*]molto virile[/] [~&]<3 <3 <3
 ________________________________________________________________________________1-0058d800___019c0eb8/01dc22b8
@@ -1988,7 +1988,7 @@ Questa.*.*.* [!]È una *[!%<>a]sfida?
 ________________________________________________________________________________1-00594dbc-00594f74___019c7970/01dc8d70
 No. Lasciami passare.
 ________________________________________________________________________________1-0059512c___019c7a84/01dc8e84
-Eh, è una bella sfida.
+Già, è una sfida.
 ________________________________________________________________________________1-005952e4___019c7b87/01dc8f87
 Non ho intenzione di perdere.
 ________________________________________________________________________________1-00595578___019c7ef1/01dc92f1
@@ -2062,11 +2062,11 @@ Tesseract di Sangue Sinistro del Generale Tso.
 ________________________________________________________________________________1-0059f8c0___019cfc48/01dd1048
 Hmmm,* [*y]interessante strategia.*.*.*[/] Ma l'avevo previsto.[@]** [>^<!~r]FORZA DIVINA ESTREMA DELLA MATRICE BESTIALE DELL'ERUDITO!
 ________________________________________________________________________________1-0059fb54-005a007c___019d0065/01dd1465
-Bel tentativo. Zalbard, Biovongola Quantistica della Calamità Frattale.
+Bel tentativo. Zalbard, Biovongola Quantica della Calamità Frattale.
 ________________________________________________________________________________1-0059fd0c___019d0348/01dd1748
 Niente di personale - Heathcliff, La Carneficina dei 1000 Emisferi.
 ________________________________________________________________________________1-0059fec4___019d05e4/01dd19e4
-Mossa da principiante, ragazzo. Crisi del pendolo - Utopia dell'Inferno primordiale.
+Mossa da principiante. Crisi del pendolo - Utopia Infernale.
 ________________________________________________________________________________1-005a0310___019d09fa/01dd1dfa
 Pensavi che [*y]non me l'aspettassi?[/][@]** [r~<!^>]CHRIXTUS -* RE DEL CALICE OCCULTO MAGNASCARABEO ANTI-GEOMETRICO!
 ________________________________________________________________________________1-005a05a4-005a075c___019d0d20/01dd2120
@@ -3866,7 +3866,7 @@ ________________________________________________________________________________
 Katana ZERO contiene intensi effetti visivi.
 Se noti sintomi di mal di testa o vertigini, ti consigliamo di disattivare questi effetti nel menu delle opzioni.
 ________________________________________________________________________________1-005e5dce___019fafbc/01dfc3bc
-NASCONDIGLIO DELLA FABBRICA
+NASCONDIGLIO NELLA FABBRICA
 ________________________________________________________________________________1-005e62e2___019fb0bb/01dfc4bb
 STAGE COMPLETATO
 ________________________________________________________________________________1-005e656c___019fb18d/01dfc58d
@@ -3948,7 +3948,7 @@ Sono... Granelli di sabbia in una clessidra che si svuota sempre di più.
 ________________________________________________________________________________1-005ed29a___019fe59e/01dff99e
 So cosa succederà dopo. Ho bisogno di chiederti un favore.
 ________________________________________________________________________________1-005ed524___019fe725/01dffb25
-NASCONDIGLIO DELLA VILLA
+NASCONDIGLIO NELLA VILLA
 ________________________________________________________________________________1-005eda38___019fe858/01dffc58
 Lui non è il Dragone.
 ________________________________________________________________________________1-005edcc2___019fe90e/01dffd0e
