@@ -210,7 +210,7 @@ Eccoti qui!
 ________________________________________________________________________________1-00499390___018fa4bf/01cfb8bf
 Se non è [o]Mr.* [>^*2]Troppo*-Occupato*-Per*-Parlare*-Ai*-Bambini.
 ________________________________________________________________________________1-00499624-004997dc___018fa6e7/01cfbae7
-Che stai facendo qua fuori?
+Cosa stai facendo qua fuori?
 ________________________________________________________________________________1-00499994___018fa803/01cfbc03
 Mi stavi aspettando?
 ________________________________________________________________________________1-00499b4c___018fa8c9/01cfbcc9
@@ -238,7 +238,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-0049c2d4-0049c48c___018fc4a7/01cfd8a7
 Levati di mezzo.
 ________________________________________________________________________________1-0049c644-0049f2f4___018fc56e/01cfd96e
-Neanche una possibilità.
+Neanche per sogno.
 ________________________________________________________________________________1-0049c8d8___018fc63e/01cfda3e
 [r>!*]Lasciaci entrare!!!
 ________________________________________________________________________________1-0049cc48___018fc940/01cfdd40
@@ -246,9 +246,9 @@ Adesso *[^>!<o]SÓ[/]* che mi stai nascondendo [a]Leviatano[/]!* [^>]Levati di t
 ________________________________________________________________________________1-0049cfb8___018fcd00/01cfe100
 Apri la porta o [o]Mastodonte[/] la* [!r><^]aprirà per te!
 ________________________________________________________________________________1-0049d328___018fd149/01cfe549
-Pensi che tutto questo sia molto [y~]divertente,[/]* signore?* Questa* [!>^]non è[/]* una cosa da ridere.* Adesso* [r^>]apri la porta!
+Pensi che tutto questo sia molto [y~]divertente,[/]* signore?* Non c'è* [!>^]niente[/]* da ridere.* Adesso* [r^>]apri la porta!
 ________________________________________________________________________________1-0049d698___018fd574/01cfe974
-Non* [o^><!]CONSTRINGERMI[/]* a prenderti a calci,* amico!* [r>^]Aprila!
+Non* [o^><!]CONSTRINGERMI[/]* a prenderti a calci nel sedere,* ragazzo!* [r>^]Aprila!
 ________________________________________________________________________________1-0049da08___018fd83b/01cfec3b
 Ho tutta la giornata,* signore.* [~y]E tu invece?
 ________________________________________________________________________________1-0049dd78___018fdb6f/01cfef6f
@@ -734,7 +734,7 @@ Non riesce a [a]chiudere occhio[/] per colpa di [o]voi merde,[/]* quindi sono ve
 ________________________________________________________________________________1-004cf260___019271bc/01d285bc
 [!^*r<>]Ha HA![/]* Almeno hai più carattere del tuo amico!* [!<^>o]Mi piace!
 ________________________________________________________________________________1-004cf5d0___01927695/01d28a95
-Ma [y]il tuo vicino?[/]* Non tanto.* Non gli piace [a]tutto quel rumore,[/]* le feste.* Infatti,* [r]è per questo che sono qui.
+Ma [y]al tuo vicino?[/]* Non tanto.* Non gli piace [a]tutto quel rumore,[/]* le feste.* Infatti,* [r]è per questo che sono qui.
 ________________________________________________________________________________1-004cf940___01927d4d/01d2914d
 Non riesce a [a]chiudere occhio.[/]* Lo sai che quel tizio è un [r]serial killer?[/]* Uno dei più grandi.* Una [o*]fottuta leggenda vivente,[/]* amico.
 ________________________________________________________________________________1-004cfcb0___01928171/01d29571
@@ -3248,29 +3248,29 @@ L'ho solo trovato oggi.
 ________________________________________________________________________________1-00555db0___01993876/01d94c76
 [p*]Oh...[/]* Beh,* possiamo andare a prendere [y]un film[/] allora?* [&~]Ti preeego...
 ________________________________________________________________________________1-00556490___01993b02/01d94f02
-[&~]Ti preeeeego?
+[&~]Per favooooore?
 ________________________________________________________________________________1-00556800___01993bb7/01d94fb7
-[&~]Ti preeeeeeeego?
+[&~]Per favoooooooore?
 ________________________________________________________________________________1-00556b70___01993c9d/01d9509d
-[&~]Ti preeeeeeeeeeeego?
+[&~]Per favoooooooooooore?
 ________________________________________________________________________________1-00556ee0___01993dc6/01d951c6
-[&~]Ti preeeeeeeeeeeeeeeeego?
+[&~]Per favooooooooooooooooore?
 ________________________________________________________________________________1-00557250___01993f28/01d95328
-[&~]Ti preeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeego?
+[&~]Per favoooooooooooooooooooooooooooooooooore?
 ________________________________________________________________________________1-005575c0___019940c6/01d954c6
-[&~]Ti preeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeego?
+[&~]Per favooooooooooooooooooooooooooooooooooooooooore?
 ________________________________________________________________________________1-00557930___01994299/01d95699
-[&~]Ti preeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeego?
+[&~]Per favooooooooooooooooooooooooooooooooooooooooooooooooore?
 ________________________________________________________________________________1-00557ca0___0199449f/01d9589f
-[&~]Ti preeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeego?
+[&~]Per favooooooooooooooooooooooooooooooooooooooooooooooooooooooore?
 ________________________________________________________________________________1-00558010___019946b9/01d95ab9
-[&~]Ti preeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeego?
+[&~]Per favoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooore?
 ________________________________________________________________________________1-00558380___0199490c/01d95d0c
-[&~]Ti preeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeego?
+[&~]Per favoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooore?
 ________________________________________________________________________________1-00558614___01994a47/01d95e47
 Va bene.
 ________________________________________________________________________________1-00558a60___01994b59/01d95f59
-[!><&a]Yay![/]* [!>^]Dai,* andiamo!
+[!><&a]Evviva![/]* [!>^]Dai,* andiamo!
 ________________________________________________________________________________1-00558dd0___01994c86/01d96086
 Ehi,* amico.
 ________________________________________________________________________________1-00559140___01994e9e/01d9629e
@@ -3294,7 +3294,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-0055b030___01996366/01d97766
 [r*!^]AIII[!]IIIYAA[!]AAAA!!!!!!!
 ________________________________________________________________________________1-0055b3a0___0199665c/01d97a5c
-[!r*^>]Ahia!*[/] [*!>^]S-sta sanguinando!*[/] Quell'uomo cattivo lo ha [o*]pugnalato![/]* Questo film fa [p*]troppa paura!
+[!r*^>]Aah!*[/] [*!>^]S-sta sanguinando!*[/] Quell'uomo cattivo lo ha [o*]pugnalato![/]* Questo film fa [p*]troppa paura!
 ________________________________________________________________________________1-0055b634___0199699a/01d97d9a
 Tranquilla, non è reale.
 ________________________________________________________________________________1-0055b7ec___01996a9e/01d97e9e
@@ -3318,7 +3318,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-0055d970___019983af/01d997af
 E ora...* Il mio [o]colpo mortale infernale.[/]* [r*!>^<]AYYYYYYA[!]AAAAAAA!!!
 ________________________________________________________________________________1-0055dce0___019986a6/01d99aa6
-[!>*^r]AAGH!* [!]Gli ha appena tagliato la testa!
+[!>*^r]AAAH!* [!]Gli ha appena tagliato la testa!
 ________________________________________________________________________________1-0055e050___01998a45/01d99e45
 [r!>]Lord Awase![/]* Sono io,* [o]Reishi,*[/] e sono venuto a salvare la [y~]principessa Esin![/]* [!>*^r]Morirai!![!]!![!]!
 ________________________________________________________________________________1-0055e3c0___01998fb4/01d9a3b4
@@ -3880,7 +3880,7 @@ Vuoi cercare nel frigorifero?
 ________________________________________________________________________________1-005e721e___019fb55b/01dfc95b
 Vuoi cercare nel divano?
 ________________________________________________________________________________1-005e74a8___019fb5d8/01dfc9d8
-Cerca
+Cercare
 ________________________________________________________________________________1-005e7c46___019fb696/01dfca96
 Apri dossier
 ________________________________________________________________________________1-005e7ed0___019fb744/01dfcb44
