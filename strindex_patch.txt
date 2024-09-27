@@ -1262,7 +1262,7 @@ Per favore...* Entra e siediti.
 ________________________________________________________________________________1-0044deb8___018c5970/01cc6d70
 Il tuo comportamento di ieri sera è stato [r]*insolitamente* poco professionale.[/]* La nostra relazione si basa su [a*]cooperazione e fiducia,[/]* nessuna delle quali hai dimostrato.
 ________________________________________________________________________________1-0044e228___018c6224/01cc7624
-Detto questo,* sono [y]disposto a ignorare questo intoppo[/] per il bene dei nostri [p]reciproci interessi.[/]* Se questi comportamenti continuano,* saró costretto a [r*---]revocare alcuni dei tuoi privilegi.[/]
+Detto questo,* sono [y]disposto a ignorare questo intoppo[/] per il bene dei nostri [p]reciproci interessi.[/]* Se questi comportamenti continueranno,* saró costretto a [r*---]revocare alcuni dei tuoi privilegi.[/]
 ________________________________________________________________________________1-0044e598___018c6781/01cc7b81
 Ora iniziamo la sessione.
 ________________________________________________________________________________1-0044e908___018c68d5/01cc7cd5
@@ -1812,7 +1812,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-00583148___019b74a9/01db88a9
 No.* Sei stato [e]ampiamente conforme agli ordini[/].* [o]I nostri superiori[/] sono [a]soddisfatti[/] di te.
 ________________________________________________________________________________1-005839e0___019b7b17/01db8f17
-Il mio compito è [a]riabilitarti[/] -* al fine che tu ti possa concentrare sul futuro.* [r]Il tuo passato è irrilevante;*[/] solo la [r]totale eliminazione[/] di [a%]Chronos[/] importa.
+Il mio compito è [a]riabilitarti[/] -* al fine che tu possa concentrarti sul futuro.* [r]Il tuo passato è irrilevante;*[/] solo la [r]totale eliminazione[/] del [a%]Chronos[/] importa.
 ________________________________________________________________________________1-00583d50___019b80f2/01db94f2
 Il tuo recente [o*]comportamento erratico[/] ha reso le cose molto difficili.
 ________________________________________________________________________________1-005840c0___019b84ef/01db98ef
@@ -1836,11 +1836,11 @@ ________________________________________________________________________________
 ________________________________________________________________________________1-00585fb0___019b9d92/01dbb192
 [+^]Che tu venga [r]ucciso[/] o meno [+^]alla fine della nostra operazione è fuori dal mio controllo.
 ________________________________________________________________________________1-00586320___019ba306/01dbb706
-Ma francamente,* hai portato [y*-^]una quantità esorbitante di stress e frustrazione nella mia vita.[/]* Questo è quanto.* Ora è il [a]momento del tuo trattamento.
+Ma francamente,* hai portato [y*-^]una quantità esorbitante di stress e frustrazione nella mia vita.[/]* Questo è quanto.* Adesso è il [a]momento del tuo trattamento.
 ________________________________________________________________________________1-00586690___019ba72d/01dbbb2d
 Ora fuori dal mio ufficio.
 ________________________________________________________________________________1-00586a00___019bab10/01dbbf10
-Fallimento nell'uccidere l'obiettivo,* Assassinio di un'intera squadra di polizia,* Abbandono del dovere.*.*.* Mi sorprende che tu abbia [y]deciso di tornare.
+Fallimento nell'uccidere l'obiettivo,* assassinio di un'intera squadra di polizia,* abbandono del dovere.*.*.* Mi sorprende che tu abbia [y]deciso di tornare.
 ________________________________________________________________________________1-00586d70___019baee6/01dbc2e6
 [*-]Tu.*.*.* [r-]Pezzo di.*.*.
 ________________________________________________________________________________1-005870e0___019bb2be/01dbc6be
@@ -2518,7 +2518,7 @@ Gli [r]uomini mascherati[/] del tuo sogno.* Raccontami di più.
 ________________________________________________________________________________1-004f5564-004f571c___019442ce/01d456ce
 Si puó sapere cosa diavolo sta succedendo?
 ________________________________________________________________________________1-004f58d4___019444f0/01d458f0
-Due uomini con maschere e camici da laboratorio sono apparsi nel mio appartamento.
+Due uomini con maschere e camici sono apparsi nel mio appartamento.
 ________________________________________________________________________________1-004f5a8c___01944777/01d45b77
 Mi hanno drogato. Non riuscivo a muovermi.
 ________________________________________________________________________________1-004f5d20___0194488a/01d45c8a
@@ -2532,9 +2532,9 @@ Ho due maschere, argento e oro.
 ________________________________________________________________________________1-004f6a04-004f6bbc___01944ee0/01d462e0
 Cosa mi sta succedendo?
 ________________________________________________________________________________1-004f6d74___019450ec/01d464ec
-Gli uomini mascherati mi hanno detto che qualcosa sarebbe successo tra tre giorni.
+Gli uomini mascherati mi hanno detto che accadrà qualcosa tra tre giorni.
 ________________________________________________________________________________1-004f6f2c___0194531b/01d4671b
-Non ho capito niente di tutto ció.
+Non ho capito niente di cosa volesse dire.
 ________________________________________________________________________________1-004f7218___0194540f/01d4680f
 Hmmm...
 ________________________________________________________________________________1-004f7454-004f760c___019454c9/01d468c9
@@ -2904,13 +2904,13 @@ Sei un'allucinazione. Non sei reale.
 ________________________________________________________________________________1-0052d770___019700a5/01d714a5
 [^>!y]Ha HA!*[/] Stupido figlio di puttana.* Non ne hai veramente alcuna idea,* eh?* Quando il [a%]Chronos[/] lascerà il tuo sistema,* il tempo rallenta sempre di più fino a [r--*]fermarsi completamente.
 ________________________________________________________________________________1-0052dae0___0197085e/01d71c5e
-Rimani intrappolato nella tua mente con [y*]le tue peggiori paure come unica compagnia.[/]* Vorrai [r><^!]*DESIDERARE*[/] di essere morto.* [o-]Ma non accadrà mai.
+Rimarrai intrappolato nella tua mente con [y*]le tue peggiori paure come unica compagnia.[/]* Vorrai [r><^!]*DESIDERARE*[/] di essere morto.* [o-]Ma non accadrà mai.
 ________________________________________________________________________________1-0052de50___01970ffc/01d723fc
 Cazzo.* [y-]Davvero non lo sai,[/]* eh?* Stupida testa di cazzo...* È finita.* [r]È il tuo finale.[/]* Quando la droga sarà finita,* [o*]soffrirai per il resto dell'eternità.
 ________________________________________________________________________________1-0052e1c0___019717db/01d72bdb
 Il tempo si ferma,* e rimani intrappolato nella tua mente con [y]le tue [*]peggiori paure[/y] come unica compagnia.[/]* Vorrai *[r><^!]DESIDERARE*[/] di essere morto.* [o]Ma non accadrà mai.
 ________________________________________________________________________________1-0052e530___01971fb0/01d733b0
-Quei tuoi [y]vicini[/]?* Sí,* sono morti per noi.* Ma con [r]la merda che gli ho dato?[/]* Rimangono intrappolati nella loro testa.* [o*]Non finirà mai per loro.
+Quei tuoi [y]vicini[/]?* Sí,* sono morti per noi.* Ma con [r]la merda che gli ho dato?[/]* Sono intrappolati nella loro stessa testa.* [o*]Non finirà mai per loro.
 ________________________________________________________________________________1-0052e8a0___01972753/01d73b53
 Un'[y~]eternità di tortura[/] dove nessuno puó sentirti urlare.* Heh,* forse posso insegnarti alcune delle cose che il* [>!<^r]VERO[/]* Dragone mi ha fat[@]to
 ________________________________________________________________________________1-0052ec10___01972d88/01d74188
@@ -2954,7 +2954,7 @@ Permettimi di assicurarti che qualsiasi presunto [y]obiettivo o nemico comune[/]
 ________________________________________________________________________________1-005329f0___019761b1/01d775b1
 [o]V.*.*.*[/] Uno dei cadaveri sull'autostrada,* presumo?* Sí,* capisco.* Molto bene.
 ________________________________________________________________________________1-00532d60___019766ca/01d77aca
-Avevo altri piani, ma.*.*.* Sí.* Voglio che trovi e [r]uccida questa persona.[/]* Non possiamo permettere che [o]causi più danni.
+Avevo altri piani, ma.*.*.* Sí.* Voglio che tu trovi e [r]uccida questa persona.[/]* Non possiamo permettere che [o]causi più danni.
 ________________________________________________________________________________1-00533364___01976b0b/01d77f0b
 È davvero il Dragone?
 ________________________________________________________________________________1-005337b0___01976dd6/01d781d6
@@ -3598,7 +3598,7 @@ Cos'è NULL?
 ________________________________________________________________________________1-0057bd44___019af476/01db0876
 È stato Leon a crearmi?
 ________________________________________________________________________________1-0057bfd8___019af8e7/01db0ce7
-Era una [o]serie di operazioni speciali[/] super-segrete durante la guerra.* La Nuova Mecca aveva creato dei super-soldati usando delle [a]droghe sperimentali come il [%]Chronos.[/]* Tu eri uno di loro.
+Era [o]un'unità per operazioni speciali[/] top-secret durante la guerra.* La Nuova Mecca aveva creato dei super-soldati usando delle [a]droghe sperimentali come il [%]Chronos.[/]* Tu eri uno di loro.
 ________________________________________________________________________________1-0057c348___019aff89/01db1389
 Non ci sono informazioni sulla tua vita prima di [p%]NULL.[/]* È probabile che tu sia [a]cresciuto normalmente con la tua famiglia.
 ________________________________________________________________________________1-0057c6b8___019b0690/01db1a90
