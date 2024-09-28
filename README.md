@@ -23,7 +23,7 @@ Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestri
 ```sh
 git clone --recursive https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana
 cd Katana-ZERO-Traduzione-Italiana
-"C:\percorso\di\exestringz.exe" -f 1 "C:\percorso\di\Katana ZERO.exe" "strindex_full.txt"
+"C:\percorso\di\exestringz.exe" -l 3 -f 1 "C:\percorso\di\Katana ZERO.exe" "strindex_full.txt"
 py exestringz_translation_scripts\strindex_patch.py
 ```
 **ATTENZIONE**: Il terzo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il primo e quarto comando, devi avere rispettivamente **Git** e **Python** installati sul tuo computer. Quell'ultimo script creerà il file "strindex_patch.txt".
