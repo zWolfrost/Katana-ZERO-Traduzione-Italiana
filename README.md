@@ -1,34 +1,16 @@
 # Katana ZERO Traduzione Italiana
-Sono finalmente riuscito a tradurre gli oltre 2000 dialoghi di gioco di Katana ZERO in italiano usando il programma "exestringz" per sostituire le linee.
+Sono finalmente riuscito a tradurre gli oltre 2000 dialoghi di gioco di Katana ZERO in italiano, scrivendo un programma apposito per sostituire le linee (prendendo spunto da "exestringz" di aluigi).
 Detto francamente, il gioco è un capolavoro, e merita di essere localizzato in più lingue possibili. Inizio con quella che conosco.
 
-**ATTENZIONE: Questa patch funziona solo sulla versione di gioco "v1.0.5", build "3889288", l'ultima disponibile**
+**ATTENZIONE: Questa patch è stata testata solo sulla versione di gioco "v1.0.5", build "3889288", l'ultima disponibile**
 
-Comunque, crearne una su altre versioni non è troppo complicato; in questa repository ci sono i file necessari per [crearla su qualsiasi build](#come-creare-una-patch-per-una-build-meno-recente). C'è solo quella dell'ultima versione per questioni di comodità. Se vorresti aiuto o hai domande riguardo le istruzioni, chiedi pure.
+Comunque, dovrebbe funzionare su qualsiasi versione del gioco, ma con la possibilità che alcune linee non vengano tradotte.
 
 &nbsp;
 ## Come patchare il gioco con la traduzione
-Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)", scarica "[strindex_patch.txt](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/strindex_patch.txt)" (Ctrl+S) ed esegui questo comando:
-```sh
-"C:\percorso\di\exestringz.exe" 2 "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\strindex_patch.txt"
-```
-**ATTENZIONE**: Questo comando sovrascriverà il file eseguibile di gioco in modo irreversibile, quindi è consigliabile creare un backup. **Non** perderai i tuoi progressi in caso contrario, ma dovrai riscaricare il gioco per riportarlo da capo.
+Scarica "[strindex_patch.txt](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/strindex_patch.txt)" (Ctrl+S), scarica il programma "[strindex](https://github.com/zWolfrost/strindex/releases/latest)", e avvialo. Una volta aperto, seleziona prima il file eseguibile del gioco, e poi il file "strindex_patch.txt" scaricato. Infine attendi che il programma finisca.
 
-*PS: Puoi trascinare i file nel prompt dei comandi per inserire il loro percorso più velocemente.*
-
-&nbsp;
-## Come creare una patch per una build meno recente
-Puoi creare una patch per una build meno recente seguendo questi passaggi. Se preferisci o sei poco "esperto", puoi chiedere a me di farlo, e ti invierò il file pronto.
-Scarica il programma "[exestringz](https://aluigi.altervista.org/mytoolz/exestringz.zip)" ed esegui questi comandi:
-```sh
-git clone --recursive https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana
-cd Katana-ZERO-Traduzione-Italiana
-"C:\percorso\di\exestringz.exe" -l 3 -f 1 "C:\percorso\di\Katana ZERO.exe" "strindex_full.txt"
-py exestringz_translation_scripts\strindex_patch.py
-```
-**ATTENZIONE**: Il terzo comando durerà molto di tempo (anche 30 minuti). Inoltre, per eseguire il primo e quarto comando, devi avere rispettivamente **Git** e **Python** installati sul tuo computer. Quell'ultimo script creerà il file "strindex_patch.txt".
-
-Dopo aver eseguito questi comandi, esegui il comando del [paragrafo precedente](#come-patchare-il-gioco-con-la-traduzione) per patchare il gioco.
+*Il programma è ancora in fase beta, quindi se dovesse dare problemi, per favore segnalali aprendo un'issue, mandandomi un'email o scrivendo sul thread di steam.*
 
 &nbsp;
 ## FAQ
@@ -40,7 +22,7 @@ Un'altra cosa molto gentile che potresti fare per aiutarmi sarebbe rendere la tr
 Inoltre, puoi supportare il mio lavoro donandomi qualcosa [su questa pagina](https://paypal.me/zwolfrost) o [quest'altra](https://buymeacoffee.com/zwolfrost). Ne sarei estremamente grato.
 
 ### Non dovrai rifare tutto da capo una volta uscito il DLC?
-È probabile che una volta uscito il DLC si dovranno reinserire le linee tradotte nel giusto punto, ma le linee tradotte non sono vincolate dalla loro posizione (nel file json), quindi ci vorrà veramente poco tempo per sistemare le cose. Ovviamente in tal caso dovrò tradurre anche i dialoghi del DLC, e ci vorrà circa una settimana, se sarà lungo quanto il gioco originale.
+Fortunatamente le linee tradotte non sono vincolate dalla loro posizione, quindi ci vorrà veramente poco tempo per sistemare le cose. Ovviamente in tal caso dovrò tradurre anche i dialoghi del DLC, e ci vorrà circa una settimana, se sarà lungo quanto il gioco originale.
 
 L'unica cosa che potrebbe vanificare i miei sforzi (e quelli di chi ha contribuito a questa traduzione) sarebbe se lo sviluppatore introducesse la lingua Italiana nel gioco effettivo. Ma non solo penso che sia improbabile, ma se mai dovesse succedere, renderebbe comunque tutti felici.
 

@@ -1,6 +1,8 @@
 __pycache__
-exestringz
 
 *.txt
 *.sh
+*.json
+*.exe
+*.bak
 !strindex_patch.txt
