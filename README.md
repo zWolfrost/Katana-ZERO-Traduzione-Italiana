@@ -17,7 +17,7 @@ Scarica "[strindex_patch.txt](https://raw.githubusercontent.com/zWolfrost/Katana
 ### Come posso aiutarti?
 Se trovi delle frasi spagnole non tradotte, fai uno screenshot e crea un'issue su questa pagina allegando lo screenshot (o perfino un e-mail andrebbe bene). Questa traduzione è stata creata da relativamente poco tempo per cui una cosa del genere sarebbe completamente plausibile.
 
-Un'altra cosa molto gentile che potresti fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente delle frasi che suonano male nel contesto del gioco, nel file "translation.json", e facendomi sapere.
+Un'altra cosa molto gentile che potresti fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente delle frasi che suonano male nel contesto del gioco, e facendomi sapere.
 
 Inoltre, puoi supportare il mio lavoro donandomi qualcosa [su questa pagina](https://paypal.me/zwolfrost) o [quest'altra](https://buymeacoffee.com/zwolfrost). Ne sarei estremamente grato.
 
