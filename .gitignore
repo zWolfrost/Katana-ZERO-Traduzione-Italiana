@@ -1,8 +1,5 @@
-__pycache__
-
-*.txt
-*.sh
-*.json
-*.exe
-*.bak
+*
+!.gitattributes
+!.gitignore
+!*.md
 !strindex_patch.txt

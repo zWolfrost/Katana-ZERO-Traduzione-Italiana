@@ -1,5 +1,6 @@
+Traduzione italiana di Katana ZERO by Luca Russo - https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana
+
 {
-	"#": "Traduzione italiana di Katana ZERO by Luca Russo - https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana",
 	"file_size": 29023232,
 
 	"replace": {
@@ -15,6 +16,7 @@
 	"target_language": "it",
 	"among_languages": ["en", "ja", "ko", "de", "fr", "es", "pt", "ru", "zh"]
 }
+
 ________________________________________________________________________________11
 A ver...* Háblame de nuevo de los [r]tipos enmascarados...
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
