@@ -3144,7 +3144,7 @@ Non ho mai apprezzato i tuoi progetti personali.
 ________________________________________________________________________________1
 Ahórratelo para luego, [y]SNOW.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Tienitelo per dopo, [y]SNOW.
+Non è il momento, [y]SNOW.
 ________________________________________________________________________________1
 Ve a casa y olvídate de esto.* No pienso [y]avisarte más.[/]
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3164,7 +3164,7 @@ Non confondere la mia pietà per debolezza.
 ________________________________________________________________________________1
 Menuda postura.* Espero más de ti la próxima vez.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-La tua forma è pessima.* Mi aspetto di più da te la prossima volta.
+La tua postura è pessima.* Mi aspetto di più da te la prossima volta.
 ________________________________________________________________________________1
 Siento no haber estado hoy en la consulta.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3576,7 +3576,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 Supongo que eso lo convertiría [y]más bien en una capa,[/]* ¿no?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Immagino che lo renderebbe [y]più un mantello,[/]* no?
+Immagino che lo renderebbe [y]più un mantello,[/]* eh?
 ________________________________________________________________________________1
 [*!^>r<.]¡Блять!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3652,7 +3652,7 @@ Molto bene.* Adesso è [r]il mio turno.
 ________________________________________________________________________________1
 [y]Mr. Kissyface,[/]* [r]córtale la cabeza y[/]* mete el cuerpo en cemento.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[y]Mr. Kissyface,[/]* [r]tagliagli la testa e[/]* butta il corpo nel cemento.
+[y]Mr. Kissyface,[/]* [r]tagliagli la testa e[/]* butta il cadavere nel cemento.
 ________________________________________________________________________________1
 [*]Eso está hecho,* [y%]V.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3732,7 +3732,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 [r]Creo que le has roto las costillas...* [*]Je...
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[r]Penso che tu gli abbia rotto le costole...* [*]Heh...
+[r]Credo che tu gli abbia rotto le costole...* [*]Heh...
 ________________________________________________________________________________1
 Estos tipos no hablan.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3940,7 +3940,7 @@ Forse non dovresti [r]fargli saltare le teste.
 ________________________________________________________________________________1
 [!>*]¡Pero si es que tampoco hablaba!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[!>*]Ma non parlavano!
+[!>*]Ma nemmeno lui parlava!
 ________________________________________________________________________________1
 [r]A veces no sé lo que hacer contigo...
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3952,15 +3952,15 @@ Tuttavia,* è [a]piuttosto impressionante[/] che tu sia riuscito a [y]eliminare 
 ________________________________________________________________________________1
 [*]Je,[/]* [y]no ha sido nada.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*]Heh,[/]* [y]non è stato un gran problema.
+[*]Heh,[/]* [y]non è stato niente di che.
 ________________________________________________________________________________1
 Sí,* claro que sí.* He visto lo que hizo en [y]Estudio 51.[/]* Mató a [o]docenas de hombres[/] [r]sin esfuerzo ni sentimiento alguno.[/]* Estaba listo para luchar casi antes de que yo llegara.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Sì,* lo era.* Ho visto il suo operato allo [y]Studio 51.[/]* Ha ucciso [o]dozzine di uomini[/] [r]spassionatamente e senza sforzi.[/]* Era pronto per la battaglia quasi prima che io lo attaccassi.
+Lo è stato,* invece.* Ho visto il suo operato allo [y]Studio 51.[/]* Ha ucciso [o]dozzine di uomini[/] [r]spassionatamente e senza alcuno sforzo.[/]* Era pronto al combattimento quasi prima che io lo attaccassi.
 ________________________________________________________________________________1
 Sí,* claro que sí.* He visto lo que hizo en [y]Estudio 51.[/]* Mató a [o]docenas de hombres[/] [r]sin esfuerzo ni sentimiento alguno.[/]* Ni parpadeó cuando me lancé a por él.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Sì,* lo era.* Ho visto il suo operato allo [y]Studio 51.[/]* Ha ucciso [o]dozzine di uomini[/] [r]spassionatamente e senza sforzi.[/]* Non ha fatto una piega quando mi sono avvicinato a lui.
+Lo è stato,* invece.* Ho visto il suo operato allo [y]Studio 51.[/]* Ha ucciso [o]dozzine di uomini[/] [r]spassionatamente e senza alcuno sforzo.[/]* Non ha fatto una piega quando mi sono avvicinato a lui.
 ________________________________________________________________________________1
 No había nada en esa mirada;* [y]ni alma,* ni remordimientos.[/]* No le importaba la misión,* ni la gente que tuviera que matar,* [r]ni siquiera su integridad.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3984,7 +3984,7 @@ Parli del diavolo...
 ________________________________________________________________________________1
 [!r*<>^]Dios,* no tan cerca, joder, *[!<]¡que cortan!** [!<][.]¡Сука охуеть!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[!r*<>^]Gesù,* non così fottutamente vicino, *[!<]sono affilati!** [!<][.]Сука охуеть!
+[!r*<>^]Gesù,* non così fottutamente vicino, *[!<]questi affari sono taglienti!** [!<][.]Сука охуеть!
 ________________________________________________________________________________1
 [*!^<>r.]¡Блять!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4128,7 +4128,7 @@ Ah sì?* E dove l'hai presa?* [y]Dal negozio di pegni sulla 5a?[/]* Hai una vera
 ________________________________________________________________________________1
 Solo hay [y]veteranos y yonquis[/] en el [o]Tercer Distrito,[/]* y [r]veterano no eres.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Qui nel Terzo Distretto ci sono solo [y]veterani e drogati[/], e tu [r]non sei un veterano.
+Qui nel Terzo Distretto ci sono solo [y]veterani e drogati[/], e tu [r]non sei certo un veterano.
 ________________________________________________________________________________1
 ¿A cuántos has matado?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4152,7 +4152,7 @@ Ho perso la memoria.
 ________________________________________________________________________________1
 Bonita historia,* [a]bebé.[/]* La guerra terminó hace 7 años.* Tú estabas [o]chupando teta[/] mientras nosotros nos dejábamos la piel [p]en la selva.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Bella storia,* [a]faccia da bambino.[/]* La guerra è finita 7 anni fa.* Tu stavi [o]succhiando il latte[/] mentre noi ci facevamo il culo [p]nella giungla.
+Bella storia,* [a]faccia da bambino.[/]* La guerra è finita 7 anni fa.* Tu stavi [o]succhiando il latte[/] quando noi ci stavamo facendo il culo [p]nella giungla.
 ________________________________________________________________________________1
 ¿Sabes?* Hubiéramos [o*]ganado[/] si esos...* [r]hippies de mierda[/] del [a]Primer Distrito[/] no hubieran saltado con sus gilipolleces contra [r]matar niños.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4184,7 +4184,7 @@ Salute!
 ________________________________________________________________________________1
 Nos *[r!><^*]odiaban*[/] mucho.* Yo pensaba que seríamos [o]héroes,[/]* tío.* Pensaba que [~a]pillaría cacho a saco[/] cuando volviera.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Ci *[r!><^*]odiavano*[/] a morte.* Pensavo che saremmo stati [o]eroi,[/]* amico.* Pensavo che [~a]mi sarei fatto un sacco di figa[/] quando sarei tornato.
+Ci *[r!><^*]odiavano*[/] a morte.* Pensavo che saremmo stati [o]eroi,[/]* amico.* Pensavo che [~a]mi sarei fatto un sacco di figa[/] una volta tornato.
 ________________________________________________________________________________1
 Es por esos.*.*.* [~p]programas psíquicos[/] o como se diga.* Las operaciones especiales del Gobierno para el control mental,* [y]frikis creados en laboratorio[/] y entrenados para-
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4488,7 +4488,7 @@ Beh, i nostri superiori hanno visto,* e manca tanto così a[@]lla fottuta fine
 ________________________________________________________________________________1
 No tienes [o]muy buen aspecto[/] ahora mismo.* Apuesto a que quieres [~a]un chute de lo que tú sabes,[/]* ¿eh?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Non hai un [o]bell'aspetto[/] in questo momento.* Scommetto che vuoi [~a]una dose di quello che sai,[/]* vero?
+Non hai proprio un [o]bell'aspetto[/] in questo momento.* Scommetto che vuoi [~a]una dose di quello che sai,[/]* eh?
 ________________________________________________________________________________1
 Estás muerto, V.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4560,7 +4560,7 @@ Il nome sarebbe quasi.*.*.* [a]'Comico',[/]* se la tua spericolatezza non mettes
 ________________________________________________________________________________1
 Yo no soy el Dragón.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Io non sono il Dragone.
+Non sono io il Dragone.
 ________________________________________________________________________________1
 ¡Qué [o~]disparates[/] digo!* ¡Pues [--]claro[/], tú no eres el responsable de los [y]imprudentes homicidios que han sido noticia en el Tercer Distrito![/]* ¡Habrá sido *[^>!<]otro[/]* [r]Dragón!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4604,7 +4604,7 @@ Uno spadaccino inumanamente veloce con qualche tipo di vendetta in sospeso.
 ________________________________________________________________________________1
 Conocemos a cierto [y]individuo que coincide con ese perfil.[/]* ¿Te dijo algo?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Conosciamo un certo [y]individuo che corrisponde a quel profilo.[/]* Ti ha detto qualcosa?
+Siamo a conoscenza di un certo [y]individuo che corrisponde a quel profilo.[/]* Ti ha detto qualcosa?
 ________________________________________________________________________________1
 No, solo que era el Dragón.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -6996,7 +6996,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________11
 Llevo.*.*.* Llevo todo el día sin poder [p]contactar con mi hija[/].* [!>^y*3]Mi teléfono,[/]* [r]¿por qué tengo aún esto?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Io.*.*.* Non sono riuscito a [p]raggiungere mia figlia[/] tutta la giornata.* [!>^y*3]Il mio telefono,[/]* [r]perché ce l'ho ancora?
+Io.*.*.* Non sono riuscito a [p]raggiungere mia figlia[/] tutta la giornata.* [!>^y*3]Il mio telefono,[/]* [r]perché ho ancora questo?
 ________________________________________________________________________________11
 [*]N-* no puedo explicarlo.[/]* No van a [r]venir a por mí.[/]* Yo no tuve *[r*!^<>]nada*[/] que ver con esto.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -7886,7 +7886,7 @@ Uccidere soldati non era poi così male. Lo ricordo a malapena.
 ________________________________________________________________________________1
 Pero quemar aquellas aldeas, ver llorar a aquellos campesinos desnudos...
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Ma bruciare quei villaggi, vedere quei paesani nudi piangere...
+Ma bruciare quei villaggi, guardare quei paesani nudi piangere...
 ________________________________________________________________________________1
 Lo sigo viendo todos los días. No es estrés postraumático, es la droga.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
