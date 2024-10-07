@@ -191,8 +191,8 @@ ________________________________________________________________________________
 Attenti [r]ai laser,[/] ragazzi!*[!]
 ________________________________________________________________________________1
 Tus jefes están [y]descontentos[/] con que el objetivo de la misión haya [r]muerto[/] antes de su extracción.
-↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-I tuoi datori di lavoro sono rimasti [y]delusi[/] dal fatto che l'obiettivo della missione sia stato [r]eliminato[/] prima dell'estrazione.
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓	
+I tuoi superiori sono rimasti [y]delusi[/] dal fatto che l'obiettivo della missione sia stato [r]eliminato[/] prima dell'estrazione.
 ________________________________________________________________________________1
 Vete a casa y [a]descansa.[/]* Mañana recibirás una nueva tarea.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -1316,7 +1316,7 @@ Capisco.
 ________________________________________________________________________________1
 Enseguida.* Es [r*]fundamental[/] que me informes de [y]todas tus interacciones[/] siempre,* [a]por tu propia seguridad.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-In un attimo.* È [r*]importante[/] che tu mi riferisca [y]tutte le tue interazioni[/] -* [a]per la tua sicurezza.
+Un attimo.* È [r*]importante[/] che tu mi riferisca [y]tutte le tue interazioni[/] -* [a]per la tua sicurezza.
 ________________________________________________________________________________1
 Cierra el pico y dame ya la medicina.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -1328,7 +1328,7 @@ Non voglio essere in mezzo alla gente.
 ________________________________________________________________________________1
 [!>*^p]Ah.*[/] Había malinterpretado tus palabras. *Eso es [a]tranquilizador.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[!>*^p]Ah.*[/] Ho capito male cosa intendevi. *In un certo senso, mi [a]tranquillizza.
+[!>*^p]Ah.*[/] Ho capito male cosa intendevi. *In un certo senso, ciò mi [a]tranquillizza.
 ________________________________________________________________________________1
 .*.*.* ¿Has conocido a [y]una niña[/] en el [r]Tercer Distrito?[/]* Qué raro.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -1604,11 +1604,11 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 [^*]N-*no sé cómo se llama,* estaba en un [o]frasco sin etiquetar.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[^*]N-*non so come si chiamava,* era in una [o]bottiglia senza etichetta.
+[^*]N-*non so come si chiamava,* era in una [o]bottiglia non etichettata.
 ________________________________________________________________________________1
 [!>r<^*]¡Espera!*[/^>*2] ¿No sabes ni cómo se llama?* [/^r!]¿Quién *[>!*<]COJONES[/^r]* eres?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[!>r<^*]Aspetta!*[/^>*2] Non sai nemmeno come si chiamava?* [/^r!]Chi *[>!*<]CAZZO[/^r]* sei tu?
+[!>r<^*]Aspetta!*[/^>*2] Non sai nemmeno come si chiamava?* [/^r!]Chi *[>!*<]CAZZO[/^r]* saresti tu?
 ________________________________________________________________________________1
 [!*>]Tronco,[/]* [o]mi gente[/] te va a [r]joder la vida.* [!]Estás [r*]muerto.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -1672,11 +1672,11 @@ Riceverai il tuo prossimo compito domani.
 ________________________________________________________________________________1
 Tus jefes están [a]contentos[/] con tus resultados.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-I tuoi datori di lavoro sono [a]soddisfatti[/] dei tuoi risultati.
+I tuoi superiori sono [a]soddisfatti[/] dei tuoi risultati.
 ________________________________________________________________________________1
 Nuestros jefes no están al tanto de [y]las circunstancias [/]tras la muerte [o]de Electrohead.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-I nostri datori di lavoro non sono a conoscenza delle [y]circostanze [/]dietro la morte di [o]Electrohead.
+I nostri superiori non sono a conoscenza delle [y]circostanze [/]dietro la morte di [o]Electrohead.
 ________________________________________________________________________________1
 [o]Pero yo sí.[/]* Has sido [r]negligente en tus deberes.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -1920,11 +1920,11 @@ Nonostante questo,* il direttore del [y]Club Neon[/] Sterling Silver dice che lo
 ________________________________________________________________________________1
 [y]"¡Volveremos a abrir las puertas en cuanto hayamos [&]limpiado las vísceras!"
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[y]"Le nostre porte saranno di nuovo aperte non appena avremo [&]pulito le viscere!"
+[y]"Le nostre porte saranno di nuovo aperte non appena avremo [&]ripulito le viscere!"
 ________________________________________________________________________________1
 El derrumbe de un puente en el Tercer Distrito ha dejado siete muertos y más de un centenar de personas sin hogar.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Il crollo di un ponte nel Terzo Distretto ha provocato sette morti e oltre cento senzatetto.
+Il crollo di un ponte nel Terzo Distretto ha causato sette morti e oltre cento senzatetto.
 ________________________________________________________________________________1
 A pesar de la insistencia de los residentes del Tercer Distrito...
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -1956,7 +1956,7 @@ Ho parlato con Electrohead.
 ________________________________________________________________________________1
 Nuestros jefes están satisfechos con tu trabajo de anoche.* [r]Yo no estoy seguro de compartir sus sensaciones.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-I nostri datori di lavoro sono soddisfatti del tuo lavoro di ieri sera.* [r]Non sono sicuro di condividere questo sentimento.
+I nostri superiori sono soddisfatti del tuo lavoro di ieri sera.* [r]Non sono sicuro di condividere questo sentimento.
 ________________________________________________________________________________1
 A lo mejor podrías contestarme unas cuantas preguntas.* [y]¿Cuándo empezaste a usar pistola?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -1992,7 +1992,7 @@ Electrohead prendeva la stessa droga che mi stai dando.
 ________________________________________________________________________________1
 Ese tipo es un [r]conocido camello[/]* y tú eres demasiado importante,* demasiado...* [y]especial.[/] [!>^]No puedo arriesgarme a exponerte a esas influencias.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Quell'uomo era un [r]noto spacciatore di droga.[/]* Sei troppo importante,* troppo...* [y]Speciale.[/] [!>^]Non posso rischiare di esporti a queste influenze.
+Quell'uomo era un [r]noto spacciatore di droga.[/]* Tu sei troppo importante,* troppo...* [y]Speciale.[/] [!>^]Non posso rischiare di esporti a queste influenze.
 ________________________________________________________________________________1
 Vale. Dame mi medicina ya.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -2104,7 +2104,7 @@ I nostri [a]superiori[/] non vogliono rischiare di esporti a qualsiasi cosa che 
 ________________________________________________________________________________1
 Como veterano,* deberías entender que no [o]necesitas saber todos los detalles de nuestra misión.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Essendo un veterano,* dovresti capire che [o]non sei a conoscenza di tutti i dettagli della nostra missione.
+In qualità di veterano,* dovresti capire che [o]non sei a conoscenza di tutti i dettagli della nostra missione.
 ________________________________________________________________________________11
 Cierra la boca.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -2148,7 +2148,7 @@ Mi piacerebbe.
 ________________________________________________________________________________1
 A mí me gustaría* también.* Pero va a ser necesario que te ciñas* [y^>]estrictamente* a[/]* tus órdenes.* No puede haber [o^>]más lapsus[/] como el de anoche.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Piacerebbe anche a me,* tanto.* Ma richiederà una* [y^>]stretta* osservanza[/]* dei tuoi ordini.* Non possono esserci [o^>]più intoppi[/] come quelli della scorsa notte.
+Piacerebbe anche a me,* tanto.* Ma ciò richiederà una* [y^>]stretta* osservanza[/]* dei tuoi ordini.* Non possono esserci [o^>]più intoppi[/] come quelli della scorsa notte.
 ________________________________________________________________________________1
 Lo entiendo. No volverá a pasar.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -2188,7 +2188,7 @@ No. Non voglio più la droga.
 ________________________________________________________________________________1
 Eso.*.*.* no es una opción en este momento.* Nuestra [y]misión,[/]* y [o]tu salud,[/]* dependen de la droga.* No es [r]negociable.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Quella.*.*.* Non è un opzione a questo punto.* La nostra [y]missione -[/]* e la [o]tua salute -[/]* dipendono dalla droga.* Non si può [r]negoziare.
+Quella.*.*.* Non è un opzione a questo punto.* La nostra [y]missione -[/]* e la [o]tua salute -[/]* dipendono dalla droga.* Non è [r]negoziabile.
 ________________________________________________________________________________1
 [^><!o]Basta ya.[/]* Es hora de tu tratamiento.* No te muevas.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -2200,11 +2200,11 @@ E va bene, zitto. Dammi la medicina.
 ________________________________________________________________________________1
 ¿Entiendes [y]el don[/] que has recibido?* Eres.*.*.* [a---]invencible.[/]
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Hai una minima idea del [y]dono[/] che ti è stato dato?* Sei.*.*.* [a---]Invincibile.[/]
+Hai una minima idea del [y]dono[/] che ti è stato conferito?* Sei.*.*.* [a---]Invincibile.[/]
 ________________________________________________________________________________1
 ¿Y* [!^>]qué[/] si es gracias a una droga?* [r>*]¡TIENES EL PODER DE UN DIOS!* ¡VES EL FUTURO![/]* ¿Cómo* [!o<^>]OSAS[/]* despilfarrar ese don?* Ahora [!r^>]*ESTATE* QUIETO.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Allora* [!^>]cosa[/] se derivasse da una droga?* [r>*]HAI IL POTERE DI UN DIO!* VEDI IL FUTURO![/]* Come* [!o<^>]OSI[/]* sprecare questo dono!* Ora [!r^>]*SIEDITI.* FERMO.
+Allora* [!^>]cosa[/] se derivasse da una droga?* [r>*]HAI IL POTERE DI UN DIO!* VEDI IL FUTURO![/]* Come* [!o<^>]OSI[/]* sprecare questo dono!* Ora [!r^>]*STAI.* FERMO.
 ________________________________________________________________________________1
 Sí,* la cosa [a]pinta bien[/] tanto para ti como para mí.* Pero tienes que continuar [y]siguiendo mis instrucciones al pie de la letra.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -2320,7 +2320,7 @@ Dovrebbe essere [y]un'operazione semplice.[/]* Cerca di non lasciare che ciò ac
 ________________________________________________________________________________1
 [*]Obedece mis órdenes.* Siembra la [o]muerte[/*] esta noche,* y que [r]nadie escape a tu espada.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*]Obbedisci al mio comando.* Porta [o]morte[/*] questa notte,* e non lasciare che [r]nessuno scampi alla tua lama.
+[*]Obbedisci al mio comando.* Semina [o]morte[/*] questa notte,* e non lasciare che [r]nessuno scampi alla tua lama.
 ________________________________________________________________________________11111
 ¿Quién es?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -2328,7 +2328,7 @@ Chi è?
 ________________________________________________________________________________1
 [*o^>!<]¡En marcha![/*]* Sacia la inagotable sed [a%]de tu corazón errante[/*] con [r]sangre.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*o^>!<]Ora vai![/*]* Spegni la sete infinita del tuo [a%]cuore errante[/*] con [r]sangue.
+[*o^>!<]Ora vai![/*]* Spegni l'insaziabile sete del tuo [a%]cuore errante[/*] con del [r]sangue.
 ________________________________________________________________________________1
 Es [y]Fa Yuan.[/]* Su cuerpo [r]aún está caliente.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -2344,7 +2344,7 @@ Arrenditi o risponderemo con la [r]massima potenza!
 ________________________________________________________________________________1
 Nuestros jefes opinan que tu [y]ejemplar actuación[/] merece un reconocimiento.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-I nostri datori di lavoro ritengono che la tua [y]prestazione esemplare[/] meriti un elogio.
+I nostri superiori ritengono che la tua [y]prestazione esemplare[/] meriti un elogio.
 ________________________________________________________________________________1
 Cabe destacar tus esfuerzos para reducir los [o]daños colaterales[/] extremando tu sigilo.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -2356,11 +2356,11 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 Aunque nuestros jefes están [a]satisfechos[/] con que el objetivo haya sido eliminado,* no les gusta que [r]se hayan incumplido ciertos términos del contrato.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Anche se i nostri datori di lavoro sono [a]soddisfatti[/] che l'obiettivo sia stato eliminato,* sono turbati dal fatto che [r]non tutti i termini del contratto sono stati rispettati.
+Anche se i nostri superiori sono [a]soddisfatti[/] che l'obiettivo sia stato eliminato,* sono turbati dal fatto che [r]non tutti i termini del contratto sono stati rispettati.
 ________________________________________________________________________________1
 Los daños colaterales de los [y]policías[/] los consideran [p]"inaceptables".
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-I danni collaterali degli [y]agenti di polizia[/] è stato ritenuto [p]"inaccettabile".
+I danni collaterali agli [y]agenti di polizia[/] è stato ritenuto [p]"inaccettabile".
 ________________________________________________________________________________1
 Vuelve a casa y prepárate para la misión de mañana.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
