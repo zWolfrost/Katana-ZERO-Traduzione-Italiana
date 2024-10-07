@@ -7734,8 +7734,7 @@ ________________________________________________________________________________
 Katana ZERO utiliza una función de guardado automático.
 No salgas mientras se muestre este icono.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Katana ZERO utilizza una
-funzione di salvataggio automatico.
+Katana ZERO fa uso di salvataggi automatici.
 Non uscire quando questo icona è visualizzata.
 ________________________________________________________________________________11
 AVISO
@@ -8094,7 +8093,7 @@ Trafigge i nemici con le fiamme affilate della fenice.
 ________________________________________________________________________________1
 ¿Coger el Prototipo de Mandoble?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Vuoi prendere il Prototipo di Spadone?
+Vuoi prendere il Prototipo di Claymore?
 ________________________________________________________________________________1
 Un cuchillo de carnicero gigante implacable contra balas y defensas.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -8102,7 +8101,7 @@ Mannaia gigante che frantuma proiettili e difese.
 ________________________________________________________________________________1
 ¿Coger el Cuchillo Astuto?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Vuoi prendere il Coltello Sapiente?
+Vuoi prendere il Coltello Astuto?
 ________________________________________________________________________________1
 Una hoja corta para un ataque extremadamente rápido.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -8184,11 +8183,11 @@ Salta tutte le scene dell'appartamento, della terapia e degli incubi.
 ________________________________________________________________________________1
 Elimina todas las repeticiones de niveles durante las escenas guionizadas.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Rimuovi tutti i replay tranne quelli durante le cutscenes.
+Rimuove tutte le riproduzioni eccetto per quelle durante le cutscenes.
 ________________________________________________________________________________1
 Omite las principales escenas y salas ambientales.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Salta le cutscene principali e le stanze dell'ambiente.
+Salta le cutscene principali e le stanze ambientiali.
 ________________________________________________________________________________1
 Comienza la habilidad de esprint del Dragón a máxima distancia. (Solo mando)
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -8196,7 +8195,7 @@ Comincia l'attacco a scatto del Dragone dalla distanza massima. (Solo controller
 ________________________________________________________________________________1
 Esta opción de desafío eliminará la posibilidad de que el jugador use movimiento a cámara lenta. El ventilador de la fábrica desaparece.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Questa opzione di sfida rimuoverà la capacità del giocatore di usare lo slowmo. La ventola nella fabbrica è stata rimossa.
+Questa opzione di sfida rimuoverà la capacità del giocatore di rallentare il tempo. La ventola nella fabbrica è stata rimossa.
 ________________________________________________________________________________1
 Esta opción de desafío da por concluida la pasada si el jugador muere una sola vez. Esto no incluye las muertes contempladas en el guion durante las escenas.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -8204,7 +8203,7 @@ Questa opzione di sfida terminerà la partita se il giocatore muore anche solo u
 ________________________________________________________________________________1
 El jugador acaba afrontando el combate de jefe secreto independientemente de lo que haga.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Il giocatore affronterà il boss segreto indipendentemente da ciò che fa.
+Il giocatore affronterà il boss segreto indipendentemente dal suo comportamento.
 ________________________________________________________________________________1
 Catana
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -8220,11 +8219,11 @@ Spada della Maestria
 ________________________________________________________________________________1
 Cuchillo Astuto
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Coltello Sapiente
+Coltello Astuto
 ________________________________________________________________________________1
 Prototipo de Mandoble
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Prototipo di Spadone
+Prototipo di Claymore
 ________________________________________________________________________________1
 Filo del Fénix
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
