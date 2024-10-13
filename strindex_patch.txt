@@ -2,20 +2,20 @@ Traduzione italiana di Katana ZERO by Luca Russo
 https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana
 
 {
-	"md5": "29ed1f9e450d43815c2d1a0cab168da3",
+    "md5": "29ed1f9e450d43815c2d1a0cab168da3",
 
-	"replace": {
-		"ì": "í",
-		"Ì": "Í",
-		"ò": "ó",
-		"Ò": "Ó"
-	},
+    "replace": {
+        "ì": "í",
+        "Ì": "Í",
+        "ò": "ó",
+        "Ò": "Ó"
+    },
 
-	"filter_pattern": "\\[.*?\\]|\\*",
+    "filter_pattern": "\\[.*?\\]|\\*",
 
-	"source_language": "es",
-	"target_language": "it",
-	"among_languages": ["en", "ja", "ko", "de", "fr", "es", "pt", "ru", "zh"]
+    "source_language": "es",
+    "target_language": "it",
+    "among_languages": ["en", "ja", "ko", "de", "fr", "es", "pt", "ru", "zh"]
 }
 
 ________________________________________________________________________________11
@@ -3665,7 +3665,7 @@ Ma che cazzo...?
 ________________________________________________________________________________1
 [!<>*3]Empieza a hablar ya.* [!]¿Quién te envía?* [!]¿Quién te provee?* [/^><*!r]¡SUÉLTALO* [!]YA!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[!<>*3]Parla adesso.* [!]Chi ti ha mandato?* [!]Chi ti fornisce?* [/^><*!r]DILLO* [!]SUBITO!
+[!<>*3]Parla adesso.* [!]Chi ti ha mandato?* [!]Chi ti rifornisce?* [/^><*!r]DILLO* [!]SUBITO!
 ________________________________________________________________________________1111
 Tu cinta era una puta mierda.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3685,7 +3685,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 Igual convendría que le [r]cortases la lengua.[/]* [*o]Je.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Dovresti probabilmente [r]tagliargli la lingua.[/]* [*o]Heh.
+Forse ti conviene [r]tagliargli la lingua.[/]* [*o]Heh.
 ________________________________________________________________________________1
 [.>^!]Господи Иисусе,[/]* qué manera de [r]tirar el tiempo a la puta basura.*[/] Voy a llegar [y]tarde a mi cita.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3705,7 +3705,7 @@ Chiudi la fottuta bocca.
 ________________________________________________________________________________1
 [@*]Ja, JA...[/]* Serás *[r*!^<>]CABRONAZO*, [!]HIJO DE PERRA.[/]* No has venido a por [%a]Cronos,[/]* ya vas [o~2]puesto.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[@*]Ha HA...[/]* Tu *[r*!^<>]FURBO* [!]BASTARDO.[/]* Non sei qui per il [%a]Chronos,[/]* ti ci sei già [o~2]fatto.
+[@*]Ha HA...[/]* Tu *[r*!^<>]VISCIDO* [!]BASTARDO.[/]* Non sei qui per il [%a]Chronos,[/]* ti ci sei già [o~2]fatto.
 ________________________________________________________________________________1
 LO *[*>!<]SABÍA[/]*,* [.r*!>]еб твою мать[/r*>],[/]* [>r*^!<]LO SABÍA. *[/][>!^*3]¿Cuántas veces te he matado?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3797,7 +3797,7 @@ Non sai nemmeno cosa sia il [a%]Chronos[/]?* [.!><*r]пидарас[/r*>],* [!]s
 ________________________________________________________________________________1
 [*r<!]¡Ja, JA!*[/] ¡No tan rápido ahora![/]* Kissyface, pon [o]al Dragón[/] cerca de [y]Al-Qasim[/] cuando [o*]quememos todo esto.[/]* La gente pensará que andaba [y]buscando drogas[/] o algo.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*r<!]Ha HA!*[/] Non così in fretta![/]* Kissyface, metti [o]il Dragone[/] vicino [y]Al-Qasim[/] quando [o*]abbiamo incendiato il posto.[/]* Le persone penseranno che stava [y]cercando droghe[/] o cose del genere.
+[*r<!]Ha HA!*[/] Non così in fretta![/]* Kissyface, metti [o]il Dragone[/] vicino ad [y]Al-Qasim[/] quando [o*]abbiamo dato fuoco al posto.[/]* Le gente penserà che stava [y]cercando droghe[/] o cose del genere.
 ________________________________________________________________________________1
 Basta ya...
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3857,7 +3857,7 @@ Pensi che io voglia la tua *[o^><*!]approvazione,[/]* coglione?* Fanculo.* [r^<>
 ________________________________________________________________________________1
 [^>!<r*.]¡Сука блять![./]* [!>^*3]Podríamos haber formado un [y*]equipo de la hostia,[/]* ¿lo sabías?* Tu [a]técnica,[/]* mis [~&---]dotes cinematográficas.[/]* Podría haber sido [o]arte.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[^>!<r*.]Сука блять![./]* [!>^*3]Saremmo potuti essere una [y*]vera cazzo di squadra,[/]* lo sai?* La tua [a]forma,[/]* il mio [~&---]talento cinematografico.[/]* Sarebbe potuta essere [o]arte.
+[^>!<r*.]Сука блять![./]* [!>^*3]Saremmo potuti essere una [y*]vera cazzo di squadra,[/]* lo sai?* La tua [a]tecnica,[/]* il mio [~&---]talento cinematografico.[/]* Sarebbe potuta essere [o]arte.
 ________________________________________________________________________________1
 [^>!<r*--.]¡Сука блять![./--]* Voy a dejarte *[r>!<^*]SECO[/--],* gilipollas,* [/!o]se acabaron las preguntas.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3897,7 +3897,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 [!*>^]¡Aún no ha dicho ni mu!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[!*>^]Non aveva ancora parlato!
+[!*>^]Non aveva ancora detto niente!
 ________________________________________________________________________________1
 [>^!<*3]¡Pregúntale al puto [y]Al-Qasim[w] quién es el gilipollas![/]* [*r!<>^]¡PREGÚNTALE, HOSTIAS!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3905,7 +3905,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 No estoy de humor para [o]esta mierda.[/]* Ocúpate tú,* [y]Mr. Kissyface.[/]* Dile al jefe que [y]Al-Qasim[/] estaba [r]muerto cuando llegamos.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Non sono nell'umore per [o]questa merda.[/]* Puoi gestire tu questa cosa,* [y]Mr. Kissyface.[/]* Di' al capo che [y]Al-Qasim[/] era [r]morto quando siamo arrivati ​​qui.
+Non sono nell'umore per [o]questa merda.[/]* Puoi occupartene tu,* [y]Mr. Kissyface.[/]* Di' al capo che [y]Al-Qasim[/] era già [r]morto quando siamo arrivati ​​qui.
 ________________________________________________________________________________1
 [o*]Je, je...
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3925,23 +3925,23 @@ Non sei riuscito a trovare [a%]il Chronos,*[/] vero?
 ________________________________________________________________________________1
 Se negaba a hablar.* Creo que sabía [y]quién nos enviaba.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Non stava parlando.* Penso che sapesse [y]chi ci ha mandato.
+Non voleva parlare.* Credo che sapesse [y]chi ci ha mandato.
 ________________________________________________________________________________1
 [y]El jefe[/] no se va a tragar que [o]Al-Qasim[/] estuviera muerto cuando llegamos.* [r]Me vas a hacer quedar como el culo.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[y]Il capo[/] non crederà che [o]Al-Qasim[/] fosse morto quando siamo arrivati ​​qui.* [r]Mi stai facendo sembrare veramente poco professionale.
+[y]Il capo[/] non crederà al fatto che [o]Al-Qasim[/] fosse morto quando siamo arrivati ​​qui.* [r]Mi stai facendo sembrare veramente poco professionale.
 ________________________________________________________________________________1
 [!>*1]¡Pero si es que no soltaba prenda![/]* Estos [y]inversores[/] no tienen ni idea sobre [a]sintetizar [%]Cronos.[/]* Habría que buscar a [p]científicos.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[!>*1]Comunque non stava dicendo niente![/]* Questi [y]tizi investitori[/] non sanno davvero nulla della [a]produzione di [%]Chronos.[/]* Dobbiamo cercare degli [p]scienziati.
+[!>*1]Comunque non avrebbe detto niente![/]* Questi [y]tizi investitori[/] non sanno davvero nulla della [a]produzione di [%]Chronos.[/]* Dobbiamo cercare degli [p]scienziati.
 ________________________________________________________________________________1
 A lo mejor no deberías [r]volarles los sesos.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Forse non dovresti [r]fargli saltare le teste.
+Forse allora non dovresti [r]fargli saltare la testa.
 ________________________________________________________________________________1
 [!>*]¡Pero si es que tampoco hablaba!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[!>*]Ma nemmeno lui parlava!
+[!>*]Ma non voleva parlare!
 ________________________________________________________________________________1
 [r]A veces no sé lo que hacer contigo...
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -3969,7 +3969,7 @@ Non c'era niente dietro quegli occhi;* [y]nessuna anima,* nessun rimorso.[/]* No
 ________________________________________________________________________________1
 Sé que a veces te machaco,* pero estoy orgullosa de ti.* El Dragón no era un [p%]NULO cualquiera.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-So che a volte sono duro con te,* ma sono fiero di te.* Il Dragone non era un [p%]NULL qualunque.
+So che a volte posso sembrare duro,* ma sono fiero di te.* Il Dragone non era un [p%]NULL qualunque.
 ________________________________________________________________________________1
 [r*]Dios,* SNOW.*.*.[/]* ¿Crees que el jefe querrá recompensarme?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4185,7 +4185,7 @@ Salute!
 ________________________________________________________________________________1
 Nos *[r!><^*]odiaban*[/] mucho.* Yo pensaba que seríamos [o]héroes,[/]* tío.* Pensaba que [~a]pillaría cacho a saco[/] cuando volviera.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Ci *[r!><^*]odiavano*[/] a morte.* Pensavo che saremmo stati [o]eroi,[/]* amico.* Pensavo che [~a]mi sarei fatto un sacco di figa[/] una volta tornato.
+Ci *[r!><^*]odiavano*[/] a morte.* Pensavo che saremmo stati [o]eroi,[/]* amico.* Pensavo che [~a]mi sarei fatto un sacco di tipe[/] una volta tornato.
 ________________________________________________________________________________1
 Es por esos.*.*.* [~p]programas psíquicos[/] o como se diga.* Las operaciones especiales del Gobierno para el control mental,* [y]frikis creados en laboratorio[/] y entrenados para-
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4193,7 +4193,7 @@ Es por esos.*.*.* [~p]programas psíquicos[/] o como se diga.* Las operaciones e
 ________________________________________________________________________________1
 ¿Ese vejestorio de ahí te está llenando la cabeza con [y*]teorías conspiratorias[/]?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Quel vecchio lì ti sta riempiendo la testa con [y*]teorie del complotto[/]?
+Quel vecchio lì ti sta riempiendo la testa con le [y*]teorie del complotto[/]?
 ________________________________________________________________________________1
 Ignora a ese fanfarrón.* ¿Has oído hablar del [o]programa antidrogas del Gobierno?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4217,7 +4217,7 @@ Avevano dei dannati.*.*.* [o]Squadroni della morte[/] pieni di [p~]super-soldati
 ________________________________________________________________________________1
 Al parecer, los atiborraban de [y]cierta droga[/] para hacerles [a]ver el futuro[/] o [p]leer mentes[/] o algo.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-A quanto pare, li drogavano con [y]una certa droga[/] per fargli [a]vedere il futuro[/] o [p]leggere le menti[/] o qualcosa del genere.
+A quanto pare, gli somministravano [y]una certa droga[/] per fargli [a]vedere il futuro[/] o [p]leggere le menti[/] o qualcosa del genere.
 ________________________________________________________________________________1
 Yo tenía un amigo que conoció a uno.* Jugaba a [y]las cartas[/] y ganaba siempre,* como si [p~]supiera cómo iba a salir todo antes de que ocurriera.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4461,7 +4461,7 @@ Il nome "V" ti dice qualcosa?
 ________________________________________________________________________________1
 Ya [y^!>]*SÉ*[/] que Al-Qasim está muerto.* Se lo encontraron con un puto balazo en la cabeza.* TAMBIÉN [o*]lo han dicho en las noticias.[/]* No eres capaz de ha[@]cer
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Già [y^!>]*SO*[/] che Al-Qasim è morto.* È stato trovato con un dannato proiettile in testa.* È ANCHE [o*]su tutte i notiziari.[/]* Non riesci fare nu[@]lla normalmente
+Già [y^!>]*SO*[/] che Al-Qasim è morto.* È stato trovato con un dannato proiettile in testa.* È ANCHE [o*]su tutti i notiziari.[/]* Non sei capace di fare nu[@]lla normalmente
 ________________________________________________________________________________1
 ¿No pudiste hacer otra cosa que provocar la [r*]matanza más atroz[/] de la historia de Nueva Meca?* ¡Los medios la han calificado de [o]acto de terro[@]rismo y
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4657,7 +4657,7 @@ Sei sul *[><^!r*]filo del rasoio[/]*, sappilo.* Non c'è margine per errori.
 ________________________________________________________________________________1
 A partir de ahora,* si te desvías lo más mínimo de la obediencia y la profesionalidad más absolutas,* [r*----]serás reemplazado.[/]* Y ahora, largo de aquí.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-D'ora in poi,* se ti allontani anche solo un po' dall'obbedienza e dalla professionalità più assolute,* [r*----]verrai sostituito.[/]* E ora fuori di qui.
+D'ora in poi,* se ti allontani anche solo di un po' dall'obbedienza e dalla professionalità più assolute,* [r*----]verrai sostituito.[/]* E ora fuori di qui.
 ________________________________________________________________________________1
 [r*-]Ni se te ocurra acercarte.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4701,7 +4701,7 @@ Ehi amico,* [a]bel cosplay![/]* [y]Pinkachu,[/]* vero?* L'ho potuto capire dalla
 ________________________________________________________________________________1
 ¡Eh, tronco,* [a]te mola el cosplay![/]* [y]Shinju,*[/] ¿eh?* A mi sobrino le encanta [l]Ex Vs X - Sakura reDUX 2.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Ehi amico,* [a]bel cosplay![/]* [y]Shinju,*[/] vero?* Mio nipote ama [l]Ex Vs X - Sakura reDUX 2.
+Ehi amico,* [a]bel cosplay![/]* [y]Shinju,*[/] vero?* Il mio nipote ama [l]Ex Vs X - Sakura reDUX 2.
 ________________________________________________________________________________11
 Juguemos.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4737,7 +4737,7 @@ Forse più tardi.
 ________________________________________________________________________________1
 Siempre está así.* Creo que este sitio es [y]una tapadera para blanquear dinero.[/]* Siempre veo [o]gente sospechosa[/] entrando en la [a]zona VIP.[/]* Pero yo no he dicho nada, ¿eh?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-È sempre così.* Penso che questo posto sia [y]una grande facciata per il riciclaggio di denaro.[/]* Vedo sempre [o]persone losche[/] entrare nella [a]zona VIP.[/]* Però non hai sentito nulla da me.
+È sempre così.* Credo che questo posto sia [y]una grande facciata per riciclare il denaro.[/]* Vedo sempre [o]persone losche[/] entrare nella [a]zona VIP.[/]* Però non hai sentito nulla da me.
 ________________________________________________________________________________1
 [!><&~]Oooh, caramba.*[/] ¿Rojo o negro?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4821,7 +4821,7 @@ La roulette di solito non è più complicata?
 ________________________________________________________________________________1
 Vaya con el tipo importante y sus preguntas avispadas.* A lo mejor [y]aquí hacemos las cosas de otro modo, [/] en [~&]La Casa de Chen el Superlegal de Apuestas Megalegítimas,[/]* ¿eh?* ¿Vas a seguir haciéndome perder el tiempo?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Guarda il grand'uomo con le domande raffinate.* Forse [y]facciamo le cose un po' diversamente[/] alla [~&]Casa delle Scommesse Legittime dell'Ineccepibile Chen,[/]* eh?* Vuoi farmi perdere altro tempo?
+Guarda al grand'uomo con le domande raffinate.* Forse [y]facciamo le cose un po' diversamente[/] alla [~&]Casa delle Scommesse Legittime dell'Ineccepibile Chen,[/]* eh?* Vuoi farmi perdere altro tempo?
 ________________________________________________________________________________1
 Vamos con todo.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4873,7 +4873,7 @@ Allora non vai da nessuna parte.
 ________________________________________________________________________________1
 [----]Heyyy,*[/] te crees que no sé contar porque soy un [o]*puerta* grandullón sin sesera,[/]* ¿eh?* Pues te diré [y]que se me da muy bien,[/]* y [r]que ahí no llevas 100 000.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[----]Heyyy,*[/] credi che non sappia contare perché sono un [o]*buttafuori* grosso e senza cervello,[/]* eh?* Ti dirò [y]che sono molto bravo con i numeri,[/]* e [r]che non hai 100'000 lì.
+[----]Heyyy,*[/] credi che non sappia contare perché sono un [o]*buttafuori* grosso e senza cervello,[/]* eh?* Ti dirò [y]che sono molto bravo con i numeri,[/]* e [r]che quelle non sono 100'000.
 ________________________________________________________________________________1
 Mira, amigo,* me llaman [&]Bill el Muro[/] por algo.* No pienso dejarte pasar sin [l]100 000 pavos en fichas.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4901,7 +4901,7 @@ Vai a giocare un po',* ok?* Torna quando avrai qualcosa [o]che sia più che polv
 ________________________________________________________________________________1
 [----]Heyyy,[/]* ¿te crees [o%]peligroso?*[/] Pues te diré una cosa,* amigo.* Lo que es peligroso es ser [r%]tan pobre.[/]* Desaparece de mi vista.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[----]Heyyy,[/]* Credi di essere [o%]un tipo pericoloso?*[/] Lascia che ti dica una cosa,* amico.* Non sei nemmeno [r%]innocuo.[/]* Sparisci dalla mia vista.
+[----]Heyyy,[/]* Credi di essere [o%]un tipo pericoloso?*[/] Lascia che ti dica una cosa,* amico.* Non fai nemmeno [r%]paura.[/]* Sparisci dalla mia vista.
 ________________________________________________________________________________1
 No puedes pasar sin [l]100 000 pavos en fichas.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4933,7 +4933,7 @@ Por eso estoy aquí.* Me queda poco-* [o++^>*]Lo sé-*[/] pero necesito tu ayuda
 ________________________________________________________________________________1
 La guerra acabó hace 7 años.* No me quedan [y]fuerzas para vengarme.[/]* Y ahora que [o]Al-Qasim ya no está.*.*.*[/] El [a%]Cronos.*.*.*[/] No me queda mucho tiempo.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-La guerra è finita 7 anni fa.* Sono [y]troppo stanco per vendicarmi.[/]* E ora che [o]Al-Qasim non c'è più.*.*.*[/] Il [a%]Chronos.*.*.*[/] Non mi resta molto tempo.
+La guerra è finita 7 anni fa.* Non ho più [y]forze per vendicarmi.[/]* E ora che [o]Al-Qasim non c'è più.*.*.*[/] Il [a%]Chronos.*.*.*[/] Non mi resta molto tempo.
 ________________________________________________________________________________1
 Por robarnos [y]nuestras vidas,[/]* por convertirnos en [o]monstruos,[/]* por hacernos [r*-]librar sus guerras y deshacerse de nosotros luego...
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4977,11 +4977,11 @@ Pensi che sia [r*]il Dragone?
 ________________________________________________________________________________1
 Si lo es.*.*.*, le tengo reservada una [r]bala[/] por lo que le hizo a [l]Terry el Cachas.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Se lo è.*.*.* gli ho riservato una [r]pallottola[/] per quello che ha fatto a [l]Terry il Muscoloso.
+Se lo è.*.*.* gli ho riservato un [r]proiettile[/] per quello che ha fatto a [l]Terry il Muscoloso.
 ________________________________________________________________________________1
 [l]Descanse en paz.*[/] [a]Seguro que ahora levanta pesas con san Pedro.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[l]Riposa in pace, Terry il Muscoloso.*[/] [a]Sicuramente starà sollevando pesi con San Pietro.
+[l]Riposa in pace, Terry il Muscoloso.*[/] [a]Insegna agli angeli a sollevare pesi.
 ________________________________________________________________________________1
 [!>r<^]¡Te tenemos rodeado!* [!<]¡De rodillas y las manos en alto!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -4993,7 +4993,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 La [y]dorada luna[/] proyecta su amplia sonrisa sobre el altar de tu ablución.* Tu [r]bautismo de sangre[/] se aproxima.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-La [y]dorata luna[/] proietta il suo ampio sorriso sull'altare della tua purificazione.* Il tuo [r]battesimo di sangue[/] si avvicina.
+La [y]dorata luna[/] proietta il suo ampio sorriso sull'altare della tua purificazione.* Il tuo [r]battesimo sanguineo[/] si avvicina.
 ________________________________________________________________________________1
 [r*]¿Q-*qué coño...?* ¡Vuelve aquí* ahora mismo!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -5017,7 +5017,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 [*]¡Este altar [r]exige tu respuesta![/*]* ¿Escoges la [y]máscara de oro de la vida,[/*]* para aquietar tu espada y renacer agraciado?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*]Questo altare [r]esige la tua risposta![/*]* Scegli la [y]maschera d'oro della vita,[/*]* per placare la tua spada e rinascere con grazia?
+[*]Codesto altare [r]esige la tua risposta![/*]* Scegli la [y]maschera d'oro della vita,[/*]* per placare la tua spada e rinascere con grazia?
 ________________________________________________________________________________1
 [*]¿O te quedas con la [a]máscara de plata de la muerte,[/*]* y siembras en este suelo yermo [r]la sangre de tu enemigo?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -5069,11 +5069,11 @@ Sono pronto a compiere la mia scelta.
 ________________________________________________________________________________1
 [*]¡Porque las [y]estrellas lo dictan![/*]* O tal vez sea por ese [o]asunto de drogas[/*] en el que estas metido.* O por toda la [r]gente que has matado.[/*]* O igual te estamos tomando el pelo.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*]Perché [y]lo dettano le stelle![/*]* O forse è per quei [o]business di droga[/*] in cui sei coinvolto.* O forse per tutte quelle [r]persone che hai ucciso.[/*]* O forse semplicemente ci diverte farti impazzire.
+[*]Perché [y]lo dettano le stelle![/*]* O forse è per quei [o]business di droga[/*] in cui sei coinvolto.* O forse è per tutte quelle [r]persone che hai ucciso.[/*]* O forse semplicemente ci piace farti impazzire.
 ________________________________________________________________________________1
 [*]A mí,* personalmente,* [o]me gusta volverte loco.[/*]* [y]¡Je, je, je!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*]A me,* personalmente,* [o]diverte farti impazzire.[/*]* [y]He he heeeee!
+[*]A me,* personalmente,* [o]piace farti impazzire.[/*]* [y]He he heeeee!
 ________________________________________________________________________________1
 [*]Bueno, ¿qué me dices,* quieres [a]vivir[/*] o [y]morir?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -5085,7 +5085,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 [*]Es la pura verdad.* El [a%]Cronos[/*] de tu sangre se está agotando.* Vas a [r]morir de verdad[/*] si así lo eliges.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*]È la pura verità.* Il [a%]Chronos[/*] nel tuo sangue si sta esaurendo.* Morirai [r]sul serio[/*] se lo scegli di farlo.
+[*]È la pura verità.* Il [a%]Chronos[/*] nel tuo sangue si sta esaurendo.* Morirai [r]sul serio[/*] se scegli di farlo.
 ________________________________________________________________________________1
 [*]¡Pero piensa en toda la gente que [y]vivirá![/*]* Como estos [r]putos polis.[/*]* ¡Y esa [a]amiguita que tienes,[/*]* [y]je, je, je!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -5093,7 +5093,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 ¿Por qué iba a elegir morir?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Perché potrei mai scegliere di morire?
+Perché mai dovrei scegliere di morire?
 ________________________________________________________________________________11
 ¿Te refieres a la niña? ¿Qué tiene ella que ver en todo esto?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -5117,7 +5117,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 [*]¿Estás preparado para afrontar las [r]consecuencias?[/*]* [a]¿Personificar la muerte[/*]* e [o]imponérsela a los de tu alrededor?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*]Sei pronto ad affrontare le [r]conseguenze?[/*]* [a]Personificare la morte[/*]* e [o]imporla a quelli intorno a te?
+[*]Sei pronto ad affrontarne le [r]conseguenze?[/*]* [a]Personificare la morte[/*]* e [o]imporla a quelli intorno a te?
 ________________________________________________________________________________1
 [*]¿Esa es tu elección?* ¿Aceptar tu [r]final definitivo[/*] y llevar la [y]máscara de oro de la vida?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -5145,7 +5145,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 [*]¡Esto va a ser divertido,* [y]je, je, je!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*]Questo sarà divertente,* [y]he he heeeee!
+[*]Sarà divertente,* [y]he he heeeee!
 ________________________________________________________________________________1
 [*]Que así sea.* ¡Eliges [a]llevar la máscara de plata de la muerte[/*] y [r]despreciar la paz de la muerte definitiva!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -5153,7 +5153,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 [*]¡Que sepas que [o]otros sufrirán las consecuencias de tu elección![/*]* Hasta siempre,* [a%]corazón errante.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*]Sappi che [o]gli altri soffriranno le conseguenze della tua scelta![/*]* Addio,* [a%]cuore errante.
+[*]Sappi che [o]saranno gli altri a soffrire le conseguenze della tua scelta![/*]* Addio,* [a%]cuore errante.
 ________________________________________________________________________________1
 [*]¿Qué estás-?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -5601,7 +5601,7 @@ Ah, [y]la Juncture.[/]* Che sorpresa.
 ________________________________________________________________________________1
 Lo siento,* pero no acepto abogados.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Mi dispiace,* ma non ho bisogni di avvocati.
+Mi dispiace,* ma non ho bisogno di avvocati.
 ________________________________________________________________________________1
 Te estaba esperando, [a]Josh Rose.[/]
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -5637,7 +5637,7 @@ Dove diavolo sei?* Perché non sei venuto oggi?
 ________________________________________________________________________________1
 Anoche mataste a [o]todo un escuadrón de Policía[/]. *¿Entiendes el [r]riesgo[/] que nos hace correr tu errático comportamiento?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Ieri sera hai ucciso [o]un intero squadrone di polizia[/] - *capisci [r]il pericolo[/] che stiamo correndo per colpa del tuo comportamento erratico?
+Ieri sera hai ucciso [o]un intero squadrone di polizia[/] - *ti rendi conto [r]del pericolo[/] che stiamo correndo per colpa del tuo comportamento erratico?
 ________________________________________________________________________________1
 ¿Qué *[><^r!]MIERDA*[/] estás haciendo?
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -5709,7 +5709,7 @@ Es de la guerra.* [y]Una medalla.
 ________________________________________________________________________________1
 [^&~><!]¡Hala![/]* ¿Estuviste en una guerra?* ¡Entonces eres un [y]héroe![/]* Pero tienes que limpiarla,* eso sí.* [o*]¡Está sucísima!
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[^&~><!]Wow!* Sei stato in guerra?* Allora vuol dire che sei un [y]eroe![/]* Ma devi pulirla,* però!* [o*]È veramente sporca!
+[^&~><!]Wow!* Sei stato in guerra?* Allora vuol dire che sei un [y]eroe![/]* Dovresti pulirla,* però!* [o*]È veramente sporca!
 ________________________________________________________________________________1
 No me la he quitado en [y]siete años.[/]* Me recuerda que, [o--]haga lo que haga,* una vez hice algo bueno.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -5961,7 +5961,7 @@ No.* Tu non sei una specie di [r]creazione alla Frankenstein.[/]* Sei una [^---]
 ________________________________________________________________________________1
 [*]Ah.*.*.*[/] Te falta la [y]aversión a matar[/] con la que nacen la mayoría de las personas.* Tal vez te haya malinterpretado,* pero tú pareces [r*]disfrutarlo.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-[*]Ah.*.*.*[/] Ti manca l'[y]avversione all'uccidere[/] con cui nascono la maggior parte delle persone.* Forse ti ho letto male,* ma sembra che tu [r*]trova piacere nel farlo.
+[*]Ah.*.*.*[/] Ti manca l'[y]avversione all'uccidere[/] con la quale nascono la maggior parte delle persone.* Forse ti ho letto male,* ma sembra che tu [r*]trova piacere nel farlo.
 ________________________________________________________________________________1
 Me gusta matar.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -6101,7 +6101,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________1
 Pero, sinceramente,* me has causado [y*-^]mucho estrés y frustración en mi vida.[/]* Es todo lo que tengo que decir.* Bueno, es la [a]hora de tu tratamiento.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Ma francamente,* hai portato [y*-^]una quantità esorbitante di stress e frustrazione nella mia vita.[/]* Questo è quanto.* Adesso è il [a]momento del tuo trattamento.
+Ma francamente,* hai portato [y*-^]una quantità esorbitante di stress e frustrazione nella mia vita.[/]* Questo è quanto.* Adesso è [a]l'ora del tuo trattamento.
 ________________________________________________________________________________1
 Ahora largo de mi consulta.
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -7718,11 +7718,15 @@ SEGNALE VIDEO PERSO
 ________________________________________________________________________________1
 REPRODUCIR
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-RIPRODUCI
+RIPRODUZIONE
 ________________________________________________________________________________1
 REBOBINADO
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-RIAVVOLGI
+RIAVVOLGIMENTO
+________________________________________________________________________________1
+AVANCE RAPIDE
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+AVANTI VELOCE
 ________________________________________________________________________________1
 AVANCE
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
@@ -8378,7 +8382,7 @@ COMANDI DA TASTIERA
 ________________________________________________________________________________1
 CONTROLES DE MANDO
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-COMANDI DEL CONTROLLER
+COMANDI DA CONTROLLER
 ________________________________________________________________________________11
 GRÁFICOS
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
