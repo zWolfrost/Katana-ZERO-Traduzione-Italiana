@@ -399,7 +399,7 @@ Dammi la medicina e basta.
 ================================================================================1
 Creo que se dirigía hacia una máquina.
 --------------------------------------------------------------------------------
-Penso che si stesse dirigendo verso una macchina.
+Credo che si stesse dirigendo verso una macchina.
 ================================================================================1
 ¿A lo mejor la [p]sombra[/] era el [y]operario de la máquina?
 --------------------------------------------------------------------------------
@@ -415,7 +415,7 @@ Sembra possibile.
 ================================================================================1
 Creo que era un científico.
 --------------------------------------------------------------------------------
-Penso che fosse uno scienziato.
+Credo che fosse uno scienziato.
 ================================================================================1
 Sí,* hoy has sido [y]muy paciente[/] conmigo.
 --------------------------------------------------------------------------------
@@ -1771,7 +1771,7 @@ Apri la porta o [o]Mastodonte[/] la* [!r><^]aprirà per te!
 ================================================================================1
 ¿Crees que esto es un [y~]jueguecito,[/]* so listo?* Esto no * [!>^]es[/]* cosa de risa.* ¡Abre de* [r^>]una vez!
 --------------------------------------------------------------------------------
-Pensi che tutto questo sia molto [y~]divertente,[/]* signore?* Non c'è* [!>^]niente[/]* da ridere.* Adesso* [r^>]apri la porta!
+Credi che tutto questo sia molto [y~]divertente,[/]* signore?* Non c'è* [!>^]niente[/]* da ridere.* Adesso* [r^>]apri la porta!
 ================================================================================1
 ¡No me* [o^><!]OBLIGUES[/]* a usar la fuerza,* tío!* [r>^]¡Abre ya!
 --------------------------------------------------------------------------------
@@ -3815,7 +3815,7 @@ Fermati...
 ================================================================================1
 ¿De verdad pensabas que jugábamos en la misma liga?
 --------------------------------------------------------------------------------
-Pensavi onestamente di essere alla mia altezza.
+Credevi onestamente di essere alla mia altezza.
 ================================================================================1
 No me puedo creer que hayas pensado que...
 --------------------------------------------------------------------------------
@@ -3855,7 +3855,7 @@ Fanculo.
 ================================================================================1
 ¿Crees que quiero tu *[o^><*!]aprobación,[/]* tonto de la polla?* Que te den* [r^<>*!]POR EL PUTO CULO.
 --------------------------------------------------------------------------------
-Pensi che io voglia la tua *[o^><*!]approvazione,[/]* coglione?* Fanculo.* [r^<>*!]FANCULO.
+Credi che io voglia la tua *[o^><*!]approvazione,[/]* coglione?* Fanculo.* [r^<>*!]FANCULO.
 ================================================================================1
 [^>!<r*.]¡Сука блять![./]* [!>^*3]Podríamos haber formado un [y*]equipo de la hostia,[/]* ¿lo sabías?* Tu [a]técnica,[/]* mis [~&---]dotes cinematográficas.[/]* Podría haber sido [o]arte.
 --------------------------------------------------------------------------------
@@ -3975,7 +3975,7 @@ So che a volte posso sembrare duro,* ma sono fiero di te.* Il Dragone non era un
 ================================================================================1
 [r*]Dios,* SNOW.*.*.[/]* ¿Crees que el jefe querrá recompensarme?
 --------------------------------------------------------------------------------
-[r*]Dio,* SNOW.*.*.[/]* Pensi che il capo mi darà una ricompensa?
+[r*]Dio,* SNOW.*.*.[/]* Credi che il capo mi darà una ricompensa?
 ================================================================================11
 Probablemente.
 --------------------------------------------------------------------------------
@@ -4011,7 +4011,7 @@ Mi hai fatto passare una serataccia.
 ================================================================================1
 [!>^*]¿Crees que tengo un aspecto de mierda ahora?* [!r]No es más que un arañazo.
 --------------------------------------------------------------------------------
-[!>^*]Pensi che abbia un aspetto di merda ora?* [!r]È solo un cazzo di graffio.
+[!>^*]Credi che abbia un aspetto di merda ora?* [!r]È solo un cazzo di graffio.
 ================================================================================11
 Déjalo ya, V.
 --------------------------------------------------------------------------------
@@ -4975,7 +4975,7 @@ Non ci sono molti dettagli,* ma il tenente dice che il nostro uomo è [y]uno spa
 ================================================================================1
 ¿Crees que es [r*]el Dragón?
 --------------------------------------------------------------------------------
-Pensi che sia [r*]il Dragone?
+Credi che sia [r*]il Dragone?
 ================================================================================1
 Si lo es.*.*.*, le tengo reservada una [r]bala[/] por lo que le hizo a [l]Terry el Cachas.
 --------------------------------------------------------------------------------
@@ -6251,7 +6251,7 @@ Non posso mostrartela... Ma posso mostrarti la mia carta trappola.
 ================================================================================1
 La verdad es que *[!><^]te[/]* sienta bien.* Estás [a*]muy masculino [/][~&]<3 <3 <3.
 --------------------------------------------------------------------------------
-Beh *[!><^]Io[/]* penso che ti stia bene.* Hai un aspetto [a*]molto virile[/] [~&]<3 <3 <3
+Beh *[!><^]Io[/]* credo che ti stia bene.* Hai un aspetto [a*]molto virile[/] [~&]<3 <3 <3
 ================================================================================1
 Fíjate qué fuerte:* al parecer, es culpa *[!><^*]MÍA[/]* que [o]el Dragón[/] se colase en el [y]Murdower.*[/] Olvidé comprobar su identificación o algo...* [!>^]¡Quién sabe!* [~&]¡Pero no se lo cuentes a mi nuevo jefe!
 --------------------------------------------------------------------------------
@@ -7267,7 +7267,7 @@ Randy,* corrisponde al profilo.
 ================================================================================1
 [r*].*.*.* ¿Crees que es él?
 --------------------------------------------------------------------------------
-[r*].*.*.*Pensi che sia lui?
+[r*].*.*.*Credi che sia lui?
 ================================================================================1
 Aquí Cero. Objetivo neutralizado.
 --------------------------------------------------------------------------------
@@ -8697,7 +8697,6 @@ MOSTRA RECORD
 Loc&Load
 --------------------------------------------------------------------------------
 Loc&Load
-Luca Russo ;)
 ================================================================================1
 Loc&Load
 --------------------------------------------------------------------------------
