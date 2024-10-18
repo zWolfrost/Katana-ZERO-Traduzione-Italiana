@@ -23,7 +23,7 @@ https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana
 ================================================================================11
 A ver...* Háblame de nuevo de los [r]tipos enmascarados...
 --------------------------------------------------------------------------------
-Vediamo...* Parlami di nuovo di quei [r]tizi mascherati...
+Vediamo...* Parlami di nuovo di quei [r]tipi mascherati...
 ================================================================================1
 Entiendo...* Entonces comencemos por el principio.
 --------------------------------------------------------------------------------
@@ -2655,7 +2655,7 @@ Che [r]merda di musica è questa?[/]* La potevo sentire dalla mia fottuta limous
 ================================================================================11
 Basta, por favor.
 --------------------------------------------------------------------------------
-Ti prego, basta.
+Ti prego, fermati.
 ================================================================================11111111
 Que te den.
 --------------------------------------------------------------------------------
@@ -3031,11 +3031,11 @@ Oh merda.* Mi hai davvero seguito?
 ================================================================================1
 [*>!]Joder,*[/][*] me ahogo...* [@]¿Para qué habré cogido esto?
 --------------------------------------------------------------------------------
-[*>!]Cazzo,*[/][*] sono in pessima forma...* [@]Perché ho preso quella cosa?
+[*>!]Cazzo,*[/][*] sono in pessima forma...* [@]Perché ho preso questo coso?
 ================================================================================1
 [^]ALTO, CACHOCARNE.* TU ENCLENQUE CUERPO HA QUEDADO REQUISADO.
 --------------------------------------------------------------------------------
-[^]FERMATI, UOMO DI CARNE.* IL TUO DEBOLE CORPO È STATO REQUISITO.
+[^]FERMATI, UOMO DI CARNE.* IL TUO DEBOLE CORPO È STATO SEQUESTRATO.
 ================================================================================1
 [^]SOY EL CIBERHOMBRE INVENCIBLE DE GLORBOX 12.* RÍNDETE A MI INTELECTO ROBÓTICO SUPERIOR.
 --------------------------------------------------------------------------------
@@ -3111,7 +3111,7 @@ Acaba de llegar.* Sí,* [p]está solo.[/]
 ================================================================================1
 [y]Ven para acá.[/]* No quiero [r]mancharme[/] el chándal limpio.
 --------------------------------------------------------------------------------
-[y]Vieni qui.[/]* Non voglio [r]macchiare[/] la mia tuta nuova.
+[y]Vieni qui.[/]* Non voglio [r]macchiare[/] la mia nuova tuta.
 ================================================================================1
 Largo,* [r]esto son negocios.[/]
 --------------------------------------------------------------------------------
@@ -3351,7 +3351,7 @@ Ecco alcuni consigli di sicurezza per l'Halloween di quest'anno.
 ================================================================================1
 Limite las visitas puerta a puerta de sus hijos a su edificio...
 --------------------------------------------------------------------------------
-Lascia che i tuoi figli faccino dolcetto o scherzetto soltanto nel tuo edificio...
+Lascia che i tuoi figli facciano dolcetto o scherzetto soltanto nel tuo edificio...
 ================================================================================1
 No acepte golosinas de nadie que no conozca, y no acepte productos extraños o de coloración rara... 
 --------------------------------------------------------------------------------
@@ -4131,7 +4131,7 @@ Ah sì?* E dove l'hai presa?* [y]Dal negozio di pegni sulla 5a?[/]* Hai una vera
 ================================================================================1
 Solo hay [y]veteranos y yonquis[/] en el [o]Tercer Distrito,[/]* y [r]veterano no eres.
 --------------------------------------------------------------------------------
-Qui nel Terzo Distretto ci sono solo [y]veterani e drogati[/], e tu [r]non sei certo un veterano.
+Qui nel Terzo Distretto ci sono solo [y]veterani e drogati[/], e tu [r]non sembri certo un veterano.
 ================================================================================1
 ¿A cuántos has matado?
 --------------------------------------------------------------------------------
@@ -8150,7 +8150,7 @@ Il Chronos è patetico rispetto a quello che posso fare io.
 ================================================================================1
 ¿Ya está? ¿Eso es todo cuanto puedes hacer?
 --------------------------------------------------------------------------------
-Tutto qui? Questo è davvero il meglio che sai fare?
+Tutto qui? È questo davvero il meglio che sai fare?
 ================================================================================1
 Tu pesadilla en vida nunca acabará, idiota.
 --------------------------------------------------------------------------------
