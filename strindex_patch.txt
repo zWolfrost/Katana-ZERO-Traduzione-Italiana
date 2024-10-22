@@ -1,4 +1,7 @@
-Traduzione italiana di Katana ZERO by Luca Russo
+Traduzione Italiana di Katana ZERO
+Made with ♥ by Luca Russo
+
+Per dettagli aggiuntivi riferirsi a questa pagina:
 https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana
 
 {
@@ -6,14 +9,15 @@ https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana
 
     "prefix_bytes": ["24c7442404", "ec04c70424"],
 
-    "replace": {
+    "patch_replace": {
         "ì": "í",
         "Ì": "Í",
         "ò": "ó",
         "Ò": "Ó"
     },
 
-    "filter_pattern": "\\[.*?\\]|\\*",
+    "clean_pattern": "\\[.*?\\]|\\*",
+    "whitelist": ["latin", "spanish", "cyrillic"],
 
     "source_language": "es",
     "target_language": "it",
@@ -8694,8 +8698,6 @@ MOSTRAR RÉCORDS
 --------------------------------------------------------------------------------
 MOSTRA RECORD
 ================================================================================1
-Loc&Load
---------------------------------------------------------------------------------
 Loc&Load
 ================================================================================1
 Loc&Load
