@@ -1019,7 +1019,7 @@ Ma ritiene che si tratti di un attacco su larga scala, altamente coordinato.
 ================================================================================1
 [r]Se ruega a los ciudadanos que permanezcan en sus casas.
 --------------------------------------------------------------------------------
-[r]Si invitano i cittadini a rimanere in casa.
+[r]Si invitano i cittadini a restare in casa.
 ================================================================================1
 ¿Quiere perder peso rápido?* Un empleado de la limpieza podría haber dado con la clave.
 --------------------------------------------------------------------------------
@@ -4427,11 +4427,11 @@ Tornerò più tardi.
 ================================================================================1
 Yo tengo que irme, pero puedes quedarte aquí hoy.
 --------------------------------------------------------------------------------
-Devo andare, ma puoi rimanere qui oggi.
+Devo andare, ma puoi restare qui oggi.
 ================================================================================1
 Deberías quedarte aquí. Pero no toques nada.
 --------------------------------------------------------------------------------
-Dovresti rimanere qui. Ma non toccare niente.
+Dovresti restare qui. Ma non toccare niente.
 ================================================================================1
 Vale.* [>^!~a]¡Que tengas buen día!* [/>^!w]¡Adiós!
 --------------------------------------------------------------------------------
@@ -4547,7 +4547,7 @@ Cazzo.* [y-]Davvero non lo sai,[/]* eh?* Stupida testa di cazzo...* È finita.* 
 ================================================================================1
 El tiempo se detiene,* te quedas encerrado en tu mente con [y]tus pesadillas como [*]única[/y] compañía.[/]* Vas a *[r><^!]DESEAR*[/] haber muerto.* [o]Pero no ocurrirá.
 --------------------------------------------------------------------------------
-Il tempo si ferma,* e rimani intrappolato nella tua mente con [y]le tue [*]peggiori paure[/y] come unica compagnia.[/]* Vorrai *[r><^!]DESIDERARE*[/] di essere morto.* [o]Ma non accadrà mai.
+Il tempo si ferma,* e resti intrappolato nella tua mente con [y]le tue [*]peggiori paure[/y] come unica compagnia.[/]* Vorrai *[r><^!]DESIDERARE*[/] di essere morto.* [o]Ma non accadrà mai.
 ================================================================================1
 ¿Esos [y]vecinos[/] que tienes?* Sí,* están muertos para nosotros.* Pero ¿con [r]la mierda que les di?[/]* Siguen encerrados en su cabeza.* [o*]Nunca acabará para ellos.
 --------------------------------------------------------------------------------
@@ -5735,11 +5735,11 @@ Oh.*.*.
 ================================================================================1
 ¿Podemos...* quedarnos aquí un poquito [l]más?
 --------------------------------------------------------------------------------
-Possiamo...* Rimanere qui un po' [l]di più?
+Possiamo...* Restare qui un po' [l]di più?
 ================================================================================1
 Podemos quedarnos más.
 --------------------------------------------------------------------------------
-Possiamo rimanere di più.
+Possiamo restare.
 ================================================================================1
 Tengo bastante [*]sueño[/], pero.*.*.
 --------------------------------------------------------------------------------
@@ -6807,7 +6807,7 @@ Pensavo che [y]Quindici[/] e io fossimo gli ultimi [p%]NULL[/] rimasti.* Al-Qasi
 ================================================================================1
 Aquí no hay.* No sé dónde guarda el suyo Al-Qasim,* pero aquí no está.* Ya casi [o*]no queda,[/]* [r]y desde luego no hay suficiente para los dos.
 --------------------------------------------------------------------------------
-Qui non c'è.* Non so dove lo tenga Al-Qasim,* ma non qui.* Ormai [o*]non ne rimane quasi più nulla,[/]* [r]e di sicuro non ce n'è abbastanza per entrambi.
+Qui non c'è.* Non so dove lo tenga Al-Qasim,* ma non qui.* Ormai [o*]non ne resta quasi più nulla,[/]* [r]e di sicuro non ce n'è abbastanza per entrambi.
 ================================================================================11
 No he venido a por Cronos.
 --------------------------------------------------------------------------------
