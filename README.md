@@ -1,6 +1,5 @@
 # Katana ZERO Traduzione Italiana
 Sono finalmente riuscito a tradurre gli oltre 2000 dialoghi di gioco di Katana ZERO in italiano, scrivendo un programma apposito per sostituire le linee (prendendo spunto da "exestringz" di aluigi).
-Detto francamente, il gioco è un capolavoro, e merita di essere localizzato in più lingue possibili. Inizio con quella che conosco.
 
 **ATTENZIONE: Questa patch è stata testata solo sulla versione di gioco "v1.0.5", build "3889288", l'ultima disponibile**
 
@@ -32,9 +31,6 @@ L'unica cosa che potrebbe vanificare i miei sforzi (e quelli di chi ha contribui
 Direi molto. Per chi lo stesse pensando, non ho tradotto dalla traduzione spagnola, ma dall'inglese, quella originale. Mi servo solo della traduzione spagnola per sostituirla con quella italiana.
 
 Ho cercato il più possibile di non distorcere il significato delle frasi, tenendo presente del loro contesto nel gioco, e catturarne l'impatto, ma non assicuro nulla.
-
-### Stai per caso rompendo il copyright del gioco?
-No. Per usare questa traduzione devi essere necessariamente a disposizione del file eseguibile di gioco.
 
 ### *Hai una domanda non presente tra queste?*
 Se hai qualche altra domanda apri un'issue a proposito, chiedila sul thread di steam o mandami un email, e proverò a risponderti in tempo utile.
