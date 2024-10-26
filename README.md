@@ -9,7 +9,7 @@ Comunque, dovrebbe funzionare su qualsiasi versione del gioco, ma con la possibi
 ## Come patchare il gioco con la traduzione
 Scarica "[strindex_patch.txt](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/strindex_patch.txt)" (Ctrl+S), scarica il programma "[strindex](https://github.com/zWolfrost/strindex/releases/latest)", e avvialo. Una volta aperto, seleziona prima il file eseguibile del gioco, e poi il file "strindex_patch.txt" scaricato. Infine attendi che il programma finisca.
 
-Se il programma dovesse essere segnalato come malware, si consiglia di disabilitare temporaneamente Windows Defender, in quanto si tratta di un falso positivo (molto comune nei file compilati con pyinstaller). Se non ti fidi, puoi sempre scaricare il [codice sorgente](https://github.com/zWolfrost/strindex), e, dopo aver installato le librerie necessarie, patchare il gioco col comando `python strindex.py "Katana ZERO.exe" "strindex_patch.txt"`.
+Se il programma dovesse essere segnalato come malware, si consiglia di disabilitare temporaneamente Windows Defender, in quanto si tratta di un falso positivo (molto comune nei file compilati di python). Se non ti fidi, puoi sempre scaricare il [codice sorgente](https://github.com/zWolfrost/strindex), e, dopo aver installato le librerie necessarie, patchare il gioco col comando `python strindex.py "Katana ZERO.exe" "strindex_patch.txt"`.
 
 *Il programma è ancora in fase beta, quindi se dovesse dare problemi, per favore segnalali aprendo un'issue, mandandomi un'email o scrivendo sul thread di steam.*
 
