@@ -21,16 +21,16 @@ strindex patch "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\strindex_patch.t
 &nbsp;
 ## FAQ
 ### Come posso aiutarti?
-Se trovi delle frasi spagnole non tradotte, fai uno screenshot e crea un'issue su questa pagina allegando lo screenshot (o perfino un e-mail andrebbe bene). Questa traduzione è stata creata da relativamente poco tempo per cui una cosa del genere sarebbe completamente plausibile.
+Se trovi delle frasi spagnole non tradotte, ti prego di fare uno screenshot e creare un'issue su questa pagina allegando quest'ultimo (o perfino mandare un e-mail andrebbe bene).
 
-Un'altra cosa molto gentile che potresti fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente delle frasi che suonano male nel contesto del gioco, e facendomi sapere.
+Un'altra cosa che potresti fare per aiutarmi sarebbe rendere la traduzione attuale migliore, cioè trovare possibili errori grammaticali, di traduzione o anche semplicemente delle frasi che suonano male nel contesto del gioco, e facendomi sapere.
 
 Inoltre, puoi supportare il mio lavoro donandomi qualcosa [su questa pagina](https://paypal.me/zwolfrost) o [quest'altra](https://buymeacoffee.com/zwolfrost). Ne sarei estremamente grato.
 
 ### Non dovrai rifare tutto da capo una volta uscito il DLC?
 Fortunatamente le linee tradotte non sono vincolate dalla loro posizione, quindi ci vorrà veramente poco tempo per sistemare le cose. Ovviamente in tal caso dovrò tradurre anche i dialoghi del DLC, e ci vorrà circa una settimana, se sarà lungo quanto il gioco originale.
 
-L'unica cosa che potrebbe vanificare i miei sforzi (e quelli di chi ha contribuito a questa traduzione) sarebbe se lo sviluppatore introducesse la lingua Italiana nel gioco effettivo. Ma non solo penso che sia improbabile, ma se mai dovesse succedere, renderebbe comunque tutti felici.
+L'unico problema che potrebbe presentarsi sarebbe se lo sviluppatore dovesse cambiare il modo con cui vengono memorizzate le linee di testo, rendendo il mio programma inutile, e possibilmente rendendo il processo di traduzione molto più lungo e complicato.
 
 ### Quanto è fedele questa traduzione?
 Direi molto. Per chi lo stesse pensando, non ho tradotto dalla traduzione spagnola, ma dall'inglese, quella originale. Mi servo solo della traduzione spagnola per sostituirla con quella italiana.
