@@ -331,7 +331,7 @@ Non ho allucinazioni da un po'.
 ================================================================================1
 La próxima sesión,* nos centraremos en ser [a]más cooperativos,[/]* ¿de acuerdo?
 --------------------------------------------------------------------------------
-La prossima sessione* lavoreremo per essere [a]più collaborativi,[/]* vero?
+La prossima sessione* cercheremo di essere [a]più collaborativi,[/]* d'accordo?
 ================================================================================1
 El [y]dossier[/] contiene información sobre la [o]tarea de esta noche.[/]* Mañana hablamos.
 --------------------------------------------------------------------------------
@@ -467,7 +467,7 @@ Ok... I sogni stanno tornando.
 ================================================================================1
 [*3]Buf...
 --------------------------------------------------------------------------------
-[*3]Sigh...
+[*3]Uff...
 ================================================================================1
 Digamos que tenemos [y]mucho[/] trabajo por delante.* Ojalá [o]pudiera decir más.
 --------------------------------------------------------------------------------
@@ -735,7 +735,7 @@ Ho detto che è un accappatoio.
 ================================================================================1
 Lo siento*.*.*.* [r]No me entero.
 --------------------------------------------------------------------------------
-Scusa*.*.*.* [r]Non avevo capito bene.
+Scusami*.*.*.* [r]Non credo di aver capito bene.
 ================================================================================11111111111
 Cierra el pico.
 --------------------------------------------------------------------------------
@@ -4915,7 +4915,7 @@ Non puoi tornare lì senza [l]$100'000 in Fiches.
 ================================================================================1
 .*.*.* Bueno, solo llevas [r]99 999 en fichas[/] encima,* pero por algo me llaman [&]Lenny el Indulgente[/].[@]* Anda, pasa.
 --------------------------------------------------------------------------------
-.*.*.* Beh, hai solo [r]99'999 Fiches[/] con te,* ma non mi chiamano [&]Genny il Generoso[/] per niente.[@]* Vai avanti.
+.*.*.* Beh, hai solo [r]99'999 Fiches[/] con te,* ma non mi chiamano [&]Gennaro il Generoso[/] per niente.[@]* Vai avanti.
 ================================================================================1
 He dicho [l]100 000 pavos.[/]* Te falta.
 --------------------------------------------------------------------------------
