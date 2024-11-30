@@ -2807,7 +2807,7 @@ Che cosa vuoi?
 ================================================================================1
 ¿Amenazarte?* [*y<!^]¡Ja, JA!*[/] Pero si es como si hablara con una superestrella...* ¡Eres el [*r^<>!]puto* [!]Dragón!
 --------------------------------------------------------------------------------
-Minacciando?* [*y<!^]Ha HA!*[/] Mi sento come se stessi parlando con un autore, qui.* Sei il [*r^<>!]cazzo* [!]di Dragone!
+Minacciando?* [*y<!^]Ha HA!*[/] Mi sento come se stessi parlando con una superstar.* Sei il [*r^<>!]cazzo* [!]di Dragone!
 ================================================================================1
 Es como si hablara con una superestrella...* [*y<!^]¡ja, JA!*[/] ¡Eres el [*r^<>!]puto* [!]Dragón!
 --------------------------------------------------------------------------------
@@ -4111,7 +4111,7 @@ Ero nell'esercito.
 ================================================================================1
 [!>a^3*]¡Ja, ja![/]* Sabes [o]dónde estás[/] ahora mismo,* ¿no?
 --------------------------------------------------------------------------------
-[!>a^3*]Ha HA![/]* Sai [o]dove ti trovi[/] adesso,* vero?
+[!>a^3*]Haha![/]* Sai [o]dove ti trovi[/] adesso,* vero?
 ================================================================================1
 ¡Esto es un bar [y]solo de veteranos[/]!
 --------------------------------------------------------------------------------
@@ -4423,7 +4423,7 @@ No tengo nada más.
 ================================================================================1
 Bueno...* [*o]Supongo[/] que me quedaré con hambre...
 --------------------------------------------------------------------------------
-Beh...* [*o]Immagino[/] che dovrò avere fame...
+Beh...* [*o]Immagino[/] che resterò affamata...
 ================================================================================11
 Volveré luego.
 --------------------------------------------------------------------------------
@@ -4551,7 +4551,7 @@ Cazzo.* [y-]Davvero non lo sai,[/]* eh?* Stupida testa di cazzo...* È finita.* 
 ================================================================================1
 El tiempo se detiene,* te quedas encerrado en tu mente con [y]tus pesadillas como [*]única[/y] compañía.[/]* Vas a *[r><^!]DESEAR*[/] haber muerto.* [o]Pero no ocurrirá.
 --------------------------------------------------------------------------------
-Il tempo si ferma,* e resti intrappolato nella tua mente con [y]le tue [*]peggiori paure[/y] come unica compagnia.[/]* Vorrai *[r><^!]DESIDERARE*[/] di essere morto.* [o]Ma non accadrà mai.
+Il tempo si fermerà,* e rimarrai intrappolato nella tua mente con [y]le tue [*]peggiori paure[/y] come unica compagnia.[/]* Vorrai *[r><^!]DESIDERARE*[/] di essere morto.* [o]Ma non accadrà mai.
 ================================================================================1
 ¿Esos [y]vecinos[/] que tienes?* Sí,* están muertos para nosotros.* Pero ¿con [r]la mierda que les di?[/]* Siguen encerrados en su cabeza.* [o*]Nunca acabará para ellos.
 --------------------------------------------------------------------------------
@@ -4563,7 +4563,7 @@ Un'[y~]eternità di tortura[/] dove nessuno può sentirti urlare.* Heh,* forse p
 ================================================================================1
 Coge tu dossier según sales.* Y compórtate como un [o]profesional[/] esta noche.*.*.*, [r*]'Dragón.'
 --------------------------------------------------------------------------------
-Prendi il tuo dossier quando esci.* E comportati come un [o]dannato professionista[/] stasera.*.*.*, [r*]'Dragone.'
+Prendi il tuo dossier quando esci.* E comportati come un [o]dannato professionista[/] stasera.*.*.* [r*]'Dragone.'
 ================================================================================1
 El nombre casi sería.*.*.* [a]'cómico',[/]* si no pusieras en peligro temerariamente nuestras [r]vidas[/] y [o]todo aquello por lo que hemos trabajado.
 --------------------------------------------------------------------------------
@@ -4575,7 +4575,7 @@ Non sono io il Dragone.
 ================================================================================1
 ¡Qué [o~]disparates[/] digo!* ¡Pues [--]claro[/], tú no eres el responsable de los [y]imprudentes homicidios que han sido noticia en el Tercer Distrito![/]* ¡Habrá sido *[^>!<]otro[/]* [r]Dragón!
 --------------------------------------------------------------------------------
-Ma che [o~]stronzate[/] sto dicendo!* Ma [--]certamente[/], tu non sei responsabile della [y]serie di omicidi altamente visibili del Terzo Distretto![/]* Sarà stato qualche *[^>!<]altro[/]* [r]Dragone!
+Ma che [o~]stronzate[/] sto dicendo!* Ma [--]certamente[/], non sei tu il responsabile della [y]serie di omicidi di alta notorietà del Terzo Distretto![/]* Sarà stato qualche *[^>!<]altro[/]* [r]Dragone!
 ================================================================================1
 No de todos, no. Yo he conocido al Dragón.
 --------------------------------------------------------------------------------
