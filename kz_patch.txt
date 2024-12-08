@@ -155,7 +155,7 @@ Dobbiamo andare. Ora.
 ================================================================================1
 ¿Puedes caminar?
 --------------------------------------------------------------------------------
-Puoi camminare?
+Riesci a camminare?
 ================================================================================1
 He venido a liberarte.
 --------------------------------------------------------------------------------
@@ -879,7 +879,7 @@ Es cierto,* dijo que era [y]Shinju Sakamura, de Ex Vs X - Sakura reDUX 2.
 ================================================================================1
 Pues nada,* tiene suerte de que la [r]prohibición de atuendos pésimos de cosplay[/] se aboliera el año pasado.* Puede irse,* caballero.
 --------------------------------------------------------------------------------
-Bene,* allora sei fortunato che il [r]divieto di cosplay di scarsa qualità[/] sia stato abrogato l'anno scorso.* Sei libero di andare,* signore.
+Bene,* allora sei fortunato che il [r]divieto di cosplay di scarsa qualità[/] sia stato abolito l'anno scorso.* Sei libero di andare,* signore.
 ================================================================================1
 [r!*<^]¿A qué espera?* [!]¡Deténgalo!
 --------------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 # Katana ZERO Traduzione Italiana
-Sono finalmente riuscito a tradurre gli oltre 2000 dialoghi di gioco di Katana ZERO in italiano, scrivendo un programma apposito per sostituire le linee.
+Sono finalmente riuscito a tradurre gli oltre 2000 dialoghi di gioco di Katana ZERO in italiano, e ho scritto un programma apposito per sostituire le linee.
 
 **ATTENZIONE: Questa patch è stata testata solo sulla versione di gioco "v1.0.5", build "3889288", l'ultima disponibile**
 
