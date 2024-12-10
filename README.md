@@ -5,9 +5,10 @@ Sono finalmente riuscito a tradurre gli oltre 2000 dialoghi di gioco di Katana Z
 
 Comunque, dovrebbe funzionare su qualsiasi versione del gioco, ma con la possibilità che alcune linee non vengano tradotte.
 
-&nbsp;
+<br>
+
 ## Come patchare il gioco con la traduzione
-Scarica "[kz_patch.gz](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/kz_patch.gz)", scarica il programma "[strindex](https://github.com/zWolfrost/strindex/releases/latest)", e avvialo. Una volta aperto, seleziona prima il file eseguibile del gioco, e poi il file "kz_patch.gz" scaricato (nessun bisogno di estrarlo). Infine premi il tasto "Patch" e attendi che il programma finisca.
+Scarica "[kz_patch.gz](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/kz_patch.gz)", scarica il programma "[strindex](https://github.com/zWolfrost/strindex/releases/latest)", e avvialo. Una volta aperto, seleziona prima il file eseguibile del gioco "**Katana ZERO.exe**", e subito sotto il file "**kz_patch.gz**" scaricato (nessun bisogno di estrarlo). Infine premi il tasto "**Patch**" e attendi che il programma finisca.
 
 Se il programma dovesse essere segnalato come malware, si consiglia di disabilitare temporaneamente Windows Defender, in quanto si tratta di un falso positivo (molto comune nei file compilati di python). Per tua informazione, strindex è Open Source e, se non ti fidi, puoi sempre installare la versione command line e patchare il gioco con i seguenti comandi:
 
@@ -18,7 +19,8 @@ strindex patch "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\kz_patch.gz"
 
 *Se il programma dovesse dare problemi, per favore segnalali aprendo un'issue, mandandomi un'email o scrivendo sul thread di steam.*
 
-&nbsp;
+<br>
+
 ## FAQ
 ### Come posso aiutarti?
 Se trovi delle frasi spagnole non tradotte, ti prego di fare uno screenshot e creare un'issue su questa pagina allegando quest'ultimo (o perfino mandare un e-mail andrebbe bene).
