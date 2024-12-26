@@ -4491,7 +4491,7 @@ Non avevi scelta nel [r*]più atroce omicidio di massa[/] nella storia di New Me
 ================================================================================1
 ¿Ha sido una [--~o]elaborada propaganda[/] para tus servicios como asesino?* Porque eso es lo que parece-* ¡un puto [r-*][!>^<]'MIRADME* [!<]TODOS* [!<]A MÍ'!
 --------------------------------------------------------------------------------
-Tutto questo era solamente una [--~o]pubblicità elaborata[/] per i tuoi servizi come killer?* Perché è così che sembra -* un grande cazzo di [r-*][!>^<]'GUARDATE* [!<]COSA* [!<]FACCIO'!
+Tutto questo era per caso una [--~o]pubblicità elaborata[/] per i tuoi servizi da killer?* Perché è così che sembra -* un grande cazzo di [r-*][!>^<]'GUARDATE* [!<]COSA* [!<]FACCIO'!
 ================================================================================1
 Bueno, nuestros superiores lo han visto,* y estamos cerca d[@]el final
 --------------------------------------------------------------------------------
@@ -4655,7 +4655,7 @@ Chiaramente una minaccia,* più di quanto sospettassi.* Considera questa mission
 ================================================================================1
 Sea o no esta persona nuestro [r]'Dragón'[/],* es una amenaza pública que debemos [o]eliminar.
 --------------------------------------------------------------------------------
-Sia o meno questa persona sia il nostro [r]'Dragone'[/],* è una minaccia pubblica che dev'essere [o]eliminata.
+Sia o meno questa persona il nostro [r]'Dragone'[/],* è una minaccia pubblica che dev'essere [o]eliminata.
 ================================================================================1
 Je.* [y]Obediencia.[/]* Qué atípico y agradable a la par.
 --------------------------------------------------------------------------------
