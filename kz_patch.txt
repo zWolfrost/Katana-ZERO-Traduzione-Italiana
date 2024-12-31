@@ -4039,7 +4039,7 @@ Sai...* Una volta un [p%]NULL[/] mi aveva sparato *[r>!^<*]7 *[<!]fottute *[!<]v
 ================================================================================1
 [!><^]¿Te crees muy duro?* [r!]¡¿Porque eres el Dragón?![/]* [!y]¡Pues yo soy el Matadragones!
 --------------------------------------------------------------------------------
-[!><^]Credi di essere un duro?* [r!]Dragone?![/]* [!y]Beh, io sono l'Ammazza-Draghi!
+[!><^]Credi di essere un duro?* [r!]Il Dragone?![/]* [!y]Beh, io sono l'Ammazza-Draghi!
 ================================================================================1
 [r*<!^]¡AAAAAAA[!]AAAAAHH[!]HHH!
 --------------------------------------------------------------------------------
@@ -7311,7 +7311,7 @@ Era un sopravvissuto [p%]NULL[/].* [r]Gamma Quindici,[/]* signore.
 ================================================================================1
 [*]¡Y en vano,* querida Comedia!* [o]Oh,* ¡qué lástima![/*]* ¡Qué [r]siniestro final[/*] le aguarda!
 --------------------------------------------------------------------------------
-[*]E inutilmente,* cara Commedia!* [o]Oh,* guai su guai![/*]* Quale [r]fine funesta[/*] la attende!
+[*]E invano,* cara Commedia!* [o]Oh,* guai su guai![/*]* Quale [r]fine funesta[/*] la attende!
 ================================================================================1
 [*]Mmmmm.*.*.* Haremos que sea [r]divertido.
 --------------------------------------------------------------------------------
@@ -7420,8 +7420,8 @@ Vuoi accendere la TV?
 Hacer eso sería una
 estupidez.
 --------------------------------------------------------------------------------
-Fare questo sarebbe
-davvero una stupidaggine.
+Sarebbe una cosa davvero
+stupida da fare.
 ================================================================================11
 ¿Abrir la puerta?
 --------------------------------------------------------------------------------
