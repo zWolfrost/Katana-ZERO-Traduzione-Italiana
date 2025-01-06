@@ -4075,7 +4075,7 @@ Dammi solo qualcosa di forte.
 ================================================================================1
 Pringue azul.
 --------------------------------------------------------------------------------
-Della Melma blu.
+Melma blu.
 ================================================================================1
 Manzatini... con hielo.
 --------------------------------------------------------------------------------
@@ -5115,7 +5115,7 @@ Ti riferisci alla bambina? Che c'entra lei in tutto questo?
 ================================================================================1
 [*]Oh,* ¡yo qué sé!* A lo mejor lo [y]deseas.[/*]* Y esta es una [a]oportunidad única,[/*] porque el tiempo suele resetearse cuando mueres.
 --------------------------------------------------------------------------------
-[*]Oh,* non so!* Forse è [y]qualcosa che desideri?[/*]* E questa è un'[a]opportunità unica,[/*] perché il tempo di solito si riavvolge quando muori.
+[*]Oh,* non so!* Forse è [y]qualcosa che desideri?[/*]* E questa è un'[a]opportunità unica,[/*] perché di solito il tempo si riavvolge quando muori.
 ================================================================================1
 [*]Y quizá no solo estés haciendo una elección por ti.* ¡A lo mejor [r]eliges por otra persona![/*]* ¡Quién sabe!* [y]¡Je, je, je!
 --------------------------------------------------------------------------------
@@ -5315,7 +5315,7 @@ La prossima volta.
 ================================================================================1
 He vuelto a por [r]la Espada Carmesí.[/]* Dámela si no quieres [p*]probar mi acero.
 --------------------------------------------------------------------------------
-Sono tornato per la [r]Spada Scarlatta.[/]* Dammela se non vuoi [p*]provare il mio acciaio.
+Sono tornato per la [r]Spada Scarlatta.[/]* Dammela se non vuoi [p*]assaggiare il mio acciaio.
 ================================================================================1
 [*]Je...[/]* Siempre supe que llegaría este día.[/]* [!^>]¡Ven, hermano!*[/] [!>]¡Pongamos [p*]a prueba tus agallas!
 --------------------------------------------------------------------------------
@@ -5363,7 +5363,7 @@ Ehmm...* Anche tu sei [y]un samurai?[/]* Come [a]quelli del film?
 ================================================================================1
 Oh.* Entonces es que te gusta [p]ir en albornoz[/], sin más.
 --------------------------------------------------------------------------------
-Oh.* Immagino tu sia solo [p]un tizio in un accappatoio[/], allora.
+Oh.* Immagino tu sia solo [p]un ragazzo in un accappatoio[/], allora.
 ================================================================================1
 [p]¿En serio?[/]* Pues [y]lo pareces,[/]* y tienes una [o~]espada chulísima.[/]* [!>]¡Yo creo que eres samurái!
 --------------------------------------------------------------------------------
@@ -5611,7 +5611,7 @@ Ah, [y]la Juncture.[/]* Che sorpresa.
 ================================================================================1
 Lo siento,* pero no acepto abogados.
 --------------------------------------------------------------------------------
-Mi dispiace,* ma non ho bisogno di avvocati.
+Mi dispiace,* ma non accetto avvocati.
 ================================================================================1
 Te estaba esperando, [a]Josh Rose.[/]
 --------------------------------------------------------------------------------
@@ -5811,7 +5811,7 @@ Certo che no!* Questa è [&~---]tuuuuuuuutta mia,*[/] 100%!
 ================================================================================1
 Encontré un par de [p]cabezas de pescado[/] y un poco de [o]pasta proteica[/] y he preparado una [r]sopa[/] con eso.* [~a]¡Pruébala!
 --------------------------------------------------------------------------------
-Ho trovato un paio di [p]teste di pesce[/] e un po' di [o]pasta proteica[/] e ci ho fatto [r]zuppa[/].* [~a]Provala!
+Ho trovato un paio di [p]teste di pesce[/] e un po' di [o]pasta proteica[/] e ci ho fatto una [r]zuppa[/].* [~a]Provala!
 ================================================================================1111
 A ver qué tal...
 --------------------------------------------------------------------------------
@@ -5859,7 +5859,7 @@ Il mio nuovo piatto preferito.
 ================================================================================1
 ¿De verdad?* [--o]¿Te gusta?[/]* ¡Cuánto me [l]alegro![/]* ¡Pensaba que estaría [*r]asqueroso![/]* ¡Yo tuve que escupirla!
 --------------------------------------------------------------------------------
-Davvero?* [--o]Ti piace?[/]* Sono così [l]contenta![/]* Pensavo sarebbe stato [*r]disgustoso![/]* Io ho dovuto sputarla!
+Davvero?* [--o]Ti piace?[/]* Sono così [l]contenta![/]* Pensavo fosse [*r]disgustosa![/]* Io l'ho sputata subito!
 ================================================================================1
 Hay [*p]raspas de pescado[/],* creo.*.*.* A mí también me ha costado tragármela.* ¡Era un [r*]asco total![/]
 --------------------------------------------------------------------------------
@@ -5867,7 +5867,7 @@ Ci sono delle [*p]lische di pesce[/] dentro,* credo.*.*.* Anche io ho fatto fati
 ================================================================================1
 ¿En serio?* ¿Tanto te ha gustado?* [~l]¡Cuánto me alegro![/]* ¡Pensaba que estaría [r*]malísima!
 --------------------------------------------------------------------------------
-Davvero?* Ti è piaciuta così tanto?* [~l]Sono così contenta![/]* Pensavo sarebbe stata [r*]pessima!
+Davvero?* Il tuo nuovo preferito?* [~l]Sono così contenta![/]* Pensavo sarebbe stata [r*]pessima!
 ================================================================================1
 Em.*.*.* [y]Hay otra cosa.[/]
 --------------------------------------------------------------------------------
@@ -5875,11 +5875,11 @@ Ehm.*.*.* [y]C'è un'altra cosa.[/]
 ================================================================================1
 Voy a [o]dejarte a [%]Mastodonte[/] una temporada,* porque tú no tienes ninguno aún.* No lo necesito [l]cuando tú estás cerca.[/]
 --------------------------------------------------------------------------------
-Ti [o]presterò [%]Mastodonte[/] per un po',* perché tu non ne hai ancora uno.* Non ne ho bisogno [l]quando sei vicino.[/]
+Ti [o]presterò [%]Mastodonte[/] per un po',* solo perché tu non ne hai ancora uno.* Non ne ho bisogno [l]quando sei nei paraggi.[/]
 ================================================================================1
 Si te sientes solo alguna vez,* [o%]Mastodonte[/] te hará compañía.* Pero [y*]más te vale cuidarlo bien[/] porque sigue siendo mi [a]mejor amigo.[/]
 --------------------------------------------------------------------------------
-Se ti senti solo,* [o%]Mastodonte[/] ti farà compagnia.* Ma [y*]meglio che tu ti prenda cura di lui[/] perché è ancora il mio [a]migliore amico.[/]
+Se ti senti solo,* [o%]Mastodonte[/] ti farà compagnia.* Ma [y*]è meglio che ti prenda cura di lui[/] perché è ancora il mio [a]migliore amico.[/]
 ================================================================================1
 ¡¡Solo te lo [o*]dejo!!
 --------------------------------------------------------------------------------
@@ -5911,7 +5911,7 @@ Beh,* so che devi andare adesso.* [~a]Ci vediamo dopo!
 ================================================================================1
 Conque sigues con vida.* Comenzaba a preguntármelo.* No es que importe mucho,* porque [o]estás totalmente fuera de control.
 --------------------------------------------------------------------------------
-Quindi sei ancora vivo.* Stavo iniziando a dubitarlo.* Non che mi importi molto,* perché [o]sei completamente fuori controllo.
+Quindi sei ancora vivo.* Stavo iniziando a domandarmelo.* Non che mi importi molto,* perché [o]sei andato completamente fuori controllo.
 ================================================================================1
 Casi me [r]decepciona[/] que sigas vivo,* después de todo lo que me has hecho pasar.
 --------------------------------------------------------------------------------
@@ -6075,7 +6075,7 @@ Recenti circostanze della nostra missione hanno messo [e]una tensione eccezional
 ================================================================================1
 Pero, hasta hace poco, has sido un [l]trabajador de confianza[/] y te deseo lo mejor.* Lo [y]siento[/], si te sientes así.
 --------------------------------------------------------------------------------
-Ma fino a tardi, sei stato un [l]agente affidabile[/] e voglio sinceramente il meglio per te.* [y]Mi dispiace[/] che tu ti senta in questo modo.
+Ma fino a tardi, sei stato un [l]agente affidabile[/] e voglio genuinamente il meglio per te.* [y]Mi dispiace[/] che tu ti senta in questo modo.
 ================================================================================1
 Me estás mintiendo. Soy prescindible, como la gente a la que estoy matando.
 --------------------------------------------------------------------------------
@@ -6227,7 +6227,7 @@ Me lo sono inventato.
 ================================================================================1
 [!>^]Oh,* [!~a3]¡ahora que lo dices!*[/] ¿Sabes?,* me metí en un [*r]buen follón[/] en el [y]Murdower[/] por no comprobar las [o]tarjetas de residencia.
 --------------------------------------------------------------------------------
-[!>^]Oh,* [!~a3]è proprio questo il punto!*[/] Sai,* mi sono messo in [*r]grossi guai[/] col [y]Murdower[/] per non aver controllato [o]le carte di residenza.
+[!>^]Oh,* [!~a3]è proprio questo il punto!*[/] Sai,* mi sono messa in [*r]grossi guai[/] col [y]Murdower[/] per non aver controllato [o]le carte di residenza.
 ================================================================================1
 Entre tú y yo...* ¡Creo que igual [o~]dejé pasar al Dragón![/]* [!^>&]¡No se lo digas a mi nuevo jefe!
 --------------------------------------------------------------------------------
@@ -6263,7 +6263,7 @@ Beh *[!><^]Io[/]* credo che ti stia bene.* Hai un aspetto [a*]molto virile[/] [~
 ================================================================================1
 Fíjate qué fuerte:* al parecer, es culpa *[!><^*]MÍA[/]* que [o]el Dragón[/] se colase en el [y]Murdower.*[/] Olvidé comprobar su identificación o algo...* [!>^]¡Quién sabe!* [~&]¡Pero no se lo cuentes a mi nuevo jefe!
 --------------------------------------------------------------------------------
-Allora senti questa -* a quanto pare è la *[!><^*]MIA[/]* colpa se [o]il Dragone[/] è entrato nel [y]Murdower.*[/] Forse ho dimenticato di controllare la sua identità o qualcosa del genere?* [!>^]Chissà!* [~&]Basta che non lo dite al mio nuovo capo!
+Allora senti questa -* a quanto pare è la *[!><^*]MIA[/]* colpa se [o]il Dragone[/] è entrato nel [y]Murdower.*[/] Forse ho dimenticato di controllare la sua identità o qualcosa del genere?* [!>^]Chissà!* [~&]Basta che tu non lo dica al mio nuovo capo!
 ================================================================================1
 [!>^]La verdad es* que tiene mucha [o]personalidad.[/]* [r]Pero vas manchado de sangre.[/]* [!^>]¡Ahí!* Oh-* [!a]¡y ahí!
 --------------------------------------------------------------------------------
@@ -6271,7 +6271,7 @@ Allora senti questa -* a quanto pare è la *[!><^*]MIA[/]* colpa se [o]il Dragon
 ================================================================================1
 Veo que te tomas muy en serio lo de *[>y+]meterte en tupersonaje[/]*, ¿eh?
 --------------------------------------------------------------------------------
-Quindi prendi tutta questa faccenda dell'*[>y+]"in carattere"[/]* molto seriamente,* eh?
+Quindi prendi tutta questa faccenda dell'essere *[>y+]"in carattere"[/]* molto seriamente,* eh?
 ================================================================================1
 Pinka piiiiii.
 --------------------------------------------------------------------------------
@@ -6435,7 +6435,7 @@ Bene,* ehm,* [y----~]in realtà[/][y].*.*.*[/] E se f-*forse potessimo *[a>!]gua
 ================================================================================1
 [~---o]¡Aaahhh,[/] *[r!>]destripes!* ¡Destripes!*[/] ¡Te he dicho que no me contaras nada!* Anda.*.*.*, [>r*]¡largo de aquí![/]* [y]¡No quiero ni verte!
 --------------------------------------------------------------------------------
-[~---o]Aahhh,[/] *[r!>]spoiler!* Spoiler!*[/] Ti avevo detto di non dirmi niente!* Per favore.*.*.* [>r*]Vai e basta![/]* [y]Non ti voglio vedere adesso!
+[~---o]Aahhh,[/] *[r!>]spoiler!* Spoiler!*[/] Ti avevo detto di non dirmi niente!* Per favore.*.*.* [>r*]Vai e basta![/]* [y]Non ti voglio più vedere!
 ================================================================================1
 [!><*r]¡Mmff![/]* Bien jugado*-* [&~]¡Me lo he inventado![/]* ¡O [a]entiendes mucho de anime[/] o has pasado página y te has convertido en un [l*]hombre honrado!
 --------------------------------------------------------------------------------
@@ -6443,7 +6443,7 @@ Bene,* ehm,* [y----~]in realtà[/][y].*.*.*[/] E se f-*forse potessimo *[a>!]gua
 ================================================================================1
 Ahora que sé que eres un* [>!a]tipo* honrado y de fiar,[/]* puedes irte.* [&~]¡Que tengas buen día!
 --------------------------------------------------------------------------------
-Ora che so che sei un* [>!a]onesto,* gentiluomo perbene,[/]* puoi andare.* [&~]Buona giornata!
+Adesso che so che sei un* [>!a]onesto,* gentiluomo perbene,[/]* puoi andare.* [&~]Buona giornata!
 ================================================================================1
 Pero, em.*.*.*, [l~]llámame[/] si alguna vez quieres [*a]*ver algo juntos.*.*.*[/]
 --------------------------------------------------------------------------------
@@ -6495,11 +6495,11 @@ Continua pure,* signore!* E, uhm.*.*.* [~&]torna qualche volta![/]* Lo sai dove 
 ================================================================================1
 ¿E-*eso qué significa?* ¿Me *[o*]estás amenazando?[/]* ¡Voy a [y^!><]llamar a la Policía![/]* ¡No te me acerques!* [r>>^~]¡S-*socorro!* ¡SOCORRO!
 --------------------------------------------------------------------------------
-C-*cosa significa?* Mi stai *[o*]minacciando?[/]* Io [y^!><]chiamo la polizia![/]* Stai lontano da me!* [r>>^~]A-*aiuto!* AIUTO!
+C-*cosa significa?* Mi stai *[o*]minacciando?[/]* Vado a [y^!><]chiamare la polizia![/]* Stai lontano da me!* [r>>^~]A-*aiuto!* AIUTO!
 ================================================================================1
 [!>*o]¡Fiu![/]* ¡Me ha dado un vuelco el corazón!* ¡Menudo [~p]sentido del humor más oscuro[/] tienes!* [&~]Aunque me hace gracia.[/]
 --------------------------------------------------------------------------------
-[!>*o]Uff![/]* Mi hai fatto prendere un bel colpo!* Che [~p]senso del "dark humor"[/] che hai!* [&~]Mi piace, in un certo senso.[/]
+[!>*o]Uff![/]* Mi hai fatto prendere un bel colpo!* Hai proprio un bel [~p]senso del "dark humor"[/]!* [&~]Mi piace, in un certo senso.[/]
 ================================================================================1
 Bueno,* se supone que *[~y^!>]TENGO*[/] que comprobar tu identificación, pero.*.*.* [l]¡anda, pasa![/]* ¿Con esa cara *[*r]Y[/] ese sentido del humor?
 --------------------------------------------------------------------------------
@@ -6519,7 +6519,7 @@ Ehm...* [---*]Si.*.*.[/]* È ch-*che...* [o*]Può andare,* signore...*[/]
 ================================================================================1
 No olvides pasarte luego a [~&]verme <3.
 --------------------------------------------------------------------------------
-Non dimenticare di tornare a [~&]trovarmi <3.
+Non dimenticare di tornare a [~&]trovarmi più tardi <3.
 ================================================================================1
 [!^>]¡Oh!*[/] ¡Pues sí que te sabes [l]bien el manual![/]* ¡Imagino que [a]tú también serás recepcionista![/]* Aunque no [~p]vistes como si lo fueras.[/]
 --------------------------------------------------------------------------------
@@ -6799,7 +6799,7 @@ Anche tu sei un NULL.
 ================================================================================1
 No estoy de humor. Vamos al lío.
 --------------------------------------------------------------------------------
-Non sono in vena. Andiamo al sodo.
+Non sono nell'umore. Andiamo al sodo.
 ================================================================================1
 Oye.*.*.* ¿No* [!a^>*]reconoces el uniforme.*.*.*?
 --------------------------------------------------------------------------------
@@ -6875,7 +6875,7 @@ A volte semplicemente...* [r]Assassinavo Al-Qasim -[/]* gli tagliavo la testa,* 
 ================================================================================1
 Debo de haberlo hecho mil veces.* [o*]Ese cretino de mierda,[/]* me tiene prisionera con su [y]puta droga.[/]* Incluso intenta colármela como si fuera una especie de [a-^-]rehabilitación.
 --------------------------------------------------------------------------------
-L'avrò fatto un migliaio volte.* [o*]Quel cretino di merda,[/]* mi tiene in ostaggio con una [y]dannata droga.[/]* L'ha persino presentato come se fosse una specie di [a-^-]riabilitazione.
+L'avrò fatto un migliaio volte.* [o*]Quel fottuto cretino,[/]* mi tiene in ostaggio con una [y]dannata droga.[/]* L'ha persino presentata come se fosse una specie di [a-^-]riabilitazione.
 ================================================================================1
 Ojalá hubiera podido [r*]matarlo[/] una última vez.
 --------------------------------------------------------------------------------
@@ -6891,11 +6891,11 @@ Sei in astinenza, vero?
 ================================================================================1
 Somos dioses,* tú y yo.* He [y]muerto y vuelto,[/]* he visto el [a-~]tiempo expandirse en el infinito fractal de la posibilidad.[/]* No tenemos límites,* [l>^<!]¡somos inmortales!
 --------------------------------------------------------------------------------
-Siamo divinità,* tu e io.* Sono [y]morto e tornato,[/]* ho visto il [a-~]tempo espandersi nell'infinito frattale della possibilità.[/]* Non abbiamo limiti -* [l>^<!]siamo immortali!
+Siamo divinità,* tu e io.* Sono [y]morto e tornato,[/]* ho visto il [a-~]tempo espandersi nell'infinito frattale delle possibilità.[/]* Non abbiamo limiti -* [l>^<!]siamo immortali!
 ================================================================================1
 Pero somos *[>^<!o]esclavos[/]* de tipos estrechos de miras que usan nuestros dones para [y]trucos sucios.[/]* ¡Esclavos de una [r]condenada droga![/]* Y aquí estamos,* [p]dos yonquis[/] enfrentados por un último chute.* [r*!><]¡Maldita sea!
 --------------------------------------------------------------------------------
-Ma siamo *[>^<!o]schiavi[/]* di uomini di vedute ristrette che usano i nostri doni per [y]semplici trucchetti.[/]* Schiavi di una [r]dannata droga![/]* E qui siamo,* [p]due tossici[/] che si scontrano per un'ultima dose.* [r*!><]Maledizione!
+Ma siamo *[>^<!o]schiavi[/]* di uomini di vedute ristrette che usano i nostri doni per [y]semplici trucchetti.[/]* Schiavi di una [r]dannata droga![/]* Ed eccoci,* [p]due tossici[/] che si scontrano per un'ultima dose.* [r*!><]Maledizione!
 ================================================================================1
 Lo siento. Entiendo tu dolor.
 --------------------------------------------------------------------------------
@@ -6903,7 +6903,7 @@ Mi dispiace. Capisco il tuo dolore.
 ================================================================================1
 No tenemos por qué ser enemigos. Podemos formar equipo.
 --------------------------------------------------------------------------------
-Non dobbiamo essere nemici. Possiamo fare squadra.
+Non dobbiamo essere nemici. Possiamo lavorare assieme.
 ================================================================================1
 Esta batalla está teniendo lugar en nuestra mente, * es un [a~]torneo de determinación.[/]* Cada vez que me [r]matas,[/]* entiendo un poco mejor [o]cómo vencerte.
 --------------------------------------------------------------------------------
@@ -6947,7 +6947,7 @@ Ma forse c'è n'è abbastanza nel tuo flusso sanguigno per [p]ritardare l'astine
 ================================================================================1
 Hace días que no pruebo el [a%]Cronos.[/]* Desde que Al-Qasim murió.* [o*]Ya sabes lo que pasa.
 --------------------------------------------------------------------------------
-Sono giorni che non prendo [a%]Chronos.[/]* Non da quando è morto Al-Qasim.* [o*]Sai come va.
+Sono giorni che non prendo [a%]Chronos.[/]* Non da quando è morto Al-Qasim.* [o*]Sai come me la passo.
 ================================================================================1
 Las visiones no paran.* Me has [r*]matado mil veces,*[/] hasta el punto en que [o]ya no lo siento.
 --------------------------------------------------------------------------------
@@ -7067,7 +7067,7 @@ Cosa stai facendo?!* [!]Sei in [y]astinenza![w]* [!]Stai lontano da me!
 ================================================================================1
 [r*!<>^]PARA.[/r*]* NO PUEDES[@] HACER ESTO, TONTO DEL CULO...
 --------------------------------------------------------------------------------
-[r*!<>^]FERMO.[/r*]* NON PUOI[@] FARLO, IDIOTA DEL CAZZO...
+[r*!<>^]FERMO.[/r*]* NON PUOI[@] FARLO, TU FOTTUTO IDIOTA...
 ================================================================================1
 [*]Yo...* Puedo darte [y]todo el [a%]Cronos[/y*] que quieras.* Suéltame [r]ya...* Por favor.
 --------------------------------------------------------------------------------
@@ -7083,7 +7083,7 @@ Cosa stai facendo?!* [!]Sei in [y]astinenza![w]* [!]Stai lontano da me!
 ================================================================================1
 [^---]Idiota.[/]* [r+!><*]¡Idiota de los cojones![/*]* ¿De verdad pensabas que el [a%]Cronos[/*] era la única droga que el Gobierno desarrolló para la guerra?
 --------------------------------------------------------------------------------
-[^---]Idiota.[/]* [r+!><*]Idiota del cazzo![/*]* Pensavi davvero che il [a%]Chronos[/*] fosse l'unica droga sviluppata dal governo per la guerra?
+[^---]Idiota.[/]* [r+!><*]Fottuto idiota![/*]* Pensavi davvero che il [a%]Chronos[/*] fosse l'unica droga sviluppata dal governo per la guerra?
 ================================================================================1
 [r--*]Debería haber hecho esto hace mucho tiempo.
 --------------------------------------------------------------------------------
