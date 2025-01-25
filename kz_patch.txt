@@ -1591,7 +1591,7 @@ Dimmi dov'è.
 ================================================================================1
 [r^><*][!]AY, DIOS.* [!]QUE ALGUIEN ME AYUDE.* [!]POR FAVOR, QUIEN SEA, AY, DIOS.* [!]POR FAVOR...
 --------------------------------------------------------------------------------
-[r^><*][!]OH DIO.* [!]QUALCUNO MI AIUTI.* [!]PER FAVORE QUALCUNO VENGA, OH DIO.* [!]TI PREGO...
+[r^><*][!]OH DIO.* [!]QUALCUNO MI AIUTI.* [!]PER FAVORE QUALCUNO VENGA QUI, OH DIO.* [!]PER FAVORE...
 ================================================================================1
 [^*3]Tu mierda,* tronco...[/]* [^a*3]Las drogas.[/]*[^>*] Solo las he probado una vez,* en una fiesta.* [r!]¡Lo juro!
 --------------------------------------------------------------------------------
@@ -1599,7 +1599,7 @@ Dimmi dov'è.
 ================================================================================1
 [^!*3]Fue [/^a~5]una pasada...*[/][^] Sentí como [y*]si el tiempo se ralentizara,* se repitiera...*[/] Llevo viendo esta [~p]locura[/] desde entonces.*[/][!><r~^] ¡P-*pero lo devolveré todo!
 --------------------------------------------------------------------------------
-[^!*3]È stato [/^a~5]pazzesco...*[/][^] Sembrava che [y*]il tempo stesse rallentando,* e poi si ripetesse...*[/] Sto vedendo [~p]roba da pazzi[/] da quel momento.*[/][!><r~^] T-*te la restituirò tutta però!
+[^!*3]È stato [/^a~5]pazzesco...*[/][^] Sembrava che [y*]il tempo stesse rallentando,* per poi ripetersi...*[/] Sto vedendo [~p]roba da pazzi[/] da quel momento.*[/][!><r~^] T-*te la restituirò tutta però!
 ================================================================================11
 Dime cómo se llama esa droga.
 --------------------------------------------------------------------------------
@@ -1611,19 +1611,19 @@ S-*[^]Sei sicuro di essere reale?[!*++^><]* [r]V-*VOGLIO DIRE, [^*]è ancora nel
 ================================================================================1
 [*^><!r]¡Yo no he robado nada, tío!*[/^] Compré el almacén con todo en una subasta.[/]* [!>r*^]¡Me dijeron que el propietario había palmado!
 --------------------------------------------------------------------------------
-[*^><!r]Non ho rubato niente, amico!*[/^] Ho solo comprato l'intera unità all'asta.[/]* [!>r*^]Mi avevano detto che il proprietario era morto!
+[*^><!r]Non ho rubato niente, amico!*[/^] Ho solo comprato l'intera unità all'asta.[/]* [!>r*^]Mi avevano detto che il proprietario fosse morto!
 ================================================================================1
 [^*]N-*no sé cómo se llama,* estaba en un [o]frasco sin etiquetar.
 --------------------------------------------------------------------------------
-[^*]N-*non so come si chiamava,* era in una [o]bottiglia non etichettata.
+[^*]N-*non so come si chiama,* era dentro una [o]bottiglia non etichettata.
 ================================================================================1
 [!>r<^*]¡Espera!*[/^>*2] ¿No sabes ni cómo se llama?* [/^r!]¿Quién *[>!*<]COJONES[/^r]* eres?
 --------------------------------------------------------------------------------
-[!>r<^*]Aspetta!*[/^>*2] Non sai nemmeno come si chiamava?* [/^r!]Chi *[>!*<]CAZZO[/^r]* saresti tu?
+[!>r<^*]Aspetta!*[/^>*2] Non sai nemmeno come si chiama?* [/^r!]Chi *[>!*<]CAZZO[/^r]* saresti tu?
 ================================================================================1
 [!*>]Tronco,[/]* [o]mi gente[/] te va a [r]joder la vida.* [!]Estás [r*]muerto.
 --------------------------------------------------------------------------------
-[!*>]Amico,[/]* [o]i miei uomini[/] ti [r]faranno a pezzi.* [!]Sei [r*]fottutamente morto.
+[!*>]Amico,[/]* [o]i miei ragazzi[/] ti [r]faranno a pezzi.* [!]Sei un [r*]uomo morto.
 ================================================================================1
 Tu gente sí que está muerta.
 --------------------------------------------------------------------------------
@@ -1639,7 +1639,7 @@ Hora de morir.
 ================================================================================1
 [!^r<*>]¡SU puta madre!* [!]¡JODER!* [!]¡JODER!* [/^*]La hostia, estaba [y]de coña[/^], tronco.
 --------------------------------------------------------------------------------
-[!^r<*>]Oh cazzo!* [!]CAZZO!* [!]CAZZO!* [/^*]Porca puttana, era [y]solo uno scherzo[/^] amico.
+[!^r<*>]Oh cazzo!* [!]CAZZO!* [!]CAZZO!* [/^*]Porca miseria, stavo [y]solo scherzando[/^] amico.
 ================================================================================1
 [^*]Mira, tío,* [y]hagamos un trato.[/^]* Te [o]doy parte de la droga[/^] si tú [a]me dejas libre.
 --------------------------------------------------------------------------------
@@ -1659,11 +1659,11 @@ Mi dispiace. Devi morire.
 ================================================================================1
 [^*a]Vale,* vale, tío.[/]* [^]Muy bien,* deja que [y]termine de actuar[/] y me encargo de todo.* Te lo juro, tronco, yo...
 --------------------------------------------------------------------------------
-[^*a]E va bene,* e va bene, amico.[/]* [^]Ok,* lasciami solo [y]finire il mio set[/] ed è fatta.* Lo giuro amico, io-
+[^*a]E va bene,* e va bene, amico.[/]* [^]Ok,* lasciami solo [y]finire il mio spettacolo[/] ed è fatta.* Lo giuro amico, io-
 ================================================================================1
 [^><*r!]POR FAVOR.* [!]POR FAVOR.* [!]¡Te lo juro por Dios, no pretendía robarte![/] [r*]Quédatelo todo si quieres,* no me imp-
 --------------------------------------------------------------------------------
-[^><*r!]TI PREGO.* [!]TI PREGO.* [!]Lo giuro, non intendevo rubarti nulla![/] [r*]Puoi averla tutta,* Non mi intere-
+[^><*r!]TI PREGO.* [!]TI PREGO.* [!]Lo giuro, non volevo rubarti nulla![/] [r*]Puoi averla tutta,* Non mi intere-
 ================================================================================1
 [r!^*]Huye.
 --------------------------------------------------------------------------------
@@ -1671,7 +1671,7 @@ Mi dispiace. Devi morire.
 ================================================================================1
 Tu [a]lealtad[/] y [y]tu estricto cumplimiento[/] de las órdenes no han pasado desapercibidos.
 --------------------------------------------------------------------------------
-La tua [a]lealtà[/] e [y]rigorosa conformità[/] alle istruzioni sono state notate.
+La tua [a]lealtà[/] e [y]rigorosa conformità[/] alle istruzioni sono state annotate.
 ================================================================================11
 Va de camino un equipo de limpieza.
 --------------------------------------------------------------------------------
@@ -1691,11 +1691,11 @@ I nostri superiori non sono a conoscenza delle [y]circostanze [/]dietro la morte
 ================================================================================1
 [o]Pero yo sí.[/]* Has sido [r]negligente en tus deberes.
 --------------------------------------------------------------------------------
-[o]Io sono.[/]* Sei stato [r]negligente nei tuoi doveri.
+[o]Ma io sì.[/]* Sei stato [r]negligente nei tuoi doveri.
 ================================================================================1
 [y]Si te vuelves a desviar de lo que se te ordena[/] tendrás que afrontar *[r]acciones disciplinarias.
 --------------------------------------------------------------------------------
-[y]Future deviazioni dalle istruzioni[/] saranno punite con una *[r]disciplina severa.
+[y]Future deviazioni dalle tue istruzioni[/] saranno punite con *[r]severe sanzioni disciplinari.
 ================================================================================1
 ¡Ahí estás!
 --------------------------------------------------------------------------------
@@ -2403,11 +2403,11 @@ Alla prossima.
 ================================================================================1
 [>!^]¿Perdí una pierna por culpa de la puta guerra [o*]y tú pasas de largo?[/]* [>^!<]¡Estás en deuda conmigo,* tío!
 --------------------------------------------------------------------------------
-[>!^]Ho perso la mia fottuta gamba in guerra e [o*]tu passi e basta?[/]* [>^!<]Mi devi qualcosa,* amico!
+[>!^]Ho perso la mia fottuta gamba in guerra e [o*]tu mi passi accanto e basta?[/]* [>^!<]Mi devi qualcosa,* amico!
 ================================================================================11
 No te debo nada.
 --------------------------------------------------------------------------------
-Non ti devo niente.
+Non ti devo nulla.
 ================================================================================11
 Yo también combatí.
 --------------------------------------------------------------------------------
@@ -2427,7 +2427,7 @@ Non ho niente.
 ================================================================================1
 [!><^]Puto [r*!]cromañón* [!<]agarrado* [!<]de los cojones.[/]* [!>^<]Todos los de tu calaña sois [o]iguales.[/]* [!>^<]Seguro que si yo fuera un [r]cromañón[w], me soltarías pasta.
 --------------------------------------------------------------------------------
-[!><^]Fottuto [r*!]cromag* [!<]taccagno* [!<]schifoso.[/]* [!>^<]Voi gente siete [o]tutti fottutamente uguali.[/]* [!>^<]Scommetto che se fossi un [r]cromag[w] mi daresti dei soldi.
+[!><^]Fottuto [r*!]cromag* [!<]taccagno* [!<]schifoso.[/]* [!>^<]Voi gente siete [o]tutti fottutamente uguali.[/]* [!>^<]Scommetto che se io fossi un [r]cromag[w] mi daresti dei soldi.
 ================================================================================1
 [r^!><]¡Que os den por culo a los cromañones![/]* [>!<r^*]¡Que os den pero bien dado!*[/>!] ¡Largaos *[y>*!<^@]- hip -[/]* [!>^]de una puta vez de Nueva Meca!* [o*^>!]¡Tendríamos que haberos exterminado!
 --------------------------------------------------------------------------------
@@ -2447,7 +2447,7 @@ Ho ricevuto una medaglia al valore.
 ================================================================================1
 ¡Eh,* eso es *[y*>!<^]- hip -[/]* mío![@]** [r^*><!]¡Me lo has robado,* [^*!<]cromañón de los cojones!
 --------------------------------------------------------------------------------
-Ehi,* è la *[y*>!<^]- hic -[/]* mia![@]** [r^*><!]Me l'hai rubata,* [^*!<]fottuto cromag!
+Ehi,* quella è *[y*>!<^]- hic -[/]* mia![@]** [r^*><!]Me l'hai rubata,* [^*!<]fottuto cromag!
 ================================================================================1
 [*>!<^r]¡SOCORRO!* ¡Socorro!*[/*] [>!^<]¡Un [r]puto cromañón[w] quiere [y!]robarme mi medalla de la guerra![/*]* [!>^<]¡Que alguien me ayude!
 --------------------------------------------------------------------------------
@@ -2583,11 +2583,11 @@ Non ne ho bisogno. Non ora. Non durante il mese dello Squalo.
 ================================================================================1
 Piénsalo, tío.*.*.* [~p]El chacachá del tren,[/]* [y]recogiendo pasajeros.[/]* En plan...* Bueno, [o]ya me captas, ¿no?
 --------------------------------------------------------------------------------
-Pensaci un attimo amico.*.*.* [~p]Marciando lentamente,[/]* [y]raccogliendo passeggeri.[/]* Del tipo...* Capisci [o]cosa intendo?
+Pensaci un attimo amico.*.*.* [~p]Mentre marcia lentamente,[/]* [y]raccoglie passeggeri.[/]* Del tipo...* Capisci [o]cosa intendo?
 ================================================================================1
 Tío... Mola.
 --------------------------------------------------------------------------------
-Amico... Figo.
+Amico... Bello.
 ================================================================================1
 Ya te digo.
 --------------------------------------------------------------------------------
@@ -2603,7 +2603,7 @@ Si, fratello...* Potremmo diventare i [y]fratelli treno.[/]* Tutti [a]amano[/] i
 ================================================================================1
 Tronco, [y]comparte un poco,[/]* tío.
 --------------------------------------------------------------------------------
-Non [y]rubare il bong,[/]* fratello.
+Su, [y]ridammi il bong,[/]* fratello.
 ================================================================================1
 [*]Mierda.*.*.*[/] ¿Y si son [y]los maderos?
 --------------------------------------------------------------------------------
@@ -2611,7 +2611,7 @@ Non [y]rubare il bong,[/]* fratello.
 ================================================================================1
 ¿Y si es el [a]repartidor de pizzas?
 --------------------------------------------------------------------------------
-E se fosse il [a]ragazzo della pizza?
+E se fosse il [a]fattorino della pizza?
 ================================================================================1
 [~o4]Uaaaaaa...
 --------------------------------------------------------------------------------
@@ -2635,7 +2635,7 @@ Figo.
 ================================================================================1
 [!>^r*]¿Qué cojones,* tronc-?
 --------------------------------------------------------------------------------
-[!>^r*]Ma che cazzo,* fra-
+[!>^r*]Ma che cazzo,* ami-
 ================================================================================1
 [!>^]¡Me han dicho que tenéis una [!~&<]fiesta[/] [>^]aquí montada!
 --------------------------------------------------------------------------------
@@ -2651,15 +2651,15 @@ Ehi senti fratello,* non vogliamo nessun proble-
 ================================================================================1
 Supongo que desfaso [o~]demasiado[/] para su gusto,* ¿eh?
 --------------------------------------------------------------------------------
-Suppongo che la festa fosse [o~]un po' troppo forte[/] per lui,* eh?
+Suppongo che la festa fosse [o~]un po' troppo pesante[/] per lui,* eh?
 ================================================================================1
 ¿Qué me dices de [o]ti,[/]* eh?* ¿Te gusta [~r]desfasar?
 --------------------------------------------------------------------------------
-E [o]tu,[/]* invece?* Ti piacerebbe [~r]festeggiare?
+E a [o]te,[/]* invece?* Piace [~r]festeggiare?
 ================================================================================1
 ¿Qué es esta [r]mierda de música?[/]* Se escuchaba desde la puta limusina.* ¿Tenéis [y]bafles de bajos?[/]
 --------------------------------------------------------------------------------
-Che [r]merda di musica è questa?[/]* La potevo sentire dalla mia fottuta limousine.* Voi ragazzi avete un po' di [y]hardbass?[/]
+Che [r]merda di musica è questa?[/]* La potevo sentire dalla mia cazzo di limousine.* Voi ragazzi avete un po' di [y]hard bass?[/]
 ================================================================================11
 Basta, por favor.
 --------------------------------------------------------------------------------
@@ -2679,7 +2679,7 @@ Sai cosa direbbe [o]un ratto in trappola[/]?* [>!*<r^]'Fottiti.'[/]* E non prove
 ================================================================================1
 Toma,* tengo un [a]regalo[/] para ti.
 --------------------------------------------------------------------------------
-Ecco,* Ho un [a]regalo[/] per te.
+Ecco,* ho un [a]regalo[/] per te.
 ================================================================================1
 Está [y]sin perfeccionar.[/]* Te pediría que me contases qué te parece,* pero [o]los últimos conejillos de Indias[/] [r*]no volvieron a hablar.
 --------------------------------------------------------------------------------
@@ -2687,7 +2687,7 @@ Está [y]sin perfeccionar.[/]* Te pediría que me contases qué te parece,* pero
 ================================================================================1
 [a]Pero el tiempo[/] sí que les [------------p~]cundía[/] lo suyo.*.*.* [*r]¿Lo notas?
 --------------------------------------------------------------------------------
-[a]Il tempo[/] si è certamente [------------p~]rallentato[/] per loro però.*.*.* [*r]Lo senti?
+[a]Il tempo[/] si è certamente [------------p~]rallentato[/] per loro però.*.*.* [*r]Lo senti, l'effetto?
 ================================================================================1
 [r]No te muevas.
 --------------------------------------------------------------------------------
@@ -2715,7 +2715,7 @@ Mi... Dispiace...
 ================================================================================1
 Come... mierda.
 --------------------------------------------------------------------------------
-...Fottiti... Sfigato.
+...Fatti... Fottere.
 ================================================================================1
 Eh,* no es [y]a mí[/] a quien tienes que pedir perdón.
 --------------------------------------------------------------------------------
@@ -2723,11 +2723,11 @@ Ehi,* [y]non è con me[/] che ti devi scusare.
 ================================================================================1
 Es a [y]tu vecino.[/]* ¿Sabías que es un [r]asesino en serie?[/]* Uno de los mejores.* Una [o*]leyenda viva,[/]* con un par.
 --------------------------------------------------------------------------------
-È il [y]tuo vicino.[/]* Lo sai che quel tizio è un [r]serial killer?[/]* Uno dei più grandi.* Una [o*]fottuta leggenda vivente,[/]* amico.
+Ma col [y]tuo vicino.[/]* Lo sai che quel tizio è un [r]serial killer?[/]* Uno dei più grandi.* Una [o*]cazzo di leggenda vivente,[/]* amico.
 ================================================================================1
 No puede [a]pegar ojo[/] por vosotros, [o]escoria,[/]* así que he venido yo a [r*]sacar la basura.
 --------------------------------------------------------------------------------
-Non riesce a [a]chiudere occhio[/] per colpa di [o]voi merde,[/]* quindi sono venuto qui per [r*]portare fuori la spazzatura.
+Non riesce a [a]chiudere occhio[/] per colpa di [o]voi merde,[/]* quindi sono venuto qui a [r*]portare fuori la spazzatura.
 ================================================================================1
 [!^*r<>]¡Ja, JA![/]* ¡Al menos tú tienes más cojones que tu colega!* [!<^>o]¡Me gusta!
 --------------------------------------------------------------------------------
@@ -2739,7 +2739,7 @@ Ma [y]al tuo vicino?[/]* Non tanto.* Non gli piace [a]tutto quel rumore,[/]* le 
 ================================================================================1
 No puede [a]pegar ojo.[/]* ¿Sabías que es un [r]asesino en serie?[/]* Uno de los mejores.* Una [o*]leyenda viva,[/]* con un par.
 --------------------------------------------------------------------------------
-Non riesce a [a]chiudere occhio.[/]* Lo sai che quel tizio è un [r]serial killer?[/]* Uno dei più grandi.* Una [o*]fottuta leggenda vivente,[/]* amico.
+Non riesce a [a]chiudere occhio.[/]* Lo sai che quel tizio è un [r]serial killer?[/]* Uno dei più grandi.* Una [o*]cazzo di leggenda vivente,[/]* amico.
 ================================================================================1
 Eh,* [~&]sonríe a la cámara.
 --------------------------------------------------------------------------------
@@ -3599,7 +3599,7 @@ Immagino che lo renderebbe [y]più un mantello,[/]* eh?
 ================================================================================1
 [*!^<>r]La Virgen,[/]* eres tú...* No me jodas, [r]¿me has seguido[/]* otra vez?*
 --------------------------------------------------------------------------------
-[*!^<>r]Gesù,[/]* sei tu...* Mi stai [r]fottutamente seguendo[/]* di nuovo?
+[*!^<>r]Gesù,[/]* sei tu...* Mi stai [r]sul serio seguendo[/]* di nuovo?
 ================================================================================1
 [r]Se acabaron los cabos sueltos.
 --------------------------------------------------------------------------------
@@ -3611,7 +3611,7 @@ Immagino che lo renderebbe [y]più un mantello,[/]* eh?
 ================================================================================111
 No he venido a por Cronos, ya voy puesto. No faltes a tu cita, V.
 --------------------------------------------------------------------------------
-Non qui per il Chronos, ci sto. Non perdere il tuo appuntamento, V.
+Non sono qui per il Chronos, mi ci sono fatto. Non perdere il tuo appuntamento, V.
 ================================================================================1
 ... Mi cabeza.
 --------------------------------------------------------------------------------
@@ -3711,7 +3711,7 @@ Scommetto che è brutta.
 ================================================================================11
 Cierra la puta boca.
 --------------------------------------------------------------------------------
-Chiudi la fottuta bocca.
+Chiudi la cazzo di bocca.
 ================================================================================1
 [@*]Ja, JA...[/]* Serás *[r*!^<>]CABRONAZO*, [!]HIJO DE PERRA.[/]* No has venido a por [%a]Cronos,[/]* ya vas [o~2]puesto.
 --------------------------------------------------------------------------------
@@ -3727,7 +3727,7 @@ LO *[*>!<]SAPEVO[/],* [.r*!>]еб твою мать[/r*>],[/]* [>r*^!<]LO SAPEVO
 ================================================================================1
 ¡Va puesto de [a%]Cronos![/]* ¿Te has [y]enterado o estás teniente?[/]
 --------------------------------------------------------------------------------
-Si è fatto di [a%]Chronos![/]* Questo [y]ti fa drizzare le fottute orecchie?[/]
+Si è fatto di [a%]Chronos![/]* Ti sono [y]drizzate le cazzo di orecchie?[/]
 ================================================================================1
 ¿Ahora quieres hablar?* [!>*r]¡¿Quieres decirnos ahora cómo lo fabricas?!
 --------------------------------------------------------------------------------
@@ -3895,7 +3895,7 @@ Ti vanterai di aver conosciuto-
 ================================================================================1
 Pues qué pena,* tronco.* Me da una pena de [r*]la hostia.
 --------------------------------------------------------------------------------
-Che fottuto peccato,* amico.* Che assoluto fottuto [r*]peccato.
+Che peccato,* amico.* Che fottuto [r*]peccato.
 ================================================================================1
 [!*r^<]¡J[!]o[!]d[!]e[!]r!* [!]¡J[!]o[!]d[!]e[!]r!
 --------------------------------------------------------------------------------
@@ -3995,7 +3995,7 @@ Parli del diavolo...
 ================================================================================1
 [!r*<>^]Dios,* no tan cerca, joder, *[!<]¡que cortan!** [!<][.]¡Сука охуеть!
 --------------------------------------------------------------------------------
-[!r*<>^]Gesù,* non così fottutamente vicino, *[!<]questi affari sono taglienti!** [!<][.]Сука охуеть!
+[!r*<>^]Gesù,* non così vicino, cazzo, *[!<]questi affari sono taglienti!** [!<][.]Сука охуеть!
 ================================================================================1
 [*!^<>r.]¡Блять!
 --------------------------------------------------------------------------------
@@ -4483,7 +4483,7 @@ Non avevi scelta nel [r*]più atroce omicidio di massa[/] nella storia di New Me
 ================================================================================1
 [r]¿V?[/]* ¿Qué coño es V?* Es una puta letra.* [o*]¿De qué *[^<!r>]cojones[/]* [o*]estás hablando?[/]* ¿Qué quie[@]res decir
 --------------------------------------------------------------------------------
-[r]V?[/]* Chi cazzo è V?* È una dannata lettera.* [o*]Di che *[^<!r>]cazzo[/]* [o*]stai parlando?[/]* Cosa st[@]ai dicendo
+[r]V?[/]* Cosa cazzo è V?* È una dannata lettera.* [o*]Di che *[^<!r>]cazzo[/]* [o*]stai parlando?[/]* Cosa st[@]ai dicendo
 ================================================================================1
 [++]-¿Y la delicadeza de nuestro trabajo?[/]* ¿Entiendes la [r*]discreción[/] que nuestra misión exige?
 --------------------------------------------------------------------------------
@@ -6875,7 +6875,7 @@ A volte semplicemente...* [r]Assassinavo Al-Qasim -[/]* gli tagliavo la testa,* 
 ================================================================================1
 Debo de haberlo hecho mil veces.* [o*]Ese cretino de mierda,[/]* me tiene prisionera con su [y]puta droga.[/]* Incluso intenta colármela como si fuera una especie de [a-^-]rehabilitación.
 --------------------------------------------------------------------------------
-L'avrò fatto un migliaio volte.* [o*]Quel fottuto cretino,[/]* mi tiene in ostaggio con una [y]dannata droga.[/]* L'ha persino presentata come se fosse una specie di [a-^-]riabilitazione.
+L'avrò fatto un migliaio volte.* [o*]Quel cretino del cazzo,[/]* mi tiene in ostaggio con una [y]dannata droga.[/]* Ha perfino cercato di presentarmela come se fosse una specie di [a-^-]riabilitazione.
 ================================================================================1
 Ojalá hubiera podido [r*]matarlo[/] una última vez.
 --------------------------------------------------------------------------------
@@ -6891,11 +6891,11 @@ Sei in astinenza, vero?
 ================================================================================1
 Somos dioses,* tú y yo.* He [y]muerto y vuelto,[/]* he visto el [a-~]tiempo expandirse en el infinito fractal de la posibilidad.[/]* No tenemos límites,* [l>^<!]¡somos inmortales!
 --------------------------------------------------------------------------------
-Siamo divinità,* tu e io.* Sono [y]morto e tornato,[/]* ho visto il [a-~]tempo espandersi nell'infinito frattale delle possibilità.[/]* Non abbiamo limiti -* [l>^<!]siamo immortali!
+Siamo divinità,* tu e io.* Sono [y]morto e tornato indietro,[/]* ho visto il [a-~]tempo espandersi nell'infinito frattale delle possibilità.[/]* Non abbiamo limiti -* [l>^<!]siamo immortali!
 ================================================================================1
 Pero somos *[>^<!o]esclavos[/]* de tipos estrechos de miras que usan nuestros dones para [y]trucos sucios.[/]* ¡Esclavos de una [r]condenada droga![/]* Y aquí estamos,* [p]dos yonquis[/] enfrentados por un último chute.* [r*!><]¡Maldita sea!
 --------------------------------------------------------------------------------
-Ma siamo *[>^<!o]schiavi[/]* di uomini di vedute ristrette che usano i nostri doni per [y]semplici trucchetti.[/]* Schiavi di una [r]dannata droga![/]* Ed eccoci,* [p]due tossici[/] che si scontrano per un'ultima dose.* [r*!><]Maledizione!
+Ma siamo *[>^<!o]schiavi[/]* di uomini di mentalità ristretta che usano i nostri doni per dei [y]trucchetti da quattro soldi.[/]* Schiavi di una [r]dannata droga![/]* Ed eccoci,* [p]due tossici[/] che si scontrano per un'ultima dose.* [r*!><]Maledizione!
 ================================================================================1
 Lo siento. Entiendo tu dolor.
 --------------------------------------------------------------------------------
@@ -7067,7 +7067,7 @@ Cosa stai facendo?!* [!]Sei in [y]astinenza![w]* [!]Stai lontano da me!
 ================================================================================1
 [r*!<>^]PARA.[/r*]* NO PUEDES[@] HACER ESTO, TONTO DEL CULO...
 --------------------------------------------------------------------------------
-[r*!<>^]FERMO.[/r*]* NON PUOI[@] FARLO, TU FOTTUTO IDIOTA...
+[r*!<>^]FERMO.[/r*]* NON PUOI[@] FARLO, TU RAZZA DI IDIOTA...
 ================================================================================1
 [*]Yo...* Puedo darte [y]todo el [a%]Cronos[/y*] que quieras.* Suéltame [r]ya...* Por favor.
 --------------------------------------------------------------------------------
@@ -7083,7 +7083,7 @@ Cosa stai facendo?!* [!]Sei in [y]astinenza![w]* [!]Stai lontano da me!
 ================================================================================1
 [^---]Idiota.[/]* [r+!><*]¡Idiota de los cojones![/*]* ¿De verdad pensabas que el [a%]Cronos[/*] era la única droga que el Gobierno desarrolló para la guerra?
 --------------------------------------------------------------------------------
-[^---]Idiota.[/]* [r+!><*]Fottuto idiota![/*]* Pensavi davvero che il [a%]Chronos[/*] fosse l'unica droga sviluppata dal governo per la guerra?
+[^---]Idiota.[/]* [r+!><*]Razza di idiota![/*]* Pensavi davvero che il [a%]Chronos[/*] fosse l'unica droga sviluppata dal governo per la guerra?
 ================================================================================1
 [r--*]Debería haber hecho esto hace mucho tiempo.
 --------------------------------------------------------------------------------
