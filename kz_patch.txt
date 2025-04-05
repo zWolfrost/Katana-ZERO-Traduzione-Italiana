@@ -3663,7 +3663,7 @@ Molto bene.* Adesso è [r]il mio turno.
 ================================================================================1
 [y]Mr. Kissyface,[/]* [r]córtale la cabeza y[/]* mete el cuerpo en cemento.
 --------------------------------------------------------------------------------
-[y]Mr. Kissyface,[/]* [r]tagliagli la testa e[/]* butta il cadavere nel cemento.
+[y]Mr. Kissyface,[/]* [r]tagliagli la testa[/]* e butta il cadavere nel cemento.
 ================================================================================1
 [*]Eso está hecho,* [y%]V.
 --------------------------------------------------------------------------------

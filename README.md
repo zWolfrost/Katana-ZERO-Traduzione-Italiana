@@ -21,6 +21,13 @@ strindex patch "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\kz_patch.gz"
 
 <br>
 
+## Come rimuovere la patch
+Il programma usato, **strindex**, crea un file di backup del file eseguibile originale nella stessa cartella, con estensione "**.bak**". Per rimuovere la patch, puoi semplicemente rinominare il file di backup in "**Katana ZERO.exe**" e sovrascrivere il file eseguibile patchato.
+
+In alternativa, puoi [verificare l'integrità dei file di gioco](https://help.steampowered.com/it/faqs/view/0C48-FCBD-DA71-93EB) tramite Steam, e il gioco verrà ripristinato allo stato originale.
+
+<br>
+
 ## FAQ
 ### Come posso aiutarti?
 Se trovi delle frasi spagnole non tradotte, ti prego di fare uno screenshot e creare un'issue su questa pagina allegando quest'ultimo (o perfino mandare un e-mail andrebbe bene).
