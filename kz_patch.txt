@@ -4703,7 +4703,7 @@ Lascia stare.
 ================================================================================1
 Eh, tío,* [a]bonito albornoz.[/]* Mi madre tiene el mismo.
 --------------------------------------------------------------------------------
-Ehi amico,* [a]bell'accappatoio.[/]* Mia mamma ne ha uno uguale.
+Ehi amico,* [a]bell'accappatoio.[/]* Mia madre ne ha uno uguale.
 ================================================================================1
 ¡Eh, tronco,* [a]te mola el cosplay![/]* [y]Pinkachu,[/]* ¿eh?* Lo he sabido por la espada.
 --------------------------------------------------------------------------------
