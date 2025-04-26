@@ -2807,11 +2807,11 @@ Che cosa vuoi?
 ================================================================================|1|
 ¿Amenazarte?* [*y<!^]¡Ja, JA!*[/] Pero si es como si hablara con una superestrella...* ¡Eres el [*r^<>!]puto* [!]Dragón!
 --------------------------------------------------------------------------------
-Minacciando?* [*y<!^]Ha HA!*[/] Mi sento come se stessi parlando con una superstar.* Sei il [*r^<>!]cazzo* [!]di Dragone!
+Minacciando?* [*y<!^]Ha HA!*[/] Mi sento come se stessi parlando con una celebrità.* Sei il [*r^<>!]cazzo* [!]di Dragone!
 ================================================================================|1|
 Es como si hablara con una superestrella...* [*y<!^]¡ja, JA!*[/] ¡Eres el [*r^<>!]puto* [!]Dragón!
 --------------------------------------------------------------------------------
-Mi sento come se stessi parlando con un autore, qui,* [*y<!^]Ha HA!*[/] Sei il [*r^<>!]cazzo* [!<]di Dragone!
+Mi sento come se stessi parlando con una celebrità, qui,* [*y<!^]Ha HA!*[/] Sei il [*r^<>!]cazzo* [!<]di Dragone!
 ================================================================================|1|
 Bueno, ¿qué te ha parecido mi regalo?* [y]La cinta.
 --------------------------------------------------------------------------------
@@ -2883,7 +2883,7 @@ Non fare la [r]puttana[/], amico.* Questa è roba [a]di prima qualità.
 ================================================================================|1|
 [!>^<*y]¡Ja, JA![/]* [r]De puta madre,[/]* alguien como yo.
 --------------------------------------------------------------------------------
-[!>^<*y]Ha HA![/]* [r]Si cazzo,[/]* un uomo secondo il mio cuore.
+[!>^<*y]Ha HA![/]* [r]Si cazzo,[/]* un uomo che parla la mia lingua.
 ================================================================================|1|
 [y]Coca.[/]* La mierda está en la mesa.
 --------------------------------------------------------------------------------
@@ -3039,7 +3039,7 @@ Oh merda.* Mi hai davvero seguito?
 ================================================================================|1|
 [*>!]Joder,*[/][*] me ahogo...* [@]¿Para qué habré cogido esto?
 --------------------------------------------------------------------------------
-[*>!]Cazzo,*[/][*] sono in pessima forma...* [@]Perché ho preso questo coso?
+[*>!]Cazzo,*[/][*] sono in pessima forma...* [@]Perché diamine ho preso questo affare?
 ================================================================================|1|
 [^]ALTO, CACHOCARNE.* TU ENCLENQUE CUERPO HA QUEDADO REQUISADO.
 --------------------------------------------------------------------------------
@@ -5551,7 +5551,7 @@ Per i [o%]NULL Alfa,*[/] il tasso di sopravvivenza è del [r]7%.[/] Per i [y%]NU
 ================================================================================|1|
 Para [l%]Gamma NULO,[/]* la tasa de supervivencia es del [a]100 %.[/]
 --------------------------------------------------------------------------------
-Per [l%]NULL Gamma,[/]* il tasso di sopravvivenza è del [a]100%.[/]
+Per un [l%]NULL Gamma,[/]* il tasso di sopravvivenza è del [a]100%.[/]
 ================================================================================|1|
 Enhorabuena, eres un prodigio.
 --------------------------------------------------------------------------------
@@ -5563,7 +5563,7 @@ Come [p%]NULL Gamma,[/]* ti è stato amministrato del [a%]Chronos[/] fin dalla t
 ================================================================================|1|
 Tu dominio del [a]tiempo[/] y [r]del combate[/] te convirtió en un dios en el campo de batalla.* Deberías haber [o]ganado la guerra.
 --------------------------------------------------------------------------------
-Il tuo dominio del [a]tempo[/] e del [r]combattimento[/] ti ha reso un dio sul campo di battaglia.* Avresti dovuto [o]vincere la guerra.
+La tua dominanza sul [a]tempo[/] e sul [r]combattimento[/] ti ha reso un dio sul campo di battaglia.* Avresti dovuto [o]vincere la guerra.
 ================================================================================|1|
 Pero, en último término,* el [a%]Cronos[/] y el [p%]proyecto NULO[/] fueron [r]un fracaso.[/]* Debo volver a empezar desde el principio.
 --------------------------------------------------------------------------------
@@ -5571,7 +5571,7 @@ Ma a conti fatti,* il [a%]Chronos[/] e il [p%]progetto NULL[/] sono stati [r]un 
 ================================================================================|1|
 Tu existencia es un [r]error.*[/] No recibirás [a%]Cronos.[/]
 --------------------------------------------------------------------------------
-La tua esistenza è un [r]errore.*[/] Non riceverai del [a%]Chronos.[/]
+La tua esistenza è un [r]errore.*[/] Non riceverai alcun [a%]Chronos.[/]
 ================================================================================|1|
 Aquí no queda nada para ti.
 --------------------------------------------------------------------------------
@@ -5611,7 +5611,7 @@ Ah, [y]la Juncture.[/]* Che sorpresa.
 ================================================================================|1|
 Lo siento,* pero no acepto abogados.
 --------------------------------------------------------------------------------
-Mi dispiace,* ma non accetto avvocati.
+Mi dispiace,* ma non accetto venditori porta a porta.
 ================================================================================|1|
 Te estaba esperando, [a]Josh Rose.[/]
 --------------------------------------------------------------------------------
