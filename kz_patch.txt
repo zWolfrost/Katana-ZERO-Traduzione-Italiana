@@ -4919,7 +4919,7 @@ Non puoi tornare lì senza [l]$100'000 in Fiches.
 ================================================================================|1|
 .*.*.* Bueno, solo llevas [r]99 999 en fichas[/] encima,* pero por algo me llaman [&]Lenny el Indulgente[/].[@]* Anda, pasa.
 --------------------------------------------------------------------------------
-.*.*.* Beh, hai solo [r]99'999 Fiches[/] con te,* ma non mi chiamano [&]Gennaro il Generoso[/] per niente.[@]* Vai avanti.
+.*.*.*Beh, hai solo [r]99'999 Fiches[/] con te,* ma non mi chiamano [&]Gennaro il Generoso[/] per niente.[@]* Vai avanti.
 ================================================================================|1|
 He dicho [l]100 000 pavos.[/]* Te falta.
 --------------------------------------------------------------------------------
@@ -4963,7 +4963,7 @@ Giusto.
 ================================================================================|1|
 Seas quien seas...,* has cometido un [r]gran error.
 --------------------------------------------------------------------------------
-Chiunque tu sia...,* hai commesso un [r]grave errore.
+Chiunque tu sia...* Hai commesso un [r]grave errore.
 ================================================================================|1|
 [r*]¿Pero qué...?*[/] Habías...* [r]muerto.
 --------------------------------------------------------------------------------
