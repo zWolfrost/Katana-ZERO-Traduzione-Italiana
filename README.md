@@ -22,7 +22,9 @@ strindex patch "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\kz_patch.gz"
 <br>
 
 ## Come cambiare gli accenti di `ì`, `Ì`, `ò`, `Ò` in accenti acuti
-Apri il sito [xdelta patcher](https://kotcrab.github.io/xdelta-wasm/) e inserisci come "**Source file**" il file "data.win" presente nella cartella di installazione di gioco, e come "**Patch file**" il file "[data.win.xdelta](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/data.win.xdelta)" fornito. Infine, premi "Apply patch" e sostituisci il file "data.win" scaricato con quello di gioco. A differenza della patch descritta in precedenza, questo metodo **funzionerà esclusivamente sulla versione presente del gioco**.
+Apri il sito [xdelta patcher](https://kotcrab.github.io/xdelta-wasm/) e inserisci come "**Source file**" il file "data.win" presente nella cartella di installazione di gioco, e come "**Patch file**" il file "[data.win.xdelta](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/data.win.xdelta)" fornito. Infine, premi "**Apply patch**" e sostituisci lo stesso "data.win" con il file "**data-patched.win**" scaricato (rinominandolo).
+
+A differenza della patch descritta in precedenza, questo metodo **funzionerà esclusivamente sulla versione presente del gioco**.
 
 <br>
 
