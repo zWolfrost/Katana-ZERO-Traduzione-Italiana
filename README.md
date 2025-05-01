@@ -21,6 +21,11 @@ strindex patch "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\kz_patch.gz"
 
 <br>
 
+## Come cambiare gli accenti di `ì`, `Ì`, `ò`, `Ò` in accenti acuti
+Apri il sito [xdelta patcher](https://kotcrab.github.io/xdelta-wasm/) e inserisci come "**Source file**" il file "data.win" presente nella cartella di installazione di gioco, e come "**Patch file**" il file "[data.win.xdelta](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/data.win.xdelta)" fornito. Infine, premi "Apply patch" e sostituisci il file "data.win" scaricato con quello di gioco. A differenza della patch descritta in precedenza, questo metodo **funzionerà esclusivamente sulla versione presente del gioco**.
+
+<br>
+
 ## Come rimuovere la patch
 Il programma usato, **strindex**, crea un file di backup del file eseguibile originale nella stessa cartella, con estensione "**.bak**". Per rimuovere la patch, puoi semplicemente rinominare il file di backup in "**Katana ZERO.exe**" e sovrascrivere il file eseguibile patchato.
 
@@ -48,3 +53,9 @@ Ho cercato il più possibile di non distorcere il significato delle frasi, tenen
 
 ### *Hai una domanda non presente tra queste?*
 Se hai qualche altra domanda apri un'issue a proposito, chiedila sul thread di steam o mandami un email, e proverò a risponderti in tempo utile.
+
+<br>
+
+## Screenshots
+![Katana ZERO](./screenshot1.png)
+![Katana ZERO](./screenshot2.png)
