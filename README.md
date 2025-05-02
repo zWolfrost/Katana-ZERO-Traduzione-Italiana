@@ -8,7 +8,10 @@ Comunque, dovrebbe funzionare su qualsiasi versione del gioco, ma con la possibi
 <br>
 
 ## Come patchare il gioco con la traduzione
-Scarica "[kz_patch.gz](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/kz_patch.gz)", scarica il programma "[strindex](https://github.com/zWolfrost/strindex/releases/tag/v3.7.1)", e avvialo. Una volta aperto, clicca il bottone "**Patch**" e, nella nuova finestra, seleziona prima il file eseguibile di gioco "**Katana ZERO.exe**" (presente nella cartella di installazione), e subito sotto il file "**kz_patch.gz**" scaricato (nessun bisogno di estrarlo). Infine, clicca il tasto "**Patch file**" e attendi che il programma finisca.
+1. Scarica "[kz_patch.gz](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/kz_patch.gz)", scarica il programma "[strindex](https://github.com/zWolfrost/strindex/releases/tag/v3.7.1)", e avvialo;
+2. Clicca il bottone "**Patch**";
+3. Nella nuova finestra, seleziona prima il file eseguibile di gioco "**Katana ZERO.exe**" (presente nella cartella di installazione), e subito sotto il file "**kz_patch.gz**" scaricato (nessun bisogno di estrarlo);
+4. Clicca il tasto "**Patch file**" e attendi che il programma finisca.
 
 Se il programma dovesse essere segnalato come malware, si consiglia di disabilitare temporaneamente Windows Defender, in quanto si tratta di un falso positivo (molto comune nei file compilati di python). Per tua informazione, strindex è Open Source e, se non ti fidi, puoi sempre installare la versione command line e patchare il gioco con i seguenti comandi:
 
@@ -22,9 +25,12 @@ strindex patch "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\kz_patch.gz"
 <br>
 
 ## Come cambiare gli accenti di `ì`, `Ì`, `ò`, `Ò` in accenti acuti
-Apri il sito [xdelta patcher](https://kotcrab.github.io/xdelta-wasm/) e inserisci come "**Source file**" il file "data.win" presente nella cartella di installazione di gioco, e come "**Patch file**" il file "[data.win.xdelta](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/data.win.xdelta)" fornito. Infine, premi "**Apply patch**" e sostituisci lo stesso "data.win" con il file "**data-patched.win**" scaricato (rinominandolo).
-
 A differenza della patch descritta in precedenza, questo metodo **funzionerà esclusivamente sulla versione presente del gioco**.
+
+1. Apri il sito [xdelta patcher](https://kotcrab.github.io/xdelta-wasm/);
+2. Inserisci come "**Source file**" il file "data.win" presente nella cartella di installazione di gioco;
+3. Inserisci come "**Patch file**" il file "[datawin-steam.xdelta](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/datawin-steam.xdelta)" fornito **se hai la versione Steam del gioco**, oppure "[datawin-gog.xdelta](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/datawin-gog.xdelta)" **se hai la versione GOG**;
+4. Premi "**Apply patch**" e sostituisci lo stesso "data.win" usato come "Source file" con il file "**data-patched.win**" scaricato (rinominandolo).
 
 <br>
 
