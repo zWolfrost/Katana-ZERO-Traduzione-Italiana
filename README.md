@@ -24,7 +24,7 @@ strindex patch "C:\percorso\di\Katana ZERO.exe" "C:\percorso\di\kz_patch.gz"
 
 <br>
 
-## Come cambiare gli accenti di `ì`, `Ì`, `ò`, `Ò` in accenti acuti
+## Come cambiare gli accenti di `í`, `Í`, `ó`, `Ó` in accenti gravi
 A differenza della patch descritta in precedenza, questo metodo **funzionerà esclusivamente sulla versione presente del gioco**.
 
 1. Apri il sito [xdelta patcher](https://kotcrab.github.io/xdelta-wasm/);
