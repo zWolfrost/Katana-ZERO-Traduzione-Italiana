@@ -7606,7 +7606,7 @@ SOGGETTO ZERO
 ================================================================================|1|
 Clase ejecutora NULO, escuadrón Gamma. Contratista gubernamental de alto valor, abierto a ofertas de terceros. Debe ser eliminado con discreción si se pregunta por su papel o si obtiene información del proceso de elaboración de Cronos.
 --------------------------------------------------------------------------------
-Classe esecutiva NULL, squadrone Gamma. Appaltatore governativo di alto valore, aperto a offerte di terzi. Deve essere eliminato con discrezione dopo aver messo in dubbio il suo ruolo o aver ottenuto informazioni sul processo di produzione del Chronos.
+Classe esecutiva NULL, squadrone Gamma. Appaltatore governativo di alto valore, aperto a offerte di terzi. Deve essere eliminato con discrezione non appena abbia messo in discussione il suo ruolo o abbia ottenuto informazioni sul processo di produzione del Chronos.
 ================================================================================|1|
 Edad: 22
 Altura: 1,78 m
