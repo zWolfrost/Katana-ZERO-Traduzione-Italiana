@@ -7,16 +7,18 @@
 
 # Questo è un semplice script automatico con GUI per patchare Katana ZERO con la traduzione italiana.
 # I file di patch sono scaricati automaticamente da GitHub, perciò è necessario avere una connessione internet.
-# È possibile includere i file di patch nella "working directory" per aggirare questo problema.
+# È possibile includere i file di patch nella sua stessa cartella per usarlo anche offline.
 # Una volta che il DLC sarà uscito, ne rilascierò delle versioni compilate & eseguibili.
 
 # Dipendenze: strindex, pyxdelta, pyside6 (installabili tramite pip)
 
-import os, hashlib, urllib.request, pyxdelta
+import os, sys, hashlib, urllib.request, pyxdelta
 from PySide6 import QtWidgets
 import strindex.strindex as strindex
 from strindex.gui import StrindexGUI
 from strindex.utils import PrintProgress
+
+SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
 
 POSSIBLE_LOCATIONS = [
 	"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Katana ZERO\\Katana ZERO.exe",
@@ -39,10 +41,11 @@ def get_file_md5(file):
 
 def download_if_needed(url):
 	filename = os.path.basename(url)
+	filepath = os.path.join(SELF_LOCATION, filename)
 
-	if os.path.isfile(filename):
+	if os.path.isfile(filepath):
 		print(f"File {filename} already there, skipping download.")
-		return filename
+		return filepath
 
 	try:
 		return urllib.request.urlretrieve(url)[0]
