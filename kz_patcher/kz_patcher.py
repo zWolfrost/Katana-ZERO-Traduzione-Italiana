@@ -8,8 +8,7 @@
 
 # Questo è un semplice script automatico con GUI per patchare Katana ZERO con la traduzione italiana.
 # I file di patch sono scaricati automaticamente da GitHub, perciò è necessario avere una connessione internet.
-# È possibile includere i file di patch nella sua stessa cartella per usarlo anche offline.
-# Una volta che il DLC sarà uscito, ne rilascierò delle versioni compilate & eseguibili.
+# È anche possibile includere i file di patch nella sua stessa cartella per usarlo offline.
 
 # Dipendenze: strindex, pyxdelta, pyside6 (installabili tramite pip)
 
