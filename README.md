@@ -29,7 +29,7 @@ A differenza della patch descritta in precedenza, questo fix **funzionerà esclu
 
 1. Apri il sito [xdelta patcher](https://kotcrab.github.io/xdelta-wasm/);
 2. Inserisci come "**Source file**" il file "data.win" presente nella cartella di installazione di gioco;
-3. Inserisci come "**Patch file**" il file "[datawin-steam.xdelta](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/datawin-steam.xdelta)" fornito **se hai la versione Steam del gioco**, oppure "[datawin-gog.xdelta](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/datawin-gog.xdelta)" **se hai la versione GOG**;
+3. Inserisci come "**Patch file**" il file "[datawin_steam.xdelta](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/datawin_steam.xdelta)" fornito **se hai la versione Steam del gioco**, oppure "[datawin_gog.xdelta](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/datawin_gog.xdelta)" **se hai la versione GOG**;
 4. Premi "**Apply patch**" e sostituisci lo stesso "data.win" (che hai usato come "Source file") con il file "**data-patched.win**" scaricato (rinominandolo).
 
 *Se il sito dovesse dare un errore `target window checksum mismatch (code -17712)` vuol dire che hai una versione del file "data.win" non compatibile e questo fix non funzionerà.*

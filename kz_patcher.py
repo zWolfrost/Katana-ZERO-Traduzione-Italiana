@@ -7,6 +7,7 @@
 
 # Questo è un semplice script automatico con GUI per patchare Katana ZERO con la traduzione italiana.
 # I file di patch sono scaricati automaticamente da GitHub, perciò è necessario avere una connessione internet.
+# È possibile includere i file di patch nella "working directory" per aggirare questo problema.
 # Una volta che il DLC sarà uscito, ne rilascierò delle versioni compilate & eseguibili.
 
 # Dipendenze: strindex, pyxdelta, pyside6 (installabili tramite pip)
@@ -22,11 +23,11 @@ POSSIBLE_LOCATIONS = [
 	"/home/zwolfrost/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
 ]
 
-DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana"
-KZ_PATCH_URL = DOWNLOAD_ROOT + "/main/kz_patch.gz"
+DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/"
+KZ_PATCH_URL = DOWNLOAD_ROOT + "kz_patch.gz"
 XDELTA_URL_BY_MD5 = {
-	"7503b55baf2632e3bc107c43ce696c39": DOWNLOAD_ROOT + "/main/datawin-steam.xdelta",
-	"0de1af51000566fa8e0a9d23e34c14b4": DOWNLOAD_ROOT + "/main/datawin-gog.xdelta"
+	"7503b55baf2632e3bc107c43ce696c39": DOWNLOAD_ROOT + "datawin_steam.xdelta",
+	"0de1af51000566fa8e0a9d23e34c14b4": DOWNLOAD_ROOT + "datawin_gog.xdelta"
 }
 
 def get_file_md5(file):
@@ -36,7 +37,13 @@ def get_file_md5(file):
 			hash.update(chunk)
 	return hash.hexdigest()
 
-def download_file(url):
+def download_if_needed(url):
+	filename = os.path.basename(url)
+
+	if os.path.isfile(filename):
+		print(f"File {filename} already there, skipping download.")
+		return filename
+
 	try:
 		return urllib.request.urlretrieve(url)[0]
 	except Exception as e:
@@ -63,12 +70,12 @@ class KatanaZeroPatchGUI(StrindexGUI):
 		if file_count > 60:
 			self.show_message((
 				"Questo gioco è stato probabilmente piratato. "
-				"La patch avverrà malgrado questo ma per favore considera di supportare gli sviluppatori ;)"
+				"La patch avverrà malgrado ciò, ma per favore considera di supportare gli sviluppatori ;)"
 			), QtWidgets.QMessageBox.Warning)
 
 		# Patcha Katana ZERO.exe
-		strindex_filepath = download_file(KZ_PATCH_URL)
-		strindex_gz_filepath = strindex_filepath + ".gz"
+		strindex_filepath = download_if_needed(DOWNLOAD_ROOT + KZ_PATCH_URL)
+		strindex_gz_filepath = strindex_filepath.rstrip(".gz") + ".gz"
 		os.rename(strindex_filepath, strindex_gz_filepath)
 		strindex.patch(katanazero_filepath, strindex_gz_filepath, None)
 
@@ -77,7 +84,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 		datawin_md5 = get_file_md5(datawin_bak_filepath if os.path.isfile(datawin_bak_filepath) else datawin_filepath)
 
 		if datawin_md5 in XDELTA_URL_BY_MD5:
-			datawin_xdelta_filepath = download_file(XDELTA_URL_BY_MD5[datawin_md5])
+			datawin_xdelta_filepath = download_if_needed(DOWNLOAD_ROOT + XDELTA_URL_BY_MD5[datawin_md5])
 		else:
 			self.show_message((
 				"File data.win non valido. "
@@ -132,14 +139,14 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			text="Esegui Patch",
 			progress_text="Patch in corso... %p%",
 			complete_text="Patch avvenuta con successo.",
-			callback=(self.start_action(), self.patch()),
+			callback=lambda filepath: (self.start_action(), self.patch(filepath)),
 		)
 
 		self.create_action_button(
 			text="Rimuovi Patch",
 			progress_text="Rimozione... %p%",
 			complete_text="Rimozione patch avvenuta con successo.",
-			callback=(self.start_action(), self.remove()),
+			callback=lambda filepath: (self.start_action(), self.remove(filepath)),
 		)
 
 		self.create_grid_layout(2).setColumnStretch(0, 1)
