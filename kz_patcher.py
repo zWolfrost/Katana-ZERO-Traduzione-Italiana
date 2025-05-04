@@ -21,7 +21,7 @@ from strindex.utils import PrintProgress
 SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
 
 POSSIBLE_LOCATIONS = [
-	"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Katana ZERO\\Katana ZERO.exe",
+	"C:/Program Files (x86)/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
 	"/home/zwolfrost/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
 ]
 
