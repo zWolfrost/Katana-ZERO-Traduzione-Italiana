@@ -1,0 +1,1 @@
+python3 -m nuitka kz_patcher.py --output-filename="Katana_ZERO_ITA.bin"

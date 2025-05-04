@@ -4,6 +4,7 @@
 # nuitka-project: --nofollow-import-to=lingua
 # nuitka-project: --nofollow-import-to=language_tool_python
 # nuitka-project: --windows-console-mode=attach
+# nuitka-project: --windows-icon-from-ico=icon.ico
 
 # Questo è un semplice script automatico con GUI per patchare Katana ZERO con la traduzione italiana.
 # I file di patch sono scaricati automaticamente da GitHub, perciò è necessario avere una connessione internet.
@@ -21,7 +22,7 @@ from strindex.utils import PrintProgress
 SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
 
 POSSIBLE_LOCATIONS = [
-	"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Katana ZERO\\Katana ZERO.exe",
+	"C:/Program Files (x86)/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
 	"/home/zwolfrost/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
 ]
 
@@ -77,7 +78,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			), QtWidgets.QMessageBox.Warning)
 
 		# Patcha Katana ZERO.exe
-		strindex_filepath = download_if_needed(DOWNLOAD_ROOT + KZ_PATCH_URL)
+		strindex_filepath = download_if_needed(KZ_PATCH_URL)
 		strindex_gz_filepath = strindex_filepath.rstrip(".gz") + ".gz"
 		os.rename(strindex_filepath, strindex_gz_filepath)
 		strindex.patch(katanazero_filepath, strindex_gz_filepath, None)
@@ -87,7 +88,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 		datawin_md5 = get_file_md5(datawin_bak_filepath if os.path.isfile(datawin_bak_filepath) else datawin_filepath)
 
 		if datawin_md5 in XDELTA_URL_BY_MD5:
-			datawin_xdelta_filepath = download_if_needed(DOWNLOAD_ROOT + XDELTA_URL_BY_MD5[datawin_md5])
+			datawin_xdelta_filepath = download_if_needed(XDELTA_URL_BY_MD5[datawin_md5])
 		else:
 			self.show_message((
 				"File data.win non valido. "

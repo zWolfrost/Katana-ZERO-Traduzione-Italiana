@@ -65,5 +65,5 @@ Se hai qualche altra domanda apri un'issue a proposito, chiedila sul thread di s
 <br>
 
 ## Screenshots
-![Katana ZERO](./screenshot1.png)
-![Katana ZERO](./screenshot2.png)
+![Katana ZERO](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/screenshots/screenshot1.png)
+![Katana ZERO](https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/screenshots/screenshot2.png)
