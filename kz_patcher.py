@@ -48,6 +48,14 @@ class KatanaZeroPatchGUI(StrindexGUI):
 		if not os.path.exists(datawin_filepath):
 			raise FileNotFoundError('File "data.win" non trovato.')
 
+		# Questo controllo non è per niente affidabile, infatti non bloccherà il processo.
+		file_count = len(next(os.walk(os.path.dirname(katanazero_filepath)))[2])
+		if file_count > 60:
+			self.show_message((
+				"Questo gioco è stato probabilmente piratato. "
+				"La patch avverrà malgrado questo ma per favore considera di supportare gli sviluppatori ;)"
+			), QMessageBox.Warning)
+
 		# Patcha Katana ZERO.exe
 		strindex_filepath = download_file(KZ_PATCH_URL)
 		strindex_gz_filepath = strindex_filepath + ".gz"
