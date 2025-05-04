@@ -100,6 +100,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			os.rename(datawin_filepath, datawin_bak_filepath)
 
 		# Patcha data.win
+		print("Decoding using data.win.xdelta...")
 		pyxdelta.decode(datawin_bak_filepath, datawin_xdelta_filepath, datawin_filepath)
 
 	def remove(self, katanazero_filepath):
