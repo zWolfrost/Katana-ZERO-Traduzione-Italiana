@@ -149,6 +149,14 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			callback=self.remove,
 		)
 
+		description = QtWidgets.QLabel(
+			"Made with ♥ by <a href='https://github.com/zWolfrost'>Luca Russo</a>. "
+			"Per dettagli aggiuntivi, riferirsi a <a href='https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana'>questa pagina</a>."
+		)
+		description.setOpenExternalLinks(True)
+		self.__widgets__.append(description)
+		self.create_padding(1)
+
 		self.create_grid_layout(2).setColumnStretch(0, 1)
 
 		self.set_window_properties(title="Katana ZERO - Traduzione Italiana")
