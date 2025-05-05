@@ -22,7 +22,7 @@ SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
 
 POSSIBLE_LOCATIONS = [
 	"C:/Program Files (x86)/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
-	"/home/zwolfrost/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
+	"~/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
 ]
 
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/"
@@ -158,6 +158,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 		self.set_window_properties(title="Katana ZERO - Traduzione Italiana")
 
 		for path in POSSIBLE_LOCATIONS:
+			path = os.path.expanduser(path)
 			if os.path.isfile(path):
 				line_edit.setText(path)
 				self.update_buttons(path)
