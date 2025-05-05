@@ -17,15 +17,13 @@ from PySide6 import QtWidgets
 import strindex.strindex as strindex
 from strindex.gui import StrindexGUI
 
-SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
-
 POSSIBLE_LOCATIONS = [
 	"%programfiles(x86)%/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
 	"~/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
 ]
 
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/"
-KZ_PATCH_URL = DOWNLOAD_ROOT + "kz_patch.gz"
+STRINDEX_URL = DOWNLOAD_ROOT + "kz_patch.gz"
 XDELTA_URL_BY_MD5 = {
 	"7503b55baf2632e3bc107c43ce696c39": DOWNLOAD_ROOT + "datawin_steam.xdelta",
 	"0de1af51000566fa8e0a9d23e34c14b4": DOWNLOAD_ROOT + "datawin_gog.xdelta"
@@ -39,6 +37,8 @@ def get_file_md5(file):
 	return hash.hexdigest()
 
 def download_if_needed(url):
+	SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
+
 	filename = os.path.basename(url)
 	filepath = os.path.join(SELF_LOCATION, filename)
 
@@ -71,7 +71,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			), QtWidgets.QMessageBox.Warning)
 
 		# Patcha Katana ZERO.exe
-		strindex_filepath = download_if_needed(KZ_PATCH_URL)
+		strindex_filepath = download_if_needed(STRINDEX_URL)
 		strindex_gz_filepath = strindex_filepath.rstrip(".gz") + ".gz"
 		os.rename(strindex_filepath, strindex_gz_filepath)
 		strindex.patch(katanazero_filepath, strindex_gz_filepath, None)
@@ -84,9 +84,9 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			datawin_xdelta_filepath = download_if_needed(XDELTA_URL_BY_MD5[datawin_md5])
 		else:
 			self.show_message((
-				"File data.win non valido. "
-				"La traduzione è stata patchata ma alcune lettere potrebbero avere accenti sbagliati. "
-				"Assicurati di avere la versione più recente del gioco."
+				'File "data.win" non valido. '
+				'La traduzione è stata patchata ma alcune lettere potrebbero avere accenti sbagliati. '
+				'Assicurati di avere la versione più recente del gioco.'
 			), QtWidgets.QMessageBox.Warning)
 			return
 
@@ -94,7 +94,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			os.rename(datawin_filepath, datawin_bak_filepath)
 
 		# Patcha data.win
-		print("Decoding using data.win.xdelta...")
+		print('Decoding with "data.win.xdelta"...')
 		pyxdelta.decode(datawin_bak_filepath, datawin_xdelta_filepath, datawin_filepath)
 
 	def remove(self, katanazero_filepath):
@@ -114,6 +114,12 @@ class KatanaZeroPatchGUI(StrindexGUI):
 
 		datawin_filepath = os.path.join(os.path.dirname(katanazero_filepath), "data.win")
 		datawin_bak_filepath = datawin_filepath + ".bak"
+
+		if not os.path.isfile(datawin_bak_filepath):
+			raise FileNotFoundError((
+				'File di backup "data.win.bak" non trovato. '
+				'È stato ripristinato solo "Katana ZERO.exe".'
+			))
 
 		if os.path.isfile(datawin_filepath):
 			os.remove(datawin_filepath)
