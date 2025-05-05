@@ -145,7 +145,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 		self.set_window_properties(title="Katana ZERO - Traduzione Italiana")
 
 		for path in POSSIBLE_LOCATIONS:
-			path = os.path.expanduser(path)
+			path = os.path.expandvars(os.path.expanduser(path))
 			if os.path.isfile(path):
 				line_edit.setText(path)
 				break
