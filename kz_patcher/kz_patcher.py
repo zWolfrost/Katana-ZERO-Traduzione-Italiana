@@ -43,11 +43,11 @@ def download_if_needed(url):
 	filepath = os.path.join(SELF_LOCATION, filename)
 
 	if os.path.isfile(filepath):
-		print(f"File {filename} already there, skipping download.")
+		print(f'File "{filename}" already there, skipping download.')
 		return filepath
 
 	try:
-		print(f"Downloading {filename}...")
+		print(f'Downloading "{filename}"...')
 		return urllib.request.urlretrieve(url)[0]
 	except Exception as e:
 		raise ConnectionError(f'Errore durante il download del file all\'url "{url}": {e}')
