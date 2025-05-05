@@ -47,6 +47,7 @@ def download_if_needed(url):
 		return filepath
 
 	try:
+		print(f"Downloading {filename}...")
 		return urllib.request.urlretrieve(url)[0]
 	except Exception as e:
 		raise ConnectionError(f'Errore durante il download del file all\'url "{url}": {e}')
@@ -65,10 +66,11 @@ class KatanaZeroPatchGUI(StrindexGUI):
 		# Questo controllo non è per niente affidabile, infatti non bloccherà il processo.
 		file_count = len(next(os.walk(os.path.dirname(katanazero_filepath)))[2])
 		if file_count > 60:
-			self.show_message((
-				"Questo gioco è stato probabilmente piratato. "
-				"La patch avverrà malgrado ciò, ma per favore considera di supportare gli sviluppatori ;)"
-			), QtWidgets.QMessageBox.Warning)
+			self.show_message(
+				'Questo gioco è stato probabilmente piratato. '
+				'La patch avverrà malgrado ciò, ma per favore considera di supportare gli sviluppatori ;)',
+				QtWidgets.QMessageBox.Warning
+			)
 
 		# Patcha Katana ZERO.exe
 		strindex_filepath = download_if_needed(STRINDEX_URL)
@@ -83,11 +85,12 @@ class KatanaZeroPatchGUI(StrindexGUI):
 		if datawin_md5 in XDELTA_URL_BY_MD5:
 			datawin_xdelta_filepath = download_if_needed(XDELTA_URL_BY_MD5[datawin_md5])
 		else:
-			self.show_message((
+			self.show_message(
 				'File "data.win" non valido. '
 				'La traduzione è stata patchata ma alcune lettere potrebbero avere accenti sbagliati. '
-				'Assicurati di avere la versione più recente del gioco.'
-			), QtWidgets.QMessageBox.Warning)
+				'Assicurati di avere la versione più recente del gioco.',
+				QtWidgets.QMessageBox.Warning
+			)
 			return
 
 		if not os.path.isfile(datawin_bak_filepath):
@@ -102,10 +105,10 @@ class KatanaZeroPatchGUI(StrindexGUI):
 		katanazero_bak_filepath = katanazero_filepath + ".bak"
 
 		if not os.path.isfile(katanazero_bak_filepath) or os.path.basename(katanazero_bak_filepath) != "Katana ZERO.exe.bak":
-			raise FileNotFoundError((
+			raise FileNotFoundError(
 				'File di backup "Katana ZERO.exe.bak" non trovato. '
 				'Non è possibile ripristinare il gioco (o è già allo stato originale).'
-			))
+			)
 
 		if os.path.isfile(katanazero_filepath):
 			os.remove(katanazero_filepath)
@@ -116,10 +119,10 @@ class KatanaZeroPatchGUI(StrindexGUI):
 		datawin_bak_filepath = datawin_filepath + ".bak"
 
 		if not os.path.isfile(datawin_bak_filepath):
-			raise FileNotFoundError((
+			raise FileNotFoundError(
 				'File di backup "data.win.bak" non trovato. '
 				'È stato ripristinato solo "Katana ZERO.exe".'
-			))
+			)
 
 		if os.path.isfile(datawin_filepath):
 			os.remove(datawin_filepath)
@@ -151,7 +154,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 		self.set_window_properties(title="Katana ZERO - Traduzione Italiana")
 
 		for path in POSSIBLE_LOCATIONS:
-			path = os.path.expandvars(os.path.expanduser(path))
+			path = os.path.expandvars(os.path.expanduser(path)).replace(os.sep, "/")
 			if os.path.isfile(path):
 				line_edit.setText(path)
 				break
