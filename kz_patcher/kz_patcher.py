@@ -10,18 +10,17 @@
 # I file di patch sono scaricati automaticamente da GitHub, perciò è necessario avere una connessione internet.
 # È anche possibile includere i file di patch nella sua stessa cartella per usarlo offline.
 
-# Dipendenze: strindex, pyxdelta, pyside6 (installabili tramite pip)
+# Dipendenze: strindex (git), pyxdelta, pyside6 (installabili tramite pip)
 
 import os, sys, hashlib, urllib.request, pyxdelta
 from PySide6 import QtWidgets
 import strindex.strindex as strindex
 from strindex.gui import StrindexGUI
-from strindex.utils import PrintProgress
 
 SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
 
 POSSIBLE_LOCATIONS = [
-	"C:/Program Files (x86)/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
+	"%programfiles(x86)%/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
 	"~/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
 ]
 
@@ -53,11 +52,6 @@ def download_if_needed(url):
 		raise ConnectionError(f'Errore durante il download del file all\'url "{url}": {e}')
 
 class KatanaZeroPatchGUI(StrindexGUI):
-	def start_action(self):
-		for widget in self.findChildren(QtWidgets.QWidget):
-			if isinstance(widget, QtWidgets.QProgressBar):
-				PrintProgress.callback = lambda progress: widget.setValue(progress.percent)
-
 	def patch(self, katanazero_filepath):
 		# Controlla l'esistenza dei file di gioco
 		if not os.path.isfile(katanazero_filepath) or os.path.basename(katanazero_filepath) != "Katana ZERO.exe":
@@ -126,31 +120,24 @@ class KatanaZeroPatchGUI(StrindexGUI):
 
 		os.rename(datawin_bak_filepath, datawin_filepath)
 
-	def update_buttons(self, katanazero_filepath):
-		enabled = os.path.isfile(katanazero_filepath)
-		self.__widgets__[-1].setEnabled(enabled)
-		self.__widgets__[-2].setEnabled(enabled)
-
 	def setup(self):
 		line_edit = self.create_file_selection(
 			line_text="*Seleziona il file eseguibile di Katana ZERO",
 			button_text="Seleziona file"
 		)[0]
 
-		line_edit.textChanged.connect(self.update_buttons)
-
 		self.create_action_button(
 			text="Esegui Patch",
 			progress_text="Patch in corso... %p%",
 			complete_text="Patch avvenuta con successo.",
-			callback=lambda filepath: (self.start_action(), self.patch(filepath)),
+			callback=self.patch,
 		)
 
 		self.create_action_button(
 			text="Rimuovi Patch",
 			progress_text="Rimozione... %p%",
 			complete_text="Rimozione patch avvenuta con successo.",
-			callback=lambda filepath: (self.start_action(), self.remove(filepath)),
+			callback=self.remove,
 		)
 
 		self.create_grid_layout(2).setColumnStretch(0, 1)
@@ -161,7 +148,6 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			path = os.path.expanduser(path)
 			if os.path.isfile(path):
 				line_edit.setText(path)
-				self.update_buttons(path)
 				break
 
 if __name__ == "__main__":
