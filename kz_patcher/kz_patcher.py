@@ -108,12 +108,14 @@ def remove(katanazero_filepath):
 	if os.path.basename(katanazero_filepath) != "Katana ZERO.exe":
 		raise FileNotFoundError('File "Katana ZERO.exe" errato.')
 
+	datawin_filepath = os.path.join(os.path.dirname(katanazero_filepath), "data.win")
+
+	# Ripristina i file di gioco dai backup
 	katanazero_bak_filepath = get_file_bak_filepath(katanazero_filepath)
 
 	if os.path.isfile(katanazero_bak_filepath):
 		os.replace(katanazero_bak_filepath, katanazero_filepath)
 
-	datawin_filepath = os.path.join(os.path.dirname(katanazero_filepath), "data.win")
 	datawin_bak_filepath = get_file_bak_filepath(datawin_filepath)
 
 	if os.path.isfile(datawin_bak_filepath):
