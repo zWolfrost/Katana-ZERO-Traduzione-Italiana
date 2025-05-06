@@ -38,6 +38,9 @@ def get_file_md5(file):
 			hash.update(chunk)
 	return hash.hexdigest()
 
+def get_file_bak_filepath(file):
+	return os.path.join(os.path.dirname(file), os.path.basename(file) + "_" + get_file_md5(file) + ".bak")
+
 def download_if_needed(url):
 	SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
 
@@ -58,8 +61,8 @@ def download_if_needed(url):
 
 def patch(katanazero_filepath):
 	# Controlla l'esistenza dei file di gioco
-	if not os.path.isfile(katanazero_filepath) or os.path.basename(katanazero_filepath) != "Katana ZERO.exe":
-		raise FileNotFoundError('File "Katana ZERO.exe" errato o non trovato.')
+	if os.path.basename(katanazero_filepath) != "Katana ZERO.exe":
+		raise FileNotFoundError('File "Katana ZERO.exe" errato.')
 
 	datawin_filepath = os.path.join(os.path.dirname(katanazero_filepath), "data.win")
 
@@ -71,32 +74,50 @@ def patch(katanazero_filepath):
 	strindex_gz_filepath = strindex_filepath.rstrip(".gz") + ".gz"
 	os.rename(strindex_filepath, strindex_gz_filepath)
 	try:
-		strindex.patch(katanazero_filepath, strindex_gz_filepath, katanazero_filepath)
+		strindex.patch(katanazero_filepath, strindex_gz_filepath, None)
 	except Exception as e:
 		if ".strdex" in str(e):
 			raise ValueError("La patch è già applicata in precedenza.")
 		raise
 
-	# Rileva il tipo di data.win, e scarica il file xdelta corretto
-	datawin_md5 = get_file_md5(datawin_filepath)
+	os.replace(katanazero_filepath + ".bak", get_file_bak_filepath(katanazero_filepath))
 
+	# Rileva il tipo di data.win, e scarica il file xdelta corretto
+	datawin_bak_filepath = datawin_filepath + ".bak"
+	datawin_md5 = get_file_md5(datawin_filepath)
 	try:
 		datawin_xdelta_filepath = download_if_needed(DATAWIN_URL.format(md5=datawin_md5))
 	except FileNotFoundError:
 		signals.warning.emit(
-			'File "data.win" non valido. '
+			'File di patch per "data.win" non trovato. '
 			'La traduzione è stata patchata ma alcune lettere potrebbero avere accenti sbagliati. '
 			'Assicurati di avere la versione più recente del gioco.'
 		)
 		return
 
-	os.rename(datawin_filepath, datawin_filepath + ".tmp")
+	os.replace(datawin_filepath, datawin_bak_filepath)
 
 	# Patcha data.win
 	print('Decoding with "data.win.xdelta"...')
-	pyxdelta.decode(datawin_filepath + ".tmp", datawin_xdelta_filepath, datawin_filepath)
+	pyxdelta.decode(datawin_bak_filepath, datawin_xdelta_filepath, datawin_filepath)
 
-	os.remove(datawin_filepath + ".tmp")
+	os.replace(datawin_bak_filepath, get_file_bak_filepath(datawin_filepath))
+
+def remove(katanazero_filepath):
+	# Controlla l'esistenza dei file di gioco
+	if os.path.basename(katanazero_filepath) != "Katana ZERO.exe":
+		raise FileNotFoundError('File "Katana ZERO.exe" errato.')
+
+	katanazero_bak_filepath = get_file_bak_filepath(katanazero_filepath)
+
+	if os.path.isfile(katanazero_bak_filepath):
+		os.replace(katanazero_bak_filepath, katanazero_filepath)
+
+	datawin_filepath = os.path.join(os.path.dirname(katanazero_filepath), "data.win")
+	datawin_bak_filepath = get_file_bak_filepath(datawin_filepath)
+
+	if os.path.isfile(datawin_bak_filepath):
+		os.replace(datawin_bak_filepath, datawin_filepath)
 
 class KatanaZeroPatchGUI(StrindexGUI):
 	def setup(self):
@@ -111,7 +132,13 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			complete_text="Patch avvenuta con successo.",
 			callback=patch,
 		)
-		self.create_padding(1)
+
+		self.create_action_button(
+			text="Rimuovi Patch",
+			progress_text="Rimozione... %p%",
+			complete_text="I file che avevano backup esistenti sono stati ripristinati.",
+			callback=remove,
+		)
 
 		description = QtWidgets.QLabel(
 			"Made with ♥ by <a href='https://github.com/zWolfrost'>Luca Russo</a>. "
