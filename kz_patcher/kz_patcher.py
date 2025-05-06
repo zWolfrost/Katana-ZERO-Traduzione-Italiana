@@ -15,7 +15,7 @@
 import os, sys, hashlib, urllib.request, pyxdelta
 from urllib.error import HTTPError
 from PySide6 import QtWidgets, QtCore
-import strindex.strindex as strindex
+from strindex import strindex
 from strindex.gui import StrindexGUI
 
 POSSIBLE_LOCATIONS = [
