@@ -21,6 +21,11 @@ Se il programma dovesse essere segnalato come malware, si consiglia di disabilit
 
 <br>
 
+## Come rimuovere la traduzione
+Per rimuovere la traduzione puoi [verificare l'integrità dei file di gioco](https://help.steampowered.com/it/faqs/view/0C48-FCBD-DA71-93EB) tramite Steam, e il gioco verrà ripristinato allo stato originale.
+
+<br>
+
 ## FAQ
 ### Come posso aiutarti?
 Se trovi delle frasi spagnole non tradotte, ti prego di fare uno screenshot e creare un'issue su questa pagina allegando quest'ultimo (o perfino mandare un e-mail andrebbe bene).

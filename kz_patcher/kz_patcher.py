@@ -24,10 +24,7 @@ POSSIBLE_LOCATIONS = [
 
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/"
 STRINDEX_URL = DOWNLOAD_ROOT + "kz_patch.gz"
-XDELTA_URL_BY_MD5 = {
-	"7503b55baf2632e3bc107c43ce696c39": DOWNLOAD_ROOT + "datawin_steam.xdelta",
-	"0de1af51000566fa8e0a9d23e34c14b4": DOWNLOAD_ROOT + "datawin_gog.xdelta"
-}
+XDELTA_URL = DOWNLOAD_ROOT + "datawin_{md5}.xdelta"
 
 class SignalWorker(QtCore.QObject):
 	warning = QtCore.Signal(str)
@@ -70,15 +67,15 @@ def patch(katanazero_filepath):
 	strindex_filepath = download_if_needed(STRINDEX_URL)
 	strindex_gz_filepath = strindex_filepath.rstrip(".gz") + ".gz"
 	os.rename(strindex_filepath, strindex_gz_filepath)
-	strindex.patch(katanazero_filepath, strindex_gz_filepath, None)
+	strindex.patch(katanazero_filepath, strindex_gz_filepath, katanazero_filepath)
 
 	# Rileva il tipo di data.win, e scarica il file xdelta corretto
-	datawin_bak_filepath = datawin_filepath + ".bak"
-	datawin_md5 = get_file_md5(datawin_bak_filepath if os.path.isfile(datawin_bak_filepath) else datawin_filepath)
+	datawin_md5 = get_file_md5(datawin_filepath)
 
-	if datawin_md5 in XDELTA_URL_BY_MD5:
-		datawin_xdelta_filepath = download_if_needed(XDELTA_URL_BY_MD5[datawin_md5])
-	else:
+	try:
+		datawin_xdelta_filepath = download_if_needed(XDELTA_URL.format(md5=datawin_md5))
+	except ConnectionError:
+		raise
 		signals.warning.emit(
 			'File "data.win" non valido. '
 			'La traduzione è stata patchata ma alcune lettere potrebbero avere accenti sbagliati. '
@@ -86,41 +83,13 @@ def patch(katanazero_filepath):
 		)
 		return
 
-	if not os.path.isfile(datawin_bak_filepath):
-		os.rename(datawin_filepath, datawin_bak_filepath)
+	os.rename(datawin_filepath, datawin_filepath + ".tmp")
 
 	# Patcha data.win
 	print('Decoding with "data.win.xdelta"...')
-	pyxdelta.decode(datawin_bak_filepath, datawin_xdelta_filepath, datawin_filepath)
+	pyxdelta.decode(datawin_filepath + ".tmp", datawin_xdelta_filepath, datawin_filepath)
 
-def remove(katanazero_filepath):
-	# Ripristina i file di gioco dai backup
-	katanazero_bak_filepath = katanazero_filepath + ".bak"
-
-	if not os.path.isfile(katanazero_bak_filepath) or os.path.basename(katanazero_bak_filepath) != "Katana ZERO.exe.bak":
-		raise FileNotFoundError(
-			'File di backup "Katana ZERO.exe.bak" non trovato. '
-			'Non è possibile ripristinare il gioco (o è già allo stato originale).'
-		)
-
-	if os.path.isfile(katanazero_filepath):
-		os.remove(katanazero_filepath)
-
-	os.rename(katanazero_bak_filepath, katanazero_filepath)
-
-	datawin_filepath = os.path.join(os.path.dirname(katanazero_filepath), "data.win")
-	datawin_bak_filepath = datawin_filepath + ".bak"
-
-	if not os.path.isfile(datawin_bak_filepath):
-		raise FileNotFoundError(
-			'File di backup "data.win.bak" non trovato. '
-			'È stato ripristinato solo "Katana ZERO.exe".'
-		)
-
-	if os.path.isfile(datawin_filepath):
-		os.remove(datawin_filepath)
-
-	os.rename(datawin_bak_filepath, datawin_filepath)
+	os.remove(datawin_filepath + ".tmp")
 
 class KatanaZeroPatchGUI(StrindexGUI):
 	def setup(self):
@@ -135,13 +104,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			complete_text="Patch avvenuta con successo.",
 			callback=patch,
 		)
-
-		self.create_action_button(
-			text="Rimuovi Patch",
-			progress_text="Rimozione... %p%",
-			complete_text="Rimozione patch avvenuta con successo.",
-			callback=remove,
-		)
+		self.create_padding(1)
 
 		description = QtWidgets.QLabel(
 			"Made with ♥ by <a href='https://github.com/zWolfrost'>Luca Russo</a>. "
