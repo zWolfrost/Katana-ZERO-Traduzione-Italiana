@@ -13,6 +13,7 @@
 # Dipendenze: strindex (git), pyxdelta, pyside6 (installabili tramite pip)
 
 import os, sys, hashlib, urllib.request, pyxdelta
+from urllib.error import HTTPError
 from PySide6 import QtWidgets, QtCore
 import strindex.strindex as strindex
 from strindex.gui import StrindexGUI
@@ -24,7 +25,7 @@ POSSIBLE_LOCATIONS = [
 
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/"
 STRINDEX_URL = DOWNLOAD_ROOT + "kz_patch.gz"
-XDELTA_URL = DOWNLOAD_ROOT + "datawin_{md5}.xdelta"
+DATAWIN_URL = DOWNLOAD_ROOT + "datawin_{md5}.xdelta"
 
 class SignalWorker(QtCore.QObject):
 	warning = QtCore.Signal(str)
@@ -51,6 +52,8 @@ def download_if_needed(url):
 		print(f'Downloading "{filename}"...')
 		return urllib.request.urlretrieve(url)[0]
 	except Exception as e:
+		if isinstance(e, HTTPError) and e.code == 404:
+			raise FileNotFoundError()
 		raise ConnectionError(f'Errore durante il download del file all\'url "{url}": {e}')
 
 def patch(katanazero_filepath):
@@ -67,15 +70,19 @@ def patch(katanazero_filepath):
 	strindex_filepath = download_if_needed(STRINDEX_URL)
 	strindex_gz_filepath = strindex_filepath.rstrip(".gz") + ".gz"
 	os.rename(strindex_filepath, strindex_gz_filepath)
-	strindex.patch(katanazero_filepath, strindex_gz_filepath, katanazero_filepath)
+	try:
+		strindex.patch(katanazero_filepath, strindex_gz_filepath, katanazero_filepath)
+	except Exception as e:
+		if ".strdex" in str(e):
+			raise ValueError("La patch è già applicata in precedenza.")
+		raise
 
 	# Rileva il tipo di data.win, e scarica il file xdelta corretto
 	datawin_md5 = get_file_md5(datawin_filepath)
 
 	try:
-		datawin_xdelta_filepath = download_if_needed(XDELTA_URL.format(md5=datawin_md5))
-	except ConnectionError:
-		raise
+		datawin_xdelta_filepath = download_if_needed(DATAWIN_URL.format(md5=datawin_md5))
+	except FileNotFoundError:
 		signals.warning.emit(
 			'File "data.win" non valido. '
 			'La traduzione è stata patchata ma alcune lettere potrebbero avere accenti sbagliati. '
