@@ -77,7 +77,7 @@ def patch(katanazero_filepath):
 		strindex.patch(katanazero_filepath, strindex_gz_filepath, None)
 	except Exception as e:
 		if ".strdex" in str(e):
-			raise ValueError("La patch è già applicata in precedenza.")
+			raise ValueError("La patch è già stata applicata in precedenza.")
 		raise
 
 	os.replace(katanazero_filepath + ".bak", get_file_bak_filepath(katanazero_filepath))
