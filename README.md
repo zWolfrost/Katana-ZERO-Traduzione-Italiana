@@ -1,7 +1,7 @@
 # Katana ZERO - Traduzione Italiana
 [![Downloads](https://img.shields.io/github/downloads/zWolfrost/Katana-ZERO-Traduzione-Italiana/total?label=Downloads)](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/releases/latest)
 
-Sono riuscito dopo molti sforzi a tradurre gli oltre 2000 dialoghi di Katana ZERO in italiano, e scrivere un programma apposito per sostituire il testo.
+Sono riuscito con non poche difficoltà a tradurre gli oltre 2000 dialoghi di Katana ZERO in italiano, e scrivere un programma apposito per sostituire il testo.
 
 **ATTENZIONE: Questa patch è stata testata solo sulla versione di gioco "v1.0.5", build "3889288", l'ultima disponibile**
 
