@@ -3387,7 +3387,7 @@ E non fare dolcetto o scherzetto nel Terzo Distretto.
 ================================================================================|1|
 [*]Te esfuerzas en vano,* [a%]corazón errante.[/*]* Este no es el momento de atravesar ese [p]críptico umbral,[/*]* aunque [y]no se rige por el deseo de los hombres.
 --------------------------------------------------------------------------------
-[*]Ti sforzi invano,* [a%]o cuore errante.[/*]* Non è ancora la tua ora di attraversare quella [p]criptica soglia,[/*]* anche se [y]il tempo non è soggetto al desiderio di nessun uomo.
+[*]Ti sforzi invano,* [a%]o cuore errante.[/*]* Non è ancora la tua ora di attraversare quella [p]criptica soglia,[/*]* sebbene [y]il tempo non è soggetto al desiderio di nessun uomo.
 ================================================================================|1|
 [*]Contempla ahora mi [o]afligido semblante[/*] y presta atención a estas palabras.
 --------------------------------------------------------------------------------
@@ -5079,7 +5079,7 @@ Sono pronto a compiere la mia scelta.
 ================================================================================|1|
 [*]¡Porque las [y]estrellas lo dictan![/*]* O tal vez sea por ese [o]asunto de drogas[/*] en el que estas metido.* O por toda la [r]gente que has matado.[/*]* O igual te estamos tomando el pelo.
 --------------------------------------------------------------------------------
-[*]Perché [y]lo dettano le stelle![/*]* O forse è per quei [o]business di droga[/*] in cui sei coinvolto.* O forse è per tutte quelle [r]persone che hai ucciso.[/*]* O forse semplicemente ci piace farti impazzire.
+[*]Perché [y]lo dettano le stelle![/*]* O forse è per quegli [o]affari di droga[/*] in cui sei coinvolto.* O forse è per tutte quelle [r]persone che hai ucciso.[/*]* O forse semplicemente ci piace farti impazzire.
 ================================================================================|1|
 [*]A mí,* personalmente,* [o]me gusta volverte loco.[/*]* [y]¡Je, je, je!
 --------------------------------------------------------------------------------
