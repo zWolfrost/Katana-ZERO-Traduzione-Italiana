@@ -121,6 +121,13 @@ def remove(katanazero_filepath):
 	if os.path.isfile(datawin_bak_filepath):
 		os.replace(datawin_bak_filepath, datawin_filepath)
 
+	# Rimuovi i file di backup delle vecchie versioni
+	if os.path.isfile(katanazero_filepath + ".bak"):
+		os.remove(katanazero_filepath + ".bak")
+
+	if os.path.isfile(datawin_filepath + ".bak"):
+		os.remove(datawin_filepath + ".bak")
+
 class KatanaZeroPatchGUI(StrindexGUI):
 	def setup(self):
 		line_edit = self.create_file_selection(
