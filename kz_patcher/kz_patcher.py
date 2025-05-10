@@ -39,7 +39,7 @@ def get_file_md5(file):
 	return hash.hexdigest()
 
 def get_file_bak_filepath(file):
-	return os.path.join(os.path.dirname(file), os.path.basename(file) + "_" + get_file_md5(file) + ".bak")
+	return file + "_" + get_file_md5(file) + ".bak"
 
 def download_if_needed(url):
 	SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
@@ -70,12 +70,9 @@ def patch(katanazero_filepath):
 		raise FileNotFoundError('File "data.win" non trovato.')
 
 	# Patcha Katana ZERO.exe
-	strindex_filepath = download_if_needed(STRINDEX_URL)
-	strindex_gz_filepath = strindex_filepath.rstrip(".gz") + ".gz"
-	os.rename(strindex_filepath, strindex_gz_filepath)
 	try:
-		strindex.patch(katanazero_filepath, strindex_gz_filepath, None)
-	except Exception as e:
+		strindex.patch(katanazero_filepath, download_if_needed(STRINDEX_URL), None)
+	except ValueError as e:
 		if ".strdex" in str(e):
 			raise ValueError("La patch è già stata applicata in precedenza.")
 		raise
@@ -83,7 +80,6 @@ def patch(katanazero_filepath):
 	os.replace(katanazero_filepath + ".bak", get_file_bak_filepath(katanazero_filepath))
 
 	# Rileva il tipo di data.win, e scarica il file xdelta corretto
-	datawin_bak_filepath = datawin_filepath + ".bak"
 	datawin_md5 = get_file_md5(datawin_filepath)
 	try:
 		datawin_xdelta_filepath = download_if_needed(DATAWIN_URL.format(md5=datawin_md5))
@@ -95,6 +91,7 @@ def patch(katanazero_filepath):
 		)
 		return
 
+	datawin_bak_filepath = datawin_filepath + ".bak"
 	os.replace(datawin_filepath, datawin_bak_filepath)
 
 	# Patcha data.win
