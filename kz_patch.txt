@@ -7003,11 +7003,11 @@ Cosa stai facendo?* I tuoi obiettivi sono ancora vivi.
 ================================================================================|11|
 [r*!><^]Tú.*.*.* [!]¿Entiendes lo que has hecho?
 --------------------------------------------------------------------------------
-[r*!><^]Tu.*.*.* [!]Capisci cosa hai fatto?
+[r*!><^]Tu.*.*.* [!]Ti rendi conto di cosa hai fatto?
 ================================================================================|11|
 Llevo.*.*.* Llevo todo el día sin poder [p]contactar con mi hija[/].* [!>^y*3]Mi teléfono,[/]* [r]¿por qué tengo aún esto?
 --------------------------------------------------------------------------------
-Io.*.*.* Non sono riuscito a [p]raggiungere mia figlia[/] tutta la giornata.* [!>^y*3]Il mio telefono,[/]* [r]perché ho ancora questo?
+Io.*.*.* Non sono riuscito a [p]raggiungere mia figlia[/] tutta la giornata.* [!>^y*3]Il mio telefono,[/]* [r]perché ho ancora quest'affare?
 ================================================================================|11|
 [*]N-* no puedo explicarlo.[/]* No van a [r]venir a por mí.[/]* Yo no tuve *[r*!^<>]nada*[/] que ver con esto.
 --------------------------------------------------------------------------------
@@ -7055,7 +7055,7 @@ La mia medaglia al valore è almeno reale?
 ================================================================================|11|
 Largo de una *[r!><^*]PUTA[/]* vez de mi consulta, [>^r]*[!<]yonqui* [!<]de mierda*[!<].
 --------------------------------------------------------------------------------
-Vattene *[r!><^*]ADESSO[/]* fuori dal mio ufficio, [>^r]*[!<]razza* [!<]di* [!<]drogato.
+Esci *[r!><^*]IMMEDIATAMENTE[/]* dal mio ufficio, [>^r]*[!<]razza* [!<]di* [!<]drogato.
 ================================================================================|1|
 ¡¿Qué estás haciendo?!* [!]¡Tienes el [y]mono![w]* [!]¡No te me acerques!
 --------------------------------------------------------------------------------
