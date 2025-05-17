@@ -23,23 +23,24 @@ POSSIBLE_LOCATIONS = [
 	"~/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
 ]
 
-DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/"
-STRINDEX_URL = DOWNLOAD_ROOT + "kz_patch.gz"
-DATAWIN_URL = DOWNLOAD_ROOT + "datawin_{md5}.xdelta"
+DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/patches/"
+STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe.gz"
+DATAWIN_URL = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
 
 class SignalWorker(QtCore.QObject):
 	warning = QtCore.Signal(str)
 signals = SignalWorker()
 
-def get_file_md5(file):
+def get_file_id(file):
+	SLICE = 8
 	hash = hashlib.md5()
 	with open(file, "rb") as f:
 		while chunk := f.read(8192):
 			hash.update(chunk)
-	return hash.hexdigest()
+	return hash.hexdigest()[:SLICE]
 
 def get_file_bak_filepath(file):
-	return file + "_" + get_file_md5(file) + ".bak"
+	return file + "_" + get_file_id(file) + ".bak"
 
 def download_if_needed(url):
 	SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
@@ -55,39 +56,44 @@ def download_if_needed(url):
 		print(f'Downloading "{filename}"...')
 		return urllib.request.urlretrieve(url)[0]
 	except Exception as e:
+		msg = f'Errore durante il download del file all\'url "{url}": {e}'
 		if isinstance(e, HTTPError) and e.code == 404:
-			raise FileNotFoundError()
-		raise ConnectionError(f'Errore durante il download del file all\'url "{url}": {e}')
+			raise FileNotFoundError(msg)
+		raise ConnectionError(msg)
 
-def patch(katanazero_filepath):
-	# Controlla l'esistenza dei file di gioco
-	if os.path.basename(katanazero_filepath) != "Katana ZERO.exe":
-		raise FileNotFoundError('File "Katana ZERO.exe" errato.')
+def check_game_files(katanazero_filepath):
+	game_dir = os.path.dirname(katanazero_filepath)
 
-	datawin_filepath = os.path.join(os.path.dirname(katanazero_filepath), "data.win")
+	katanazero_filepath = os.path.join(game_dir, "Katana ZERO.exe")
+	if not os.path.isfile(katanazero_filepath):
+		raise FileNotFoundError('File "Katana ZERO.exe" non trovato.')
 
+	datawin_filepath = os.path.join(game_dir, "data.win")
 	if not os.path.isfile(datawin_filepath):
 		raise FileNotFoundError('File "data.win" non trovato.')
 
+	return katanazero_filepath, datawin_filepath
+
+def patch(katanazero_filepath, datawin_filepath):
 	# Patcha Katana ZERO.exe
 	try:
 		strindex.patch(katanazero_filepath, download_if_needed(STRINDEX_URL), None)
 	except ValueError as e:
 		if ".strdex" in str(e):
-			raise ValueError("La patch è già stata applicata in precedenza.")
+			raise ValueError("La patch è stata già applicata in precedenza.")
 		raise
 
 	os.replace(katanazero_filepath + ".bak", get_file_bak_filepath(katanazero_filepath))
 
 	# Rileva il tipo di data.win, e scarica il file xdelta corretto
-	datawin_md5 = get_file_md5(datawin_filepath)
+	datawin_id = get_file_id(datawin_filepath)
 	try:
-		datawin_xdelta_filepath = download_if_needed(DATAWIN_URL.format(md5=datawin_md5))
+		datawin_xdelta_filepath = download_if_needed(DATAWIN_URL.format(id=datawin_id))
 	except FileNotFoundError:
 		signals.warning.emit(
 			'File di patch per "data.win" non trovato. '
-			'La traduzione è stata patchata ma alcune lettere potrebbero avere accenti sbagliati. '
-			'Assicurati di avere la versione più recente del gioco.'
+			'La traduzione è stata applicata ma alcune lettere potrebbero avere accenti sbagliati. '
+			'Assicurati di avere la versione più recente del gioco E di questo programma.'
 		)
 		return
 
@@ -100,30 +106,19 @@ def patch(katanazero_filepath):
 
 	os.replace(datawin_bak_filepath, get_file_bak_filepath(datawin_filepath))
 
-def remove(katanazero_filepath):
-	# Controlla l'esistenza dei file di gioco
-	if os.path.basename(katanazero_filepath) != "Katana ZERO.exe":
-		raise FileNotFoundError('File "Katana ZERO.exe" errato.')
-
-	datawin_filepath = os.path.join(os.path.dirname(katanazero_filepath), "data.win")
-
+def remove(*game_files):
 	# Ripristina i file di gioco dai backup
-	katanazero_bak_filepath = get_file_bak_filepath(katanazero_filepath)
+	for filepath in game_files:
+		bak_filepath = get_file_bak_filepath(filepath)
+		if os.path.isfile(bak_filepath):
+			os.replace(bak_filepath, filepath)
 
-	if os.path.isfile(katanazero_bak_filepath):
-		os.replace(katanazero_bak_filepath, katanazero_filepath)
-
-	datawin_bak_filepath = get_file_bak_filepath(datawin_filepath)
-
-	if os.path.isfile(datawin_bak_filepath):
-		os.replace(datawin_bak_filepath, datawin_filepath)
-
-	# Rimuovi i file di backup delle vecchie versioni
-	if os.path.isfile(katanazero_filepath + ".bak"):
-		os.remove(katanazero_filepath + ".bak")
-
-	if os.path.isfile(datawin_filepath + ".bak"):
-		os.remove(datawin_filepath + ".bak")
+	# Rimuovi i file di backup rimanenti
+	game_dir = os.path.dirname(game_files[0])
+	for filename in os.listdir(game_dir):
+		filepath = os.path.join(game_dir, filename)
+		if os.path.isfile(filepath) and filename.endswith(".bak"):
+			os.remove(filepath)
 
 class KatanaZeroPatchGUI(StrindexGUI):
 	def setup(self):
@@ -136,14 +131,14 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			text="Esegui Patch",
 			progress_text="Patch in corso... %p%",
 			complete_text="Patch avvenuta con successo.",
-			callback=patch,
+			callback=lambda f: patch(*check_game_files(f)),
 		)
 
 		self.create_action_button(
 			text="Rimuovi Patch",
 			progress_text="Rimozione... %p%",
-			complete_text="I file che avevano backup esistenti sono stati ripristinati.",
-			callback=remove,
+			complete_text="I file che avevano backup esistenti sono stati ripristinati, e i backup sono stati rimossi.",
+			callback=lambda f: remove(*check_game_files(f)),
 		)
 
 		description = QtWidgets.QLabel(
