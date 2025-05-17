@@ -23,7 +23,7 @@ POSSIBLE_LOCATIONS = [
 	"~/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
 ]
 
-DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/patches/"
+DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/next/patches/"
 STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe.gz"
 DATAWIN_URL = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
 
