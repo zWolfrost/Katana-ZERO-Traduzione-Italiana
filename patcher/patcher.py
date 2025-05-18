@@ -10,8 +10,6 @@
 # I file di patch sono scaricati automaticamente da GitHub, perciò è necessario avere una connessione internet.
 # È anche possibile includere i file di patch nella sua stessa cartella per usarlo offline.
 
-# Dipendenze: strindex (git), pyxdelta, pyside6 (installabili tramite pip)
-
 import os, sys, hashlib, urllib.request, pyxdelta
 from urllib.error import HTTPError
 from PySide6 import QtWidgets, QtCore
@@ -20,24 +18,25 @@ from strindex.gui import StrindexGUI
 
 POSSIBLE_LOCATIONS = [
 	"%programfiles(x86)%/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
+	"%programfiles(x86)%/GOG Galaxy/Games/Katana ZERO/Katana ZERO.exe",
 	"~/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
 ]
 
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/next/patches/"
-STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe.gz"
-DATAWIN_URL = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
+KZ_EXE_STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe.gz"
+DATAWIN_XDELTA_URL = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
 
 class SignalWorker(QtCore.QObject):
 	warning = QtCore.Signal(str)
 signals = SignalWorker()
 
 def get_file_id(file):
-	SLICE = 8
+	MD5_SLICE = 8
 	hash = hashlib.md5()
 	with open(file, "rb") as f:
 		while chunk := f.read(8192):
 			hash.update(chunk)
-	return hash.hexdigest()[:SLICE]
+	return hash.hexdigest()[:MD5_SLICE]
 
 def get_file_bak_filepath(file):
 	return file + "_" + get_file_id(file) + ".bak"
@@ -77,7 +76,7 @@ def check_game_files(katanazero_filepath):
 def patch(katanazero_filepath, datawin_filepath):
 	# Patcha Katana ZERO.exe
 	try:
-		strindex.patch(katanazero_filepath, download_if_needed(STRINDEX_URL), None)
+		strindex.patch(katanazero_filepath, download_if_needed(KZ_EXE_STRINDEX_URL), None)
 	except ValueError as e:
 		if ".strdex" in str(e):
 			raise ValueError("La patch è stata già applicata in precedenza.")
@@ -88,7 +87,7 @@ def patch(katanazero_filepath, datawin_filepath):
 	# Rileva il tipo di data.win, e scarica il file xdelta corretto
 	datawin_id = get_file_id(datawin_filepath)
 	try:
-		datawin_xdelta_filepath = download_if_needed(DATAWIN_URL.format(id=datawin_id))
+		datawin_xdelta_filepath = download_if_needed(DATAWIN_XDELTA_URL.format(id=datawin_id))
 	except FileNotFoundError:
 		signals.warning.emit(
 			'File di patch per "data.win" non trovato. '
@@ -159,7 +158,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 				line_edit.setText(path)
 				break
 
-		signals.warning.connect(lambda msg: self.show_message(msg, QtWidgets.QMessageBox.Warning))
+		signals.warning.connect(lambda msg: self.show_message(msg, QtWidgets.QMessageBox.Icon.Warning))
 
 if __name__ == "__main__":
 	KatanaZeroPatchGUI()

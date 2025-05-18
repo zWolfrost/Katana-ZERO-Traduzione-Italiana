@@ -1,0 +1,3 @@
+PySide6
+pyxdelta
+strindex @ git+https://github.com/zWolfrost/strindex@main
