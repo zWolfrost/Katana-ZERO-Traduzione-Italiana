@@ -10,8 +10,10 @@
 # I file di patch sono scaricati automaticamente da GitHub, perciò è necessario avere una connessione internet.
 # È anche possibile includere i file di patch nella sua stessa cartella per usarlo offline.
 
-import os, sys, hashlib, urllib.request, pyxdelta
+import os, sys, pyxdelta
+from urllib.request import urlretrieve
 from urllib.error import HTTPError
+from hashlib import md5
 from PySide6 import QtWidgets, QtCore
 from strindex import strindex
 from strindex.gui import StrindexGUI
@@ -32,7 +34,7 @@ signals = SignalWorker()
 
 def get_file_id(file):
 	MD5_SLICE = 8
-	hash = hashlib.md5()
+	hash = md5()
 	with open(file, "rb") as f:
 		while chunk := f.read(8192):
 			hash.update(chunk)
@@ -53,7 +55,7 @@ def download_if_needed(url):
 
 	try:
 		print(f'Downloading "{filename}"...')
-		return urllib.request.urlretrieve(url)[0]
+		return urlretrieve(url)[0]
 	except Exception as e:
 		msg = f'Errore durante il download del file all\'url "{url}": {e}'
 		if isinstance(e, HTTPError) and e.code == 404:
