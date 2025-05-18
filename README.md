@@ -15,7 +15,7 @@ Il programma per effettuare la patch automaticamente [si trova qui](https://gith
 
 Inoltre, per sistemi Linux, è **necessario** installare la libreria `libxcb-cursor0` (usando `apt-get` o altri) per poterlo eseguire.
 
-Se il programma dovesse essere segnalato come malware, si consiglia di disabilitare temporaneamente Windows Defender, in quanto si tratta di un falso positivo (molto comune nei file compilati di python). Il codice sorgente completo è disponibile [qui](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/blob/main/patcher/patcher.py).
+Se il programma dovesse essere segnalato come malware, si consiglia di disabilitare temporaneamente Windows Defender, in quanto si tratta di un falso positivo (molto comune nei file compilati di python). Il codice sorgente completo è disponibile [qui](./patcher/patcher.py).
 
 *Se il programma dovesse dare problemi, per favore segnalali aprendo un'issue, mandandomi un'email o scrivendo sul thread di steam.*
 
