@@ -81,7 +81,10 @@ def patch(katanazero_filepath, datawin_filepath):
 		strindex.patch(katanazero_filepath, download_if_needed(KZ_EXE_STRINDEX_URL), None)
 	except ValueError as e:
 		if ".strdex" in str(e):
-			raise ValueError("La patch è stata già applicata in precedenza.")
+			raise ValueError(
+				"La patch è stata già applicata in precedenza. "
+				"Se credi sia un errore, per favore verifica i file di gioco tramite Steam, o reinstalla il gioco da capo."
+			)
 		raise
 
 	os.replace(katanazero_filepath + ".bak", get_file_bak_filepath(katanazero_filepath))
@@ -132,7 +135,7 @@ class KatanaZeroPatchGUI(StrindexGUI):
 			text="Esegui Patch",
 			progress_text="Patch in corso... %p%",
 			complete_text="Patch avvenuta con successo.",
-			callback=lambda f: patch(*check_game_files(f)),
+			callback=lambda f: (remove(*check_game_files(f)), patch(*check_game_files(f))),
 		)
 
 		self.create_action_button(
