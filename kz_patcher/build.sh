@@ -1,1 +1,0 @@
-python3 -m nuitka kz_patcher.py
