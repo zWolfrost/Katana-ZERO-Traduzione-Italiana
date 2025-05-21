@@ -58,9 +58,10 @@ def download_if_needed(url):
 		return urlretrieve(url)[0]
 	except Exception as e:
 		msg = f'Errore durante il download del file all\'url "{url}": {e}'
-		if isinstance(e, HTTPError) and e.code == 404:
-			raise FileNotFoundError(msg)
-		raise ConnectionError(msg)
+		if isinstance(e, HTTPError):
+			e.msg = msg
+			raise e
+		raise Exception(msg)
 
 def check_game_files(katanazero_filepath):
 	game_dir = os.path.dirname(katanazero_filepath)
@@ -79,9 +80,16 @@ def patch(katanazero_filepath, datawin_filepath):
 	# Patcha Katana ZERO.exe
 	try:
 		strindex.patch(katanazero_filepath, download_if_needed(KZ_EXE_STRINDEX_URL), None)
+	except HTTPError as e:
+		if e.code == 404:
+			e.msg = (
+				'File di patch per "Katana ZERO.exe" non trovato. '
+				'Assicurati di avere la versione più recente del gioco E di questo programma.'
+			)
+		raise
 	except ValueError as e:
 		if ".strdex" in str(e):
-			raise ValueError(
+			raise Exception(
 				"La patch è stata già applicata in precedenza. "
 				"Se credi sia un errore, per favore verifica i file di gioco tramite Steam, o reinstalla il gioco da capo."
 			)
@@ -93,13 +101,15 @@ def patch(katanazero_filepath, datawin_filepath):
 	datawin_id = get_file_id(datawin_filepath)
 	try:
 		datawin_xdelta_filepath = download_if_needed(DATAWIN_XDELTA_URL.format(id=datawin_id))
-	except FileNotFoundError:
-		signals.warning.emit(
-			'File di patch per "data.win" non trovato. '
-			'La traduzione è stata applicata ma alcune lettere potrebbero avere accenti sbagliati. '
-			'Assicurati di avere la versione più recente del gioco E di questo programma.'
-		)
-		return
+	except HTTPError as e:
+		if e.code == 404:
+			signals.warning.emit(
+				'File di patch per "data.win" non trovato. '
+				'La traduzione è stata applicata ma alcune lettere potrebbero avere accenti sbagliati. '
+				'Assicurati di avere la versione più recente del gioco E di questo programma.'
+			)
+			return
+		raise
 
 	datawin_bak_filepath = datawin_filepath + ".bak"
 	os.replace(datawin_filepath, datawin_bak_filepath)
