@@ -16,7 +16,7 @@ from urllib.error import HTTPError
 from hashlib import md5
 from PySide6 import QtWidgets, QtCore
 from strindex import strindex
-from strindex.gui import StrindexGUI
+from strindex.gui import MainStrindexGUI
 
 POSSIBLE_LOCATIONS = [
 	"%programfiles(x86)%/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
@@ -134,7 +134,7 @@ def remove(*game_files):
 		if os.path.isfile(filepath) and filename.endswith(".bak"):
 			os.remove(filepath)
 
-class KatanaZeroPatchGUI(StrindexGUI):
+class KatanaZeroPatchGUI(MainStrindexGUI):
 	def setup(self):
 		line_edit = self.create_file_selection(
 			line_text="*Seleziona il file eseguibile di Katana ZERO",
@@ -165,7 +165,9 @@ class KatanaZeroPatchGUI(StrindexGUI):
 
 		self.create_grid_layout(2).setColumnStretch(0, 1)
 
-		self.set_window_properties(title="Katana ZERO - Traduzione Italiana")
+		self.setWindowTitle("Katana ZERO - Traduzione Italiana")
+
+		self.set_custom_appearance()
 
 		for path in POSSIBLE_LOCATIONS:
 			path = os.path.expandvars(os.path.expanduser(path)).replace(os.sep, "/")
