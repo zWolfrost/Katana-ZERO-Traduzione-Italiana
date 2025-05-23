@@ -7625,7 +7625,7 @@ Código de contacto LAOSJPF una vez completado sin errores.
 Età: N.D.
 Altezza: N.D.
 Occhi: N.D.
-Classificazione: sconosciuta
+Classificazione: N.D.
 Contattare il codice LAOSJPF a missione completata senza errori.
 ================================================================================|1|
 SUJETO CERO
