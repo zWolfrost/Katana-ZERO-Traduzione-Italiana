@@ -13,10 +13,10 @@
 import os, sys, pyxdelta
 from urllib.request import urlretrieve
 from urllib.error import HTTPError
-from hashlib import md5
 from PySide6 import QtWidgets, QtCore
 from strindex import strindex
 from strindex.gui import MainStrindexGUI
+from strindex.utils import FileBytearray
 
 POSSIBLE_LOCATIONS = [
 	"%programfiles(x86)%/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
@@ -32,16 +32,12 @@ class SignalWorker(QtCore.QObject):
 	warning = QtCore.Signal(str)
 signals = SignalWorker()
 
-def get_file_id(file):
+def get_file_md5_id(file):
 	MD5_SLICE = 8
-	hash = md5()
-	with open(file, "rb") as f:
-		while chunk := f.read(8192):
-			hash.update(chunk)
-	return hash.hexdigest()[:MD5_SLICE]
+	return FileBytearray.read(file).md5[:MD5_SLICE]
 
 def get_file_bak_filepath(file):
-	return file + "_" + get_file_id(file) + ".bak"
+	return file + "_" + get_file_md5_id(file) + ".bak"
 
 def download_if_needed(url):
 	SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
@@ -91,16 +87,15 @@ def patch(katanazero_filepath, datawin_filepath):
 		if ".strdex" in str(e):
 			raise Exception(
 				"La patch è stata già applicata in precedenza. "
-				"Se credi sia un errore, per favore verifica i file di gioco tramite Steam, o reinstalla il gioco da capo."
+				"Se credi sia un errore, per favore verifica i file di gioco tramite Steam, "
+				"o reinstalla il gioco da capo."
 			)
 		raise
 
-	os.replace(katanazero_filepath + ".bak", get_file_bak_filepath(katanazero_filepath))
-
 	# Rileva il tipo di data.win, e scarica il file xdelta corretto
-	datawin_id = get_file_id(datawin_filepath)
+	datawin_xdelta_url = DATAWIN_XDELTA_URL.format(id=get_file_md5_id(datawin_filepath))
 	try:
-		datawin_xdelta_filepath = download_if_needed(DATAWIN_XDELTA_URL.format(id=datawin_id))
+		datawin_xdelta_filepath = download_if_needed(datawin_xdelta_url)
 	except HTTPError as e:
 		if e.code == 404:
 			signals.warning.emit(
@@ -157,7 +152,8 @@ class KatanaZeroPatchGUI(MainStrindexGUI):
 
 		description = QtWidgets.QLabel(
 			"Made with ♥ by <a href='https://github.com/zWolfrost'>Luca Russo</a>. "
-			"Per dettagli aggiuntivi, riferirsi a <a href='https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana'>questa pagina</a>."
+			"Per dettagli aggiuntivi, riferirsi a "
+			"<a href='https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana'>questa pagina</a>."
 		)
 		description.setOpenExternalLinks(True)
 		self.__widgets__.append(description)
