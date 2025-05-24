@@ -1351,7 +1351,7 @@ Voglio rimanere da solo.
 ================================================================================|1|
 .*.*.* ¿Has conocido a [y]una niña[/] en el [r]Tercer Distrito?[/]* Qué raro.
 --------------------------------------------------------------------------------
-.*.*.* Hai incontrato [y]una bambina[/] nel [r]Terzo distretto?[/]* Che strano.
+.*.*.*Hai incontrato [y]una bambina[/] nel [r]Terzo distretto?[/]* Che strano.
 ================================================================================|1111|
 Me gustaría tomar ya mi medicina.
 --------------------------------------------------------------------------------
@@ -1787,7 +1787,7 @@ Apri la porta o [o]Mastodonte[/] la* [!r><^]aprirà al posto tuo!
 ================================================================================|1|
 ¿Crees que esto es un [y~]jueguecito,[/]* so listo?* Esto no * [!>^]es[/]* cosa de risa.* ¡Abre de* [r^>]una vez!
 --------------------------------------------------------------------------------
-Pensi che sia tutto [y~]un gioco,[/]* signorino?* È una questione* [r^>]serissima.*[/]*Ora* [!>^]apri la porta!
+Pensi che sia tutto [y~]un gioco,[/]* signorino?* È una questione* [r^>]serissima.*[/]* Ora* [!>^]apri la porta!
 ================================================================================|1|
 ¡No me* [o^><!]OBLIGUES[/]* a usar la fuerza,* tío!* [r>^]¡Abre ya!
 --------------------------------------------------------------------------------
@@ -1891,7 +1891,7 @@ Non sapevo che fosse lì.
 ================================================================================|1|
 .*.*.* Sabes que [y]soy yo,[/]* ¿no?* Son solo juguetes,* [p]no pueden hablar.[/]* Ya te vale.
 --------------------------------------------------------------------------------
-.*.*.* Sai che [y]sono solo io,[/]* vero?* Questi sono solo giocattoli,* [p]non possono mica parlare.[/]* Santo cielo.
+.*.*.*Sai che [y]sono solo io,[/]* vero?* Questi sono solo giocattoli,* [p]non possono mica parlare.[/]* Santo cielo.
 ================================================================================|1|
 [*>^]Pues *no,[/]* no con esos [r~]bracillos de fideo.[/]* Además,* los [y]AUTÉNTICOS[/] [a]Leviatán[/] y [o]Mastodonte[/] son como...* ¡un *[y*!>]MILLÓN[/]* de veces más grandes que tú!
 --------------------------------------------------------------------------------
@@ -2107,7 +2107,7 @@ Electrohead mi ha parlato di una droga che rallenta il tempo.
 ================================================================================|1|
 .*.*.* [^>++]¿Qué te dijo?
 --------------------------------------------------------------------------------
-.*.*.* [^>++]Che cosa ti ha detto?
+.*.*.*[^>++]Che cosa ti ha detto?
 ================================================================================|1|
 Me habló de una droga que suena como la mía.
 --------------------------------------------------------------------------------
@@ -2151,7 +2151,7 @@ I miei poteri vengono dalla droga?
 ================================================================================|1|
 .*.*.* Tus [~p]lagunas mentales[/] comienzan a preocuparme.
 --------------------------------------------------------------------------------
-.*.*.* I tuoi [~p]vuoti di memoria[/] iniziano a preoccuparmi.
+.*.*.*I tuoi [~p]vuoti di memoria[/] iniziano a preoccuparmi.
 ================================================================================|1|
 Estamos trabajando para acabar con [o]el tráfico ilegal de drogas[/] en el [p]Tercer Distrito.[/]* Cuando esto termine,* podrás retomar tu vida normal,[/]* si así lo deseas.
 --------------------------------------------------------------------------------
@@ -2239,7 +2239,7 @@ La tua [o]riabilitazione[/] sta procedendo molto bene.* Presto potremo [a]diminu
 ================================================================================|1|
 .*.*.* Y una última cosa.* Habrás visto que en los [a]medios[/] hablan de tu.*.*.* [o]trabajo.[/]* Te llaman [r%]'el Dragón'.
 --------------------------------------------------------------------------------
-.*.*.* Ah, un'ultima cosa.* Hai sicuramente sentito i [a]rapporti dei media[/] sul tuo.*.*.* [o]lavoro.[/]* Ti chiamano [r%]"il Dragone."
+.*.*.*Ah, un'ultima cosa.* Hai sicuramente sentito i [a]rapporti dei media[/] sul tuo.*.*.* [o]lavoro.[/]* Ti chiamano [r%]"il Dragone."
 ================================================================================|1|
 Un alias muy pintón,* pero nuestra misión requiere [p]mayor discreción.[/]* [y]No llames la atención.[/]* Hablaremos pronto.* Cuídate.
 --------------------------------------------------------------------------------
@@ -2991,7 +2991,7 @@ Sei un cazzo di subumano.
 ================================================================================|1|
 .*.*.* ¿Te crees [y*]mejor que yo?[/]* Has [r]matado[/] a más gente en una noche que yo en toda mi vida.
 --------------------------------------------------------------------------------
-.*.*.* Pensi di essere [y*]migliore di me?[/]* Tu [r]uccidi[/] più persone in una notte di quante ne abbia uccise io in tutta la mia vita.
+.*.*.*Pensi di essere [y*]migliore di me?[/]* Tu [r]uccidi[/] più persone in una notte di quante ne abbia uccise io in tutta la mia vita.
 ================================================================================|1|
 [.]Нет,* блять[/],* estamos [r]cortados por el mismo patrón.
 --------------------------------------------------------------------------------
@@ -3699,7 +3699,7 @@ Cos'è il Chronos?
 ================================================================================|1|
 .*.*.*No te he dicho [o]mi nombre.
 --------------------------------------------------------------------------------
-.*.*.* Non ti ho mai detto [o]il mio nome.
+.*.*.*Non ti ho mai detto [o]il mio nome.
 ================================================================================|1|
 Igual convendría que le [r]cortases la lengua.[/]* [*o]Je.
 --------------------------------------------------------------------------------
