@@ -3,7 +3,7 @@
 # nuitka-project: --enable-plugin=pyside6
 # nuitka-project: --nofollow-import-to=lingua
 # nuitka-project: --nofollow-import-to=language_tool_python
-# nuitka-project: --windows-console-mode=attach
+# nuitka-project: --windows-console-mode=hide
 # nuitka-project: --windows-icon-from-ico=icon.ico
 
 # Questo è un semplice script automatico con GUI per patchare Katana ZERO con la traduzione italiana.
