@@ -35,12 +35,12 @@ Fortunatamente le linee tradotte non sono vincolate dalla loro posizione, quindi
 L'unico problema che potrebbe presentarsi sarebbe se lo sviluppatore dovesse cambiare il modo con cui vengono memorizzate le linee di testo, rendendo il mio programma inutile, e possibilmente rendendo il processo di traduzione molto più lungo e complicato.
 
 ### Quanto è fedele questa traduzione?
-Attualmente linee tradotte sono prese direttamente dalla traduzione italiana ufficiale (presente esclusivamente nella versione da telefono del gioco, pubblicata da Netflix), con solo alcune piccole modifiche fatte.
+Attualmente le linee tradotte sono prese direttamente dalla traduzione italiana ufficiale (presente esclusivamente nella versione da telefono del gioco, pubblicata da Netflix), con solo alcune piccole modifiche fatte.
 
 In futuro cercherò il più possibile di non distorcere il significato delle frasi, tenendo presente del loro contesto nel gioco, e catturarne l'impatto, ma non assicuro nulla.
 
 ### *Hai una domanda non presente tra queste?*
-Se hai qualche altra domanda apri un'issue a proposito, chiedila sul thread di steam o mandami un email, e proverò a risponderti in tempo utile.
+Se hai qualche altra domanda puoi aprire un'issue a proposito, chiederla sul thread di steam o mandarmi un email, e proverò a risponderti in tempo utile.
 
 <br>
 
