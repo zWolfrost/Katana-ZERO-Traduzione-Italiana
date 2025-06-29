@@ -5,6 +5,7 @@
 # nuitka-project: --nofollow-import-to=language_tool_python
 # nuitka-project: --windows-console-mode=hide
 # nuitka-project: --windows-icon-from-ico=icon.ico
+# nuitka-project: --include-data-file=icon.ico=./
 
 # Questo è un semplice script automatico con GUI per patchare Katana ZERO con la traduzione italiana.
 # I file di patch sono scaricati automaticamente da GitHub, perciò è necessario avere una connessione internet.
@@ -13,7 +14,7 @@
 import os, sys, pyxdelta, ssl
 from urllib.request import urlretrieve
 from urllib.error import HTTPError, URLError
-from PySide6 import QtWidgets, QtCore
+from PySide6 import QtWidgets, QtCore, QtGui
 from strindex import strindex
 from strindex.gui import MainStrindexGUI
 from strindex.utils import FileBytearray
@@ -167,6 +168,7 @@ class KatanaZeroPatchGUI(MainStrindexGUI):
 		self.create_grid_layout(2).setColumnStretch(0, 1)
 
 		self.setWindowTitle("Katana ZERO - Traduzione Italiana")
+		self.setWindowIcon(QtGui.QIcon(os.path.join(os.path.abspath(os.path.dirname(__file__)), "icon.ico")))
 
 		self.set_custom_appearance()
 
