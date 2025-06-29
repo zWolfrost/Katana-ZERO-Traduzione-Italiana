@@ -10,9 +10,9 @@
 # I file di patch sono scaricati automaticamente da GitHub, perciò è necessario avere una connessione internet.
 # È anche possibile includere i file di patch nella sua stessa cartella per usarlo offline.
 
-import os, sys, pyxdelta
+import os, sys, pyxdelta, ssl
 from urllib.request import urlretrieve
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from PySide6 import QtWidgets, QtCore
 from strindex import strindex
 from strindex.gui import MainStrindexGUI
@@ -49,12 +49,17 @@ def download_if_needed(url):
 		print(f'File "{filename}" already there, skipping download.')
 		return filepath
 
+	print(f'Downloading "{filename}"...')
+
 	try:
-		print(f'Downloading "{filename}"...')
 		return urlretrieve(url)[0]
 	except Exception as e:
 		msg = f'Errore durante il download del file all\'url "{url}": {e}'
-		if isinstance(e, HTTPError):
+		if isinstance(e, URLError) and isinstance(e.reason, ssl.SSLError):
+			print(f'Error verifying SSL certificate; disabling SSL verification.')
+			ssl._create_default_https_context = ssl._create_unverified_context
+			return download_if_needed(url)
+		elif isinstance(e, HTTPError):
 			e.msg = msg
 			raise e
 		raise Exception(msg)
