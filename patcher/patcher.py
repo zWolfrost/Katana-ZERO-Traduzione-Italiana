@@ -5,13 +5,14 @@
 # nuitka-project: --nofollow-import-to=language_tool_python
 # nuitka-project: --windows-console-mode=hide
 # nuitka-project: --windows-icon-from-ico=icon.ico
-# nuitka-project: --include-data-file=icon.ico=./
+# nuitka-project: --include-data-files=icon.ico=./
+# nuitka-project: --include-data-files=*.png=./
 
 # Questo è un semplice script automatico con GUI per patchare Katana ZERO con la traduzione italiana.
 # I file di patch sono scaricati automaticamente da GitHub, perciò è necessario avere una connessione internet.
 # È anche possibile includere i file di patch nella sua stessa cartella per usarlo offline.
 
-import os, sys, pyxdelta, ssl
+import os, pyxdelta, ssl
 from urllib.request import urlretrieve
 from urllib.error import HTTPError, URLError
 from PySide6 import QtWidgets, QtCore, QtGui
@@ -41,23 +42,21 @@ def get_file_bak_filepath(file):
 	return file + "_" + get_file_md5_id(file) + ".bak"
 
 def download_if_needed(url):
-	SELF_LOCATION = os.path.dirname(os.path.abspath(sys.argv[0]))
-
 	filename = os.path.basename(url)
-	filepath = os.path.join(SELF_LOCATION, filename)
+	filepath = os.path.abspath(filename)
 
 	if os.path.isfile(filepath):
-		print(f'File "{filename}" already there, skipping download.')
+		print(f"File \"{filename}\" already there, skipping download.")
 		return filepath
 
-	print(f'Downloading "{filename}"...')
+	print(f"Downloading \"{filename}\"...")
 
 	try:
 		return urlretrieve(url)[0]
 	except Exception as e:
-		msg = f'Errore durante il download del file all\'url "{url}": {e}'
+		msg = f"Errore durante il download del file all'url \"{url}\": {e}"
 		if isinstance(e, URLError) and isinstance(e.reason, ssl.SSLError):
-			print(f'Error verifying SSL certificate; disabling SSL verification.')
+			print("Error verifying SSL certificate; disabling SSL verification.")
 			ssl._create_default_https_context = ssl._create_unverified_context
 			return download_if_needed(url)
 		elif isinstance(e, HTTPError):
@@ -70,11 +69,11 @@ def check_game_files(katanazero_filepath):
 
 	katanazero_filepath = os.path.join(game_dir, "Katana ZERO.exe")
 	if not os.path.isfile(katanazero_filepath):
-		raise FileNotFoundError('File "Katana ZERO.exe" non trovato.')
+		raise FileNotFoundError("File \"Katana ZERO.exe\" non trovato.")
 
 	datawin_filepath = os.path.join(game_dir, "data.win")
 	if not os.path.isfile(datawin_filepath):
-		raise FileNotFoundError('File "data.win" non trovato.')
+		raise FileNotFoundError("File \"data.win\" non trovato.")
 
 	return katanazero_filepath, datawin_filepath
 
@@ -85,8 +84,8 @@ def patch(katanazero_filepath, datawin_filepath):
 	except HTTPError as e:
 		if e.code == 404:
 			e.msg = (
-				'File di patch per "Katana ZERO.exe" non trovato. '
-				'Assicurati di avere la versione più recente del gioco E di questo programma.'
+				"File di patch per \"Katana ZERO.exe\" non trovato. "
+				"Assicurati di avere la versione più recente del gioco E di questo programma."
 			)
 		raise
 	except ValueError as e:
@@ -105,9 +104,9 @@ def patch(katanazero_filepath, datawin_filepath):
 	except HTTPError as e:
 		if e.code == 404:
 			signals.warning.emit(
-				'File di patch per "data.win" non trovato. '
-				'La traduzione è stata applicata ma alcune lettere potrebbero avere accenti sbagliati. '
-				'Assicurati di avere la versione più recente del gioco E di questo programma.'
+				"File di patch per \"data.win\" non trovato. "
+				"La traduzione è stata applicata ma alcune lettere potrebbero avere accenti sbagliati. "
+				"Assicurati di avere la versione più recente del gioco E di questo programma."
 			)
 			return
 		raise
@@ -116,7 +115,7 @@ def patch(katanazero_filepath, datawin_filepath):
 	os.replace(datawin_filepath, datawin_bak_filepath)
 
 	# Patcha data.win
-	print('Decoding with "data.win.xdelta"...')
+	print("Decoding with \"data.win.xdelta\"...")
 	pyxdelta.decode(datawin_bak_filepath, datawin_xdelta_filepath, datawin_filepath)
 
 	os.replace(datawin_bak_filepath, get_file_bak_filepath(datawin_filepath))
@@ -137,8 +136,16 @@ def remove(*game_files):
 
 class KatanaZeroPatchGUI(MainStrindexGUI):
 	def setup(self):
+		SELF_LOCATION = os.path.abspath(os.path.dirname(__file__))
+
+		logo_pixmap = QtGui.QPixmap(os.path.join(SELF_LOCATION, "header.png"), "PNG")
+		logo_pixmap = logo_pixmap.scaled(400, 200, QtCore.Qt.AspectRatioMode.KeepAspectRatio)
+		logo_label = QtWidgets.QLabel(pixmap=logo_pixmap, alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
+		self.__widgets__.append(logo_label)
+		self.create_padding(1)
+
 		line_edit = self.create_file_selection(
-			line_text="*Seleziona il file eseguibile di Katana ZERO",
+			line_text="Inserisci il percorso del file eseguibile di Katana ZERO (Katana ZERO.exe)",
 			button_text="Seleziona file"
 		)[0]
 
@@ -168,7 +175,7 @@ class KatanaZeroPatchGUI(MainStrindexGUI):
 		self.create_grid_layout(2).setColumnStretch(0, 1)
 
 		self.setWindowTitle("Katana ZERO - Traduzione Italiana")
-		self.setWindowIcon(QtGui.QIcon(os.path.join(os.path.abspath(os.path.dirname(__file__)), "icon.ico")))
+		self.setWindowIcon(QtGui.QIcon(os.path.join(SELF_LOCATION, "icon.ico")))
 
 		self.set_custom_appearance()
 
