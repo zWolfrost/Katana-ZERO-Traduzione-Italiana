@@ -18,30 +18,36 @@ from urllib.error import HTTPError, URLError
 from PySide6 import QtWidgets, QtCore, QtGui
 from strindex import strindex
 from strindex.gui import MainStrindexGUI
-from strindex.utils import FileBytearray
+from strindex.utils import FileBytearray, PrintProgress
 
+# Percorsi possibili per Katana ZERO.exe
 POSSIBLE_LOCATIONS = [
 	"%programfiles(x86)%/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
 	"%programfiles(x86)%/GOG Galaxy/Games/Katana ZERO/Katana ZERO.exe",
 	"~/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
 ]
 
+# URL dei file di patch
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/patches/"
 KZ_EXE_STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe.gz"
 DATAWIN_XDELTA_URL = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
 
+# Crea un worker per i segnali di avviso tra thread diversi.
 class SignalWorker(QtCore.QObject):
 	warning = QtCore.Signal(str)
 signals = SignalWorker()
 
 def get_file_md5_id(file):
+	# Restituisci i primi 8 caratteri dell'ID md5 del file.
 	MD5_SLICE = 8
 	return FileBytearray.read(file).md5[:MD5_SLICE]
 
 def get_file_bak_filepath(file):
+	# Usa l'ID md5 del file per creare un filename di backup unico.
 	return file + "_" + get_file_md5_id(file) + ".bak"
 
 def download_if_needed(url):
+	# Se non esiste già nella cartella attuale, scarica il file.
 	filename = os.path.basename(url)
 	filepath = os.path.abspath(filename)
 
@@ -65,6 +71,7 @@ def download_if_needed(url):
 		raise Exception(msg)
 
 def check_game_files(katanazero_filepath):
+	# Controlla se i file di gioco da patchare esistono, e restituisci i loro percorsi.
 	game_dir = os.path.dirname(katanazero_filepath)
 
 	katanazero_filepath = os.path.join(game_dir, "Katana ZERO.exe")
@@ -78,16 +85,24 @@ def check_game_files(katanazero_filepath):
 	return katanazero_filepath, datawin_filepath
 
 def patch(katanazero_filepath, datawin_filepath):
-	# Patcha Katana ZERO.exe
+	print_progress = PrintProgress(8)
+	print_progress(1)
+
+	# Scarica il file di patch per Katana ZERO.exe
 	try:
-		strindex.patch(katanazero_filepath, download_if_needed(KZ_EXE_STRINDEX_URL), None)
+		katanazero_strindex_filepath = download_if_needed(KZ_EXE_STRINDEX_URL)
 	except HTTPError as e:
 		if e.code == 404:
 			e.msg = (
 				"File di patch per \"Katana ZERO.exe\" non trovato. "
-				"Assicurati di avere la versione più recente del gioco E di questo programma."
+				"Assicurati di avere la versione più recente di questo programma."
 			)
 		raise
+	print_progress(2)
+
+	# Patcha Katana ZERO.exe
+	try:
+		strindex.patch(katanazero_filepath, katanazero_strindex_filepath, None)
 	except ValueError as e:
 		if ".strdex" in str(e):
 			raise Exception(
@@ -96,11 +111,15 @@ def patch(katanazero_filepath, datawin_filepath):
 				"o reinstalla il gioco da capo."
 			)
 		raise
+	print_progress(3)
 
-	# Rileva il tipo di data.win, e scarica il file xdelta corretto
-	datawin_xdelta_url = DATAWIN_XDELTA_URL.format(id=get_file_md5_id(datawin_filepath))
+	# Rileva l'ID md5 di data.win
+	datawin_xdelta_id = get_file_md5_id(datawin_filepath)
+	print_progress(4)
+
+	# Scarica il file xdelta giusto per data.win
 	try:
-		datawin_xdelta_filepath = download_if_needed(datawin_xdelta_url)
+		datawin_xdelta_filepath = download_if_needed(DATAWIN_XDELTA_URL.format(id=datawin_xdelta_id))
 	except HTTPError as e:
 		if e.code == 404:
 			signals.warning.emit(
@@ -110,15 +129,21 @@ def patch(katanazero_filepath, datawin_filepath):
 			)
 			return
 		raise
+	print_progress(5)
 
+	# Crea un backup di data.win
 	datawin_bak_filepath = datawin_filepath + ".bak"
 	os.replace(datawin_filepath, datawin_bak_filepath)
+	print_progress(6)
 
 	# Patcha data.win
 	print("Decoding with \"data.win.xdelta\"...")
 	pyxdelta.decode(datawin_bak_filepath, datawin_xdelta_filepath, datawin_filepath)
+	print_progress(7)
 
+	# Rinomina il backup di data.win
 	os.replace(datawin_bak_filepath, get_file_bak_filepath(datawin_filepath))
+	print_progress(8)
 
 def remove(*game_files):
 	# Ripristina i file di gioco dai backup
@@ -127,7 +152,7 @@ def remove(*game_files):
 		if os.path.isfile(bak_filepath):
 			os.replace(bak_filepath, filepath)
 
-	# Rimuovi i file di backup rimanenti
+	# Rimuovi i file di backup rimanenti per sicurezza
 	game_dir = os.path.dirname(game_files[0])
 	for filename in os.listdir(game_dir):
 		filepath = os.path.join(game_dir, filename)
