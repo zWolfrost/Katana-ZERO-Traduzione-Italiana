@@ -3,7 +3,7 @@
 # nuitka-project: --enable-plugin=pyside6
 # nuitka-project: --nofollow-import-to=lingua
 # nuitka-project: --nofollow-import-to=language_tool_python
-# nuitka-project: --windows-console-mode=hide
+# nuitka-project: --windows-console-mode=attach
 # nuitka-project: --windows-icon-from-ico=icon.ico
 # nuitka-project: --include-data-files=icon.ico=./
 # nuitka-project: --include-data-files=*.png=./
