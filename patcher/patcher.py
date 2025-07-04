@@ -37,32 +37,32 @@ class SignalWorker(QtCore.QObject):
 	warning = QtCore.Signal(str)
 signals = SignalWorker()
 
-def get_file_md5_id(file):
+def get_file_md5_id(file: str) -> str:
 	# Restituisci i primi 8 caratteri dell'ID md5 del file.
 	MD5_SLICE = 8
 	return FileBytearray.read(file).md5[:MD5_SLICE]
 
-def get_file_bak_filepath(file):
+def get_file_bak_filepath(file: str) -> str:
 	# Usa l'ID md5 del file per creare un filename di backup unico.
 	return file + "_" + get_file_md5_id(file) + ".bak"
 
-def download_if_needed(url):
+def download_if_needed(url: str) -> str:
 	# Se non esiste già nella cartella attuale, scarica il file.
 	filename = os.path.basename(url)
 	filepath = os.path.abspath(filename)
 
 	if os.path.isfile(filepath):
-		print(f"File \"{filename}\" already there, skipping download.")
+		print(f"Il file \"{filename}\" è già presente, salto il download.")
 		return filepath
 
-	print(f"Downloading \"{filename}\"...")
+	print(f"Scaricando \"{filename}\"...")
 
 	try:
 		return urlretrieve(url)[0]
 	except Exception as e:
 		msg = f"Errore durante il download del file all'url \"{url}\": {e}"
 		if isinstance(e, URLError) and isinstance(e.reason, ssl.SSLError):
-			print("Error verifying SSL certificate; disabling SSL verification.")
+			print("Errore durante la verifica del certificato SSL; verifica disattivata.")
 			ssl._create_default_https_context = ssl._create_unverified_context
 			return download_if_needed(url)
 		elif isinstance(e, HTTPError):
@@ -70,7 +70,7 @@ def download_if_needed(url):
 			raise e
 		raise Exception(msg)
 
-def check_game_files(katanazero_filepath):
+def check_game_files(katanazero_filepath: str) -> tuple[str, str]:
 	# Controlla se i file di gioco da patchare esistono, e restituisci i loro percorsi.
 	game_dir = os.path.dirname(katanazero_filepath)
 
@@ -84,7 +84,7 @@ def check_game_files(katanazero_filepath):
 
 	return katanazero_filepath, datawin_filepath
 
-def patch(katanazero_filepath, datawin_filepath):
+def patch(katanazero_filepath: str, datawin_filepath: str):
 	print_progress = PrintProgress(8)
 	print_progress(1)
 
@@ -137,15 +137,15 @@ def patch(katanazero_filepath, datawin_filepath):
 	print_progress(6)
 
 	# Patcha data.win
-	print("Decoding with \"data.win.xdelta\"...")
 	pyxdelta.decode(datawin_bak_filepath, datawin_xdelta_filepath, datawin_filepath)
+	print("Il file \"data.win\" è stato patchato con successo.")
 	print_progress(7)
 
 	# Rinomina il backup di data.win
 	os.replace(datawin_bak_filepath, get_file_bak_filepath(datawin_filepath))
 	print_progress(8)
 
-def remove(*game_files):
+def remove(*game_files: str):
 	# Ripristina i file di gioco dai backup
 	for filepath in game_files:
 		bak_filepath = get_file_bak_filepath(filepath)
