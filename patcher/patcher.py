@@ -12,13 +12,13 @@
 # I file di patch sono scaricati automaticamente da GitHub, perciò è necessario avere una connessione internet.
 # È anche possibile includere i file di patch nella sua stessa cartella per usarlo offline.
 
-import os, pyxdelta, ssl
+import os, pyxdelta, hashlib, ssl
 from urllib.request import urlretrieve
 from urllib.error import HTTPError, URLError
 from PySide6 import QtWidgets, QtCore, QtGui
 from strindex import strindex
 from strindex.gui import MainStrindexGUI
-from strindex.utils import FileBytearray, PrintProgress
+from strindex.utils import PrintProgress
 
 # Percorsi possibili per Katana ZERO.exe
 POSSIBLE_LOCATIONS = [
@@ -40,7 +40,11 @@ signals = SignalWorker()
 def get_file_md5_id(file: str) -> str:
 	# Restituisci i primi 8 caratteri dell'ID md5 del file.
 	MD5_SLICE = 8
-	return FileBytearray.read(file).md5[:MD5_SLICE]
+	with open(file, "rb") as f:
+		file_hash = hashlib.md5()
+		while chunk := f.read(8192):
+			file_hash.update(chunk)
+	return file_hash.hexdigest()[:MD5_SLICE]
 
 def get_file_bak_filepath(file: str) -> str:
 	# Usa l'ID md5 del file per creare un filename di backup unico.
