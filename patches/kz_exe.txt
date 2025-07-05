@@ -211,7 +211,7 @@ Va' a casa e [a]riposa.[/]* Riceverai un nuovo incarico domani.
 ================================================================================|1|
 El número de [r]muertos o heridos[/] en una fábrica abandonada del [y]Tercer Distrito asciende al menos a doce.
 --------------------------------------------------------------------------------
-...Almeno dodici persone sono state [r]uccise o ferite[/] in una fabbrica abbandonata nel [y]3° distretto.
+...Almeno dodici persone sono state [r]uccise o ferite[/] in una fabbrica abbandonata nel [y]3o distretto.
 ================================================================================|1|
 Entre las víctimas mortales se encuentra Dawoud Bey,* un [y]científico del Gobierno[/] que llevaba tres semanas desaparecido.
 --------------------------------------------------------------------------------
@@ -231,11 +231,11 @@ Su un altro canale...
 ================================================================================|1|
 Una fuga de líquido refrigerante en la planta procesadora de [a]Nueva Meca[/] ha contaminado todos los sistemas de agua del [y]Tercer Distrito.
 --------------------------------------------------------------------------------
-Una perdita nell'impianto di depurazione delle acque di [a]New Mecca[/] ha contaminato tutti gli impianti idrici nel [y]3° distretto.
+Una perdita nell'impianto di depurazione delle acque di [a]New Mecca[/] ha contaminato tutti gli impianti idrici nel [y]3o distretto.
 ================================================================================|1|
 Se insta a los residentes del Tercer Distrito que no utilicen el agua corriente hasta que se haya contenido dicha fuga.
 --------------------------------------------------------------------------------
-Si invitano tutti i residenti nel 3° distretto a non utilizzare acqua corrente finché la perdita non verrà riparata.
+Si invitano tutti i residenti nel 3o distretto a non utilizzare acqua corrente finché la perdita non verrà riparata.
 ================================================================================|1|
 Eso incluye beber agua del grifo,* ducharse,* regar o dar de beber a las mascotas.
 --------------------------------------------------------------------------------
@@ -1943,15 +1943,15 @@ Nonostante ciò,* il gestore del [y]Club Neon[/], Argento Vivo, dice che lo spet
 ================================================================================|1|
 El derrumbe de un puente en el Tercer Distrito ha dejado siete muertos y más de un centenar de personas sin hogar.
 --------------------------------------------------------------------------------
-Il crollo di un ponte nel 3° distretto ha provocato sette morti e più di cento sfollati.
+Il crollo di un ponte nel 3o distretto ha provocato sette morti e più di cento sfollati.
 ================================================================================|1|
 A pesar de la insistencia de los residentes del Tercer Distrito...
 --------------------------------------------------------------------------------
-Nonostante l'insistenza degli abitanti del 3° distretto...
+Nonostante l'insistenza degli abitanti del 3o distretto...
 ================================================================================|1|
 la Junta asegura que la integridad a largo plazo de la infraestructura del Tercer Distrito es indudable.
 --------------------------------------------------------------------------------
-La Juncture sostiene che le infrastrutture del 3° distretto siano assolutamente impeccabili e resistenti.
+La Juncture sostiene che le infrastrutture del 3o distretto siano assolutamente impeccabili e resistenti.
 ================================================================================|1|
 Me alegro de verte.* ¡Anoche hiciste un trabajo [y>!]excepcional!
 --------------------------------------------------------------------------------
@@ -3379,7 +3379,7 @@ Assicuratevi di controllare attentamente le caramelle dei vostri bambini...
 ================================================================================|1|
 Y no permita que los niños salgan a celebrar Halloween en el Tercer Distrito.
 --------------------------------------------------------------------------------
-E non fate "Dolcetto o scherzetto" nel 3° distretto.
+E non fate "Dolcetto o scherzetto" nel 3o distretto.
 ================================================================================|1|
 [><!o*]¡Observa,[/*]* Comedia!* ¡El espadachín descarriado se despierta de su [p]siesta narcótica!
 --------------------------------------------------------------------------------
