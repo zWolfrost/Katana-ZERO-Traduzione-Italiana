@@ -1,5 +1,6 @@
 # Katana ZERO - Traduzione Italiana
-[![Downloads](https://img.shields.io/github/downloads/zWolfrost/Katana-ZERO-Traduzione-Italiana/total?label=Downloads)](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/releases/latest)
+[![Download](https://img.shields.io/github/downloads/zWolfrost/Katana-ZERO-Traduzione-Italiana/total?label=Download)](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/releases/latest)
+[![Versione](https://img.shields.io/github/v/release/zWolfrost/Katana-ZERO-Traduzione-Italiana?label=Versione)](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/releases/latest)
 
 Sono riuscito con non poche difficoltà a tradurre gli oltre 2000 dialoghi di Katana ZERO in italiano, e scrivere un programma apposito per sostituire il testo.
 
@@ -11,9 +12,9 @@ Comunque, dovrebbe funzionare su qualsiasi versione del gioco, ma con la possibi
 
 ## Come applicare la traduzione
 
-Il programma per effettuare la patch automaticamente [si trova qui](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/releases/latest). È necessaria una connessione a internet per poter scaricare le ultime patch (a meno che non si includino queste nella sua stessa cartella).
+Il programma per effettuare la patch automaticamente [si trova qui](https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/releases/latest). È necessaria una connessione a internet per poter scaricare le ultime patch (a meno che non si includano queste nella sua stessa cartella).
 
-Inoltre, per sistemi Linux, è **necessario** installare la libreria `libxcb-cursor0` (usando `apt-get` o altri) per poterlo eseguire.
+Inoltre, per sistemi Linux, è necessario installare la libreria `libxcb-cursor0` (usando il package manager della distribuzione installata) per poterlo eseguire.
 
 Se il programma dovesse essere segnalato come malware, si consiglia di disabilitare temporaneamente Windows Defender, in quanto si tratta di un falso positivo (molto comune nei file compilati di python). Il codice sorgente completo è disponibile [qui](./patcher/patcher.py).
 
