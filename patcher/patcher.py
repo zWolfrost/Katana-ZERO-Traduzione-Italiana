@@ -1,10 +1,14 @@
-# nuitka-project: --standalone
-# nuitka-project: --onefile
+# nuitka-project: --product-name=Katana_ZERO_ITA_{Version}-{OS}
+# nuitka-project: --product-version=1.3.0
+
+# nuitka-project: --mode=app
 # nuitka-project: --enable-plugin=pyside6
 # nuitka-project: --nofollow-import-to=lingua
 # nuitka-project: --nofollow-import-to=language_tool_python
-# nuitka-project: --windows-console-mode=attach
+
+# nuitka-project: --windows-console-mode=disable
 # nuitka-project: --windows-icon-from-ico=icon.ico
+# nuitka-project: --linux-icon=icon.ico
 # nuitka-project: --include-data-files=icon.ico=./
 # nuitka-project: --include-data-files=*.png=./
 
