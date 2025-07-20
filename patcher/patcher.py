@@ -1,4 +1,4 @@
-# nuitka-project: --product-name=Katana_ZERO_ITA_{Version}-{OS}
+# nuitka-project: --product-name=Katana ZERO ITA
 # nuitka-project: --product-version=1.3.0
 
 # nuitka-project: --mode=app
