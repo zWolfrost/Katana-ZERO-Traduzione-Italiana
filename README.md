@@ -40,6 +40,12 @@ Attualmente le linee tradotte sono prese direttamente dalla traduzione italiana 
 
 In futuro cercherò il più possibile di non distorcere il significato delle frasi, tenendo presente del loro contesto nel gioco, e catturarne l'impatto, ma non assicuro nulla.
 
+### Cosa fa il programma esattamente?
+Il programma:
+- Crea un backup dei file originali, in modo da poterli ripristinare in qualsiasi momento;
+- Patcha il file `Katana ZERO.exe` con il file di traduzioni [kz_exe.txt](./patches/kz_exe.txt), usando lo strumento [strindex](https://github.com/zWolfrost/strindex);
+- Patcha il file `data.win` con uno dei file `datawin_*.xdelta` presenti [qui](./patches), usando lo strumento [xdelta](https://github.com/jmacd/xdelta).
+
 ### *Hai una domanda non presente tra queste?*
 Se hai qualche altra domanda puoi aprire un'issue a proposito, chiederla sul thread di steam o mandarmi un email, e proverò a risponderti in tempo utile.
 
