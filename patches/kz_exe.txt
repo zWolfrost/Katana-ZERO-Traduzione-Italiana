@@ -3723,7 +3723,7 @@ Chiudi quella cazzo di bocca.
 ================================================================================|1|
 [@*]Ja, JA...[/]* Serás *[r*!^<>]CABRONAZO*, [!]HIJO DE PERRA.[/]* No has venido a por [%a]Cronos,[/]* ya vas [o~2]puesto.
 --------------------------------------------------------------------------------
-[@*]Ah AH...[/]* Che *[r*!^<>]LURIDO* [!]BASTARDO.[/]* Non sei qui per il [%a]Chronos,[/]* la [o~2]usi già.
+[@*]Ah AH...[/]* Che *[r*!^<>]LURIDO* [!]BASTARDO.[/]* Non sei qui per il [%a]Chronos,[/]* lo [o~2]usi già.
 ================================================================================|1|
 LO *[*>!<]SABÍA[/]*,* [.r*!>]еб твою мать[/r*>],[/]* [>r*^!<]LO SABÍA. *[/][>!^*3]¿Cuántas veces te he matado?
 --------------------------------------------------------------------------------
@@ -3763,11 +3763,11 @@ Ma tu lo farai,* oh, sì.* [p]Ora conosco il tuo giochetto.
 ================================================================================|1|
 Mira,* tengo una reserva en el [y~]Segundo Distrito,[/]* y no pienso llegar tarde por un *[!^<>]puto *[!><^a%]yonqui del Cronos*[/!^<>][/].
 --------------------------------------------------------------------------------
-Senti,* ho una prenotazione nel [y~]Secondo distretto,[/]* e farò tardi a causa di un *[!^<>]fottutissimo *[!><^a%]drogato *[/!^<>]di Chronos[/].
+Senti,* ho una prenotazione nel [y~]Secondo distretto,[/]* e non farò tardi a causa di un *[!^<>]fottutissimo *[!><^a%]drogato *[/!^<>]di Chronos[/].
 ================================================================================|1|
 Dime ya [y]quién te abastece,[/]* para poder acabar con tu [r]miserable vida[/] y proseguir con mi noche.
 --------------------------------------------------------------------------------
-Ora dimmi [y]da chi la prendi,[/]* così posso mettere fine alla tua [r]miserabile vita[/] e godermi la mia serata.
+Ora dimmi [y]da chi lo prendi,[/]* così posso mettere fine alla tua [r]miserabile vita[/] e godermi la mia serata.
 ================================================================================|1|
 Vale,* volvamos a intentarlo.* [r---]¿Quién te envía?
 --------------------------------------------------------------------------------
