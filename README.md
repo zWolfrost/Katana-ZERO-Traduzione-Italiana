@@ -31,12 +31,12 @@ Un'altra cosa che potresti fare per aiutarmi sarebbe trovare possibili errori gr
 Inoltre, puoi supportare il mio lavoro donandomi qualcosa [su questa pagina](https://paypal.me/zwolfrost) o [quest'altra](https://buymeacoffee.com/zwolfrost). Ne sarei estremamente grato.
 
 ### Non dovrai rifare tutto da capo una volta uscito il DLC?
-Fortunatamente le linee tradotte non sono vincolate dalla loro posizione, quindi ci vorrà veramente poco tempo per sistemare le cose. Ovviamente in tal caso dovrò tradurre anche i dialoghi del DLC, e ci vorrà circa una settimana, se sarà lungo quanto il gioco originale.
+Fortunatamente i testi tradotti non sono vincolate dalla loro posizione, quindi ci vorrà veramente poco tempo per sistemare le cose. Ovviamente in tal caso dovrò tradurre anche i dialoghi del DLC, e ci vorrà circa una settimana, se sarà lungo quanto il gioco originale.
 
-L'unico problema che potrebbe presentarsi sarebbe se lo sviluppatore dovesse cambiare il modo con cui vengono memorizzate le linee di testo, rendendo il mio programma inutile, e possibilmente rendendo il processo di traduzione molto più lungo e complicato.
+L'unico problema che potrebbe presentarsi sarebbe se lo sviluppatore dovesse cambiare il modo con cui vengono memorizzate i testi, rendendo il mio programma inutile, e possibilmente rendendo il processo di traduzione molto più lungo e complicato.
 
 ### Quanto è fedele questa traduzione?
-Attualmente i testi tradotti sono presi direttamente dalla traduzione italiana ufficiale (presente esclusivamente nella versione da telefono del gioco pubblicata da Netflix, che è stata discontinuata Gennaio 2026), con solo alcune piccole modifiche fatte.
+Attualmente i testi tradotti sono presi direttamente dalla traduzione italiana ufficiale (presente esclusivamente nella versione da telefono del gioco pubblicata da Netflix, che è stata discontinuata il 14/07/2025), con solo alcune piccole modifiche fatte.
 
 In futuro cercherò il più possibile di non distorcere il significato delle frasi, tenendo presente del loro contesto nel gioco, e catturarne l'impatto, ma non assicuro nulla.
 
