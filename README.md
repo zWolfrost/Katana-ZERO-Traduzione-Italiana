@@ -31,7 +31,7 @@ Un'altra cosa che potresti fare per aiutarmi sarebbe trovare possibili errori gr
 Inoltre, puoi supportare il mio lavoro donandomi qualcosa [su questa pagina](https://paypal.me/zwolfrost) o [quest'altra](https://buymeacoffee.com/zwolfrost). Ne sarei estremamente grato.
 
 ### Non dovrai rifare tutto da capo una volta uscito il DLC?
-Fortunatamente i testi tradotti non sono vincolate dalla loro posizione, quindi ci vorrà veramente poco tempo per sistemare le cose. Ovviamente in tal caso dovrò tradurre anche i dialoghi del DLC, e ci vorrà circa una settimana, se sarà lungo quanto il gioco originale.
+I testi tradotti non sono vincolati dalla loro posizione, quindi ci vorrà relativamente poco tempo per sistemare le cose. Ovviamente in tal caso dovrò tradurre anche i dialoghi del DLC, e ci vorrà sicuramente un po' di tempo, se sarà lungo quanto il gioco originale.
 
 L'unico problema che potrebbe presentarsi sarebbe se lo sviluppatore dovesse cambiare il modo con cui vengono memorizzate i testi, rendendo il mio programma inutile, e possibilmente rendendo il processo di traduzione molto più lungo e complicato.
 
