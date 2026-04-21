@@ -2939,7 +2939,7 @@ Sai,* [r]potrei ucciderti ora.
 ================================================================================|1|
 [r*!><^]La hostia,* [!<]la hostia.* [!<]¡LA* [!<]HOSTIA!* [/r^><*!@.]¡Сука охуеть!* [/r]Te toca. 
 --------------------------------------------------------------------------------
-[r*!><^]Sì cazzo,* [!<]sì cazzo.* [!<]SÌ!* [!<]CAZZO!* [/r^><*!@.]Сука охуеть!* [/r]Tocca a te. 
+[r*!><^]Sì cazzo,* [!<]sì cazzo.* [!<]SÌ!* [!<]CAZZO!* [/r^><*!@.]Сука охуеть!* [/r]Tocca a te.
 ================================================================================|1|
 Dame un poco.
 --------------------------------------------------------------------------------
@@ -3371,7 +3371,7 @@ Fate fare "Dolcetto o scherzetto" ai vostri figli solo all'interno del vostro pa
 ================================================================================|1|
 No acepte golosinas de nadie que no conozca, y no acepte productos extraños o de coloración rara... 
 --------------------------------------------------------------------------------
-Non accettate caramelle dagli sconosciuti, soprattutto se strane o scolorite... 
+Non accettate caramelle dagli sconosciuti, soprattutto se strane o scolorite...
 ================================================================================|1|
 Asegúrese de comprobar los caramelos de sus hijos, por si viera algo sospechoso...
 --------------------------------------------------------------------------------
@@ -7606,7 +7606,7 @@ Contattare il codice LAOSJPF a missione completata senza errori.
 ================================================================================|1|
 Objetivo de interés, considerado extremadamente hábil y peligroso. Implicado en el asesinato de varios empleados gubernamentales. Visto por última vez en un ilustre casino de Chinatown.
 --------------------------------------------------------------------------------
-Obiettivo di rilievo, considerato estremamente abile e pericoloso. Implicato nell'omicidio di diversi dipendenti governativi. Visto per l'ultima molta in un casinò di alto livello a Chinatown. 
+Obiettivo di rilievo, considerato estremamente abile e pericoloso. Implicato nell'omicidio di diversi dipendenti governativi. Visto per l'ultima molta in un casinò di alto livello a Chinatown.
 ================================================================================|11|
 BÚNKER
 --------------------------------------------------------------------------------
@@ -8218,8 +8218,7 @@ Tutto qui? È davvero il meglio che sai fare?
 ================================================================================|1|
 Tu pesadilla en vida nunca acabará, idiota.
 --------------------------------------------------------------------------------
-Il tuo incubo a occhi aperti 
-non avrà mai fine, stolto.
+Il tuo incubo a occhi aperti finirà mai, stolto.
 ================================================================================|1|
 El archivo guardado contiene errores.
 --------------------------------------------------------------------------------
