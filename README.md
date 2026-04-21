@@ -38,7 +38,7 @@ In futuro cercherò il più possibile di non distorcere il significato delle fra
 ### Non dovrai rifare tutto da capo una volta uscito il DLC?
 I testi tradotti non sono vincolati dalla loro posizione, quindi ci vorrà relativamente poco tempo per sistemare le cose. Ovviamente in tal caso dovrò tradurre anche i dialoghi del DLC, e ci vorrà sicuramente un po' di tempo, se sarà lungo quanto il gioco originale.
 
-L'unico problema che potrebbe presentarsi sarebbe se lo sviluppatore dovesse cambiare il modo con cui vengono memorizzate i testi, rendendo il mio programma inutile, e possibilmente rendendo il processo di traduzione molto più lungo e complicato.
+L'unico problema che potrebbe presentarsi sarebbe se lo sviluppatore dovesse cambiare il modo con cui vengono memorizzati i testi, rendendo il mio programma inutile, e possibilmente rendendo il processo di traduzione molto più lungo e complicato.
 
 ### Cosa fa il programma esattamente?
 Il programma:
