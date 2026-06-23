@@ -1,5 +1,5 @@
 # nuitka-project: --product-name=Katana ZERO ITA
-# nuitka-project: --product-version=1.3.0
+# nuitka-project: --product-version=1.3.1
 
 # nuitka-project: --mode=app
 # nuitka-project: --enable-plugin=pyside6
@@ -38,7 +38,8 @@ class SignalWorker(QtCore.QObject):
 signals = SignalWorker()
 
 def get_file_md5_id(file: str) -> str:
-	# Restituisci i primi 8 caratteri dell'ID md5 del file.
+	""" Restituisci i primi 8 caratteri dell'ID md5 del file. """
+
 	MD5_SLICE = 8
 	with open(file, "rb") as f:
 		file_hash = hashlib.md5()
@@ -47,11 +48,13 @@ def get_file_md5_id(file: str) -> str:
 	return file_hash.hexdigest()[:MD5_SLICE]
 
 def get_file_bak_filepath(file: str) -> str:
-	# Usa l'ID md5 del file per creare un filename di backup unico.
+	""" Usa l'ID md5 del file per creare un filename di backup unico. """
+
 	return file + "_" + get_file_md5_id(file) + ".bak"
 
 def download_if_needed(url: str) -> str:
-	# Se non esiste già nella cartella attuale, scarica il file.
+	""" Se non esiste già nella cartella attuale, scarica il file. """
+
 	filename = os.path.basename(url)
 	filepath = os.path.abspath(filename)
 
@@ -75,7 +78,8 @@ def download_if_needed(url: str) -> str:
 		raise Exception(msg)
 
 def check_game_files(katanazero_filepath: str) -> tuple[str, str]:
-	# Controlla se i file di gioco da patchare esistono, e restituisci i loro percorsi.
+	""" Controlla se i file di gioco da patchare esistono, e restituisci i loro percorsi. """
+
 	game_dir = os.path.dirname(katanazero_filepath)
 
 	katanazero_filepath = os.path.join(game_dir, "Katana ZERO.exe")
@@ -88,8 +92,16 @@ def check_game_files(katanazero_filepath: str) -> tuple[str, str]:
 
 	return katanazero_filepath, datawin_filepath
 
-def patch(katanazero_filepath: str, datawin_filepath: str):
+def remove_and_patch(katanazero_filepath: str, datawin_filepath: str):
+	""" Rimuovi la patch (se già presente) e poi (ri)applicala. """
+
 	print_progress = PrintProgress(8)
+
+	try:
+		remove(katanazero_filepath, datawin_filepath)
+	except FileNotFoundError:
+		pass
+
 	print_progress(1)
 
 	# Scarica il file di patch per Katana ZERO.exe
@@ -150,11 +162,16 @@ def patch(katanazero_filepath: str, datawin_filepath: str):
 	print_progress(8)
 
 def remove(*game_files: str):
+	""" Rimuove la patch dai file di gioco, ripristinando i backup se esistono. """
+
+	has_backup = False
+
 	# Ripristina i file di gioco dai backup
 	for filepath in game_files:
 		bak_filepath = get_file_bak_filepath(filepath)
 		if os.path.isfile(bak_filepath):
 			os.replace(bak_filepath, filepath)
+			has_backup = True
 
 	# Rimuovi i file di backup rimanenti per sicurezza
 	game_dir = os.path.dirname(game_files[0])
@@ -162,6 +179,14 @@ def remove(*game_files: str):
 		filepath = os.path.join(game_dir, filename)
 		if os.path.isfile(filepath) and filename.endswith(".bak"):
 			os.remove(filepath)
+			has_backup = True
+
+	# Se non sono stati trovati backup, emetti un'eccezione
+	if not has_backup:
+		raise FileNotFoundError(
+			"Nessun backup trovato. "
+			"Se hai già rimosso la patch, ignora questo messaggio."
+		)
 
 class KatanaZeroPatchGUI(MainStrindexGUI):
 	def setup(self):
@@ -182,7 +207,7 @@ class KatanaZeroPatchGUI(MainStrindexGUI):
 			text="Esegui Patch",
 			progress_text="Patch in corso... %p%",
 			complete_text="Patch avvenuta con successo.",
-			callback=lambda f: (remove(*check_game_files(f)), patch(*check_game_files(f))),
+			callback=lambda f: remove_and_patch(*check_game_files(f)),
 		)
 
 		self.create_action_button(
