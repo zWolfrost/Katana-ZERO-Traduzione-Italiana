@@ -54,3 +54,4 @@ Se hai qualche altra domanda, puoi aprire un "issue" su questa pagina o mandarmi
 ## Screenshots
 ![Katana ZERO](./assets/screenshot1.png)
 ![Katana ZERO](./assets/screenshot2.png)
+![Katana ZERO](./assets/screenshot3.png)
