@@ -12,9 +12,12 @@
 # nuitka-project: --include-data-files=icon.ico=./
 # nuitka-project: --include-data-files=*.png=./
 
-import os, pyxdelta, hashlib, ssl
-from urllib.request import urlretrieve
-from urllib.error import HTTPError, URLError
+import os
+import urllib.request
+import urllib.error
+import ssl
+import hashlib
+import pyxdelta
 from PySide6 import QtWidgets, QtCore, QtGui
 from strindex import strindex
 from strindex.gui import MainStrindexGUI
@@ -65,14 +68,14 @@ def download_if_needed(url: str) -> str:
 	print(f"Scaricando \"{filename}\"...")
 
 	try:
-		return urlretrieve(url)[0]
+		return urllib.request.urlretrieve(url)[0]
 	except Exception as e:
 		msg = f"Errore durante il download del file all'url \"{url}\": {e}"
-		if isinstance(e, URLError) and isinstance(e.reason, ssl.SSLError):
+		if isinstance(e, urllib.error.URLError) and isinstance(e.reason, ssl.SSLError):
 			print("Errore durante la verifica del certificato SSL; verifica disattivata.")
 			ssl._create_default_https_context = ssl._create_unverified_context
 			return download_if_needed(url)
-		elif isinstance(e, HTTPError):
+		elif isinstance(e, urllib.error.HTTPError):
 			e.msg = msg
 			raise e
 		raise Exception(msg)
@@ -107,7 +110,7 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str):
 	# Scarica il file di patch per Katana ZERO.exe
 	try:
 		katanazero_strindex_filepath = download_if_needed(KZ_EXE_STRINDEX_URL)
-	except HTTPError as e:
+	except urllib.error.HTTPError as e:
 		if e.code == 404:
 			e.msg = (
 				"File di patch per \"Katana ZERO.exe\" non trovato. "
@@ -136,7 +139,7 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str):
 	# Scarica il file xdelta giusto per data.win
 	try:
 		datawin_xdelta_filepath = download_if_needed(DATAWIN_XDELTA_URL.format(id=datawin_xdelta_id))
-	except HTTPError as e:
+	except urllib.error.HTTPError as e:
 		if e.code == 404:
 			signals.warning.emit(
 				"File di patch per \"data.win\" non trovato. "
