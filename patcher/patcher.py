@@ -100,14 +100,17 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str):
 
 	print_progress = PrintProgress(8)
 
+	# Rimuovi la patch precedente (se esiste)
 	try:
 		remove(katanazero_filepath, datawin_filepath)
 	except FileNotFoundError:
-		pass
+		print("Nessuna patch precedente da rimuovere.")
+	else:
+		print("Patch precedente rimossa con successo.")
 
 	print_progress(1)
 
-	# Scarica il file di patch per Katana ZERO.exe
+	# Scarica il file di patch strindex per Katana ZERO.exe
 	try:
 		katanazero_strindex_filepath = download_if_needed(KZ_EXE_STRINDEX_URL)
 	except urllib.error.HTTPError as e:
