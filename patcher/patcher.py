@@ -23,17 +23,10 @@ from strindex import strindex
 from strindex.gui import MainStrindexGUI
 from strindex.utils import PrintProgress
 
-# Percorsi possibili per Katana ZERO.exe
-POSSIBLE_LOCATIONS = [
-	"%programfiles(x86)%/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
-	"%programfiles(x86)%/GOG Galaxy/Games/Katana ZERO/Katana ZERO.exe",
-	"~/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
-]
-
 # URL dei file di patch
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/patches/"
 KZ_EXE_STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe.gz"
-DATAWIN_XDELTA_URL = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
+DATAWIN_XDELTA_URL_FMT = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
 
 # Crea un worker per i segnali di avviso tra thread diversi.
 class SignalWorker(QtCore.QObject):
@@ -79,6 +72,22 @@ def download_if_needed(url: str) -> str:
 			e.msg = msg
 			raise e
 		raise Exception(msg)
+
+def get_possible_kz_location() -> str | None:
+	""" Restituisci il primo percorso valido per Katana ZERO.exe, o None se non esiste. """
+
+	# Percorsi possibili per Katana ZERO.exe
+	POSSIBLE_LOCATIONS = [
+		"%programfiles(x86)%/Steam/steamapps/common/Katana ZERO/Katana ZERO.exe",
+		"%programfiles(x86)%/GOG Galaxy/Games/Katana ZERO/Katana ZERO.exe",
+		"~/.steam/steam/steamapps/common/Katana ZERO/Katana ZERO.exe"
+	]
+
+	for path in POSSIBLE_LOCATIONS:
+		path = os.path.expandvars(os.path.expanduser(path)).replace(os.sep, "/")
+		if os.path.isfile(path):
+			return path
+	return None
 
 def check_game_files(katanazero_filepath: str) -> tuple[str, str]:
 	""" Controlla se i file di gioco da patchare esistono, e restituisci i loro percorsi. """
@@ -141,7 +150,7 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str):
 
 	# Scarica il file xdelta giusto per data.win
 	try:
-		datawin_xdelta_filepath = download_if_needed(DATAWIN_XDELTA_URL.format(id=datawin_xdelta_id))
+		datawin_xdelta_filepath = download_if_needed(DATAWIN_XDELTA_URL_FMT.format(id=datawin_xdelta_id))
 	except urllib.error.HTTPError as e:
 		if e.code == 404:
 			signals.warning.emit(
@@ -239,11 +248,7 @@ class KatanaZeroPatchGUI(MainStrindexGUI):
 
 		self.set_custom_appearance()
 
-		for path in POSSIBLE_LOCATIONS:
-			path = os.path.expandvars(os.path.expanduser(path)).replace(os.sep, "/")
-			if os.path.isfile(path):
-				line_edit.setText(path)
-				break
+		line_edit.setText(get_possible_kz_location() or "")
 
 		signals.warning.connect(lambda msg: self.show_message(msg, QtWidgets.QMessageBox.Icon.Warning))
 
