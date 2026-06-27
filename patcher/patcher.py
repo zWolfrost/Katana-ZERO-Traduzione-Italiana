@@ -39,7 +39,7 @@ def get_file_md5_id(file: str) -> str:
 	MD5_SLICE = 8
 	with open(file, "rb") as f:
 		file_hash = hashlib.md5()
-		while chunk := f.read(8192):
+		while chunk := f.read(262144):
 			file_hash.update(chunk)
 	return file_hash.hexdigest()[:MD5_SLICE]
 
