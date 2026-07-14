@@ -21,9 +21,12 @@ import pyxdelta
 from PySide6 import QtWidgets, QtCore, QtGui
 from strindex import strindex
 from strindex.gui import MainStrindexGUI
-from strindex.utils import PrintProgress
+from strindex.utils import PrintWrapper, PrintProgress
 
-# URL dei file di patch
+# Disabilita i messaggi della libreria strindex.
+PrintWrapper.QUIET = True
+
+# Formato degli URL dei file di patch.
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/patches/"
 KZ_EXE_STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe.gz"
 DATAWIN_XDELTA_URL_FMT = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
