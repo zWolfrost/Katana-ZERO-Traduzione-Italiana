@@ -32,11 +32,6 @@ DATAWIN_XDELTA_URL_FMT = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
 # Costante per la lunghezza dell'ID md5 da usare nei nomi dei file di backup.
 MD5_SLICE = 8
 
-# Crea un worker per i segnali di avviso tra thread diversi.
-class SignalWorker(QtCore.QObject):
-	warning = QtCore.Signal(str)
-signals = SignalWorker()
-
 def get_file_md5_id(file: str) -> str:
 	""" Restituisci i primi 8 caratteri dell'ID md5 del file. """
 
@@ -107,7 +102,7 @@ def check_game_files(katanazero_filepath: str) -> tuple[str, str]:
 
 	return katanazero_filepath, datawin_filepath
 
-def remove_and_patch(katanazero_filepath: str, datawin_filepath: str):
+def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 	""" Rimuovi la patch (se già presente) e poi (ri)applicala. """
 
 	print_progress = strindex.utils.PrintProgress(8)
@@ -168,12 +163,11 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str):
 		datawin_xdelta_filepath = download_if_needed(DATAWIN_XDELTA_URL_FMT.format(id=datawin_xdelta_id))
 	except urllib.error.HTTPError as e:
 		if e.code == 404:
-			signals.warning.emit(
+			return (
 				"File di patch per \"data.win\" non trovato. "
 				"La traduzione è stata applicata ma alcune lettere potrebbero avere accenti sbagliati. "
 				"Assicurati di avere la versione più recente del gioco E di questo programma."
 			)
-			return
 		raise
 
 	print_progress(5)
@@ -195,7 +189,9 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str):
 
 	print_progress(8)
 
-def remove(*game_files: str):
+	return "Patch completata con successo."
+
+def remove(*game_files: str) -> str:
 	""" Rimuove la patch dai file di gioco, ripristinando i backup se esistono. """
 
 	has_backup = False
@@ -222,6 +218,8 @@ def remove(*game_files: str):
 			"Se hai già rimosso la patch, ignora questo messaggio."
 		)
 
+	return "I file che avevano backup esistenti sono stati ripristinati, e i backup sono stati rimossi."
+
 class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 	def setup(self):
 		SELF_LOCATION = os.path.abspath(os.path.dirname(__file__))
@@ -240,14 +238,12 @@ class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 		self.create_action_button(
 			text="Esegui Patch",
 			progress_text="Patch in corso... %p%",
-			complete_text="Patch avvenuta con successo.",
 			callback=lambda f: remove_and_patch(*check_game_files(f)),
 		)
 
 		self.create_action_button(
 			text="Rimuovi Patch",
 			progress_text="Rimozione... %p%",
-			complete_text="I file che avevano backup esistenti sono stati ripristinati, e i backup sono stati rimossi.",
 			callback=lambda f: remove(*check_game_files(f)),
 		)
 
@@ -266,10 +262,9 @@ class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 		self.setWindowIcon(QtGui.QIcon(os.path.join(SELF_LOCATION, "icon.ico")))
 
 		self.set_custom_appearance()
+		self.set_custom_size()
 
 		line_edit.setText(get_possible_kz_location() or "")
-
-		signals.warning.connect(lambda msg: self.show_message(msg, QtWidgets.QMessageBox.Icon.Warning))
 
 if __name__ == "__main__":
 	KatanaZeroPatchGUI()
