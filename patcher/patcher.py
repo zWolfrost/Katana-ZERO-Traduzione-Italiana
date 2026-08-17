@@ -21,12 +21,9 @@ import pyxdelta
 import strindex.filetypes.pe, strindex.utils, strindex.gui
 from PySide6 import QtWidgets, QtCore, QtGui
 
-# Disabilita i messaggi della libreria strindex.
-strindex.utils.PrintWrapper.QUIET = True
-
 # Formato degli URL dei file di patch.
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/patches/"
-KZ_EXE_STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe.gz"
+KZ_EXE_STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe4.gz"
 DATAWIN_XDELTA_URL_FMT = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
 
 # Costante per la lunghezza dell'ID md5 da usare nei nomi dei file di backup.
@@ -105,7 +102,7 @@ def check_game_files(katanazero_filepath: str) -> tuple[str, str]:
 def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 	""" Rimuovi la patch (se già presente) e poi (ri)applicala. """
 
-	print_progress = strindex.utils.PrintProgress(8)
+	strindex.utils.Progress.global_instance = strindex.utils.Progress(11)
 
 	# Rimuovi la patch precedente (se esiste)
 	try:
@@ -115,7 +112,7 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 	else:
 		print("Patch precedente rimossa con successo.")
 
-	print_progress(1)
+	strindex.utils.Progress.global_instance()
 
 	# Scarica il file di patch strindex per Katana ZERO.exe
 	try:
@@ -128,7 +125,7 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 			)
 		raise
 
-	print_progress(2)
+	strindex.utils.Progress.global_instance()
 
 	# Patcha Katana ZERO.exe
 	try:
@@ -151,12 +148,10 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 
 	print("Il file \"Katana ZERO.exe\" è stato patchato con successo.")
 
-	print_progress(3)
-
 	# Rileva l'ID md5 di data.win
 	datawin_xdelta_id = get_file_md5_id(datawin_filepath)
 
-	print_progress(4)
+	strindex.utils.Progress.global_instance()
 
 	# Scarica il file xdelta giusto per data.win
 	try:
@@ -170,24 +165,22 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 			)
 		raise
 
-	print_progress(5)
+	strindex.utils.Progress.global_instance()
 
 	# Crea un backup di data.win
 	datawin_bak_filepath = datawin_filepath + ".bak"
 	os.replace(datawin_filepath, datawin_bak_filepath)
 
-	print_progress(6)
-
 	# Patcha data.win
 	pyxdelta.decode(datawin_bak_filepath, datawin_xdelta_filepath, datawin_filepath)
 	print("Il file \"data.win\" è stato patchato con successo.")
 
-	print_progress(7)
+	strindex.utils.Progress.global_instance()
 
 	# Rinomina il backup di data.win
 	os.replace(datawin_bak_filepath, get_file_bak_filepath(datawin_filepath))
 
-	print_progress(8)
+	strindex.utils.Progress.global_instance()
 
 	return "Patch completata con successo."
 
@@ -224,8 +217,8 @@ class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 	def setup(self):
 		SELF_LOCATION = os.path.abspath(os.path.dirname(__file__))
 
-		logo_pixmap = QtGui.QPixmap(os.path.join(SELF_LOCATION, "header.png"), "PNG")
-		logo_pixmap = logo_pixmap.scaled(400, 200, QtCore.Qt.AspectRatioMode.KeepAspectRatio)
+		logo_pixmap = QtGui.QPixmap(os.path.join(SELF_LOCATION, "header.png"), "PNG") \
+			.scaled(400, 200, QtCore.Qt.AspectRatioMode.KeepAspectRatio)
 		logo_label = QtWidgets.QLabel(pixmap=logo_pixmap, alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
 		self.__widgets__.append(logo_label)
 		self.create_padding(1)

@@ -1,3 +1,2 @@
-PySide6==6.*
 pyxdelta==0.*
-strindex @ git+https://github.com/zWolfrost/strindex.git
+strindex[gui] @ git+https://github.com/zWolfrost/strindex.git@4.0
