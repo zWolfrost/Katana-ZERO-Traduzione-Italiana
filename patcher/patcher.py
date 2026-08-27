@@ -26,11 +26,9 @@ DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzi
 KZ_EXE_STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe4.gz"
 DATAWIN_XDELTA_URL_FMT = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
 
-# Costante per la lunghezza dell'ID md5 da usare nei nomi dei file di backup.
-MD5_SLICE = 8
-
 def get_file_md5_id(file: str) -> str:
 	""" Restituisci i primi 8 caratteri dell'ID md5 del file. """
+	MD5_SLICE = 8
 
 	with open(file, "rb") as f:
 		file_hash = hashlib.md5()
@@ -130,13 +128,9 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 	# Patcha Katana ZERO.exe
 	try:
 		data = strindex.filetypes.pe.patch(
-			strindex.utils.FileBytearray.read(katanazero_filepath),
+			strindex.filetypes.pe.init(strindex.utils.FileBytearray.read(katanazero_filepath)),
 			strindex.utils.Strindex.read(katanazero_strindex_filepath)
 		)
-
-		os.replace(katanazero_filepath, katanazero_filepath + "_" + data.md5[:MD5_SLICE] + ".bak")
-
-		data.write(katanazero_filepath)
 	except ValueError as e:
 		if ".strdex" in str(e):
 			raise Exception(
@@ -145,6 +139,10 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 				"o reinstalla il gioco da capo."
 			)
 		raise
+
+	os.replace(katanazero_filepath, katanazero_filepath + data.md5_backup_suffix)
+
+	data.write(katanazero_filepath)
 
 	print("Il file \"Katana ZERO.exe\" è stato patchato con successo.")
 

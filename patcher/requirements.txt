@@ -1,2 +1,2 @@
-strindex[gui] @ git+https://github.com/zWolfrost/strindex.git@4.0
+strindex==4.*
 pyxdelta==0.*
