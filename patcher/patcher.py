@@ -1,15 +1,27 @@
 # nuitka-project: --product-name=Katana ZERO ITA
-# nuitka-project: --product-version=1.3.1
+# nuitka-project: --product-version=1.4.0
 
 # nuitka-project: --mode=app
+
 # nuitka-project: --enable-plugin=pyside6
+
+# nuitka-project: --noinclude-qt-plugins=iconengines
+# nuitka-project: --noinclude-qt-plugins=imageformats
+# nuitka-project: --noinclude-qt-plugins=platformthemes
+# nuitka-project: --noinclude-qt-plugins=printsupport
+# nuitka-project: --noinclude-qt-plugins=tls
+# nuitka-project: --noinclude-qt-plugins=webview
+
+# nuitka-project: --noinclude-dlls=libQt6Network*
+# nuitka-project: --noinclude-dlls=libQt6OpenGL*
+# nuitka-project: --noinclude-dlls=libQt6Svg*
+
 # nuitka-project: --nofollow-import-to=lingua
 # nuitka-project: --nofollow-import-to=language_tool_python
 
 # nuitka-project: --windows-console-mode=disable
-# nuitka-project: --windows-icon-from-ico=icon.ico
-# nuitka-project: --linux-icon=icon.ico
-# nuitka-project: --include-data-files=icon.ico=./
+# nuitka-project: --windows-icon-from-ico=icon.png
+# nuitka-project: --linux-icon=icon.png
 # nuitka-project: --include-data-files=*.png=./
 
 import os

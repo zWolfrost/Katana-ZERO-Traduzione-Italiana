@@ -1,2 +1,2 @@
-strindex==4.*
+strindex[gui]==4.*
 pyxdelta==0.*
