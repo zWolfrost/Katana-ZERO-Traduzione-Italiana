@@ -262,7 +262,7 @@ class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 		self.create_grid_layout(2).setColumnStretch(0, 1)
 
 		self.setWindowTitle("Katana ZERO - Traduzione Italiana")
-		self.setWindowIcon(QtGui.QIcon(os.path.join(SELF_LOCATION, "icon.ico")))
+		self.setWindowIcon(QtGui.QIcon(os.path.join(SELF_LOCATION, "icon.png")))
 
 		self.set_custom_appearance()
 		self.set_custom_size()
