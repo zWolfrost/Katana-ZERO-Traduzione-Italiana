@@ -24,14 +24,15 @@
 # nuitka-project: --linux-icon=icon.png
 # nuitka-project: --include-data-files=*.png=./
 
-import os
-import urllib.request
-import urllib.error
-import ssl
 import hashlib
+import os
+import ssl
+import urllib.error
+import urllib.request
+
 import pyxdelta
-import strindex.filetypes.pe, strindex.utils, strindex.gui
-from PySide6 import QtWidgets, QtCore, QtGui
+import strindex
+from PySide6 import QtCore, QtGui, QtWidgets
 
 # Formato degli URL dei file di patch.
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/patches/"
@@ -75,8 +76,8 @@ def download_if_needed(url: str) -> str:
 			return download_if_needed(url)
 		elif isinstance(e, urllib.error.HTTPError):
 			e.msg = msg
-			raise e
-		raise Exception(msg)
+			raise
+		raise ValueError(msg)
 
 def get_possible_kz_location() -> str | None:
 	""" Restituisci il primo percorso valido per Katana ZERO.exe, o None se non esiste. """
@@ -112,7 +113,7 @@ def check_game_files(katanazero_filepath: str) -> tuple[str, str]:
 def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 	""" Rimuovi la patch (se già presente) e poi (ri)applicala. """
 
-	strindex.utils.Progress.global_instance = strindex.utils.Progress(11)
+	strindex.utils.Progress.init_global_instance(12, priority=1)
 
 	# Rimuovi la patch precedente (se esiste)
 	try:
@@ -139,22 +140,15 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 
 	# Patcha Katana ZERO.exe
 	try:
-		data = strindex.filetypes.pe.patch(
-			strindex.filetypes.pe.init(strindex.utils.FileBytearray.read(katanazero_filepath)),
-			strindex.utils.Strindex.read(katanazero_strindex_filepath)
-		)
+		strindex.core.patch(katanazero_filepath, katanazero_strindex_filepath, None)
 	except ValueError as e:
 		if ".strdex" in str(e):
-			raise Exception(
+			raise ValueError(
 				"La patch è stata già applicata in precedenza. "
 				"Se credi sia un errore, per favore verifica i file di gioco tramite Steam, "
 				"o reinstalla il gioco da capo."
 			)
 		raise
-
-	os.replace(katanazero_filepath, katanazero_filepath + data.md5_backup_suffix)
-
-	data.write(katanazero_filepath)
 
 	print("Il file \"Katana ZERO.exe\" è stato patchato con successo.")
 
