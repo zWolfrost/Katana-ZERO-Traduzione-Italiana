@@ -6,6 +6,7 @@
 
 md5 = "29ed1f9e450d43815c2d1a0cab168da3"
 prefix_bytes = [ "24c7442404", "ec04c70424" ]
+ranges = [ "018bc5ec:01a09fb1" ]
 patch_replace = { "ì" = "í", "Ì" = "Í", "ò" = "ó", "Ò" = "Ó" }
 clean_pattern = "\\[.*?\\]|\\*"
 whitelist = [ "latin", "spanish", "cyrillic" ]
