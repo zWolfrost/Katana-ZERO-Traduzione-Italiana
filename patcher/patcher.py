@@ -36,7 +36,7 @@ from PySide6 import QtCore, QtGui, QtWidgets
 
 # Formato degli URL dei file di patch.
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/patches/"
-KZ_EXE_STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe4.gz"
+KZ_EXE_STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe5.gz"
 DATAWIN_XDELTA_URL_FMT = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
 
 def get_file_md5_id(file: str) -> str:
