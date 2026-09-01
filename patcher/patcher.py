@@ -70,15 +70,14 @@ def download_if_needed(url: str) -> str:
 	try:
 		return urllib.request.urlretrieve(url)[0]
 	except Exception as e:
-		msg = f"Errore durante il download del file all'url \"{url}\": {e}"
-		if isinstance(e, urllib.error.URLError) and isinstance(e.reason, ssl.SSLError):
+		if (
+			isinstance(e, urllib.error.URLError) and isinstance(e.reason, ssl.SSLError) and
+			ssl._create_default_https_context is not ssl._create_unverified_context
+		):
 			print("Errore durante la verifica del certificato SSL; verifica disattivata.")
 			ssl._create_default_https_context = ssl._create_unverified_context
 			return download_if_needed(url)
-		if isinstance(e, urllib.error.HTTPError):
-			e.msg = msg
-			raise
-		raise ValueError(msg) from e
+		raise ValueError(f"Errore durante il download del file all'url \"{url}\": {e}") from e
 
 def get_possible_kz_location() -> str | None:
 	""" Restituisci il primo percorso valido per Katana ZERO.exe, o None se non esiste. """
