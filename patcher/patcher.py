@@ -29,6 +29,7 @@ import os
 import ssl
 import urllib.error
 import urllib.request
+from pathlib import Path
 
 import pyxdelta
 import strindex
@@ -43,7 +44,7 @@ def get_file_md5_id(file: str) -> str:
 	""" Restituisci i primi 8 caratteri dell'ID md5 del file. """
 	MD5_SLICE = 8
 
-	with open(file, "rb") as f:
+	with Path(file).open("rb") as f:
 		file_hash = hashlib.md5()
 		while chunk := f.read(262144):
 			file_hash.update(chunk)
@@ -57,14 +58,14 @@ def get_file_bak_filepath(file: str) -> str:
 def download_if_needed(url: str) -> str:
 	""" Se non esiste già nella cartella attuale, scarica il file. """
 
-	filename = os.path.basename(url)
-	filepath = os.path.abspath(filename)
+	filename = Path(url).name
+	filepath = Path(filename).absolute().as_posix()
 
-	if os.path.isfile(filepath):
-		print(f"Il file \"{filename}\" è già presente, salto il download.")
+	if Path(filepath).is_file():
+		print(f'Il file "{filename}" è già presente, salto il download.')
 		return filepath
 
-	print(f"Scaricando \"{filename}\"...")
+	print(f'Scaricando "{filename}"...')
 
 	try:
 		return urllib.request.urlretrieve(url)[0]
@@ -74,10 +75,10 @@ def download_if_needed(url: str) -> str:
 			print("Errore durante la verifica del certificato SSL; verifica disattivata.")
 			ssl._create_default_https_context = ssl._create_unverified_context
 			return download_if_needed(url)
-		elif isinstance(e, urllib.error.HTTPError):
+		if isinstance(e, urllib.error.HTTPError):
 			e.msg = msg
 			raise
-		raise ValueError(msg)
+		raise ValueError(msg) from e
 
 def get_possible_kz_location() -> str | None:
 	""" Restituisci il primo percorso valido per Katana ZERO.exe, o None se non esiste. """
@@ -90,23 +91,23 @@ def get_possible_kz_location() -> str | None:
 	]
 
 	for path in POSSIBLE_LOCATIONS:
-		path = os.path.expandvars(os.path.expanduser(path)).replace(os.sep, "/")
-		if os.path.isfile(path):
-			return path
+		path = Path(os.path.expandvars(path)).expanduser()
+		if path.is_file():
+			return path.resolve().as_posix()
 	return None
 
 def check_game_files(katanazero_filepath: str) -> tuple[str, str]:
 	""" Controlla se i file di gioco da patchare esistono, e restituisci i loro percorsi. """
 
-	game_dir = os.path.dirname(katanazero_filepath)
+	game_dir = Path(katanazero_filepath).parent
 
-	katanazero_filepath = os.path.join(game_dir, "Katana ZERO.exe")
-	if not os.path.isfile(katanazero_filepath):
-		raise FileNotFoundError("File \"Katana ZERO.exe\" non trovato.")
+	katanazero_filepath = (game_dir / "Katana ZERO.exe").resolve().as_posix()
+	if not Path(katanazero_filepath).is_file():
+		raise FileNotFoundError('File "Katana ZERO.exe" non trovato.')
 
-	datawin_filepath = os.path.join(game_dir, "data.win")
-	if not os.path.isfile(datawin_filepath):
-		raise FileNotFoundError("File \"data.win\" non trovato.")
+	datawin_filepath = (game_dir / "data.win").resolve().as_posix()
+	if not Path(datawin_filepath).is_file():
+		raise FileNotFoundError('File "data.win" non trovato.')
 
 	return katanazero_filepath, datawin_filepath
 
@@ -131,7 +132,7 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 	except urllib.error.HTTPError as e:
 		if e.code == 404:
 			e.msg = (
-				"File di patch per \"Katana ZERO.exe\" non trovato. "
+				'File di patch per "Katana ZERO.exe" non trovato. '
 				"Assicurati di avere la versione più recente di questo programma."
 			)
 		raise
@@ -144,13 +145,13 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 	except ValueError as e:
 		if ".strdex" in str(e):
 			raise ValueError(
-				"La patch è stata già applicata in precedenza. "
+				"La patch è stata già applicata in precedenza, e nessun backup è stato trovato. "
 				"Se credi sia un errore, per favore verifica i file di gioco tramite Steam, "
 				"o reinstalla il gioco da capo."
-			)
+			) from None
 		raise
 
-	print("Il file \"Katana ZERO.exe\" è stato patchato con successo.")
+	print('Il file "Katana ZERO.exe" è stato patchato con successo.')
 
 	# Rileva l'ID md5 di data.win
 	datawin_xdelta_id = get_file_md5_id(datawin_filepath)
@@ -163,7 +164,7 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 	except urllib.error.HTTPError as e:
 		if e.code == 404:
 			return (
-				"File di patch per \"data.win\" non trovato. "
+				'File di patch per "data.win" non trovato. '
 				"La traduzione è stata applicata ma alcune lettere potrebbero avere accenti sbagliati. "
 				"Assicurati di avere la versione più recente del gioco E di questo programma."
 			)
@@ -173,16 +174,16 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 
 	# Crea un backup di data.win
 	datawin_bak_filepath = datawin_filepath + ".bak"
-	os.replace(datawin_filepath, datawin_bak_filepath)
+	Path(datawin_filepath).rename(datawin_bak_filepath)
 
 	# Patcha data.win
 	pyxdelta.decode(datawin_bak_filepath, datawin_xdelta_filepath, datawin_filepath)
-	print("Il file \"data.win\" è stato patchato con successo.")
+	print('Il file "data.win" è stato patchato con successo.')
 
 	strindex.utils.Progress.global_instance()
 
 	# Rinomina il backup di data.win
-	os.replace(datawin_bak_filepath, get_file_bak_filepath(datawin_filepath))
+	Path(datawin_bak_filepath).rename(get_file_bak_filepath(datawin_filepath))
 
 	strindex.utils.Progress.global_instance()
 
@@ -195,17 +196,9 @@ def remove(*game_files: str) -> str:
 
 	# Ripristina i file di gioco dai backup
 	for filepath in game_files:
-		bak_filepath = get_file_bak_filepath(filepath)
-		if os.path.isfile(bak_filepath):
-			os.replace(bak_filepath, filepath)
-			has_backup = True
-
-	# Rimuovi i file di backup rimanenti per sicurezza
-	game_dir = os.path.dirname(game_files[0])
-	for filename in os.listdir(game_dir):
-		filepath = os.path.join(game_dir, filename)
-		if os.path.isfile(filepath) and filename.endswith(".bak"):
-			os.remove(filepath)
+		bak_filepath = Path(get_file_bak_filepath(filepath))
+		if bak_filepath.is_file():
+			bak_filepath.replace(filepath)
 			has_backup = True
 
 	# Se non sono stati trovati backup, emetti un'eccezione
@@ -215,13 +208,18 @@ def remove(*game_files: str) -> str:
 			"Se hai già rimosso la patch, ignora questo messaggio."
 		)
 
+	# Rimuovi i file di backup rimanenti per sicurezza
+	for path in Path(game_files[0]).parent.glob("*.bak"):
+		if path.is_file():
+			path.unlink()
+
 	return "I file che avevano backup esistenti sono stati ripristinati, e i backup sono stati rimossi."
 
 class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 	def setup(self):
-		SELF_LOCATION = os.path.abspath(os.path.dirname(__file__))
+		SELF_LOCATION = Path(__file__).parent.absolute()
 
-		logo_pixmap = QtGui.QPixmap(os.path.join(SELF_LOCATION, "header.png"), "PNG") \
+		logo_pixmap = QtGui.QPixmap((SELF_LOCATION / "header.png").resolve().as_posix(), "PNG") \
 			.scaled(400, 200, QtCore.Qt.AspectRatioMode.KeepAspectRatio)
 		logo_label = QtWidgets.QLabel(pixmap=logo_pixmap, alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
 		self.__widgets__.append(logo_label)
@@ -256,7 +254,7 @@ class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 		self.create_grid_layout(2).setColumnStretch(0, 1)
 
 		self.setWindowTitle("Katana ZERO - Traduzione Italiana")
-		self.setWindowIcon(QtGui.QIcon(os.path.join(SELF_LOCATION, "icon.png")))
+		self.setWindowIcon(QtGui.QIcon((SELF_LOCATION / "icon.png").resolve().as_posix()))
 
 		self.set_custom_appearance()
 		self.set_custom_size()
