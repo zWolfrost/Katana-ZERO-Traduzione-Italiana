@@ -45,18 +45,17 @@ def get_file_hash(file: str) -> str:
 
 def get_file_bak_filepath(file: str) -> str:
 	""" Usa il CRC32 del file per creare un filename di backup unico. """
-
 	return file + strindex.utils.FileBuffer.read(file).hash_backup_suffix
 
 def download_if_needed(url: str) -> str:
 	""" Se non esiste già nella cartella attuale, scarica il file. """
 
 	filename = Path(url).name
-	filepath = Path(filename).absolute().as_posix()
+	filepath = Path(filename)
 
-	if Path(filepath).is_file():
+	if filepath.is_file():
 		print(f'Il file "{filename}" è già presente, salto il download.')
-		return filepath
+		return filepath.absolute().as_posix()
 
 	print(f'Scaricando "{filename}"...')
 
@@ -88,29 +87,62 @@ def get_possible_kz_location() -> str | None:
 			return path.resolve().as_posix()
 	return None
 
-def check_game_files(katanazero_filepath: str) -> tuple[str, str]:
-	""" Controlla se i file di gioco da patchare esistono, e restituisci i loro percorsi. """
+def get_game_dir(katanazero_filepath: str) -> str:
+	""" Controlla se i file di gioco da patchare esistono, e restituisci la cartella di gioco. """
 
-	game_dir = Path(katanazero_filepath).parent
+	game_dir = Path(katanazero_filepath).parent.resolve().as_posix()
 
-	katanazero_filepath = (game_dir / "Katana ZERO.exe").resolve().as_posix()
-	if not Path(katanazero_filepath).is_file():
-		raise FileNotFoundError('File "Katana ZERO.exe" non trovato.')
+	for filepath in get_game_files(game_dir):
+		filepath = Path(filepath)
+		if not filepath.is_file():
+			raise FileNotFoundError(f'File "{filepath.name}" non trovato.')
 
-	datawin_filepath = (game_dir / "data.win").resolve().as_posix()
-	if not Path(datawin_filepath).is_file():
-		raise FileNotFoundError('File "data.win" non trovato.')
+	return game_dir
 
-	return katanazero_filepath, datawin_filepath
+def get_game_files(game_dir: str) -> tuple[str, str]:
+	""" Restituisci i percorsi dei file di gioco da patchare. """
 
-def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
+	return tuple((Path(game_dir) / filename).resolve().as_posix() for filename in (
+		"Katana ZERO.exe",
+		"data.win"
+	))
+
+def remove(game_dir: str) -> str:
+	""" Rimuove la patch dai file di gioco, ripristinando i backup se esistono. """
+
+	has_backup = False
+
+	# Ripristina i file di gioco dai backup
+	for filepath in get_game_files(game_dir):
+		bak_filepath = Path(get_file_bak_filepath(filepath))
+		if bak_filepath.is_file():
+			bak_filepath.replace(filepath)
+			has_backup = True
+
+	# Se non sono stati trovati backup, emetti un'eccezione
+	if not has_backup:
+		raise FileNotFoundError(
+			"Nessun backup trovato. "
+			"Se hai già rimosso la patch, ignora questo messaggio."
+		)
+
+	# Rimuovi i file di backup rimanenti per sicurezza
+	for path in Path(game_dir).glob("*.bak"):
+		if path.is_file():
+			path.unlink()
+
+	return "I file che avevano backup esistenti sono stati ripristinati, e i backup sono stati rimossi."
+
+def remove_and_patch(game_dir: str) -> str:
 	""" Rimuovi la patch (se già presente) e poi (ri)applicala. """
 
-	strindex.utils.Progress.init_global_instance(12, priority=1)
+	katanazero_filepath, datawin_filepath = get_game_files(game_dir)
+
+	strindex.utils.Progress.init_global_instance(16, priority=1)
 
 	# Rimuovi la patch precedente (se esiste)
 	try:
-		remove(katanazero_filepath, datawin_filepath)
+		remove(game_dir)
 	except FileNotFoundError:
 		print("Nessuna patch precedente da rimuovere.")
 	else:
@@ -146,7 +178,7 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 	print('Il file "Katana ZERO.exe" è stato patchato con successo.')
 
 	# Calcola l'hash di data.win
-	datawin_xdelta_id = strindex.utils.FileBuffer.read(datawin_filepath).hash
+	datawin_xdelta_id = get_file_hash(datawin_filepath)
 
 	strindex.utils.Progress.global_instance()
 
@@ -181,32 +213,6 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 
 	return "Patch completata con successo."
 
-def remove(*game_files: str) -> str:
-	""" Rimuove la patch dai file di gioco, ripristinando i backup se esistono. """
-
-	has_backup = False
-
-	# Ripristina i file di gioco dai backup
-	for filepath in game_files:
-		bak_filepath = Path(get_file_bak_filepath(filepath))
-		if bak_filepath.is_file():
-			bak_filepath.replace(filepath)
-			has_backup = True
-
-	# Se non sono stati trovati backup, emetti un'eccezione
-	if not has_backup:
-		raise FileNotFoundError(
-			"Nessun backup trovato. "
-			"Se hai già rimosso la patch, ignora questo messaggio."
-		)
-
-	# Rimuovi i file di backup rimanenti per sicurezza
-	for path in Path(game_files[0]).parent.glob("*.bak"):
-		if path.is_file():
-			path.unlink()
-
-	return "I file che avevano backup esistenti sono stati ripristinati, e i backup sono stati rimossi."
-
 class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 	def setup(self):
 		SELF_LOCATION = Path(__file__).parent.absolute()
@@ -225,13 +231,13 @@ class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 		self.create_action_button(
 			text="Esegui Patch",
 			progress_text="Patch in corso... %p%",
-			callback=lambda f: remove_and_patch(*check_game_files(f)),
+			callback=lambda f: remove_and_patch(get_game_dir(f)),
 		)
 
 		self.create_action_button(
 			text="Rimuovi Patch",
 			progress_text="Rimozione... %p%",
-			callback=lambda f: remove(*check_game_files(f)),
+			callback=lambda f: remove(get_game_dir(f)),
 		)
 
 		description = QtWidgets.QLabel(
