@@ -24,7 +24,6 @@
 # nuitka-project: --linux-icon=icon.png
 # nuitka-project: --include-data-files=*.png=./
 
-import hashlib
 import os
 import ssl
 import urllib.error
@@ -40,20 +39,14 @@ DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzi
 KZ_EXE_STRINDEX_URL = DOWNLOAD_ROOT + "kz_exe5.gz"
 DATAWIN_XDELTA_URL_FMT = DOWNLOAD_ROOT + "datawin_{id}.xdelta"
 
-def get_file_md5_id(file: str) -> str:
-	""" Restituisci i primi 8 caratteri dell'ID md5 del file. """
-	MD5_SLICE = 8
-
-	with Path(file).open("rb") as f:
-		file_hash = hashlib.md5()
-		while chunk := f.read(262144):
-			file_hash.update(chunk)
-	return file_hash.hexdigest()[:MD5_SLICE]
+def get_file_hash(file: str) -> str:
+	""" Restituisci il CRC32 del file. """
+	return strindex.utils.FileBuffer.read(file).hash
 
 def get_file_bak_filepath(file: str) -> str:
-	""" Usa l'ID md5 del file per creare un filename di backup unico. """
+	""" Usa il CRC32 del file per creare un filename di backup unico. """
 
-	return file + "_" + get_file_md5_id(file) + ".bak"
+	return file + strindex.utils.FileBuffer.read(file).hash_backup_suffix
 
 def download_if_needed(url: str) -> str:
 	""" Se non esiste già nella cartella attuale, scarica il file. """
@@ -152,8 +145,8 @@ def remove_and_patch(katanazero_filepath: str, datawin_filepath: str) -> str:
 
 	print('Il file "Katana ZERO.exe" è stato patchato con successo.')
 
-	# Rileva l'ID md5 di data.win
-	datawin_xdelta_id = get_file_md5_id(datawin_filepath)
+	# Calcola l'hash di data.win
+	datawin_xdelta_id = strindex.utils.FileBuffer.read(datawin_filepath).hash
 
 	strindex.utils.Progress.global_instance()
 
@@ -221,7 +214,7 @@ class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 		logo_pixmap = QtGui.QPixmap((SELF_LOCATION / "header.png").resolve().as_posix(), "PNG") \
 			.scaled(400, 200, QtCore.Qt.AspectRatioMode.KeepAspectRatio)
 		logo_label = QtWidgets.QLabel(pixmap=logo_pixmap, alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
-		self.__widgets__.append(logo_label)
+		self._widgets.append(logo_label)
 		self.create_padding(1)
 
 		line_edit = self.create_file_selection(
@@ -247,7 +240,7 @@ class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 			"<a href='https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana'>questa pagina</a>."
 		)
 		description.setOpenExternalLinks(True)
-		self.__widgets__.append(description)
+		self._widgets.append(description)
 		self.create_padding(1)
 
 		self.create_grid_layout(2).setColumnStretch(0, 1)
