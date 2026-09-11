@@ -256,6 +256,7 @@ class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
 
 		self.set_custom_appearance()
 		self.set_custom_size()
+		self.resize(800, 0)
 
 		line_edit.setText(get_possible_kz_location() or "")
 
