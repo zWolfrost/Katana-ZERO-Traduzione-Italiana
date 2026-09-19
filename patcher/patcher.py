@@ -3,36 +3,40 @@
 
 # nuitka-project: --mode=app
 
-# nuitka-project: --enable-plugin=pyside6
+# nuitka-project-set: GUI = True
 
-# nuitka-project: --noinclude-qt-plugins=iconengines
-# nuitka-project: --noinclude-qt-plugins=imageformats
-# nuitka-project: --noinclude-qt-plugins=platformthemes
-# nuitka-project: --noinclude-qt-plugins=printsupport
-# nuitka-project: --noinclude-qt-plugins=tls
-# nuitka-project: --noinclude-qt-plugins=webview
-
-# nuitka-project: --noinclude-dlls=libQt6Network*
-# nuitka-project: --noinclude-dlls=libQt6OpenGL*
-# nuitka-project: --noinclude-dlls=libQt6Svg*
+# nuitka-project-if: {GUI}:
+#   nuitka-project: --enable-plugin=pyside6
+#   nuitka-project: --noinclude-qt-plugins=iconengines
+#   nuitka-project: --noinclude-qt-plugins=imageformats
+#   nuitka-project: --noinclude-qt-plugins=platformthemes
+#   nuitka-project: --noinclude-qt-plugins=printsupport
+#   nuitka-project: --noinclude-qt-plugins=tls
+#   nuitka-project: --noinclude-qt-plugins=webview
+#   nuitka-project: --noinclude-dlls=libQt6Network*
+#   nuitka-project: --noinclude-dlls=libQt6OpenGL*
+#   nuitka-project: --noinclude-dlls=libQt6Svg*
+#   nuitka-project: --windows-console-mode=disable
+# nuitka-project-else:
+#   nuitka-project: --nofollow-import-to=PySide6
+#   nuitka-project: --windows-console-mode=force
 
 # nuitka-project: --nofollow-import-to=lingua
 # nuitka-project: --nofollow-import-to=language_tool_python
 
-# nuitka-project: --windows-console-mode=disable
 # nuitka-project: --windows-icon-from-ico=icon.png
 # nuitka-project: --linux-icon=icon.png
 # nuitka-project: --include-data-files=*.png=./
 
 import os
 import ssl
+import sys
 import urllib.error
 import urllib.request
 from pathlib import Path
 
 import pyxdelta
 import strindex
-from PySide6 import QtCore, QtGui, QtWidgets
 
 # Formato degli URL dei file di patch.
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/zWolfrost/Katana-ZERO-Traduzione-Italiana/main/patches/"
@@ -213,52 +217,64 @@ def remove_and_patch(game_dir: str) -> str:
 
 	return "Patch completata con successo."
 
-class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
-	def setup(self):
-		SELF_LOCATION = Path(__file__).parent.absolute()
+if strindex.gui is not None:
+	from PySide6 import QtCore, QtGui, QtWidgets
 
-		logo_pixmap = QtGui.QPixmap((SELF_LOCATION / "header.png").resolve().as_posix(), "PNG") \
-			.scaled(400, 200, QtCore.Qt.AspectRatioMode.KeepAspectRatio)
-		logo_label = QtWidgets.QLabel(pixmap=logo_pixmap, alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
-		self._widgets.append(logo_label)
-		self.create_padding(1)
+	class KatanaZeroPatchGUI(strindex.gui.MainStrindexGUI):
+		def setup(self):
+			SELF_LOCATION = Path(__file__).parent.absolute()
 
-		line_edit = self.create_file_selection(
-			line_text="Inserisci il percorso del file eseguibile di Katana ZERO (Katana ZERO.exe)",
-			button_text="Seleziona file"
-		)[0]
+			logo_pixmap = QtGui.QPixmap((SELF_LOCATION / "header.png").resolve().as_posix(), "PNG") \
+				.scaled(400, 200, QtCore.Qt.AspectRatioMode.KeepAspectRatio)
+			logo_label = QtWidgets.QLabel(pixmap=logo_pixmap, alignment=QtCore.Qt.AlignmentFlag.AlignCenter)
+			self._widgets.append(logo_label)
+			self.create_padding(1)
 
-		self.create_action_button(
-			text="Esegui Patch",
-			progress_text="Patch in corso... %p%",
-			callback=lambda f: remove_and_patch(get_game_dir(f)),
-		)
+			line_edit = self.create_file_selection(
+				line_text="Inserisci il percorso del file eseguibile di Katana ZERO (Katana ZERO.exe)",
+				button_text="Seleziona file"
+			)[0]
 
-		self.create_action_button(
-			text="Rimuovi Patch",
-			progress_text="Rimozione... %p%",
-			callback=lambda f: remove(get_game_dir(f)),
-		)
+			self.create_action_button(
+				text="Esegui Patch",
+				progress_text="Patch in corso... %p%",
+				callback=lambda f: remove_and_patch(get_game_dir(f)),
+			)
 
-		description = QtWidgets.QLabel(
-			"Made with ♥ by <a href='https://github.com/zWolfrost'>Luca Russo</a>. "
-			"Per dettagli aggiuntivi, riferirsi a "
-			"<a href='https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana'>questa pagina</a>."
-		)
-		description.setOpenExternalLinks(True)
-		self._widgets.append(description)
-		self.create_padding(1)
+			self.create_action_button(
+				text="Rimuovi Patch",
+				progress_text="Rimozione... %p%",
+				callback=lambda f: remove(get_game_dir(f)),
+			)
 
-		self.create_grid_layout(2).setColumnStretch(0, 1)
+			description = QtWidgets.QLabel(
+				"Made with ♥ by <a href='https://github.com/zWolfrost'>Luca Russo</a>. "
+				"Per dettagli aggiuntivi, riferirsi a "
+				"<a href='https://github.com/zWolfrost/Katana-ZERO-Traduzione-Italiana'>questa pagina</a>."
+			)
+			description.setOpenExternalLinks(True)
+			self._widgets.append(description)
+			self.create_padding(1)
 
-		self.setWindowTitle("Katana ZERO - Traduzione Italiana")
-		self.setWindowIcon(QtGui.QIcon((SELF_LOCATION / "icon.png").resolve().as_posix()))
+			self.create_grid_layout(2).setColumnStretch(0, 1)
 
-		self.set_custom_appearance()
-		self.set_custom_size()
-		self.resize(800, 0)
+			self.setWindowTitle("Katana ZERO - Traduzione Italiana")
+			self.setWindowIcon(QtGui.QIcon((SELF_LOCATION / "icon.png").resolve().as_posix()))
 
-		line_edit.setText(get_possible_kz_location() or "")
+			self.set_custom_appearance()
+			self.set_custom_size()
+			self.resize(800, 0)
+
+			line_edit.setText(get_possible_kz_location() or "")
 
 if __name__ == "__main__":
-	KatanaZeroPatchGUI()
+	if strindex.gui is not None:
+		KatanaZeroPatchGUI()
+	else:
+		game_dir = get_game_dir(sys.argv[0])
+
+		try:
+			remove(game_dir)
+			print("Patch precedente rimossa con successo.")
+		except FileNotFoundError:
+			remove_and_patch(game_dir)
