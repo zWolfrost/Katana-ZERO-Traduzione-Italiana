@@ -278,3 +278,5 @@ if __name__ == "__main__":
 			print("Patch precedente rimossa con successo.")
 		except FileNotFoundError:
 			remove_and_patch(game_dir)
+
+		input("Premi invio per chiudere il programma...")
