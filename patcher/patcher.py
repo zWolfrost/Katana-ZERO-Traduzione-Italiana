@@ -118,10 +118,17 @@ def remove(game_dir: str) -> str:
 
 	# Ripristina i file di gioco dai backup
 	for filepath in get_game_files(game_dir):
-		bak_filepath = Path(get_file_bak_filepath(filepath))
-		if bak_filepath.is_file():
-			bak_filepath.replace(filepath)
+		try:
+			strindex.core.unpatch(filepath)
+		except FileNotFoundError:
+			pass
+		else:
 			has_backup = True
+
+	# Rimuovi i file di backup rimanenti per sicurezza
+	for path in Path(game_dir).glob("*.bak"):
+		if path.is_file():
+			path.unlink()
 
 	# Se non sono stati trovati backup, emetti un'eccezione
 	if not has_backup:
@@ -129,11 +136,6 @@ def remove(game_dir: str) -> str:
 			"Nessun backup trovato. "
 			"Se hai già rimosso la patch, ignora questo messaggio."
 		)
-
-	# Rimuovi i file di backup rimanenti per sicurezza
-	for path in Path(game_dir).glob("*.bak"):
-		if path.is_file():
-			path.unlink()
 
 	return "I file che avevano backup esistenti sono stati ripristinati, e i backup sono stati rimossi."
 
