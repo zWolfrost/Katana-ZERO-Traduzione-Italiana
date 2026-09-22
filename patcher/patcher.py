@@ -1,5 +1,5 @@
 # nuitka-project: --product-name=Katana ZERO ITA
-# nuitka-project-set: PATCHER_VERSION = 1.4.0
+# nuitka-project-set: PATCHER_VERSION = "1.4.0"
 # nuitka-project: --product-version={PATCHER_VERSION}
 # nuitka-project-if: {OS} == "Windows":
 #   nuitka-project: --output-filename=Katana_ZERO_ITA_v{PATCHER_VERSION}-win.exe
